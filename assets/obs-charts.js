@@ -20,8 +20,34 @@
   /* useGrouping 'always': en es-ES el separador se omite por defecto en los
      números de cuatro cifras (7133), y en una columna de indicadores eso lee
      como una inconsistencia frente a 82.242. Las estadísticas oficiales agrupan. */
+  /* Idioma de la interfaz: el lang del <html> ("es" por defecto; "en" en la versión inglesa). Los textos de la
+     interfaz del kit viven en Obs.TEXTOS; las cifras se formatean en el idioma de la página. */
+  Obs.idioma = String(document.documentElement.lang || 'es').slice(0, 2).toLowerCase() === 'en' ? 'en' : 'es';
+  Obs.TEXTOS = {
+    es: {
+      fuente: 'Fuente', fuentes: 'Fuentes', metodologia: 'Metodología', aviso: 'Aviso', periodo: 'Periodo',
+      enVivo: 'En vivo', actualizados: 'Datos actualizados ', verTabla: 'Ver los datos en tabla', verGrafica: 'Volver a la gráfica',
+      png: 'Descargar la gráfica en PNG', csv: 'Descargar los datos en CSV', imprimir: 'Imprimir o guardar en PDF',
+      tema: 'Cambiar de tema', claro: 'Cambiar a modo claro', oscuro: 'Cambiar a modo oscuro',
+      sinLibreria: 'No se pudo cargar la librería de gráficas.', sinDatos: 'Sin datos publicados para este indicador.',
+      ahora: 'hace un momento', haceMin: 'hace {n} min', haceH: 'hace {n} h', haceDias: 'hace {n} días', otroIdioma: 'Read in English'
+    },
+    en: {
+      fuente: 'Source', fuentes: 'Sources', metodologia: 'Methodology', aviso: 'Notice', periodo: 'Period',
+      enVivo: 'Live', actualizados: 'Data updated ', verTabla: 'View the data as a table', verGrafica: 'Back to the chart',
+      png: 'Download the chart as PNG', csv: 'Download the data as CSV', imprimir: 'Print or save as PDF',
+      tema: 'Change theme', claro: 'Switch to light mode', oscuro: 'Switch to dark mode',
+      sinLibreria: 'The charts library could not be loaded.', sinDatos: 'No data published for this indicator.',
+      ahora: 'just now', haceMin: '{n} min ago', haceH: '{n} h ago', haceDias: '{n} days ago', otroIdioma: 'Leer en español'
+    }
+  };
+  Obs.t = function (clave, n) {
+    var t = (Obs.TEXTOS[Obs.idioma] || {})[clave] || Obs.TEXTOS.es[clave] || clave;
+    return n == null ? t : t.replace('{n}', n);
+  };
+
   var NF = function (dec) {
-    return new Intl.NumberFormat('es-ES', {
+    return new Intl.NumberFormat(Obs.idioma === 'en' ? 'en-GB' : 'es-ES', {
       minimumFractionDigits: dec, maximumFractionDigits: dec, useGrouping: 'always'
     });
   };
@@ -49,7 +75,9 @@
     }
   };
 
-  var MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+  var MESES = Obs.idioma === 'en'
+    ? ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    : ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
   var TRIM = { '03': '1T', '06': '2T', '09': '3T', '12': '4T', '1': '1T', '2': '2T', '3': '3T', '4': '4T' };
 
   /* Etiqueta de periodo. Acepta "2026-03", "2026T1" o "2026". */
@@ -383,11 +411,11 @@
   Obs.chart = function (el, spec) {
     var nodo = typeof el === 'string' ? document.querySelector(el) : el;
     if (!nodo) { console.warn('[obs-charts] contenedor no encontrado:', el); return null; }
-    if (typeof echarts === 'undefined') { Obs.mensaje(nodo, 'error', 'No se pudo cargar la librería de gráficas.'); return null; }
+    if (typeof echarts === 'undefined') { Obs.mensaje(nodo, 'error', Obs.t('sinLibreria')); return null; }
 
     var vacio = !spec.series || !spec.series.length ||
       spec.series.every(function (s) { return !s.data || !s.data.some(function (v) { return v != null && isFinite(v); }); });
-    if (vacio) { Obs.mensaje(nodo, 'vacio', spec.vacioTxt || 'Sin datos publicados para este indicador.'); return null; }
+    if (vacio) { Obs.mensaje(nodo, 'vacio', spec.vacioTxt || Obs.t('sinDatos')); return null; }
 
     nodo.classList.remove('is-loading');
     /* Volver a dibujar sobre el mismo contenedor —una tarjeta con selector, un

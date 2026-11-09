@@ -3333,6 +3333,7 @@ function calcular(datos) {
       factor: k,
       mejor: mejor[0],
       n: total,
+      detalle: { mejor: { v: mejor[0], vistas: mejor[1].vistas, interaccion: mejor[1].interaccion, n: mejor[1].n }, resto: ord.slice(1, 3).map(([v, x]) => ({ v, vistas: x.vistas, n: x.n })) },
       texto: `${k}: \xAB${mejor[0]}\xBB consigue ${mejor[1].vistas.toFixed(2)}\xD7 el alcance medio (n=${mejor[1].n}) e interacci\xF3n ${mejor[1].interaccion.toFixed(2)}\xD7; frente a ${resto}.`
     });
   }
@@ -3385,9 +3386,6 @@ import path4 from "node:path";
 var EDADES = [["1 h", 1], ["3 h", 3], ["6 h", 6], ["12 h", 12], ["24 h", 24], ["48 h", 48], ["72 h", 72], ["7 d\xEDas", 168]];
 var r1 = (v) => v == null || !isFinite(v) ? null : Math.round(v * 10) / 10;
 var corto = (s, n = 34) => s.length > n ? s.slice(0, n - 1).trimEnd() + "\u2026" : s;
-var FUENTES_ES = { "For You": "\xABPara ti\xBB", Follow: "Siguiendo", "Personal Profile": "Perfil", Search: "B\xFAsqueda", Sound: "Sonido", "Direct Message": "Mensajes", Others: "Otros", Hashtag: "Etiquetas" };
-var MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
-var diaCorto = (d) => `${Number(d.slice(8, 10))} ${MESES[Number(d.slice(5, 7)) - 1]}`;
 var titulo = (f) => corto(f.e?.titulo ?? f.p.texto.split(/[.!?\n]/)[0] ?? f.p.id);
 function exportar(datos, webDir) {
   const todas = filas(datos);
@@ -3437,7 +3435,8 @@ function exportar(datos, webDir) {
         completado: r1(media(fs_.map((f) => f.completado))),
         paraTi: r1(media(fs_.map((f) => f.paraTi)))
       },
-      evolucion: { x: dias.map(diaCorto), v: acumuladas(red) },
+      evolucion: { x: dias, v: acumuladas(red) },
+      // fechas ISO: la web las rotula en su idioma
       videos: fs_.map((f) => ({
         titulo: titulo(f),
         publicado: f.p.publicado.slice(0, 16).replace("T", " "),
@@ -3453,7 +3452,7 @@ function exportar(datos, webDir) {
         completado: r1(f.completado),
         seguidores: f.seguidores ?? null
       })),
-      crecimiento: { x: EDADES.map(([e]) => e), series: recientes.map((f) => ({ name: titulo(f), data: EDADES.map(([, h]) => {
+      crecimiento: { x: EDADES.map(([, h]) => h), series: recientes.map((f) => ({ name: titulo(f), data: EDADES.map(([, h]) => {
         const v = vistasA(f.p, h);
         return v === void 0 ? null : Math.round(v);
       }) })) },
@@ -3461,7 +3460,7 @@ function exportar(datos, webDir) {
         const c = f.p.fotos.at(-1).m.retention.find((x) => Number(x.second) === s);
         return c ? Math.round(c.percentage * 1e3) / 10 : null;
       }) })) } : null,
-      fuentes: Object.keys(fuentes).length ? { x: Object.keys(fuentes).map((k) => FUENTES_ES[k] ?? k), v: Object.values(fuentes).map((xs) => r1(xs.reduce((a2, b) => a2 + b, 0) / xs.length)) } : null
+      fuentes: Object.keys(fuentes).length ? { x: Object.keys(fuentes), v: Object.values(fuentes).map((xs) => r1(xs.reduce((a2, b) => a2 + b, 0) / xs.length)) } : null
     };
   }
   salida.redes = porRed;
@@ -3473,7 +3472,7 @@ function exportar(datos, webDir) {
     horas: a.horas_recomendadas,
     factores: Object.fromEntries(Object.entries(a.factores).map(([k, niveles]) => {
       const ord = Object.entries(niveles).sort((x, y) => y[1].vistas - x[1].vistas);
-      return [k, { x: ord.map(([v, x]) => `${v} (n=${x.n})`), vistas: ord.map(([, x]) => x.vistas), interaccion: ord.map(([, x]) => x.interaccion) }];
+      return [k, { niveles: ord.map(([v]) => v), n: ord.map(([, x]) => x.n), vistas: ord.map(([, x]) => x.vistas), interaccion: ord.map(([, x]) => x.interaccion) }];
     }))
   };
   const destino = path4.join(webDir, "data", "data.js");

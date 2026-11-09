@@ -49,10 +49,10 @@
     var d = new Date(iso);
     if (isNaN(d)) return '';
     var s = Math.floor((Date.now() - d.getTime()) / 1000);
-    if (s < 90) return 'hace un momento';
-    if (s < 5400) return 'hace ' + Math.round(s / 60) + ' min';
-    if (s < 172800) return 'hace ' + Math.round(s / 3600) + ' h';
-    return 'hace ' + Math.round(s / 86400) + ' días';
+    if (s < 90) return Obs.t('ahora');
+    if (s < 5400) return Obs.t('haceMin', Math.round(s / 60));
+    if (s < 172800) return Obs.t('haceH', Math.round(s / 3600));
+    return Obs.t('haceDias', Math.round(s / 86400));
   };
 
   /* --------------------------------------------------------------- 3. Fichas */
@@ -124,15 +124,15 @@
       return '<span class="obs-chip' + cls + '">' + (ch.tipo === 'live' ? '<span class="dot"></span>' : '') + esc(ch.txt) + '</span>';
     }).join('');
     var fuente = c.fuente
-      ? 'Fuente: <a href="' + esc(c.fuente.url) + '" target="_blank" rel="noopener">' + esc(c.fuente.txt) + ' ' + I.externo() + '</a>'
+      ? Obs.t('fuente') + ': <a href="' + esc(c.fuente.url) + '" target="_blank" rel="noopener">' + esc(c.fuente.txt) + ' ' + I.externo() + '</a>'
       : '';
     /* Un mapa no tiene vista de tabla ni exportación de gráfica: sus
        herramientas son los filtros, que dibuja el propio componente. */
     var herramientas = c.mapa ? '' :
       '<div class="obs-card-tools">' +
-        '<button type="button" class="obs-icon-btn" data-act="tabla" aria-pressed="false" title="Ver los datos en tabla">' + I.tabla() + '</button>' +
-        '<button type="button" class="obs-icon-btn" data-act="png" title="Descargar la gráfica en PNG">' + I.imagen() + '</button>' +
-        '<button type="button" class="obs-icon-btn" data-act="csv" title="Descargar los datos en CSV">' + I.csv() + '</button>' +
+        '<button type="button" class="obs-icon-btn" data-act="tabla" aria-pressed="false" title="' + Obs.t('verTabla') + '">' + I.tabla() + '</button>' +
+        '<button type="button" class="obs-icon-btn" data-act="png" title="' + Obs.t('png') + '">' + I.imagen() + '</button>' +
+        '<button type="button" class="obs-icon-btn" data-act="csv" title="' + Obs.t('csv') + '">' + I.csv() + '</button>' +
       '</div>';
     var cuerpo = c.mapa
       ? '<div class="obs-map-host" id="' + id + '-mapa"></div>'
@@ -161,7 +161,7 @@
       if (v == null || !isFinite(v)) return '—';
       return f === 'pct' ? Obs.fmt.pct(v) : (f === 'eur' ? Obs.fmt.eur(v) : Obs.fmt.num(v, f === 'dec1' ? 1 : 0));
     };
-    var cab = '<th>' + esc(spec.xLabel || 'Periodo') + '</th>' + ss.map(function (s, i) {
+    var cab = '<th>' + esc(spec.xLabel || Obs.t('periodo')) + '</th>' + ss.map(function (s, i) {
       var col = s.color ? (T.estado[s.color] || s.color) : T.serie[i % T.serie.length];
       return '<th><span class="key" style="background:' + col + '"></span>' + esc(s.name) + '</th>';
     }).join('');
@@ -183,7 +183,7 @@
   function csvDeSpec(spec, titulo) {
     var xs = spec.x || [], ss = spec.series || [];
     var sep = ';';                                   /* Excel en español espera ; */
-    var lin = [[spec.xLabel || 'Periodo'].concat(ss.map(function (s) { return s.name; })).join(sep)];
+    var lin = [[spec.xLabel || Obs.t('periodo')].concat(ss.map(function (s) { return s.name; })).join(sep)];
     xs.forEach(function (x, r) {
       lin.push([Obs.periodo(x, spec.xType || 'cat')].concat(ss.map(function (s) {
         var v = s.data ? s.data[r] : null;
@@ -210,7 +210,7 @@
         var abierta = card.classList.toggle('showing-table');
         btn.setAttribute('aria-pressed', abierta ? 'true' : 'false');
         btn.innerHTML = abierta ? I.grafica() : I.tabla();
-        btn.title = abierta ? 'Volver a la gráfica' : 'Ver los datos en tabla';
+        btn.title = abierta ? Obs.t('verGrafica') : Obs.t('verTabla');
         if (abierta && spec && !wrap.innerHTML) wrap.innerHTML = tablaDeSpec(spec);
         if (!abierta) Obs.resize();
         return;
@@ -306,7 +306,7 @@
     var b = document.getElementById('obs-tema-btn');
     var oscuro = document.documentElement.getAttribute('data-theme') === 'dark' ||
       (!document.documentElement.getAttribute('data-theme') && matchMedia('(prefers-color-scheme: dark)').matches);
-    if (b) { b.innerHTML = oscuro ? I.sol() : I.luna(); b.title = oscuro ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'; }
+    if (b) { b.innerHTML = oscuro ? I.sol() : I.luna(); b.title = oscuro ? Obs.t('claro') : Obs.t('oscuro'); }
     Obs.repintar();
     if (Obs.mapasRepintar) Obs.mapasRepintar();   /* las teselas también cambian de tema */
   }
@@ -344,8 +344,10 @@
           '<div class="obs-subtitle">' + esc(cfg.subtitulo || '') + '</div></div>' +
         '</div>' +
         '<div class="obs-header-actions">' +
-          '<button type="button" class="obs-icon-btn" id="obs-imprimir" title="Imprimir o guardar en PDF">' + I.imprimir() + '</button>' +
-          '<button type="button" class="obs-icon-btn" id="obs-tema-btn" title="Cambiar de tema">' + I.luna() + '</button>' +
+          '<button type="button" class="obs-icon-btn" id="obs-imprimir" title="' + Obs.t('imprimir') + '">' + I.imprimir() + '</button>' +
+          '<button type="button" class="obs-icon-btn" id="obs-tema-btn" title="' + Obs.t('tema') + '">' + I.luna() + '</button>' +
+          /* Versión en otro idioma (cfg.otroIdioma: URL): enlace de texto en la cabecera */
+          (cfg.otroIdioma ? '<a class="obs-icon-btn" style="width:auto;padding:0 10px;font-size:12.5px;font-weight:600;text-decoration:none" href="' + esc(cfg.otroIdioma) + '" lang="' + (Obs.idioma === 'en' ? 'es' : 'en') + '">' + Obs.t('otroIdioma') + '</a>' : '') +
         '</div>' +
       '</div></header>' +
       '<nav class="obs-nav"><div class="obs-wrap obs-nav-in" role="tablist">' + nav + '</div></nav>' +
@@ -356,9 +358,9 @@
         '</div>' + secciones +
       '</div></main>' +
       '<footer class="obs-footer"><div class="obs-wrap"><div class="obs-footer-cols">' +
-        '<div><h4>Fuentes</h4>' + fuentes + '</div>' +
-        (cfg.metodologia ? '<div><h4>Metodología</h4>' + cfg.metodologia + '</div>' : '') +
-        (cfg.pie ? '<div><h4>Aviso</h4>' + cfg.pie + '</div>' : '') +
+        '<div><h4>' + Obs.t('fuentes') + '</h4>' + fuentes + '</div>' +
+        (cfg.metodologia ? '<div><h4>' + Obs.t('metodologia') + '</h4>' + cfg.metodologia + '</div>' : '') +
+        (cfg.pie ? '<div><h4>' + Obs.t('aviso') + '</h4>' + cfg.pie + '</div>' : '') +
       '</div></div></footer>';
 
     /* Eventos — siempre addEventListener, nunca onclick en el marcado. */
@@ -378,7 +380,7 @@
     });
 
     aplicarTema(temaGuardado());
-    Obs.estado(cfg.actualizado ? 'Datos actualizados ' + Obs.desde(cfg.actualizado) : '');
+    Obs.estado(cfg.actualizado ? Obs.t('actualizados') + Obs.desde(cfg.actualizado) : '');
 
     var inicial = (location.hash || '').replace('#', '');
     activar(cfg.secciones.some(function (s) { return s.id === inicial; }) ? inicial : cfg.secciones[0].id);
@@ -388,7 +390,7 @@
   Obs.estado = function (txt, tipo) {
     var e = document.getElementById('obs-status');
     if (!e) return;
-    e.innerHTML = txt ? (tipo === 'live' ? '<span class="obs-chip live"><span class="dot"></span>En vivo</span>' : '') + esc(txt) : '';
+    e.innerHTML = txt ? (tipo === 'live' ? '<span class="obs-chip live"><span class="dot"></span>' + Obs.t('enVivo') + '</span>' : '') + esc(txt) : '';
   };
 
   /** Fuerza el repintado de una sección (tras cambiar un filtro). */
