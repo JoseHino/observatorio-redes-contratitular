@@ -44,6 +44,17 @@
   };
   var nivel = function (v) { return EN ? (NIVELES_EN[v] || v) : v; };
 
+  /* Hora de la última actualización (hora de Madrid) y si se ha retrasado: si la Action falla, se ve de cuándo son los datos */
+  var ACT = (D.meta || {}).actualizado;
+  var horasDesde = ACT ? (Date.now() - new Date(ACT).getTime()) / 3600000 : Infinity;
+  var RETRASO = horasDesde > 2;
+  var horaAct = function (iso) {
+    if (!iso) return '—';
+    try {
+      return new Date(iso).toLocaleString(EN ? 'en-GB' : 'es-ES', { timeZone: 'Europe/Madrid', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+    } catch (e) { return iso.slice(0, 16).replace('T', ' '); }
+  };
+
   /* ---------------------------------------------------------- Resumen --- */
   var resumen = {
     id: 'resumen', nombre: L('Resumen', 'Overview'),
@@ -58,7 +69,10 @@
           valor: total, label: L('Vistas en todas las redes', 'Views across all networks'), formato: F.num,
           extra: ORDEN.map(function (r) { return { label: NOMBRES[r], valor: R[r].kpi.vistas, formato: F.num }; })
         },
-        kpis: ORDEN.map(function (r) { return { label: NOMBRES[r] + L(' · seguidores', ' · followers'), valor: R[r].kpi.seguidores }; }),
+        kpis: [{
+          label: L('Última actualización', 'Last update') + (RETRASO ? L(' · ¡con retraso!', ' · delayed!') : ''),
+          valor: ACT, formato: horaAct, unidad: ACT ? ' · ' + Obs.desde(ACT) : ''
+        }].concat(ORDEN.map(function (r) { return { label: NOMBRES[r] + L(' · seguidores', ' · followers'), valor: R[r].kpi.seguidores }; })),
         cards: [
           {
             titulo: L('Vistas acumuladas por red', 'Cumulative views by network'), sub: L('Suma de las vistas de todos los vídeos, día a día', 'Sum of the views of every video, day by day'),
@@ -198,5 +212,5 @@
       'Figures are those returned by each network at the time of measurement and may be revised later (networks filter out invalid views).')
   });
 
-  Obs.estado(L('Datos actualizados cada hora', 'Data updated hourly'), 'live');
+  Obs.estado(ACT ? Obs.t('actualizados') + Obs.desde(ACT) + ' (' + horaAct(ACT) + ')' : '', RETRASO ? '' : 'live');
 })();
