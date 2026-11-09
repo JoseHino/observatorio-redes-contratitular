@@ -1,0 +1,74 @@
+{
+ "actualizado": "2026-11-09T18:05:20.357Z",
+ "publicaciones": 4,
+ "videos": 2,
+ "factores": {
+  "día": {
+   "domingo": {
+    "n": 4,
+    "vistas": 1,
+    "interaccion": 0.61
+   }
+  },
+  "franja": {
+   "noche": {
+    "n": 4,
+    "vistas": 1,
+    "interaccion": 0.61
+   }
+  },
+  "hora": {
+   "20-22 h": {
+    "n": 4,
+    "vistas": 1,
+    "interaccion": 0.61
+   }
+  },
+  "red": {
+   "instagram": {
+    "n": 1,
+    "vistas": 1.21,
+    "interaccion": 1
+   },
+   "tiktok": {
+    "n": 1,
+    "vistas": 0.87,
+    "interaccion": 1
+   },
+   "youtube": {
+    "n": 1,
+    "vistas": 0.96,
+    "interaccion": 1
+   },
+   "facebook": {
+    "n": 1,
+    "vistas": 1,
+    "interaccion": 0.37
+   }
+  }
+ },
+ "conclusiones": [],
+ "pesos": {
+  "familia": {
+   "pop": 0.111,
+   "gota": 0.111,
+   "madera": 0.111,
+   "marimba": 0.111,
+   "kalimba": 0.111,
+   "campanita": 0.111,
+   "cuerda": 0.111,
+   "burbuja": 0.111,
+   "tum": 0.111
+  },
+  "estilo": {
+   "papel": 0.2,
+   "neon": 0.2,
+   "pop": 0.2,
+   "pizarra": 0.2,
+   "limpio": 0.2
+  }
+ },
+ "horas_recomendadas": [
+  "20-22 h"
+ ]
+}

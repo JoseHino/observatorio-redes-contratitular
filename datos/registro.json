@@ -1,0 +1,272 @@
+[
+ {
+  "carpeta": "2026-11-09-1330",
+  "titulo": "El ajuste mal hecho que apagó a 25 millones de personas en 1965",
+  "fecha": "2026-11-09",
+  "duracion": 40.6,
+  "estilo": "pop",
+  "serie": "Tal día como hoy",
+  "gancho": "Un único ajuste mal hecho apagó en 1965 media costa este de Norteamérica.",
+  "palabras": 110,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 4.61,
+    "frase": "Un único ajuste mal hecho apagó en 1965 media costa este de Norteamérica.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 4.61,
+    "fin": 9.21,
+    "frase": "Ocurrió el 9 de noviembre, a las cinco y cuarto de la tarde.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 9.21,
+    "fin": 13.46,
+    "frase": "Empezó en una central de Ontario, junto a las cataratas del Niágara.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 13.46,
+    "fin": 18.78,
+    "frase": "Un relé de protección estaba configurado demasiado bajo y saltó con una pequeña oscilación normal.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 18.78,
+    "fin": 24.8,
+    "frase": "Las demás líneas recibieron esa carga de golpe, se sobrecargaron y fueron cayendo como fichas de dominó.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 24.8,
+    "fin": 30.12,
+    "frase": "En minutos, más de 25 millones de personas se quedaron sin luz, hasta 13 horas.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 30.12,
+    "fin": 35.43,
+    "frase": "Se habló de un boom de bebés nueve meses después, pero nunca se pudo demostrar.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 8,
+    "inicio": 35.43,
+    "fin": 40.58,
+    "frase": "¿Cuántos pequeños fallos sostienen todo lo que damos por seguro?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-09-1330"
+ },
+ {
+  "carpeta": "2026-11-09-2100",
+  "titulo": "Por qué huele tan bien la lluvia: el olor que fabrican las bacterias",
+  "fecha": "2026-11-09",
+  "duracion": 39,
+  "estilo": "pizarra",
+  "serie": "Ciencia",
+  "gancho": "Ese olor a tierra mojada tiene nombre, y no lo puso un poeta.",
+  "palabras": 97,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 5.01,
+    "frase": "Ese olor a tierra mojada tiene nombre, y no lo puso un poeta.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 5.01,
+    "fin": 10.4,
+    "frase": "En 1964 dos científicos australianos lo bautizaron petricor: piedra más sangre de los dioses.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 10.4,
+    "fin": 14.64,
+    "frase": "Lo fabrican bacterias del suelo, que sueltan una molécula llamada geosmina.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 14.64,
+    "fin": 20.42,
+    "frase": "La geosmina se acumula en los poros de la tierra seca, esperando la primera lluvia.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 20.42,
+    "fin": 26.2,
+    "frase": "Al caer, cada gota atrapa burbujas diminutas que estallan y lanzan el aroma al aire.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 26.2,
+    "fin": 31.6,
+    "frase": "Tu nariz la detecta aunque haya muy poca: una cucharadita en 200 piscinas olímpicas.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 31.6,
+    "fin": 38.98,
+    "frase": "Una hipótesis: a nuestros antepasados les ayudaba a encontrar agua. ¿Tú lo reconoces al instante?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-09-2100"
+ },
+ {
+  "carpeta": "2026-11-09-2100-v2",
+  "titulo": "Por qué huele tan bien la lluvia: el olor que fabrican las bacterias",
+  "fecha": "2026-11-09",
+  "duracion": 40.3,
+  "estilo": "pizarra",
+  "serie": "Ciencia",
+  "gancho": "Ese olor a tierra mojada cuando empieza a llover tiene nombre, y no se lo puso un poeta,",
+  "palabras": 120,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 5.8,
+    "frase": "Ese olor a tierra mojada cuando empieza a llover tiene nombre, y no se lo puso un poeta,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 5.8,
+    "fin": 10.96,
+    "frase": "sino dos científicos australianos que en 1964 lo llamaron petricor: «piedra» y «sangre de los dioses».",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 10.96,
+    "fin": 16.13,
+    "frase": "Y lo curioso es quién lo fabrica: bacterias del suelo que sueltan una molécula, la geosmina.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 16.13,
+    "fin": 20,
+    "frase": "Mientras la tierra está seca, se va quedando guardada entre sus granos…",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 20,
+    "fin": 25.15,
+    "frase": "hasta que cae la primera gota: atrapa burbujitas de aire que, al estallar, lanzan el aroma.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 25.15,
+    "fin": 29.35,
+    "frase": "Y tu nariz la detectaría aunque echaras una cucharadita en 200 piscinas olímpicas.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 29.35,
+    "fin": 33.86,
+    "frase": "¿Por qué tan fina? Quizá porque a nuestros antepasados les ayudaba a encontrar agua.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 8,
+    "inicio": 33.86,
+    "fin": 40.3,
+    "frase": "Así que la próxima vez que huela a lluvia, fíjate: ¿lo notas antes de verla?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-09-2100-v2"
+ },
+ {
+  "carpeta": "2026-11-11-1330",
+  "titulo": "El día de compras más grande del mundo se eligió por su fecha: 11/11",
+  "fecha": "2026-11-08",
+  "duracion": 42.8,
+  "estilo": "neon",
+  "serie": "Dinero",
+  "gancho": "El mayor día de compras del mundo se celebra cada 11 de noviembre.",
+  "palabras": 108,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 4.96,
+    "frase": "El mayor día de compras del mundo se celebra cada 11 de noviembre.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 4.96,
+    "fin": 10.29,
+    "frase": "La fecha no es casual: cuatro unos seguidos, 11/11, representan a las personas solteras.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 10.29,
+    "fin": 16.39,
+    "frase": "En la jerga de internet chino, el 1 es un palo suelto: un hombre sin pareja.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 16.39,
+    "fin": 22.49,
+    "frase": "En 2009 una web china lanzó ofertas ese día y vendió unos 50 millones de yuanes.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 22.49,
+    "fin": 28.97,
+    "frase": "Diez años después, en 2019, la misma plataforma facturó 268.400 millones de yuanes en un solo día.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 28.97,
+    "fin": 35.07,
+    "frase": "Son unos 38.400 millones de dólares: más de 5.000 veces la cifra de la primera vez.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 35.07,
+    "fin": 42.77,
+    "frase": "Una fecha del calendario convertida en negocio. ¿Tú comprarías algo solo porque el día lo pide?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-11-1330"
+ }
+]

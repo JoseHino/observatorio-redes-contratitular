@@ -1,0 +1,645 @@
+[
+ {
+  "t": "2026-11-09T17:54:26.303Z",
+  "datos": {
+   "instagram": {
+    "followers": 8,
+    "reach": 121,
+    "views": 146,
+    "impressions": 146,
+    "profileViews": 3,
+    "likes": 1,
+    "comments": 0,
+    "shares": 0,
+    "saves": 1,
+    "reach_timeseries": [
+     {
+      "date": "2026-10-12",
+      "value": 0
+     },
+     {
+      "date": "2026-10-13",
+      "value": 0
+     },
+     {
+      "date": "2026-10-14",
+      "value": 0
+     },
+     {
+      "date": "2026-10-15",
+      "value": 0
+     },
+     {
+      "date": "2026-10-16",
+      "value": 0
+     },
+     {
+      "date": "2026-10-17",
+      "value": 0
+     },
+     {
+      "date": "2026-10-18",
+      "value": 0
+     },
+     {
+      "date": "2026-10-19",
+      "value": 0
+     },
+     {
+      "date": "2026-10-20",
+      "value": 0
+     },
+     {
+      "date": "2026-10-21",
+      "value": 0
+     },
+     {
+      "date": "2026-10-22",
+      "value": 0
+     },
+     {
+      "date": "2026-10-23",
+      "value": 0
+     },
+     {
+      "date": "2026-10-24",
+      "value": 0
+     },
+     {
+      "date": "2026-10-25",
+      "value": 0
+     },
+     {
+      "date": "2026-10-26",
+      "value": 0
+     },
+     {
+      "date": "2026-10-27",
+      "value": 0
+     },
+     {
+      "date": "2026-10-28",
+      "value": 0
+     },
+     {
+      "date": "2026-10-29",
+      "value": 0
+     },
+     {
+      "date": "2026-10-30",
+      "value": 0
+     },
+     {
+      "date": "2026-10-31",
+      "value": 0
+     },
+     {
+      "date": "2026-11-01",
+      "value": 0
+     },
+     {
+      "date": "2026-11-02",
+      "value": 0
+     },
+     {
+      "date": "2026-11-03",
+      "value": 0
+     },
+     {
+      "date": "2026-11-04",
+      "value": 0
+     },
+     {
+      "date": "2026-11-05",
+      "value": 0
+     },
+     {
+      "date": "2026-11-06",
+      "value": 0
+     },
+     {
+      "date": "2026-11-07",
+      "value": 0
+     },
+     {
+      "date": "2026-11-08",
+      "value": 106
+     },
+     {
+      "date": "2026-11-09",
+      "value": 15
+     }
+    ],
+    "follower_demographics": {},
+    "engaged_audience_demographics": {},
+    "metric_type": "reach",
+    "accounts_engaged": 3,
+    "total_interactions": 2,
+    "replies": 0,
+    "reposts": 0,
+    "follows_and_unfollows": 0,
+    "profile_links_taps": 0,
+    "breakdowns": {
+     "follows_and_unfollows": {},
+     "profile_links_taps": {}
+    },
+    "available_metrics": [
+     "followers",
+     "reach",
+     "views",
+     "impressions",
+     "profileViews",
+     "likes",
+     "comments",
+     "shares",
+     "saves"
+    ],
+    "metric_labels": {
+     "reach": "Unique Reach",
+     "views": "Views",
+     "impressions": "Views",
+     "profileViews": "Accounts Engaged"
+    },
+    "primary_impressions_field": "reach"
+   },
+   "tiktok": {
+    "followers": 0,
+    "reach": 0,
+    "impressions": 1165,
+    "profileViews": 2,
+    "reach_timeseries": [
+     {
+      "date": "2026-10-11",
+      "value": 0
+     },
+     {
+      "date": "2026-10-12",
+      "value": 0
+     },
+     {
+      "date": "2026-10-13",
+      "value": 0
+     },
+     {
+      "date": "2026-10-14",
+      "value": 0
+     },
+     {
+      "date": "2026-10-15",
+      "value": 0
+     },
+     {
+      "date": "2026-10-16",
+      "value": 0
+     },
+     {
+      "date": "2026-10-17",
+      "value": 0
+     },
+     {
+      "date": "2026-10-18",
+      "value": 0
+     },
+     {
+      "date": "2026-10-19",
+      "value": 0
+     },
+     {
+      "date": "2026-10-20",
+      "value": 0
+     },
+     {
+      "date": "2026-10-21",
+      "value": 0
+     },
+     {
+      "date": "2026-10-22",
+      "value": 0
+     },
+     {
+      "date": "2026-10-23",
+      "value": 0
+     },
+     {
+      "date": "2026-10-24",
+      "value": 0
+     },
+     {
+      "date": "2026-10-25",
+      "value": 0
+     },
+     {
+      "date": "2026-10-26",
+      "value": 0
+     },
+     {
+      "date": "2026-10-27",
+      "value": 0
+     },
+     {
+      "date": "2026-10-28",
+      "value": 0
+     },
+     {
+      "date": "2026-10-29",
+      "value": 0
+     },
+     {
+      "date": "2026-10-30",
+      "value": 0
+     },
+     {
+      "date": "2026-10-31",
+      "value": 0
+     },
+     {
+      "date": "2026-11-01",
+      "value": 0
+     },
+     {
+      "date": "2026-11-02",
+      "value": 0
+     },
+     {
+      "date": "2026-11-03",
+      "value": 0
+     },
+     {
+      "date": "2026-11-04",
+      "value": 0
+     },
+     {
+      "date": "2026-11-05",
+      "value": 0
+     },
+     {
+      "date": "2026-11-06",
+      "value": 0
+     },
+     {
+      "date": "2026-11-07",
+      "value": 0
+     },
+     {
+      "date": "2026-11-08",
+      "value": 380
+     },
+     {
+      "date": "2026-11-09",
+      "value": 0
+     }
+    ],
+    "likes": 10,
+    "comments": 0,
+    "shares": 0,
+    "video_count": 2,
+    "following": 0,
+    "metric_type": "views",
+    "available_metrics": [
+     "followers",
+     "impressions",
+     "likes",
+     "comments",
+     "shares",
+     "video_count",
+     "following",
+     "profileViews"
+    ],
+    "metric_labels": {
+     "impressions": "Video Views",
+     "profileViews": "Profile Views (30d)"
+    },
+    "primary_impressions_field": "impressions"
+   },
+   "youtube": {
+    "followers": 0,
+    "reach": 0,
+    "impressions": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "saves": 0,
+    "profileViews": 0,
+    "reach_timeseries": [
+     {
+      "date": "2026-10-11",
+      "value": 0
+     },
+     {
+      "date": "2026-10-12",
+      "value": 0
+     },
+     {
+      "date": "2026-10-13",
+      "value": 0
+     },
+     {
+      "date": "2026-10-14",
+      "value": 0
+     },
+     {
+      "date": "2026-10-15",
+      "value": 0
+     },
+     {
+      "date": "2026-10-16",
+      "value": 0
+     },
+     {
+      "date": "2026-10-17",
+      "value": 0
+     },
+     {
+      "date": "2026-10-18",
+      "value": 0
+     },
+     {
+      "date": "2026-10-19",
+      "value": 0
+     },
+     {
+      "date": "2026-10-20",
+      "value": 0
+     },
+     {
+      "date": "2026-10-21",
+      "value": 0
+     },
+     {
+      "date": "2026-10-22",
+      "value": 0
+     },
+     {
+      "date": "2026-10-23",
+      "value": 0
+     },
+     {
+      "date": "2026-10-24",
+      "value": 0
+     },
+     {
+      "date": "2026-10-25",
+      "value": 0
+     },
+     {
+      "date": "2026-10-26",
+      "value": 0
+     },
+     {
+      "date": "2026-10-27",
+      "value": 0
+     },
+     {
+      "date": "2026-10-28",
+      "value": 0
+     },
+     {
+      "date": "2026-10-29",
+      "value": 0
+     },
+     {
+      "date": "2026-10-30",
+      "value": 0
+     },
+     {
+      "date": "2026-10-31",
+      "value": 0
+     },
+     {
+      "date": "2026-11-01",
+      "value": 0
+     },
+     {
+      "date": "2026-11-02",
+      "value": 0
+     },
+     {
+      "date": "2026-11-03",
+      "value": 0
+     },
+     {
+      "date": "2026-11-04",
+      "value": 0
+     },
+     {
+      "date": "2026-11-05",
+      "value": 0
+     },
+     {
+      "date": "2026-11-06",
+      "value": 0
+     },
+     {
+      "date": "2026-11-07",
+      "value": 0
+     },
+     {
+      "date": "2026-11-08",
+      "value": 0
+     },
+     {
+      "date": "2026-11-09",
+      "value": 0
+     }
+    ],
+    "watch_time_minutes": 0,
+    "average_view_duration_seconds": 0,
+    "metric_type": "views",
+    "data_source": "youtube_analytics_api",
+    "subscribers_gained": 0,
+    "subscribers_lost": 0,
+    "subscribers_net": 0,
+    "engaged_views": 0,
+    "subscribers_timeseries": [
+     {
+      "date": "2026-10-11",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-12",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-13",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-14",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-15",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-16",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-17",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-18",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-19",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-20",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-21",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-22",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-23",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-24",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-25",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-26",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-27",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-28",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-29",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-30",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-10-31",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-11-01",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-11-02",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-11-03",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-11-04",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-11-05",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     },
+     {
+      "date": "2026-11-06",
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "engaged_views": 0
+     }
+    ],
+    "demographics": [],
+    "countries": [],
+    "traffic_sources": [],
+    "devices": [],
+    "content_types": [],
+    "available_metrics": [
+     "followers",
+     "impressions",
+     "likes",
+     "comments",
+     "shares",
+     "watch_time_minutes",
+     "average_view_duration_seconds"
+    ],
+    "metric_labels": {
+     "impressions": "Video Views",
+     "followers": "Subscribers",
+     "watch_time_minutes": "Watch Time (min)",
+     "average_view_duration_seconds": "Avg. View Duration (s)"
+    },
+    "primary_impressions_field": "impressions"
+   },
+   "facebook": {
+    "success": false,
+    "message": "Query parameter \"page_id\" is required for Facebook analytics."
+   }
+  }
+ }
+]

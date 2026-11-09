@@ -1,0 +1,48 @@
+name: Actualizar datos
+
+# Cada hora (minuto 17, para no coincidir con la hora en punto, cuando GitHub va más cargado).
+# El colector decide qué publicaciones medir: las de menos de 72 h cada hora, las de hasta 2 semanas cada 6 h y las
+# más antiguas una vez al día. Se puede lanzar a mano desde la pestaña Actions.
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: actualizar-datos
+  cancel-in-progress: false
+
+jobs:
+  recolectar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Recoger, aprender y preparar la web
+        # pipeline/colector.mjs es un solo archivo (lo genera «sincronizar» desde el proyecto privado): no hay npm install.
+        env:
+          UPLOADPOST_API_KEY: ${{ secrets.UPLOADPOST_API_KEY }}
+          UPLOADPOST_USER: ${{ secrets.UPLOADPOST_USER }}
+          CONTRATITULAR_DATOS: datos
+        run: node pipeline/colector.mjs colector .
+
+      - name: Publicar si hay cambios
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/data.js datos/
+          if git diff --cached --quiet; then
+            echo "Sin cambios."
+            exit 0
+          fi
+          git commit -m "Datos $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase --autostash
+          git push
