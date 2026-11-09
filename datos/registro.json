@@ -71,71 +71,8 @@
   "id": "2026-11-09-1330"
  },
  {
-  "carpeta": "2026-11-09-2100",
-  "titulo": "Por qué huele tan bien la lluvia: el olor que fabrican las bacterias",
-  "fecha": "2026-11-09",
-  "duracion": 39,
-  "estilo": "pizarra",
-  "serie": "Ciencia",
-  "gancho": "Ese olor a tierra mojada tiene nombre, y no lo puso un poeta.",
-  "palabras": 97,
-  "escenas": [
-   {
-    "n": 1,
-    "inicio": 0,
-    "fin": 5.01,
-    "frase": "Ese olor a tierra mojada tiene nombre, y no lo puso un poeta.",
-    "tipo": "dibujo"
-   },
-   {
-    "n": 2,
-    "inicio": 5.01,
-    "fin": 10.4,
-    "frase": "En 1964 dos científicos australianos lo bautizaron petricor: piedra más sangre de los dioses.",
-    "tipo": "dibujo"
-   },
-   {
-    "n": 3,
-    "inicio": 10.4,
-    "fin": 14.64,
-    "frase": "Lo fabrican bacterias del suelo, que sueltan una molécula llamada geosmina.",
-    "tipo": "dibujo"
-   },
-   {
-    "n": 4,
-    "inicio": 14.64,
-    "fin": 20.42,
-    "frase": "La geosmina se acumula en los poros de la tierra seca, esperando la primera lluvia.",
-    "tipo": "dibujo"
-   },
-   {
-    "n": 5,
-    "inicio": 20.42,
-    "fin": 26.2,
-    "frase": "Al caer, cada gota atrapa burbujas diminutas que estallan y lanzan el aroma al aire.",
-    "tipo": "dibujo"
-   },
-   {
-    "n": 6,
-    "inicio": 26.2,
-    "fin": 31.6,
-    "frase": "Tu nariz la detecta aunque haya muy poca: una cucharadita en 200 piscinas olímpicas.",
-    "tipo": "dibujo"
-   },
-   {
-    "n": 7,
-    "inicio": 31.6,
-    "fin": 38.98,
-    "frase": "Una hipótesis: a nuestros antepasados les ayudaba a encontrar agua. ¿Tú lo reconoces al instante?",
-    "tipo": "dibujo"
-   }
-  ],
-  "datos": [],
-  "metricas": [],
-  "id": "2026-11-09-2100"
- },
- {
   "carpeta": "2026-11-09-2100-v2",
+  "id": "2026-11-09-2100-v2",
   "titulo": "Por qué huele tan bien la lluvia: el olor que fabrican las bacterias",
   "fecha": "2026-11-09",
   "duracion": 40.3,
@@ -203,7 +140,9 @@
   ],
   "datos": [],
   "metricas": [],
-  "id": "2026-11-09-2100-v2"
+  "texto": "Por qué huele tan bien la lluvia: el olor que fabrican las bacterias El petricor lo bautizaron en 1964 Isabel Joy Bear y Richard Thomas, del CSIRO australiano, en un artículo de la revista Nature. La geosmina la producen bacterias del suelo (sobre todo del género Streptomyces) y es la misma molécula que da a la remolacha su sabor «a tierra». ¿Tú también lo hueles antes de que empiece a llover? 🌧️ Ese olor a tierra mojada cuando empieza a llover tiene nombre, y no se lo puso un poeta, sino dos científicos australianos que en 1964 lo llamaron petricor: «piedra» y «sangre de los dioses». Y lo curioso es quién lo fabrica: bacterias del suelo que sueltan una molécula, la geosmina. Mientras la tierra está seca, se va quedando guardada entre sus granos… hasta que cae la primera gota: atrapa burbujitas de aire que, al estallar, lanzan el aroma. Y tu nariz la detectaría aunque echaras una cucharadita en 200 piscinas olímpicas. ¿Por qué tan fina? Quizá porque a nuestros antepasados les ayudaba a encontrar agua. Así que la próxima vez que huela a lluvia, fíjate: ¿lo notas antes de verla?",
+  "familia": "gota",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural"
  },
  {
   "carpeta": "2026-11-11-1330",
