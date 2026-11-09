@@ -1,6 +1,6 @@
 name: Actualizar datos
 
-# Cada hora (minuto 17, para no coincidir con la hora en punto, cuando GitHub va más cargado).
+# Cada hora (minuto 17 UTC, para no coincidir con la hora en punto, cuando GitHub va más cargado).
 # El colector decide qué publicaciones medir: las de menos de 72 h cada hora, las de hasta 2 semanas cada 6 h y las
 # más antiguas una vez al día. Se puede lanzar a mano desde la pestaña Actions.
 on:
