@@ -207,5 +207,180 @@
   "datos": [],
   "metricas": [],
   "id": "2026-11-11-1330"
+ },
+ {
+  "carpeta": "2026-11-09-prueba-endurance",
+  "titulo": "28 hombres atrapados en el hielo y un barco que tardó un siglo en aparecer",
+  "fecha": "2026-11-09",
+  "duracion": 53.8,
+  "estilo": "papel",
+  "serie": "Historia",
+  "gancho": "28 hombres atrapados en el hielo de la Antártida, sin barco y sin forma de pedir ayuda:",
+  "palabras": 164,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 5.14,
+    "frase": "28 hombres atrapados en el hielo de la Antártida, sin barco y sin forma de pedir ayuda:",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 5.14,
+    "fin": 10.96,
+    "frase": "era 1915, el hielo había aplastado su barco, el Endurance, y lo vieron hundirse,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 10.96,
+    "fin": 14.24,
+    "frase": "así que la pregunta era sencilla: ¿cómo sales vivo de allí?",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 14.24,
+    "fin": 21.06,
+    "frase": "Primero, acampando meses sobre el hielo, hasta que en tres botes llegaron a una isla helada y deshabitada: Elefante.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 21.06,
+    "fin": 28.52,
+    "frase": "Pero allí nadie los iba a buscar, así que seis de ellos cruzaron más de 1.200 kilómetros de océano en un bote de siete metros,",
+    "tipo": "mapa"
+   },
+   {
+    "n": 6,
+    "inicio": 28.52,
+    "fin": 34.28,
+    "frase": "y llegaron a Georgia del Sur… por el lado equivocado, y aún tuvieron que cruzar a pie sus montañas heladas.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 34.28,
+    "fin": 40.8,
+    "frase": "Y cuando por fin volvieron a por los que esperaban en la isla, no faltaba nadie: los 28 sobrevivieron.",
+    "tipo": "contador"
+   },
+   {
+    "n": 8,
+    "inicio": 40.8,
+    "fin": 45.36,
+    "frase": "Pero el barco se quedó en el fondo del mar, y durante más de un siglo nadie supo dónde estaba,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 9,
+    "inicio": 45.36,
+    "fin": 53.8,
+    "frase": "hasta que en 2022 lo encontraron a 3.008 metros de profundidad, tan entero que todavía se lee su nombre.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [
+   "mapa",
+   "contador"
+  ],
+  "metricas": [],
+  "id": "2026-11-09-prueba-endurance",
+  "texto": "28 hombres atrapados en el hielo y un barco que tardó un siglo en aparecer El Endurance de Ernest Shackleton quedó atrapado en el hielo del mar de Weddell en 1915. Tras su hundimiento, la tripulación pasó meses sobre el hielo, llegó en botes a la isla Elefante y seis hombres navegaron hasta Georgia del Sur en el James Caird para pedir ayuda. En 2022, una expedición encontró el pecio a 3.008 metros de profundidad, a pocos kilómetros de donde lo había situado su capitán. 28 hombres atrapados en el hielo de la Antártida, sin barco y sin forma de pedir ayuda: era 1915, el hielo había aplastado su barco, el Endurance, y lo vieron hundirse, así que la pregunta era sencilla: ¿cómo sales vivo de allí? Primero, acampando meses sobre el hielo, hasta que en tres botes llegaron a una isla helada y deshabitada: Elefante. Pero allí nadie los iba a buscar, así que seis de ellos cruzaron más de 1.200 kilómetros de océano en un bote de siete metros, y llegaron a Georgia del Sur… por el lado equivocado, y aún tuvieron que cruzar a pie sus montañas heladas. Y cuando por fin volvieron a por los que esperaban en la isla, no faltaba nadie: los 28 sobrevivieron. Pero el barco se quedó en el fondo del mar, y durante más de un siglo nadie supo dónde estaba, hasta que en 2022 lo encontraron a 3.008 metros de profundidad, tan entero que todavía se lee su nombre.",
+  "familia": "tum",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural"
+ },
+ {
+  "carpeta": "2026-11-11-1330-v2",
+  "titulo": "Cuatro estudiantes solteros inventaron el día de compras más grande del mundo",
+  "fecha": "2026-11-09",
+  "duracion": 50.6,
+  "estilo": "neon",
+  "serie": "Dinero",
+  "gancho": "Hoy, 11 del 11, es el día de compras más grande del mundo, y no lo inventó ninguna tienda:",
+  "palabras": 147,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 5.3,
+    "frase": "Hoy, 11 del 11, es el día de compras más grande del mundo, y no lo inventó ninguna tienda:",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 5.3,
+    "fin": 10.18,
+    "frase": "lo inventaron cuatro estudiantes solteros de una residencia de la Universidad de Nankín, en 1993,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 10.18,
+    "fin": 14.34,
+    "frase": "que querían un día para celebrar, precisamente, que no tenían pareja.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 14.34,
+    "fin": 17.22,
+    "frase": "¿Y por qué justo el 11 del 11? Fíjate en la fecha:",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 17.22,
+    "fin": 22.5,
+    "frase": "son cuatro unos, como cuatro palitos solos, y en China a un soltero le llaman «palo desnudo».",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 22.5,
+    "fin": 28.66,
+    "frase": "Fue una broma de universitarios hasta que, en 2009, una plataforma china de compras online lanzó ofertas ese día",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 28.66,
+    "fin": 31.2,
+    "frase": "y vendió unos 50 millones de yuanes.",
+    "tipo": "contador"
+   },
+   {
+    "n": 8,
+    "inicio": 31.2,
+    "fin": 38.36,
+    "frase": "Diez años después, esa misma plataforma vendió 268.400 millones en un solo día:",
+    "tipo": "barras"
+   },
+   {
+    "n": 9,
+    "inicio": 38.36,
+    "fin": 42.84,
+    "frase": "más de cinco mil veces más, por una fecha que eligieron cuatro solteros.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 10,
+    "inicio": 42.84,
+    "fin": 50.6,
+    "frase": "Así que si hoy te llega una oferta, ya sabes: todo empezó con cuatro chicos que no tenían con quién celebrarlo.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [
+   "contador",
+   "barras"
+  ],
+  "metricas": [],
+  "id": "2026-11-11-1330-v2",
+  "texto": "Cuatro estudiantes solteros inventaron el día de compras más grande del mundo El Día del Soltero nació en 1993 en la Universidad de Nankín, como una celebración entre estudiantes sin pareja: el 11/11 son cuatro unos, y en el argot chino a un soltero se le llama «palo desnudo». En 2009 una plataforma china de comercio online lanzó ofertas ese día y vendió unos 50 millones de yuanes; en 2019 llegó a 268.400 millones (unos 38.400 millones de dólares) en un solo día. ¿Tú hoy compras o celebras? Te leo en comentarios. Hoy, 11 del 11, es el día de compras más grande del mundo, y no lo inventó ninguna tienda: lo inventaron cuatro estudiantes solteros de una residencia de la Universidad de Nankín, en 1993, que querían un día para celebrar, precisamente, que no tenían pareja. ¿Y por qué justo el 11 del 11? Fíjate en la fecha: son cuatro unos, como cuatro palitos solos, y en China a un soltero le llaman «palo desnudo». Fue una broma de universitarios hasta que, en 2009, una plataforma china de compras online lanzó ofertas ese día y vendió unos 50 millones de yuanes. Diez años después, esa misma plataforma vendió 268.400 millones en un solo día: más de cinco mil veces más, por una fecha que eligieron cuatro solteros. Así que si hoy te llega una oferta, ya sabes: todo empezó con cuatro chicos que no tenían con quién celebrarlo.",
+  "familia": "burbuja",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural"
  }
 ]
