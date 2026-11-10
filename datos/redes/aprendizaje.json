@@ -1,40 +1,86 @@
 {
- "actualizado": "2026-11-10T08:18:05.400Z",
+ "actualizado": "2026-11-10T09:18:04.160Z",
  "publicaciones": 12,
  "videos": 4,
  "factores": {
   "día": {
-   "lunes": {
-    "n": 8,
-    "vistas": 0.96,
-    "interaccion": 0.86
-   },
    "domingo": {
     "n": 4,
-    "vistas": 0.97,
+    "videos": 2,
+    "vistas": 1,
     "interaccion": 0.49
+   },
+   "lunes": {
+    "n": 8,
+    "videos": 2,
+    "vistas": 0.96,
+    "interaccion": 0.86
    }
   },
   "franja": {
-   "mediodía": {
-    "n": 4,
-    "vistas": 1.06,
-    "interaccion": 1.05
-   },
    "noche": {
     "n": 8,
-    "vistas": 0.91,
+    "videos": 3,
+    "vistas": 0.92,
     "interaccion": 0.54
+   },
+   "mediodía": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 1.06,
+    "interaccion": 1.05
+   }
+  },
+  "hora": {
+   "20-22 h": {
+    "n": 8,
+    "videos": 3,
+    "vistas": 0.92,
+    "interaccion": 0.54
+   },
+   "12-14 h": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 1.06,
+    "interaccion": 1.05
+   }
+  },
+  "red": {
+   "instagram": {
+    "n": 3,
+    "videos": 3,
+    "vistas": 0.82,
+    "interaccion": 0.5
+   },
+   "tiktok": {
+    "n": 3,
+    "videos": 3,
+    "vistas": 1,
+    "interaccion": 0.99
+   },
+   "youtube": {
+    "n": 3,
+    "videos": 3,
+    "vistas": 1.04,
+    "interaccion": 1.15
+   },
+   "facebook": {
+    "n": 3,
+    "videos": 3,
+    "vistas": 1.07,
+    "interaccion": 0.55
    }
   },
   "estilo": {
    "pop": {
     "n": 4,
+    "videos": 1,
     "vistas": 1.06,
     "interaccion": 1.05
    },
    "pizarra": {
     "n": 4,
+    "videos": 1,
     "vistas": 0.88,
     "interaccion": 0.73
    }
@@ -42,11 +88,13 @@
   "serie": {
    "Tal día como hoy": {
     "n": 4,
+    "videos": 1,
     "vistas": 1.06,
     "interaccion": 1.05
    },
    "Ciencia": {
     "n": 4,
+    "videos": 1,
     "vistas": 0.88,
     "interaccion": 0.73
    }
@@ -54,6 +102,7 @@
   "duración": {
    "33-43 s": {
     "n": 8,
+    "videos": 2,
     "vistas": 0.96,
     "interaccion": 0.86
    }
@@ -61,11 +110,13 @@
   "gancho": {
    "con cifra": {
     "n": 4,
+    "videos": 1,
     "vistas": 1.06,
     "interaccion": 1.05
    },
    "afirmación": {
     "n": 4,
+    "videos": 1,
     "vistas": 0.88,
     "interaccion": 0.73
    }
@@ -73,6 +124,7 @@
   "gancho largo": {
    "largo (>12)": {
     "n": 8,
+    "videos": 2,
     "vistas": 0.96,
     "interaccion": 0.86
    }
@@ -80,47 +132,169 @@
   "escenas de datos": {
    "no": {
     "n": 8,
+    "videos": 2,
     "vistas": 0.96,
     "interaccion": 0.86
    }
   },
-  "hora": {
-   "12-14 h": {
+  "ritmo": {
+   "medio": {
     "n": 4,
+    "videos": 1,
     "vistas": 1.06,
     "interaccion": 1.05
    },
-   "20-22 h": {
-    "n": 8,
-    "vistas": 0.91,
-    "interaccion": 0.54
+   "rápido (>2,9 pal/s)": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 0.88,
+    "interaccion": 0.73
    }
   },
-  "red": {
-   "instagram": {
-    "n": 3,
-    "vistas": 1.1,
-    "interaccion": 0.5
+  "cortes": {
+   "pocos (<12/min)": {
+    "n": 8,
+    "videos": 2,
+    "vistas": 0.96,
+    "interaccion": 0.86
+   }
+  },
+  "cifra en 5 primeras palabras": {
+   "sí": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 1.06,
+    "interaccion": 1.05
    },
-   "tiktok": {
-    "n": 3,
-    "vistas": 0.87,
-    "interaccion": 0.99
+   "no": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 0.88,
+    "interaccion": 0.73
+   }
+  },
+  "tema": {
+   "historia": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 1.06,
+    "interaccion": 1.05
    },
-   "youtube": {
-    "n": 3,
-    "vistas": 0.94,
-    "interaccion": 1.15
+   "ciencia": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 0.88,
+    "interaccion": 0.73
+   }
+  },
+  "emocion": {
+   "asombro": {
+    "n": 8,
+    "videos": 2,
+    "vistas": 0.96,
+    "interaccion": 0.86
+   }
+  },
+  "tipo de gancho": {
+   "cifra chocante": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 1.06,
+    "interaccion": 1.05
    },
-   "facebook": {
-    "n": 3,
-    "vistas": 0.99,
-    "interaccion": 0.55
+   "otro": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 0.88,
+    "interaccion": 0.73
+   }
+  },
+  "cercania": {
+   "mundo": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 1.06,
+    "interaccion": 1.05
+   },
+   "universal": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 0.88,
+    "interaccion": 0.73
+   }
+  },
+  "promesa": {
+   "no": {
+    "n": 8,
+    "videos": 2,
+    "vistas": 0.96,
+    "interaccion": 0.86
+   }
+  },
+  "giro": {
+   "sí": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 1.06,
+    "interaccion": 1.05
+   },
+   "no": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 0.88,
+    "interaccion": 0.73
+   }
+  },
+  "cierre": {
+   "pregunta": {
+    "n": 8,
+    "videos": 2,
+    "vistas": 0.96,
+    "interaccion": 0.86
+   }
+  },
+  "primer fotograma claro": {
+   "sí": {
+    "n": 8,
+    "videos": 2,
+    "vistas": 0.96,
+    "interaccion": 0.86
+   }
+  },
+  "movimiento 1s": {
+   "sí": {
+    "n": 8,
+    "videos": 2,
+    "vistas": 0.96,
+    "interaccion": 0.86
+   }
+  },
+  "texto 0s": {
+   "sí": {
+    "n": 8,
+    "videos": 2,
+    "vistas": 0.96,
+    "interaccion": 0.86
+   }
+  },
+  "personaje": {
+   "no": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 1.06,
+    "interaccion": 1.05
+   },
+   "sí": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 0.88,
+    "interaccion": 0.73
    }
   },
   "sonido": {
    "gota": {
     "n": 4,
+    "videos": 1,
     "vistas": 0.88,
     "interaccion": 0.73
    }
@@ -128,123 +302,13 @@
   "voz": {
    "Tristan HD": {
     "n": 4,
+    "videos": 1,
     "vistas": 0.88,
     "interaccion": 0.73
    }
   }
  },
- "conclusiones": [
-  {
-   "tipo": "hipotesis",
-   "factor": "franja",
-   "mejor": "mediodía",
-   "n": 12,
-   "detalle": {
-    "mejor": {
-     "v": "mediodía",
-     "vistas": 1.06,
-     "interaccion": 1.05,
-     "n": 4
-    },
-    "resto": [
-     {
-      "v": "noche",
-      "vistas": 0.91,
-      "n": 8
-     }
-    ]
-   },
-   "texto": "franja: «mediodía» consigue 1.06× el alcance medio (n=4) e interacción 1.05×; frente a noche 0.91× (n=8)."
-  },
-  {
-   "tipo": "hipotesis",
-   "factor": "estilo",
-   "mejor": "pop",
-   "n": 8,
-   "detalle": {
-    "mejor": {
-     "v": "pop",
-     "vistas": 1.06,
-     "interaccion": 1.05,
-     "n": 4
-    },
-    "resto": [
-     {
-      "v": "pizarra",
-      "vistas": 0.88,
-      "n": 4
-     }
-    ]
-   },
-   "texto": "estilo: «pop» consigue 1.06× el alcance medio (n=4) e interacción 1.05×; frente a pizarra 0.88× (n=4)."
-  },
-  {
-   "tipo": "hipotesis",
-   "factor": "serie",
-   "mejor": "Tal día como hoy",
-   "n": 8,
-   "detalle": {
-    "mejor": {
-     "v": "Tal día como hoy",
-     "vistas": 1.06,
-     "interaccion": 1.05,
-     "n": 4
-    },
-    "resto": [
-     {
-      "v": "Ciencia",
-      "vistas": 0.88,
-      "n": 4
-     }
-    ]
-   },
-   "texto": "serie: «Tal día como hoy» consigue 1.06× el alcance medio (n=4) e interacción 1.05×; frente a Ciencia 0.88× (n=4)."
-  },
-  {
-   "tipo": "hipotesis",
-   "factor": "gancho",
-   "mejor": "con cifra",
-   "n": 8,
-   "detalle": {
-    "mejor": {
-     "v": "con cifra",
-     "vistas": 1.06,
-     "interaccion": 1.05,
-     "n": 4
-    },
-    "resto": [
-     {
-      "v": "afirmación",
-      "vistas": 0.88,
-      "n": 4
-     }
-    ]
-   },
-   "texto": "gancho: «con cifra» consigue 1.06× el alcance medio (n=4) e interacción 1.05×; frente a afirmación 0.88× (n=4)."
-  },
-  {
-   "tipo": "hipotesis",
-   "factor": "hora",
-   "mejor": "12-14 h",
-   "n": 12,
-   "detalle": {
-    "mejor": {
-     "v": "12-14 h",
-     "vistas": 1.06,
-     "interaccion": 1.05,
-     "n": 4
-    },
-    "resto": [
-     {
-      "v": "20-22 h",
-      "vistas": 0.91,
-      "n": 8
-     }
-    ]
-   },
-   "texto": "hora: «12-14 h» consigue 1.06× el alcance medio (n=4) e interacción 1.05×; frente a 20-22 h 0.91× (n=8)."
-  }
- ],
+ "conclusiones": [],
  "pesos": {
   "familia": {
    "pop": 0.113,
@@ -268,5 +332,39 @@
  "horas_recomendadas": [
   "12-14 h",
   "20-22 h"
- ]
+ ],
+ "retencion": {
+  "0-1,5 s (gancho)": {
+   "n": 2,
+   "pierde_s": 25.3
+  },
+  "resto de la 1.ª escena": {
+   "n": 2,
+   "pierde_s": 9.5
+  },
+  "escenas centrales": {
+   "n": 2,
+   "pierde_s": 0.8
+  },
+  "última escena": {
+   "n": 2,
+   "pierde_s": 0.1
+  }
+ },
+ "videos_indice": [
+  {
+   "id": "2026-11-09-1330",
+   "titulo": "El ajuste mal hecho que apagó a 25 millones de personas en 1965",
+   "indice": 1.1
+  },
+  {
+   "id": "2026-11-09-2100-v2",
+   "titulo": "Por qué huele tan bien la lluvia: el olor que fabrican las bacterias",
+   "indice": 0.82
+  }
+ ],
+ "experimentos": {
+  "activo": null,
+  "cerrados": []
+ }
 }
