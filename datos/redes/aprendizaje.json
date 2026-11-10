@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T15:18:17.500Z",
+ "actualizado": "2026-11-10T16:18:18.105Z",
  "publicaciones": 12,
  "videos": 4,
  "factores": {
@@ -13,7 +13,7 @@
    "lunes": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.02,
+    "vistas": 0.98,
     "interaccion": 0.85
    }
   },
@@ -21,7 +21,7 @@
    "noche": {
     "n": 8,
     "videos": 3,
-    "vistas": 0.96,
+    "vistas": 0.92,
     "interaccion": 0.54
    },
    "mediodía": {
@@ -35,7 +35,7 @@
    "20-22 h": {
     "n": 8,
     "videos": 3,
-    "vistas": 0.96,
+    "vistas": 0.92,
     "interaccion": 0.54
    },
    "12-14 h": {
@@ -55,13 +55,13 @@
    "tiktok": {
     "n": 3,
     "videos": 3,
-    "vistas": 1.03,
+    "vistas": 1,
     "interaccion": 0.99
    },
    "youtube": {
     "n": 3,
     "videos": 3,
-    "vistas": 1.08,
+    "vistas": 1.02,
     "interaccion": 1.15
    },
    "facebook": {
@@ -81,7 +81,7 @@
    "pizarra": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
+    "vistas": 0.99,
     "interaccion": 0.73
    }
   },
@@ -95,7 +95,7 @@
    "Ciencia": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
+    "vistas": 0.99,
     "interaccion": 0.73
    }
   },
@@ -103,7 +103,7 @@
    "33-43 s": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.02,
+    "vistas": 0.98,
     "interaccion": 0.85
    }
   },
@@ -117,7 +117,7 @@
    "afirmación": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
+    "vistas": 0.99,
     "interaccion": 0.73
    }
   },
@@ -125,7 +125,7 @@
    "largo (>12)": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.02,
+    "vistas": 0.98,
     "interaccion": 0.85
    }
   },
@@ -133,7 +133,7 @@
    "no": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.02,
+    "vistas": 0.98,
     "interaccion": 0.85
    }
   },
@@ -147,7 +147,7 @@
    "rápido (>2,9 pal/s)": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
+    "vistas": 0.99,
     "interaccion": 0.73
    }
   },
@@ -155,7 +155,7 @@
    "pocos (<12/min)": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.02,
+    "vistas": 0.98,
     "interaccion": 0.85
    }
   },
@@ -169,7 +169,7 @@
    "no": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
+    "vistas": 0.99,
     "interaccion": 0.73
    }
   },
@@ -183,7 +183,7 @@
    "ciencia": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
+    "vistas": 0.99,
     "interaccion": 0.73
    }
   },
@@ -191,7 +191,7 @@
    "asombro": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.02,
+    "vistas": 0.98,
     "interaccion": 0.85
    }
   },
@@ -205,7 +205,7 @@
    "otro": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
+    "vistas": 0.99,
     "interaccion": 0.73
    }
   },
@@ -219,7 +219,7 @@
    "universal": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
+    "vistas": 0.99,
     "interaccion": 0.73
    }
   },
@@ -227,7 +227,7 @@
    "no": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.02,
+    "vistas": 0.98,
     "interaccion": 0.85
    }
   },
@@ -241,7 +241,7 @@
    "no": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
+    "vistas": 0.99,
     "interaccion": 0.73
    }
   },
@@ -249,7 +249,7 @@
    "pregunta": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.02,
+    "vistas": 0.98,
     "interaccion": 0.85
    }
   },
@@ -257,7 +257,7 @@
    "sí": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.02,
+    "vistas": 0.98,
     "interaccion": 0.85
    }
   },
@@ -265,7 +265,7 @@
    "sí": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.02,
+    "vistas": 0.98,
     "interaccion": 0.85
    }
   },
@@ -273,7 +273,7 @@
    "sí": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.02,
+    "vistas": 0.98,
     "interaccion": 0.85
    }
   },
@@ -287,7 +287,7 @@
    "sí": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
+    "vistas": 0.99,
     "interaccion": 0.73
    }
   },
@@ -295,7 +295,7 @@
    "gota": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
+    "vistas": 0.99,
     "interaccion": 0.73
    }
   },
@@ -303,7 +303,7 @@
    "Tristan HD": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
+    "vistas": 0.99,
     "interaccion": 0.73
    }
   }
@@ -312,7 +312,7 @@
  "pesos": {
   "familia": {
    "pop": 0.112,
-   "gota": 0.103,
+   "gota": 0.101,
    "madera": 0.112,
    "marimba": 0.112,
    "kalimba": 0.112,
@@ -324,8 +324,8 @@
   "estilo": {
    "papel": 0.203,
    "neon": 0.203,
-   "pop": 0.205,
-   "pizarra": 0.187,
+   "pop": 0.206,
+   "pizarra": 0.183,
    "limpio": 0.203
   }
  },
@@ -355,7 +355,7 @@
   {
    "id": "2026-11-09-2100-v2",
    "titulo": "Por qué huele tan bien la lluvia: el olor que fabrican las bacterias",
-   "indice": 1.09
+   "indice": 0.98
   },
   {
    "id": "2026-11-09-1330",
