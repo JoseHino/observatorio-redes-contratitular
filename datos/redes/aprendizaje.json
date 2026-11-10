@@ -1,49 +1,106 @@
 {
- "actualizado": "2026-11-10T00:18:02.992Z",
- "publicaciones": 4,
- "videos": 2,
+ "actualizado": "2026-11-10T01:18:00.398Z",
+ "publicaciones": 8,
+ "videos": 3,
  "factores": {
   "día": {
+   "lunes": {
+    "n": 4,
+    "vistas": 1.14,
+    "interaccion": 1.08
+   },
    "domingo": {
     "n": 4,
-    "vistas": 1.19,
-    "interaccion": 0.61
+    "vistas": 1.16,
+    "interaccion": 0.51
    }
   },
   "franja": {
+   "mediodía": {
+    "n": 4,
+    "vistas": 1.14,
+    "interaccion": 1.08
+   },
    "noche": {
     "n": 4,
-    "vistas": 1.19,
-    "interaccion": 0.61
+    "vistas": 1.16,
+    "interaccion": 0.51
+   }
+  },
+  "estilo": {
+   "pop": {
+    "n": 4,
+    "vistas": 1.14,
+    "interaccion": 1.08
+   }
+  },
+  "serie": {
+   "Tal día como hoy": {
+    "n": 4,
+    "vistas": 1.14,
+    "interaccion": 1.08
+   }
+  },
+  "duración": {
+   "33-43 s": {
+    "n": 4,
+    "vistas": 1.14,
+    "interaccion": 1.08
+   }
+  },
+  "gancho": {
+   "con cifra": {
+    "n": 4,
+    "vistas": 1.14,
+    "interaccion": 1.08
+   }
+  },
+  "gancho largo": {
+   "largo (>12)": {
+    "n": 4,
+    "vistas": 1.14,
+    "interaccion": 1.08
+   }
+  },
+  "escenas de datos": {
+   "no": {
+    "n": 4,
+    "vistas": 1.14,
+    "interaccion": 1.08
    }
   },
   "hora": {
+   "12-14 h": {
+    "n": 4,
+    "vistas": 1.14,
+    "interaccion": 1.08
+   },
    "20-22 h": {
     "n": 4,
-    "vistas": 1.19,
-    "interaccion": 0.61
+    "vistas": 1.16,
+    "interaccion": 0.51
    }
   },
   "red": {
    "instagram": {
-    "n": 1,
-    "vistas": 1.74,
-    "interaccion": 1
+    "n": 2,
+    "vistas": 1.5,
+    "interaccion": 0.86
    },
    "tiktok": {
-    "n": 1,
-    "vistas": 0.94,
-    "interaccion": 1
+    "n": 2,
+    "vistas": 1.06,
+    "interaccion": 0.99
    },
    "youtube": {
-    "n": 1,
-    "vistas": 0.88,
+    "n": 2,
+    "vistas": 0.89,
     "interaccion": 1
    },
    "facebook": {
-    "n": 1,
-    "vistas": 1,
-    "interaccion": 0.37
+    "n": 2,
+    "vistas": 1.08,
+    "interaccion": 0.47
    }
   }
  },
@@ -61,14 +118,15 @@
    "tum": 0.111
   },
   "estilo": {
-   "papel": 0.2,
-   "neon": 0.2,
-   "pop": 0.2,
-   "pizarra": 0.2,
-   "limpio": 0.2
+   "papel": 0.197,
+   "neon": 0.197,
+   "pop": 0.211,
+   "pizarra": 0.197,
+   "limpio": 0.197
   }
  },
  "horas_recomendadas": [
-  "20-22 h"
+  "20-22 h",
+  "12-14 h"
  ]
 }
