@@ -1,83 +1,83 @@
 {
- "actualizado": "2026-11-10T06:17:59.187Z",
+ "actualizado": "2026-11-10T07:18:04.037Z",
  "publicaciones": 8,
  "videos": 3,
  "factores": {
   "día": {
    "lunes": {
     "n": 4,
-    "vistas": 1.1,
+    "vistas": 1.06,
     "interaccion": 1.08
    },
    "domingo": {
     "n": 4,
-    "vistas": 1.01,
+    "vistas": 0.97,
     "interaccion": 0.51
    }
   },
   "franja": {
    "mediodía": {
     "n": 4,
-    "vistas": 1.1,
+    "vistas": 1.06,
     "interaccion": 1.08
    },
    "noche": {
     "n": 4,
-    "vistas": 1.01,
+    "vistas": 0.97,
     "interaccion": 0.51
    }
   },
   "estilo": {
    "pop": {
     "n": 4,
-    "vistas": 1.1,
+    "vistas": 1.06,
     "interaccion": 1.08
    }
   },
   "serie": {
    "Tal día como hoy": {
     "n": 4,
-    "vistas": 1.1,
+    "vistas": 1.06,
     "interaccion": 1.08
    }
   },
   "duración": {
    "33-43 s": {
     "n": 4,
-    "vistas": 1.1,
+    "vistas": 1.06,
     "interaccion": 1.08
    }
   },
   "gancho": {
    "con cifra": {
     "n": 4,
-    "vistas": 1.1,
+    "vistas": 1.06,
     "interaccion": 1.08
    }
   },
   "gancho largo": {
    "largo (>12)": {
     "n": 4,
-    "vistas": 1.1,
+    "vistas": 1.06,
     "interaccion": 1.08
    }
   },
   "escenas de datos": {
    "no": {
     "n": 4,
-    "vistas": 1.1,
+    "vistas": 1.06,
     "interaccion": 1.08
    }
   },
   "hora": {
    "12-14 h": {
     "n": 4,
-    "vistas": 1.1,
+    "vistas": 1.06,
     "interaccion": 1.08
    },
    "20-22 h": {
     "n": 4,
-    "vistas": 1.01,
+    "vistas": 0.97,
     "interaccion": 0.51
    }
   },
@@ -89,12 +89,12 @@
    },
    "tiktok": {
     "n": 2,
-    "vistas": 0.92,
+    "vistas": 0.84,
     "interaccion": 0.99
    },
    "youtube": {
     "n": 2,
-    "vistas": 0.89,
+    "vistas": 0.88,
     "interaccion": 0.99
    },
    "facebook": {
@@ -120,7 +120,7 @@
   "estilo": {
    "papel": 0.198,
    "neon": 0.198,
-   "pop": 0.209,
+   "pop": 0.207,
    "pizarra": 0.198,
    "limpio": 0.198
   }
