@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T13:18:25.320Z",
+ "actualizado": "2026-11-10T14:18:22.731Z",
  "publicaciones": 12,
  "videos": 4,
  "factores": {
@@ -13,7 +13,7 @@
    "lunes": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.92,
+    "vistas": 1.03,
     "interaccion": 0.85
    }
   },
@@ -21,53 +21,53 @@
    "noche": {
     "n": 8,
     "videos": 3,
-    "vistas": 0.86,
+    "vistas": 0.96,
     "interaccion": 0.54
    },
    "mediodía": {
     "n": 4,
     "videos": 1,
     "vistas": 0.98,
-    "interaccion": 1.05
+    "interaccion": 1.06
    }
   },
   "hora": {
    "20-22 h": {
     "n": 8,
     "videos": 3,
-    "vistas": 0.86,
+    "vistas": 0.96,
     "interaccion": 0.54
    },
    "12-14 h": {
     "n": 4,
     "videos": 1,
     "vistas": 0.98,
-    "interaccion": 1.05
+    "interaccion": 1.06
    }
   },
   "red": {
    "instagram": {
     "n": 3,
     "videos": 3,
-    "vistas": 0.75,
+    "vistas": 0.81,
     "interaccion": 0.5
    },
    "tiktok": {
     "n": 3,
     "videos": 3,
-    "vistas": 0.97,
+    "vistas": 1.03,
     "interaccion": 0.99
    },
    "youtube": {
     "n": 3,
     "videos": 3,
-    "vistas": 1.03,
+    "vistas": 1.08,
     "interaccion": 1.15
    },
    "facebook": {
     "n": 3,
     "videos": 3,
-    "vistas": 0.97,
+    "vistas": 1.01,
     "interaccion": 0.55
    }
   },
@@ -76,12 +76,12 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.98,
-    "interaccion": 1.05
+    "interaccion": 1.06
    },
    "pizarra": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.88,
+    "vistas": 1.06,
     "interaccion": 0.73
    }
   },
@@ -90,12 +90,12 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.98,
-    "interaccion": 1.05
+    "interaccion": 1.06
    },
    "Ciencia": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.88,
+    "vistas": 1.06,
     "interaccion": 0.73
    }
   },
@@ -103,7 +103,7 @@
    "33-43 s": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.92,
+    "vistas": 1.03,
     "interaccion": 0.85
    }
   },
@@ -112,12 +112,12 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.98,
-    "interaccion": 1.05
+    "interaccion": 1.06
    },
    "afirmación": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.88,
+    "vistas": 1.06,
     "interaccion": 0.73
    }
   },
@@ -125,7 +125,7 @@
    "largo (>12)": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.92,
+    "vistas": 1.03,
     "interaccion": 0.85
    }
   },
@@ -133,7 +133,7 @@
    "no": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.92,
+    "vistas": 1.03,
     "interaccion": 0.85
    }
   },
@@ -142,12 +142,12 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.98,
-    "interaccion": 1.05
+    "interaccion": 1.06
    },
    "rápido (>2,9 pal/s)": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.88,
+    "vistas": 1.06,
     "interaccion": 0.73
    }
   },
@@ -155,7 +155,7 @@
    "pocos (<12/min)": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.92,
+    "vistas": 1.03,
     "interaccion": 0.85
    }
   },
@@ -164,12 +164,12 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.98,
-    "interaccion": 1.05
+    "interaccion": 1.06
    },
    "no": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.88,
+    "vistas": 1.06,
     "interaccion": 0.73
    }
   },
@@ -178,12 +178,12 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.98,
-    "interaccion": 1.05
+    "interaccion": 1.06
    },
    "ciencia": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.88,
+    "vistas": 1.06,
     "interaccion": 0.73
    }
   },
@@ -191,7 +191,7 @@
    "asombro": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.92,
+    "vistas": 1.03,
     "interaccion": 0.85
    }
   },
@@ -200,12 +200,12 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.98,
-    "interaccion": 1.05
+    "interaccion": 1.06
    },
    "otro": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.88,
+    "vistas": 1.06,
     "interaccion": 0.73
    }
   },
@@ -214,12 +214,12 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.98,
-    "interaccion": 1.05
+    "interaccion": 1.06
    },
    "universal": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.88,
+    "vistas": 1.06,
     "interaccion": 0.73
    }
   },
@@ -227,7 +227,7 @@
    "no": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.92,
+    "vistas": 1.03,
     "interaccion": 0.85
    }
   },
@@ -236,12 +236,12 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.98,
-    "interaccion": 1.05
+    "interaccion": 1.06
    },
    "no": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.88,
+    "vistas": 1.06,
     "interaccion": 0.73
    }
   },
@@ -249,7 +249,7 @@
    "pregunta": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.92,
+    "vistas": 1.03,
     "interaccion": 0.85
    }
   },
@@ -257,7 +257,7 @@
    "sí": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.92,
+    "vistas": 1.03,
     "interaccion": 0.85
    }
   },
@@ -265,7 +265,7 @@
    "sí": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.92,
+    "vistas": 1.03,
     "interaccion": 0.85
    }
   },
@@ -273,7 +273,7 @@
    "sí": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.92,
+    "vistas": 1.03,
     "interaccion": 0.85
    }
   },
@@ -282,12 +282,12 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.98,
-    "interaccion": 1.05
+    "interaccion": 1.06
    },
    "sí": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.88,
+    "vistas": 1.06,
     "interaccion": 0.73
    }
   },
@@ -295,7 +295,7 @@
    "gota": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.88,
+    "vistas": 1.06,
     "interaccion": 0.73
    }
   },
@@ -303,7 +303,7 @@
    "Tristan HD": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.88,
+    "vistas": 1.06,
     "interaccion": 0.73
    }
   }
@@ -311,22 +311,22 @@
  "conclusiones": [],
  "pesos": {
   "familia": {
-   "pop": 0.113,
-   "gota": 0.098,
-   "madera": 0.113,
-   "marimba": 0.113,
-   "kalimba": 0.113,
-   "campanita": 0.113,
-   "cuerda": 0.113,
-   "burbuja": 0.113,
-   "tum": 0.113
+   "pop": 0.112,
+   "gota": 0.103,
+   "madera": 0.112,
+   "marimba": 0.112,
+   "kalimba": 0.112,
+   "campanita": 0.112,
+   "cuerda": 0.112,
+   "burbuja": 0.112,
+   "tum": 0.112
   },
   "estilo": {
-   "papel": 0.205,
-   "neon": 0.205,
-   "pop": 0.207,
-   "pizarra": 0.178,
-   "limpio": 0.205
+   "papel": 0.203,
+   "neon": 0.203,
+   "pop": 0.205,
+   "pizarra": 0.187,
+   "limpio": 0.203
   }
  },
  "horas_recomendadas": [
@@ -353,14 +353,14 @@
  },
  "videos_indice": [
   {
+   "id": "2026-11-09-2100-v2",
+   "titulo": "Por qué huele tan bien la lluvia: el olor que fabrican las bacterias",
+   "indice": 1.09
+  },
+  {
    "id": "2026-11-09-1330",
    "titulo": "El ajuste mal hecho que apagó a 25 millones de personas en 1965",
    "indice": 0.97
-  },
-  {
-   "id": "2026-11-09-2100-v2",
-   "titulo": "Por qué huele tan bien la lluvia: el olor que fabrican las bacterias",
-   "indice": 0.83
   }
  ],
  "experimentos": {
