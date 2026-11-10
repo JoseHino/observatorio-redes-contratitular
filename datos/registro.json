@@ -605,5 +605,105 @@
     "por_que": "La paradoja de un ojo que respira aire engancha y la ilustración es clara, pero la primera frase no promete una recompensa concreta y los 40 s de explicación pueden cansar."
    }
   }
+ },
+ {
+  "carpeta": "2026-11-10-2200",
+  "titulo": "Por qué los wombats hacen caca en forma de cubo",
+  "fecha": "2026-11-10",
+  "duracion": 44.1,
+  "estilo": "papel",
+  "serie": "Animales",
+  "gancho": "Un animal australiano hace caca en forma de cubos perfectos,",
+  "palabras": 130,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 3.2,
+    "frase": "Un animal australiano hace caca en forma de cubos perfectos,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 3.2,
+    "fin": 9.24,
+    "frase": "y durante años nadie supo cómo, porque las tripas son un tubo redondo: ¿cómo sale algo cuadrado de ahí?",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 9.24,
+    "fin": 13.7,
+    "frase": "Es el wombat, un marsupial rechoncho que cava madrigueras en Australia,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 13.7,
+    "fin": 18.06,
+    "frase": "Así que unos investigadores de Georgia Tech examinaron los intestinos de wombats atropellados,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 18.06,
+    "fin": 23.58,
+    "frase": "y descubrieron el truco: la pared del intestino no es igual de elástica por todas partes,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 23.58,
+    "fin": 30.06,
+    "frase": "sino que alterna zonas blandas y zonas rígidas, y al avanzar despacio, la caca se va moldeando en cubos.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 30.06,
+    "fin": 35.66,
+    "frase": "Pero ¿y para qué? Pues los deja sobre piedras y troncos, bien a la vista, para marcar su territorio.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 8,
+    "inicio": 35.66,
+    "fin": 44.1,
+    "frase": "Y el resultado es que un wombat puede dejar decenas de cubos en una sola noche, la firma más geométrica de la naturaleza.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-10-2200",
+  "texto": "Por qué los wombats hacen caca en forma de cubo Los wombats son los únicos animales que se sabe que hacen caca en forma de cubo. Investigadores de Georgia Tech examinaron sus intestinos y vieron que la pared alterna tramos blandos y rígidos que van moldeando el contenido. Los dejan sobre piedras y troncos para marcar su territorio. ¿Conocías este dato? Compártelo con quien crea que lo sabe todo de los animales 🐾 Un animal australiano hace caca en forma de cubos perfectos, y durante años nadie supo cómo, porque las tripas son un tubo redondo: ¿cómo sale algo cuadrado de ahí? Es el wombat, un marsupial rechoncho que cava madrigueras en Australia, Así que unos investigadores de Georgia Tech examinaron los intestinos de wombats atropellados, y descubrieron el truco: la pared del intestino no es igual de elástica por todas partes, sino que alterna zonas blandas y zonas rígidas, y al avanzar despacio, la caca se va moldeando en cubos. Pero ¿y para qué? Pues los deja sobre piedras y troncos, bien a la vista, para marcar su territorio. Y el resultado es que un wombat puede dejar decenas de cubos en una sola noche, la firma más geométrica de la naturaleza.",
+  "familia": "burbuja",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-10",
+   "medido": {
+    "palabras_s": 2.95,
+    "escenas_min": 10.9,
+    "cifra_al_inicio": true,
+    "gancho_palabras": 10,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "naturaleza",
+    "emocion": "asombro",
+    "gancho_tipo": "misterio",
+    "cercania": "mundo",
+    "promesa": "sí",
+    "giro": "sí",
+    "cierre": "dato final",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "La imagen de un wombat ilustrado y la paradoja de un cubo saliendo de un tubo redondo atrapan, pero el rótulo a medio escribir en el segundo 0,1 y el ritmo de 44 s pueden hacer que se abandone."
+   }
+  }
  }
 ]

@@ -3444,15 +3444,16 @@ function calcular(datos) {
     const ri = f.interaccion / (medInter.get(f.p.red) ?? 1);
     for (const [k, v] of Object.entries(todosLosRasgos(f))) {
       acum[k] ??= {};
-      acum[k][v] ??= { n: 0, v: 0, i: 0 };
+      acum[k][v] ??= { n: 0, v: 0, i: 0, ids: /* @__PURE__ */ new Set() };
       acum[k][v].n++;
+      acum[k][v].ids.add(f.e ? idDe(f.e) : f.p.texto.slice(0, 40));
       acum[k][v].v += lv(f.ratio);
       acum[k][v].i += lv(ri || 0.05);
     }
   }
   for (const [k, niveles] of Object.entries(acum)) {
     factores[k] = {};
-    for (const [v, a] of Object.entries(niveles)) factores[k][v] = { n: a.n, vistas: +Math.exp(a.v / (a.n + K)).toFixed(2), interaccion: +Math.exp(a.i / (a.n + K)).toFixed(2) };
+    for (const [v, a] of Object.entries(niveles)) factores[k][v] = { n: a.n, videos: a.ids.size, vistas: +Math.exp(a.v / (a.n + K)).toFixed(2), interaccion: +Math.exp(a.i / (a.n + K)).toFixed(2) };
   }
   const conclusiones = [];
   for (const [k, niveles] of Object.entries(factores)) {
@@ -3460,19 +3461,19 @@ function calcular(datos) {
     const ord = Object.entries(niveles).sort((a, b) => b[1].vistas - a[1].vistas);
     if (ord.length < 2) continue;
     const [mejor, seg] = [ord[0], ord[1]];
-    const total = ord.reduce((s, [, x]) => s + x.n, 0);
+    const total = ord.reduce((s, [, x]) => s + x.videos, 0);
     const ventaja = mejor[1].vistas / Math.max(0.05, seg[1].vistas);
-    const regla = total >= 12 && mejor[1].n >= 4 && ventaja >= 1.25;
-    const pista = mejor[1].n >= 3 && ventaja >= 1.2;
+    const regla = total >= 8 && mejor[1].videos >= 5 && seg[1].videos >= 3 && ventaja >= 1.25;
+    const pista = mejor[1].videos >= 3 && seg[1].videos >= 2 && ventaja >= 1.2;
     if (!regla && !pista) continue;
-    const resto = ord.slice(1, 3).map(([v, x]) => `${v} ${x.vistas.toFixed(2)}\xD7 (n=${x.n})`).join(", ");
+    const resto = ord.slice(1, 3).map(([v, x]) => `${v} ${x.vistas.toFixed(2)}\xD7 (${x.videos} v\xEDdeos)`).join(", ");
     conclusiones.push({
       tipo: regla ? "regla" : "hipotesis",
       factor: k,
       mejor: mejor[0],
       n: total,
       detalle: { mejor: { v: mejor[0], vistas: mejor[1].vistas, interaccion: mejor[1].interaccion, n: mejor[1].n }, resto: ord.slice(1, 3).map(([v, x]) => ({ v, vistas: x.vistas, n: x.n })) },
-      texto: `${k}: \xAB${mejor[0]}\xBB consigue ${mejor[1].vistas.toFixed(2)}\xD7 el alcance medio (n=${mejor[1].n}) e interacci\xF3n ${mejor[1].interaccion.toFixed(2)}\xD7; frente a ${resto}.`
+      texto: `${k}: \xAB${mejor[0]}\xBB consigue ${mejor[1].vistas.toFixed(2)}\xD7 el alcance medio (${mejor[1].videos} v\xEDdeos) e interacci\xF3n ${mejor[1].interaccion.toFixed(2)}\xD7; frente a ${resto}.`
     });
   }
   const pesosDe = (k, todos) => {
@@ -3627,8 +3628,30 @@ function exportar(datos, webDir) {
     horas: a.horas_recomendadas,
     factores: Object.fromEntries(Object.entries(a.factores).map(([k, niveles]) => {
       const ord = Object.entries(niveles).sort((x, y) => y[1].vistas - x[1].vistas);
-      return [k, { niveles: ord.map(([v]) => v), n: ord.map(([, x]) => x.n), vistas: ord.map(([, x]) => x.vistas), interaccion: ord.map(([, x]) => x.interaccion) }];
-    }))
+      return [k, { niveles: ord.map(([v]) => v), n: ord.map(([, x]) => x.videos ?? x.n), vistas: ord.map(([, x]) => x.vistas), interaccion: ord.map(([, x]) => x.interaccion) }];
+    })),
+    retencion: a.retencion
+  };
+  const reg = new Map(leerRegistro(datos).map((e) => [idDe(e), e]));
+  const est = leer(datos);
+  salida.viralidad = {
+    videos: a.videos_indice.map((v) => {
+      const e = reg.get(v.id);
+      return { titulo: corto(v.titulo, 40), indice: v.indice, huella: e?.huella?.visto ?? null, medido: e?.huella?.medido ?? null, experimento: e?.experimento ?? null };
+    }),
+    activo: est.activo ? {
+      variable: est.activo.variable,
+      pregunta: est.activo.pregunta,
+      inicio: est.activo.inicio,
+      variantes: est.activo.variantes.map((x) => x.id),
+      asignados: est.activo.asignados ?? {},
+      indices: est.activo.variantes.map((x) => {
+        const vs = a.videos_indice.filter((v) => v.variable === est.activo.variable && v.variante === x.id);
+        return { n: vs.length, indice: vs.length ? +Math.exp(vs.reduce((s, v) => s + Math.log(Math.max(0.05, v.indice)), 0) / vs.length).toFixed(2) : null };
+      })
+    } : null,
+    cola: est.cola.map((x) => ({ variable: x.variable, pregunta: x.pregunta })),
+    cerrados: est.cerrados.map((c) => ({ variable: c.variable, pregunta: c.pregunta, conclusion: c.conclusion, ganadora: c.ganadora, fin: c.fin }))
   };
   const destino = path5.join(webDir, "data", "data.js");
   fs5.mkdirSync(path5.dirname(destino), { recursive: true });

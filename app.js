@@ -40,7 +40,15 @@
     'sí': 'yes', no: 'no', papel: 'paper', neon: 'neon', pop: 'pop', pizarra: 'chalkboard', limpio: 'clean',
     gota: 'drop', madera: 'wood', marimba: 'marimba', kalimba: 'kalimba', campanita: 'bell', cuerda: 'string', burbuja: 'bubble', tum: 'thump',
     Ciencia: 'Science', Historia: 'History', 'Tal día como hoy': 'On this day', 'Cuerpo humano': 'Human body', Dinero: 'Money', 'Geografía': 'Geography',
-    Animales: 'Animals', Datos: 'Data', 'Récords': 'Records', Espacio: 'Space', Inventos: 'Inventions', Comida: 'Food', 'Psicología': 'Psychology', Palabras: 'Words'
+    Animales: 'Animals', Datos: 'Data', 'Récords': 'Records', Espacio: 'Space', Inventos: 'Inventions', Comida: 'Food', 'Psicología': 'Psychology', Palabras: 'Words',
+    historia: 'history', ciencia: 'science', naturaleza: 'nature', 'cuerpo humano': 'human body', 'tecnología': 'technology', 'economía': 'economy', sociedad: 'society',
+    'geografía': 'geography', cultura: 'culture', deporte: 'sport', otro: 'other', asombro: 'awe', intriga: 'intrigue', 'indignación': 'outrage', miedo: 'fear', humor: 'humour',
+    ternura: 'tenderness', orgullo: 'pride', 'cifra chocante': 'shocking number', 'contradicción': 'myth-busting', misterio: 'mystery', peligro: 'danger',
+    'segunda persona': 'second person', 'historia en marcha': 'story in motion', 'España': 'Spain', Europa: 'Europe', mundo: 'world', universal: 'universal',
+    bucle: 'loop', 'dato final': 'final fact', moraleja: 'moral', 'llamada a la acción': 'call to action', 'con titular': 'with headline', 'sin titular': 'no headline',
+    corto: 'short', largo: 'long', 'pausado (<2,4 pal/s)': 'slow (<2.4 words/s)', medio: 'medium', 'rápido (>2,9 pal/s)': 'fast (>2.9 words/s)',
+    'pocos (<12/min)': 'few (<12/min)', medios: 'medium', 'muchos (>18/min)': 'many (>18/min)',
+    '0-1,5 s (gancho)': '0-1.5 s (hook)', 'resto de la 1.ª escena': 'rest of 1st scene', 'escenas centrales': 'middle scenes', 'última escena': 'last scene'
   };
   var nivel = function (v) { return EN ? (NIVELES_EN[v] || v) : v; };
 
@@ -161,7 +169,12 @@
     hora: L('Hora de publicación', 'Posting time'), 'día': L('Día de la semana', 'Day of the week'), franja: L('Franja del día', 'Time of day'),
     sonido: L('Familia de sonido', 'Sound family'), estilo: L('Estilo de dibujo', 'Drawing style'), serie: L('Serie', 'Series'),
     'duración': L('Duración', 'Length'), gancho: L('Tipo de gancho', 'Hook type'), 'gancho largo': L('Largo del gancho', 'Hook length'),
-    'escenas de datos': L('Escenas de datos', 'Data scenes'), voz: L('Voz', 'Voice'), red: L('Red', 'Network')
+    'escenas de datos': L('Escenas de datos', 'Data scenes'), voz: L('Voz', 'Voice'), red: L('Red', 'Network'),
+    ritmo: L('Ritmo de la voz', 'Speech pace'), cortes: L('Cambios de escena', 'Scene changes'), 'cifra en 5 primeras palabras': L('Cifra en las 5 primeras palabras', 'Number in the first 5 words'),
+    tema: L('Tema', 'Topic'), emocion: L('Emoción', 'Emotion'), 'tipo de gancho': L('Gancho (según Claude)', 'Hook (per Claude)'), cercania: L('Cercanía', 'Proximity'),
+    promesa: L('Promete algo al empezar', 'Opens with a promise'), giro: L('Giro', 'Twist'), cierre: L('Final', 'Ending'),
+    'primer fotograma claro': L('Primer fotograma claro sin leer', 'First frame clear without reading'), 'movimiento 1s': L('Movimiento en el 1.er segundo', 'Motion in the first second'),
+    'texto 0s': L('Texto en pantalla al empezar', 'On-screen text at start'), personaje: L('Personaje protagonista', 'Main character')
   };
   var esc = Obs.esc;
   function conclusion(c) {
@@ -185,7 +198,7 @@
       var cards = Object.keys(A.factores || {}).filter(function (f) { return f !== 'red'; }).map(function (f) {
         var x = A.factores[f], etiqueta = NOMBRE_FACTOR[f] || f;
         return {
-          titulo: etiqueta, sub: L('Índice: 100 = lo normal en su red (n = publicaciones)', 'Index: 100 = normal on its network (n = posts)'),
+          titulo: etiqueta, sub: L('Índice: 100 = lo normal en su red (n = vídeos)', 'Index: 100 = normal on its network (n = videos)'),
           chips: [CHIP_VIVO], fuente: FUENTE_UP,
           spec: { type: 'bar', xType: 'cat', xLabel: etiqueta, yFormat: ent, ref: 100, refLabel: L('Lo normal', 'Normal'),
             x: (x.niveles || []).map(function (v, i) { return nivel(v) + ' (n=' + x.n[i] + ')'; }),
@@ -199,15 +212,57 @@
     }
   };
 
+  /* ¿Por qué se hace viral?: huella de cada vídeo (Claude), experimentos de una sola variable y dónde se va la gente */
+  var V = D.viralidad || {};
+  var EXP_EN = { gancho_tipo: 'Which first line holds viewers best: a shocking number, a question or myth-busting?', texto_0s: 'Does a big on-screen headline from the first frame help or hurt?',
+    duracion: 'Does a short video or a longer one with more story perform better?', cierre: 'Which ending gets more rewatches and comments?' };
+  var pregunta = function (x) { return EN && EXP_EN[x.variable] ? EXP_EN[x.variable] : x.pregunta; };
+  var viralidad = {
+    id: 'viralidad', nombre: L('¿Por qué es viral?', 'Why viral?'),
+    titulo: L('¿Por qué unos vídeos se hacen virales y otros no?', 'Why do some videos go viral and others do not?'),
+    desc: L('Claude mira cada vídeo (fotogramas y guion) y lo describe con los mismos rasgos: tipo de gancho, emoción, si promete algo, si hay giro, cómo acaba y cómo es el primer segundo. Eso se cruza con su alcance. Como con pocos vídeos las coincidencias engañan, además se hacen experimentos: se cambia una sola cosa y se reparte entre los vídeos sin elegir. Solo lo que gana un experimento pasa a ser regla de la skill.',
+      'Claude watches every video (frames and script) and describes it with the same features: hook type, emotion, whether it makes a promise, whether there is a twist, how it ends and what the first second looks like. That is crossed with its reach. Since coincidences mislead with few videos, experiments are also run: a single thing is changed and spread across videos without choosing. Only what wins an experiment becomes a rule for the skill.'),
+    render: function () {
+      var a = V.activo, cards = [], partes = [];
+      if (a) {
+        partes.push('<b>' + L('Experimento en curso', 'Running experiment') + '</b> (' + L('desde ', 'since ') + dia(a.inicio || '') + '): ' + esc(pregunta(a)) + ' ' +
+          a.variantes.map(function (v, i) { var x = a.indices[i] || {}; return '«' + esc(nivel(v)) + '» ' + (a.asignados[v] || 0) + L(' vídeos', ' videos') + (x.indice != null ? ' · ' + L('índice ', 'index ') + Math.round(x.indice * 100) : ''); }).join(' · ') + '.');
+        cards.push({ titulo: L('Experimento: ', 'Experiment: ') + pregunta(a), sub: L('Índice medio de cada variante (100 = lo normal). Se cierra con 8 vídeos por variante.', 'Average index of each variant (100 = normal). Closes at 8 videos per variant.'),
+          chips: [CHIP_VIVO], fuente: FUENTE_UP,
+          spec: { type: 'bar', xType: 'cat', yFormat: ent, ref: 100, refLabel: L('Lo normal', 'Normal'),
+            x: a.variantes.map(function (v, i) { return nivel(v) + ' (n=' + ((a.indices[i] || {}).n || 0) + ')'; }),
+            series: [{ name: L('Alcance', 'Reach'), data: a.indices.map(function (x) { return x.indice == null ? null : Math.round(x.indice * 100); }) }] } });
+      } else partes.push(L('El primer experimento arranca con el próximo vídeo.', 'The first experiment starts with the next video.'));
+      (V.cerrados || []).forEach(function (c) { partes.push('<b>' + (c.ganadora ? L('Regla', 'Rule') : L('Sin diferencia', 'No difference')) + '</b> · ' + esc(pregunta(c)) + ' ' + esc(c.conclusion)); });
+      if ((V.cola || []).length) partes.push(L('Próximos experimentos: ', 'Next experiments: ') + V.cola.map(function (x) { return esc(pregunta(x)); }).join(' · '));
+      var vs = (V.videos || []).slice(0, 15);
+      if (vs.length) cards.push({ titulo: L('Índice de cada vídeo', 'Index of each video'), sub: L('Vistas frente a las publicaciones anteriores de la cuenta en la misma red y a la misma edad, media de todas las redes (100 = lo normal)', 'Views against the account\'s previous posts on the same network at the same age, averaged over networks (100 = normal)'),
+        chips: [CHIP_VIVO], fuente: FUENTE_UP,
+        spec: { type: 'barh', x: vs.map(function (v) { return v.titulo; }), xFormat: ent, series: [{ name: L('Índice', 'Index'), data: vs.map(function (v) { return Math.round(v.indice * 100); }) }] } });
+      var ret = A.retencion || {}, tr = Object.keys(ret);
+      if (tr.length) cards.push({ titulo: L('Dónde se va la gente (TikTok)', 'Where people drop off (TikTok)'), sub: L('Puntos de retención perdidos por segundo en cada tramo del vídeo: cuanto más alto, peor', 'Retention points lost per second in each part of the video: higher is worse'),
+        chips: [CHIP_VIVO], fuente: FUENTE_UP,
+        spec: { type: 'bar', xType: 'cat', yFormat: function (v) { return F.num(v, 1); }, x: tr.map(function (k) { return nivel(k) + ' (n=' + ret[k].n + ')'; }), series: [{ name: L('Pierde por segundo', 'Lost per second'), data: tr.map(function (k) { return ret[k].pierde_s; }) }] } });
+      var fichas = (V.videos || []).filter(function (v) { return v.huella; }).map(function (v) {
+        var h = v.huella, ras = ['gancho_tipo', 'emocion', 'promesa', 'giro', 'cierre', 'primer_fotograma_claro'].filter(function (k) { return h[k]; })
+          .map(function (k) { return (NOMBRE_FACTOR[k === 'gancho_tipo' ? 'tipo de gancho' : k.replace(/_/g, ' ')] || k) + ': ' + esc(nivel(h[k])); }).join(' · ');
+        return '<li><b>' + Math.round(v.indice * 100) + '</b> · ' + esc(v.titulo) + (v.experimento ? ' 🧪 ' + esc(nivel(v.experimento.variante)) : '') + '<br><small>' + ras + (h.por_que && !EN ? '<br>' + esc(h.por_que) : '') + '</small></li>';
+      });
+      if (fichas.length) partes.push('<b>' + L('Lo que ve Claude en cada vídeo', 'What Claude sees in each video') + '</b><ul style="margin:.4em 0 0 1.1em">' + fichas.join('') + '</ul>');
+      else partes.push(L('Aún no hay vídeos con más de 12 horas y huella: aparecerán aquí.', 'No videos older than 12 hours with a fingerprint yet: they will appear here.'));
+      return { nota: partes.map(function (x) { return '<p style="margin:.4em 0">' + x + '</p>'; }).join(''), cards: cards };
+    }
+  };
+
   Obs.init({
     titulo: L('Observatorio de redes · Contratitular', 'Social media observatory · Contratitular'),
     subtitulo: L('Cifras de cada vídeo en cada red, actualizadas cada hora, y lo que se aprende de ellas', 'Figures for every video on every network, updated hourly, and what we learn from them'),
     otroIdioma: EN ? '../' : 'en/',
-    secciones: [resumen].concat(ORDEN.map(seccionRed)).concat([aprendizajes]),
+    secciones: [resumen].concat(ORDEN.map(seccionRed)).concat([viralidad, aprendizajes]),
     actualizado: (D.meta || {}).actualizado,
     fuentes: [FUENTE_UP],
-    metodologia: L('Una Action de GitHub consulta cada hora la API de estadísticas de Upload-Post: lista las publicaciones de cada red, las empareja con su vídeo y guarda una medición de cada una con la hora, de modo que se puede ver cómo crece cada vídeo. El índice de cada vídeo es su número de vistas dividido entre la mediana de la cuenta en esa red (a las 72 horas cuando ya las tiene). Los aprendizajes promedian, para cada rasgo, el logaritmo de ese índice, con un encogimiento hacia 100 que evita conclusiones con pocos datos.',
-      'A GitHub Action queries the Upload-Post analytics API every hour: it lists the posts on each network, matches them with their video and stores a timestamped measurement of each one, so you can see how every video grows. Each video\'s index is its views divided by the account median on that network (at 72 hours once available). The learnings average, for each feature, the logarithm of that index, with shrinkage towards 100 to avoid conclusions from too little data.'),
+    metodologia: L('Una Action de GitHub consulta cada hora la API de estadísticas de Upload-Post: lista las publicaciones de cada red, las empareja con su vídeo y guarda una medición de cada una con la hora, de modo que se puede ver cómo crece cada vídeo. El índice de cada vídeo es su número de vistas dividido entre la mediana de las 10 publicaciones anteriores de la cuenta en esa red, medidas a la misma edad (72 o 24 horas), para que el crecimiento de la cuenta no se confunda con el mérito del vídeo. Claude describe cada vídeo con una taxonomía cerrada y los experimentos cambian una sola variable, repartida de forma equilibrada; se cierran con una prueba de permutación (p < 0,1 y ventaja de al menos el 25 %). Los aprendizajes promedian, para cada rasgo, el logaritmo de ese índice, con un encogimiento hacia 100 que evita conclusiones con pocos datos.',
+      'A GitHub Action queries the Upload-Post analytics API every hour: it lists the posts on each network, matches them with their video and stores a timestamped measurement of each one, so you can see how every video grows. Each video\'s index is its views divided by the median of the account\'s previous 10 posts on that network, measured at the same age (72 or 24 hours), so account growth is not mistaken for the video\'s merit. Claude describes each video with a closed taxonomy and experiments change a single variable, assigned in a balanced way; they are closed with a permutation test (p < 0.1 and an advantage of at least 25%). The learnings average, for each feature, the logarithm of that index, with shrinkage towards 100 to avoid conclusions from too little data.'),
     pie: L('Las cifras son las que devuelve cada red en el momento de la medición y pueden revisarse después (las redes depuran visitas no válidas).',
       'Figures are those returned by each network at the time of measurement and may be revised later (networks filter out invalid views).')
   });
