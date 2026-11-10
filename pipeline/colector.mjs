@@ -2305,9 +2305,9 @@ ${file}:${line}:${column}: ERROR: ${pluginText}${e.text}`;
       }
       return JSON.parse(text);
     }
-    var fs6 = __require("fs");
-    var os3 = __require("os");
-    var path6 = __require("path");
+    var fs9 = __require("fs");
+    var os4 = __require("os");
+    var path9 = __require("path");
     var ESBUILD_BINARY_PATH = process.env.ESBUILD_BINARY_PATH || ESBUILD_BINARY_PATH;
     var isValidBinaryPath = (x) => !!x && x !== "/usr/bin/esbuild";
     var packageDarwin_arm64 = "@esbuild/darwin-arm64";
@@ -2348,7 +2348,7 @@ ${file}:${line}:${column}: ERROR: ${pluginText}${e.text}`;
       let pkg;
       let subpath;
       let isWASM = false;
-      let platformKey = `${process.platform} ${os3.arch()} ${os3.endianness()}`;
+      let platformKey = `${process.platform} ${os4.arch()} ${os4.endianness()}`;
       if (platformKey in knownWindowsPackages) {
         pkg = knownWindowsPackages[platformKey];
         subpath = "esbuild.exe";
@@ -2366,19 +2366,19 @@ ${file}:${line}:${column}: ERROR: ${pluginText}${e.text}`;
     }
     function pkgForSomeOtherPlatform() {
       const libMainJS = __require.resolve("esbuild");
-      const nodeModulesDirectory = path6.dirname(path6.dirname(path6.dirname(libMainJS)));
-      if (path6.basename(nodeModulesDirectory) === "node_modules") {
+      const nodeModulesDirectory = path9.dirname(path9.dirname(path9.dirname(libMainJS)));
+      if (path9.basename(nodeModulesDirectory) === "node_modules") {
         for (const unixKey in knownUnixlikePackages) {
           try {
             const pkg = knownUnixlikePackages[unixKey];
-            if (fs6.existsSync(path6.join(nodeModulesDirectory, pkg))) return pkg;
+            if (fs9.existsSync(path9.join(nodeModulesDirectory, pkg))) return pkg;
           } catch {
           }
         }
         for (const windowsKey in knownWindowsPackages) {
           try {
             const pkg = knownWindowsPackages[windowsKey];
-            if (fs6.existsSync(path6.join(nodeModulesDirectory, pkg))) return pkg;
+            if (fs9.existsSync(path9.join(nodeModulesDirectory, pkg))) return pkg;
           } catch {
           }
         }
@@ -2386,12 +2386,12 @@ ${file}:${line}:${column}: ERROR: ${pluginText}${e.text}`;
       return null;
     }
     function downloadedBinPath(pkg, subpath) {
-      const esbuildLibDir = path6.dirname(__require.resolve("esbuild"));
-      return path6.join(esbuildLibDir, `downloaded-${pkg.replace("/", "-")}-${path6.basename(subpath)}`);
+      const esbuildLibDir = path9.dirname(__require.resolve("esbuild"));
+      return path9.join(esbuildLibDir, `downloaded-${pkg.replace("/", "-")}-${path9.basename(subpath)}`);
     }
     function generateBinPath() {
       if (isValidBinaryPath(ESBUILD_BINARY_PATH)) {
-        if (!fs6.existsSync(ESBUILD_BINARY_PATH)) {
+        if (!fs9.existsSync(ESBUILD_BINARY_PATH)) {
           console.warn(`[esbuild] Ignoring bad configuration: ESBUILD_BINARY_PATH=${ESBUILD_BINARY_PATH}`);
         } else {
           return { binPath: ESBUILD_BINARY_PATH, isWASM: false };
@@ -2403,7 +2403,7 @@ ${file}:${line}:${column}: ERROR: ${pluginText}${e.text}`;
         binPath = __require.resolve(`${pkg}/${subpath}`);
       } catch (e) {
         binPath = downloadedBinPath(pkg, subpath);
-        if (!fs6.existsSync(binPath)) {
+        if (!fs9.existsSync(binPath)) {
           try {
             __require.resolve(pkg);
           } catch {
@@ -2477,17 +2477,17 @@ for your current platform.`);
         }
         if (pnpapi) {
           const root = pnpapi.getPackageInformation(pnpapi.topLevel).packageLocation;
-          const binTargetPath = path6.join(
+          const binTargetPath = path9.join(
             root,
             "node_modules",
             ".cache",
             "esbuild",
-            `pnpapi-${pkg.replace("/", "-")}-${"0.28.1"}-${path6.basename(subpath)}`
+            `pnpapi-${pkg.replace("/", "-")}-${"0.28.1"}-${path9.basename(subpath)}`
           );
-          if (!fs6.existsSync(binTargetPath)) {
-            fs6.mkdirSync(path6.dirname(binTargetPath), { recursive: true });
-            fs6.copyFileSync(binPath, binTargetPath);
-            fs6.chmodSync(binTargetPath, 493);
+          if (!fs9.existsSync(binTargetPath)) {
+            fs9.mkdirSync(path9.dirname(binTargetPath), { recursive: true });
+            fs9.copyFileSync(binPath, binTargetPath);
+            fs9.chmodSync(binTargetPath, 493);
           }
           return { binPath: binTargetPath, isWASM };
         }
@@ -2940,10 +2940,10 @@ error: ${text}`);
 
 // src/analitica/cli.ts
 var import_config = __toESM(require_config(), 1);
-import fs5 from "node:fs";
-import os2 from "node:os";
-import path5 from "node:path";
-import { execFileSync } from "node:child_process";
+import fs8 from "node:fs";
+import os3 from "node:os";
+import path8 from "node:path";
+import { execFileSync as execFileSync2 } from "node:child_process";
 
 // src/analitica/registro.ts
 import fs from "node:fs";
@@ -3169,9 +3169,17 @@ function filas(datos) {
   const porRed = /* @__PURE__ */ new Map();
   for (const p of pubs) porRed.set(p.red, [...porRed.get(p.red) ?? [], p]);
   for (const [, lista] of porRed) {
+    lista.sort((a, b) => Date.parse(a.publicado) - Date.parse(b.publicado));
+    const edad = (p) => p.fotos.at(-1).horas;
     const ref = (p) => vistasA(p, 72) ?? vistasDe(p.fotos.at(-1).m);
-    const base = mediana(lista.map(ref).filter((v) => v > 0)) || 1;
-    for (const p of lista) {
+    const ratioDe = (p, i) => {
+      const h = edad(p) >= 72 ? 72 : edad(p) >= 24 ? 24 : null;
+      const a = (q) => (h ? vistasA(q, h) : vistasDe(q.fotos.at(-1).m)) ?? void 0;
+      const previas = lista.slice(Math.max(0, i - 10), i).map(a).filter((v) => v !== void 0 && v > 0);
+      const base = previas.length >= 3 ? mediana(previas) : mediana(lista.map(a).filter((v) => v !== void 0 && v > 0)) || 1;
+      return (a(p) ?? ref(p)) / (base || 1);
+    };
+    for (const [i, p] of lista.entries()) {
       const m = p.fotos.at(-1).m;
       const e = p.video ? registro.find((x) => idDe(x) === p.video) ?? null : null;
       const vistas = vistasDe(m);
@@ -3185,7 +3193,7 @@ function filas(datos) {
         vistas,
         v24: vistasA(p, 24),
         v72: vistasA(p, 72),
-        ratio: ref(p) / base,
+        ratio: ratioDe(p, i),
         interaccion: vistas ? (likes + coms + comp + guard) / vistas * 100 : 0,
         compartir: vistas ? comp / vistas * 100 : 0,
         guardar: vistas ? guard / vistas * 100 : 0,
@@ -3213,6 +3221,14 @@ function rasgos(f) {
   r.gancho = /\?/.test(e.gancho) ? "pregunta" : /\d/.test(e.gancho) ? "con cifra" : "afirmaci\xF3n";
   r["gancho largo"] = e.gancho.split(/\s+/).length <= 12 ? "corto (\u226412)" : "largo (>12)";
   r["escenas de datos"] = e.datos.length ? "s\xED" : "no";
+  const h = e.huella;
+  if (h) {
+    r.ritmo = h.medido.palabras_s < 2.4 ? "pausado (<2,4 pal/s)" : h.medido.palabras_s <= 2.9 ? "medio" : "r\xE1pido (>2,9 pal/s)";
+    r.cortes = h.medido.escenas_min < 12 ? "pocos (<12/min)" : h.medido.escenas_min <= 18 ? "medios" : "muchos (>18/min)";
+    r["cifra en 5 primeras palabras"] = h.medido.cifra_al_inicio ? "s\xED" : "no";
+    for (const [k, v] of Object.entries(h.visto ?? {})) if (k !== "por_que" && v) r[k === "gancho_tipo" ? "tipo de gancho" : k.replace(/_/g, " ")] = v;
+  }
+  if (e.experimento) r[`exp: ${e.experimento.variable}`] = e.experimento.variante;
   return r;
 }
 function caidasTikTok(f) {
@@ -3267,14 +3283,115 @@ function diagnostico(datos) {
   const texto = L.join("\n");
   const dir = path2.join(dirRedes(datos), "diagnosticos");
   fs2.mkdirSync(dir, { recursive: true });
-  const archivo2 = path2.join(dir, `${(/* @__PURE__ */ new Date()).toISOString().slice(0, 10)}.md`);
-  fs2.writeFileSync(archivo2, texto, "utf8");
-  return { texto, archivo: archivo2 };
+  const archivo3 = path2.join(dir, `${(/* @__PURE__ */ new Date()).toISOString().slice(0, 10)}.md`);
+  fs2.writeFileSync(archivo3, texto, "utf8");
+  return { texto, archivo: archivo3 };
 }
 
 // src/analitica/aprendizaje.ts
+import fs4 from "node:fs";
+import path4 from "node:path";
+
+// src/analitica/experimentos.ts
 import fs3 from "node:fs";
 import path3 from "node:path";
+var INICIALES = [
+  { variable: "gancho_tipo", pregunta: "\xBFQu\xE9 primera frase retiene m\xE1s: cifra chocante, pregunta o contradicci\xF3n?", variantes: [
+    { id: "cifra chocante", instruccion: "La PRIMERA frase abre con la cifra o el hecho chocante en sus 3 primeras palabras (p. ej. \xAB25 millones de personas\u2026\xBB). Nada de preguntas al principio." },
+    { id: "pregunta", instruccion: "La PRIMERA frase es una pregunta directa al espectador, corta (\u2264 10 palabras), que no sepa responder y cuya respuesta sea el v\xEDdeo." },
+    { id: "contradicci\xF3n", instruccion: "La PRIMERA frase niega algo que casi todo el mundo cree (\xABTe ense\xF1aron que X. Es falso.\xBB), en \u2264 12 palabras." }
+  ] },
+  { variable: "texto_0s", pregunta: "\xBFUn titular grande en pantalla desde el primer fotograma ayuda o estorba?", variantes: [
+    { id: "con titular", instruccion: "La primera escena lleva desde el fotograma 0 un titular grande (\u2264 6 palabras) que resume el gancho, adem\xE1s del dibujo." },
+    { id: "sin titular", instruccion: "La primera escena NO lleva texto en pantalla (solo los subt\xEDtulos): todo lo cuenta el dibujo en movimiento." }
+  ] },
+  { variable: "duracion", pregunta: "\xBFRinde m\xE1s un v\xEDdeo corto o uno largo con m\xE1s historia?", variantes: [
+    { id: "corto", instruccion: "Duraci\xF3n objetivo 25-32 s: una sola idea, sin desv\xEDos." },
+    { id: "largo", instruccion: "Duraci\xF3n objetivo 48-58 s: con desarrollo, giro y al menos dos reenganches." }
+  ] },
+  { variable: "cierre", pregunta: "\xBFQu\xE9 final hace que se vuelva a ver o se comente m\xE1s?", variantes: [
+    { id: "bucle", instruccion: "La \xDALTIMA frase enlaza con la primera, de forma que al repetirse el v\xEDdeo la frase inicial la contin\xFAa (bucle)." },
+    { id: "pregunta", instruccion: "La \xDALTIMA frase es una pregunta al espectador para que conteste en los comentarios, relacionada con el dato." }
+  ] }
+];
+var archivo2 = (datos) => path3.join(datos, "redes", "experimentos.json");
+function leer(datos) {
+  try {
+    return JSON.parse(fs3.readFileSync(archivo2(datos), "utf8"));
+  } catch {
+    return { activo: null, cola: INICIALES.map((x) => ({ ...x })), cerrados: [] };
+  }
+}
+function escribir(datos, e) {
+  fs3.mkdirSync(path3.dirname(archivo2(datos)), { recursive: true });
+  fs3.writeFileSync(archivo2(datos), JSON.stringify(e, null, 1), "utf8");
+}
+function asignar(datos) {
+  const est = leer(datos);
+  if (!est.activo) {
+    const sig = est.cola.shift();
+    if (!sig) {
+      escribir(datos, est);
+      return null;
+    }
+    est.activo = { min_por_variante: 8, max_dias: 35, ...sig, inicio: (/* @__PURE__ */ new Date()).toISOString().slice(0, 10), asignados: {} };
+  }
+  const a = est.activo;
+  a.asignados ??= {};
+  const min = Math.min(...a.variantes.map((v2) => a.asignados[v2.id] ?? 0));
+  const candidatas = a.variantes.filter((v2) => (a.asignados[v2.id] ?? 0) === min);
+  const v = candidatas[Math.floor(Math.random() * candidatas.length)];
+  a.asignados[v.id] = (a.asignados[v.id] ?? 0) + 1;
+  escribir(datos, est);
+  return { variable: a.variable, variante: v.id, instruccion: v.instruccion };
+}
+function permutacion(grupos, iter = 4e3) {
+  const media = (xs) => xs.reduce((a, b) => a + b, 0) / xs.length;
+  const estad = (gs) => {
+    const m = gs.map(media);
+    return Math.max(...m) - Math.min(...m);
+  };
+  const obs = estad(grupos), todos = grupos.flat(), tam = grupos.map((g) => g.length);
+  let mayores = 0;
+  for (let k = 0; k < iter; k++) {
+    const s = [...todos].sort(() => Math.random() - 0.5);
+    let i = 0;
+    const gs = tam.map((t) => s.slice(i, i += t));
+    if (estad(gs) >= obs - 1e-12) mayores++;
+  }
+  return (mayores + 1) / (iter + 1);
+}
+function evaluar(datos, indicePorVideo) {
+  const est = leer(datos);
+  const a = est.activo;
+  if (!a) return null;
+  const grupos = a.variantes.map((v) => [...indicePorVideo.values()].filter((x) => x.variable === a.variable && x.variante === v.id).map((x) => Math.log(Math.max(0.05, x.indice))));
+  const minN = Math.min(...grupos.map((g) => g.length));
+  const dias = a.inicio ? (Date.now() - Date.parse(a.inicio)) / 864e5 : 0;
+  const listo = minN >= (a.min_por_variante ?? 8) || dias > (a.max_dias ?? 35) && minN >= 3;
+  if (!listo) return null;
+  const resultado = a.variantes.map((v, i) => ({ variante: v.id, n: grupos[i].length, indice: +Math.exp(grupos[i].reduce((s, x) => s + x, 0) / Math.max(1, grupos[i].length)).toFixed(2) })).sort((x, y) => y.indice - x.indice);
+  const p = +permutacion(grupos.filter((g) => g.length)).toFixed(3);
+  const ventaja = resultado[0].indice / Math.max(0.05, resultado[1]?.indice ?? 1);
+  const ganadora = p < 0.1 && ventaja >= 1.25 ? resultado[0].variante : null;
+  const conclusion = ganadora ? `\xAB${ganadora}\xBB gana: ${resultado[0].indice.toFixed(2)}\xD7 frente a ${resultado.slice(1).map((r) => `\xAB${r.variante}\xBB ${r.indice.toFixed(2)}\xD7`).join(", ")} (p=${p}).` : `Sin diferencia clara (${resultado.map((r) => `\xAB${r.variante}\xBB ${r.indice.toFixed(2)}\xD7, n=${r.n}`).join("; ")}; p=${p}). Se puede usar cualquiera.`;
+  const cerrado = { ...a, fin: (/* @__PURE__ */ new Date()).toISOString().slice(0, 10), resultado, ganadora, p, conclusion };
+  est.cerrados.push(cerrado);
+  est.activo = null;
+  escribir(datos, est);
+  return cerrado;
+}
+function proponer(datos, nuevos) {
+  const est = leer(datos);
+  const usadas = /* @__PURE__ */ new Set([est.activo?.variable, ...est.cola.map((x) => x.variable), ...est.cerrados.map((x) => x.variable)]);
+  for (const n of nuevos) if (n.variantes?.length >= 2 && !usadas.has(n.variable)) {
+    est.cola.push(n);
+    usadas.add(n.variable);
+  }
+  escribir(datos, est);
+}
+
+// src/analitica/aprendizaje.ts
 var FAMILIAS = ["pop", "gota", "madera", "marimba", "kalimba", "campanita", "cuerda", "burbuja", "tum"];
 var ESTILOS = ["papel", "neon", "pop", "pizarra", "limpio"];
 var K = 2;
@@ -3285,6 +3402,27 @@ var mediana2 = (xs) => {
   const k = Math.floor(s.length / 2);
   return s.length % 2 ? s[k] : (s[k - 1] + s[k]) / 2;
 };
+function retencionPorTramo(xs) {
+  const acum = {};
+  for (const f of xs) {
+    const ret = f.p.fotos.at(-1).m.retention;
+    if (!f.e || !Array.isArray(ret) || ret.length < 4) continue;
+    const c = ret.map((x) => [Number(x.second), x.percentage * 100]).sort((a, b) => a[0] - b[0]);
+    const en = (t) => {
+      const a = [...c].reverse().find((p) => p[0] <= t) ?? c[0], b = c.find((p) => p[0] >= t) ?? c.at(-1);
+      return b[0] === a[0] ? a[1] : a[1] + (b[1] - a[1]) * (t - a[0]) / (b[0] - a[0]);
+    };
+    const esc = f.e.escenas, fin1 = esc[0]?.fin ?? 3, iniUlt = esc.at(-1)?.inicio ?? f.e.duracion - 3, dur = Math.min(f.e.duracion, c.at(-1)[0]);
+    const tramos = [["0-1,5 s (gancho)", 0, 1.5], ["resto de la 1.\xAA escena", 1.5, fin1], ["escenas centrales", fin1, iniUlt], ["\xFAltima escena", iniUlt, dur]];
+    for (const [k, a, b] of tramos) {
+      if (b - a < 0.5) continue;
+      acum[k] ??= { n: 0, s: 0 };
+      acum[k].n++;
+      acum[k].s += (en(a) - en(b)) / (b - a);
+    }
+  }
+  return Object.fromEntries(Object.entries(acum).map(([k, v]) => [k, { n: v.n, pierde_s: +(v.s / v.n).toFixed(1) }]));
+}
 function todosLosRasgos(f) {
   const r = rasgos(f);
   const h = Number(new Date(f.p.publicado).toLocaleString("es-ES", { hour: "2-digit", hour12: false, timeZone: "Europe/Madrid" }));
@@ -3325,7 +3463,7 @@ function calcular(datos) {
     const total = ord.reduce((s, [, x]) => s + x.n, 0);
     const ventaja = mejor[1].vistas / Math.max(0.05, seg[1].vistas);
     const regla = total >= 12 && mejor[1].n >= 4 && ventaja >= 1.25;
-    const pista = mejor[1].n >= 2 && ventaja >= 1.15;
+    const pista = mejor[1].n >= 3 && ventaja >= 1.2;
     if (!regla && !pista) continue;
     const resto = ord.slice(1, 3).map(([v, x]) => `${v} ${x.vistas.toFixed(2)}\xD7 (n=${x.n})`).join(", ");
     conclusiones.push({
@@ -3346,6 +3484,20 @@ function calcular(datos) {
   };
   const horas = Object.entries(factores.hora ?? {}).filter(([, x]) => x.n >= 3).sort((a, b) => b[1].vistas - a[1].vistas).slice(0, 2).map(([h]) => h);
   const videos = new Set(maduras.map((f) => f.e ? f.e.titulo : f.p.texto.slice(0, 30))).size;
+  const porVideo = /* @__PURE__ */ new Map();
+  for (const f of maduras) if (f.e) porVideo.set(idDe(f.e), [...porVideo.get(idDe(f.e)) ?? [], f]);
+  const videos_indice = [...porVideo].map(([id, xs]) => ({
+    id,
+    titulo: xs[0].e.titulo,
+    indice: +Math.exp(xs.reduce((a, f) => a + lv(f.ratio), 0) / xs.length).toFixed(2),
+    variable: xs[0].e.experimento?.variable,
+    variante: xs[0].e.experimento?.variante
+  })).sort((a, b) => b.indice - a.indice);
+  const est = leer(datos);
+  const experimentos = {
+    activo: est.activo ? { variable: est.activo.variable, pregunta: est.activo.pregunta, asignados: est.activo.asignados ?? {} } : null,
+    cerrados: est.cerrados.map(({ variable, pregunta, conclusion, ganadora, fin }) => ({ variable, pregunta, conclusion, ganadora, fin }))
+  };
   return {
     actualizado: (/* @__PURE__ */ new Date()).toISOString(),
     publicaciones: maduras.length,
@@ -3353,16 +3505,19 @@ function calcular(datos) {
     factores,
     conclusiones,
     pesos: { familia: pesosDe("sonido", FAMILIAS), estilo: pesosDe("estilo", ESTILOS) },
-    horas_recomendadas: horas
+    horas_recomendadas: horas,
+    retencion: retencionPorTramo(maduras.filter((f) => f.p.red === "tiktok")),
+    videos_indice,
+    experimentos
   };
 }
 function guardar(datos, a, skillDir) {
-  fs3.mkdirSync(path3.join(datos, "redes"), { recursive: true });
-  fs3.writeFileSync(path3.join(datos, "redes", "aprendizaje.json"), JSON.stringify(a, null, 1), "utf8");
+  fs4.mkdirSync(path4.join(datos, "redes"), { recursive: true });
+  fs4.writeFileSync(path4.join(datos, "redes", "aprendizaje.json"), JSON.stringify(a, null, 1), "utf8");
   if (!skillDir) return;
   const motor = { actualizado: a.actualizado.slice(0, 10), basado_en: { videos: a.videos, publicaciones: a.publicaciones }, pesos: a.pesos };
-  fs3.writeFileSync(path3.join(skillDir, "motor", "aprendizaje.json"), JSON.stringify(motor, null, 1) + "\n", "utf8");
-  const md = path3.join(skillDir, "referencia", "aprendizajes.md");
+  fs4.writeFileSync(path4.join(skillDir, "motor", "aprendizaje.json"), JSON.stringify(motor, null, 1) + "\n", "utf8");
+  const md = path4.join(skillDir, "referencia", "aprendizajes.md");
   const ini = "<!-- auto:inicio -->", fin = "<!-- auto:fin -->";
   const bloque = [
     ini,
@@ -3372,17 +3527,17 @@ function guardar(datos, a, skillDir) {
     ...a.conclusiones.length ? a.conclusiones.map((c) => `- **${c.tipo === "regla" ? "Regla" : "Hip\xF3tesis"}** \xB7 ${c.texto}`) : ["- A\xFAn no hay datos suficientes para sacar conclusiones medidas."],
     fin
   ].join("\n");
-  let texto = fs3.existsSync(md) ? fs3.readFileSync(md, "utf8") : "";
+  let texto = fs4.existsSync(md) ? fs4.readFileSync(md, "utf8") : "";
   texto = texto.includes(ini) && texto.includes(fin) ? texto.replace(new RegExp(`${ini}[\\s\\S]*?${fin}`), bloque) : `${texto.trimEnd()}
 
 ${bloque}
 `;
-  fs3.writeFileSync(md, texto, "utf8");
+  fs4.writeFileSync(md, texto, "utf8");
 }
 
 // src/analitica/observatorio.ts
-import fs4 from "node:fs";
-import path4 from "node:path";
+import fs5 from "node:fs";
+import path5 from "node:path";
 var EDADES = [["1 h", 1], ["3 h", 3], ["6 h", 6], ["12 h", 12], ["24 h", 24], ["48 h", 48], ["72 h", 72], ["7 d\xEDas", 168]];
 var r1 = (v) => v == null || !isFinite(v) ? null : Math.round(v * 10) / 10;
 var corto = (s, n = 34) => s.length > n ? s.slice(0, n - 1).trimEnd() + "\u2026" : s;
@@ -3394,7 +3549,7 @@ function exportar(datos, webDir) {
   const salida = { meta: { actualizado: (/* @__PURE__ */ new Date()).toISOString(), cuenta: process.env.OBS_CUENTA ?? "", redes } };
   let seguidores = {};
   try {
-    const hist = JSON.parse(fs4.readFileSync(path4.join(datos, "redes", "cuentas.json"), "utf8"));
+    const hist = JSON.parse(fs5.readFileSync(path5.join(datos, "redes", "cuentas.json"), "utf8"));
     const ult = hist.at(-1)?.datos ?? {};
     seguidores = Object.fromEntries(redes.map((r) => [r, typeof ult[r]?.followers === "number" ? ult[r].followers : null]));
   } catch {
@@ -3475,16 +3630,298 @@ function exportar(datos, webDir) {
       return [k, { niveles: ord.map(([v]) => v), n: ord.map(([, x]) => x.n), vistas: ord.map(([, x]) => x.vistas), interaccion: ord.map(([, x]) => x.interaccion) }];
     }))
   };
-  const destino = path4.join(webDir, "data", "data.js");
-  fs4.mkdirSync(path4.dirname(destino), { recursive: true });
-  fs4.writeFileSync(destino, `/* Generado por la anal\xEDtica de Contratitular \u2014 no editar a mano. */
+  const destino = path5.join(webDir, "data", "data.js");
+  fs5.mkdirSync(path5.dirname(destino), { recursive: true });
+  fs5.writeFileSync(destino, `/* Generado por la anal\xEDtica de Contratitular \u2014 no editar a mano. */
 window.DATOS = ${JSON.stringify(salida)};
 `, "utf8");
-  return `${destino} (${Math.round(fs4.statSync(destino).size / 1024)} KB \xB7 ${redes.length} redes \xB7 ${todas.length} publicaciones con cifras)`;
+  return `${destino} (${Math.round(fs5.statSync(destino).size / 1024)} KB \xB7 ${redes.length} redes \xB7 ${todas.length} publicaciones con cifras)`;
+}
+
+// src/analitica/huella.ts
+import fs6 from "node:fs";
+import os2 from "node:os";
+import path6 from "node:path";
+import { execFileSync, spawn } from "node:child_process";
+var VERSION_HUELLA = 1;
+var TAXONOMIA = {
+  tema: ["historia", "ciencia", "naturaleza", "cuerpo humano", "tecnolog\xEDa", "econom\xEDa", "sociedad", "geograf\xEDa", "cultura", "deporte", "otro"],
+  emocion: ["asombro", "intriga", "indignaci\xF3n", "miedo", "humor", "ternura", "orgullo"],
+  gancho_tipo: ["cifra chocante", "pregunta", "contradicci\xF3n", "misterio", "peligro", "segunda persona", "historia en marcha", "otro"],
+  cercania: ["Espa\xF1a", "Europa", "mundo", "universal"],
+  promesa: ["s\xED", "no"],
+  giro: ["s\xED", "no"],
+  cierre: ["bucle", "pregunta", "dato final", "moraleja", "llamada a la acci\xF3n"],
+  primer_fotograma_claro: ["s\xED", "no"],
+  movimiento_1s: ["s\xED", "no"],
+  texto_0s: ["s\xED", "no"],
+  personaje: ["s\xED", "no"]
+};
+var NUMEROS = /\b(\d|un[oa]?s?|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez|cien|mil|millón|millones|mitad|doble|triple)\b/i;
+function leerGuion(dir) {
+  try {
+    return JSON.parse(fs6.readFileSync(path6.join(dir, "guion.json"), "utf8").replace(/^﻿/, ""));
+  } catch {
+    return null;
+  }
+}
+function medir(e, g) {
+  const dur = Math.max(1, e.duracion);
+  return {
+    palabras_s: +(e.palabras / dur).toFixed(2),
+    escenas_min: +(e.escenas.length / dur * 60).toFixed(1),
+    cifra_al_inicio: NUMEROS.test(e.gancho.split(/\s+/).slice(0, 5).join(" ")),
+    gancho_palabras: e.gancho.split(/\s+/).length,
+    portada_texto: !!g?.portada_texto,
+    giro_en_guion: !!g?.historia?.giro
+  };
+}
+function ffmpeg() {
+  const base = path6.join(process.cwd(), "node_modules", "@remotion");
+  const comp = fs6.readdirSync(base).find((d) => d.startsWith(`compositor-${process.platform}-${process.arch}`));
+  if (!comp) throw new Error("No encuentro el ffmpeg de Remotion (ejecuta desde la ra\xEDz de instagram-curiosidades)");
+  return path6.join(base, comp, process.platform === "win32" ? "ffmpeg.exe" : "ffmpeg");
+}
+function fotogramas(video, dur, salida) {
+  fs6.mkdirSync(salida, { recursive: true });
+  const exe = ffmpeg();
+  const tiempos = [0.1, 1, 3, Math.max(4, dur - 2)];
+  return tiempos.map((t, i) => {
+    const f = path6.join(salida, `f${i}-${t.toFixed(1)}s.jpg`);
+    execFileSync(exe, ["-y", "-v", "error", "-ss", String(t), "-i", video, "-frames:v", "1", "-vf", "scale=540:-2", f], { cwd: path6.dirname(exe) });
+    return f;
+  });
+}
+function claude(prompt, dir, minutos = 6) {
+  const args = [
+    "-p",
+    "--model",
+    process.env.HUELLA_MODELO ?? "sonnet",
+    "--output-format",
+    "json",
+    "--no-session-persistence",
+    "--strict-mcp-config",
+    "--add-dir",
+    dir,
+    "--tools",
+    "Read",
+    "--allowedTools",
+    "Read",
+    "--permission-mode",
+    "dontAsk"
+  ];
+  const env = { ...process.env };
+  delete env.ANTHROPIC_API_KEY;
+  return new Promise((ok, mal) => {
+    const p = spawn("claude", args, { cwd: dir, env, windowsHide: true, shell: process.platform === "win32" });
+    let out = "";
+    const reloj = setTimeout(() => {
+      p.kill();
+      mal(new Error("Claude tard\xF3 demasiado"));
+    }, minutos * 6e4);
+    p.stdout.on("data", (d) => out += d);
+    p.on("error", (e) => {
+      clearTimeout(reloj);
+      mal(e);
+    });
+    p.on("close", () => {
+      clearTimeout(reloj);
+      ok(out);
+    });
+    p.stdin.end(prompt, "utf8");
+  });
+}
+function jsonDeClaude(salida) {
+  let txt = salida;
+  try {
+    const j = JSON.parse(salida);
+    if (j.is_error) throw new Error(String(j.result ?? j.subtype));
+    txt = String(j.result ?? "");
+  } catch (e) {
+    if (/is_error|límite|limit/i.test(String(e))) throw e;
+  }
+  const m = txt.match(/\{[\s\S]*\}/);
+  if (!m) throw new Error(`Claude no devolvi\xF3 JSON: ${txt.slice(0, 200)}`);
+  return JSON.parse(m[0]);
+}
+async function ver(e, g, dir) {
+  const tmp = fs6.mkdtempSync(path6.join(os2.tmpdir(), "huella-"));
+  try {
+    const fs_ = fotogramas(path6.join(dir, "video.mp4"), e.duracion, tmp);
+    const frases = (g?.bloques ?? []).map((b, i) => `${i + 1}. ${b.frase}`).join("\n") || e.escenas.map((x) => `${x.n}. ${x.frase}`).join("\n");
+    const prompt = [
+      "Eres analista de v\xEDdeos cortos verticales (Reels/TikTok/Shorts) de curiosidades. Clasifica ESTE v\xEDdeo con la taxonom\xEDa cerrada de abajo.",
+      `Mira los fotogramas con la herramienta Read (son del segundo 0,1, 1, 3 y del final): ${fs_.join(" \xB7 ")}`,
+      `T\xEDtulo: ${e.titulo}
+Duraci\xF3n: ${e.duracion} s
+Guion (una frase por escena):
+${frases}`,
+      g?.historia ? `Historia declarada por el autor: ${JSON.stringify(g.historia)}` : "",
+      "Taxonom\xEDa (elige EXACTAMENTE uno de los valores de cada lista):",
+      ...Object.entries(TAXONOMIA).map(([k, v]) => `- ${k}: ${v.join(" | ")}`),
+      "Criterios: gancho_tipo = c\xF3mo abre la PRIMERA frase; promesa = \xBFla primera frase promete una recompensa concreta que obliga a ver hasta el final?; cierre = c\xF3mo acaba la \xFAltima frase (\xABbucle\xBB si enlaza con el principio para que se vea otra vez); primer_fotograma_claro = \xBFel fotograma 0,1 s se entiende sin leer nada?; movimiento_1s = \xBFcambia algo visible entre 0,1 s y 1 s?; texto_0s = \xBFhay texto grande legible en el fotograma 0,1 s?; personaje = \xBFhay un protagonista con cara/personaje?",
+      "A\xF1ade \xABpor_que\xBB: UNA frase (m\xE1x. 200 caracteres) con lo que m\xE1s puede hacer que este v\xEDdeo enganche o se abandone.",
+      "Responde SOLO con el objeto JSON, sin texto alrededor."
+    ].filter(Boolean).join("\n");
+    const j = jsonDeClaude(await claude(prompt, tmp));
+    const visto = {};
+    for (const [k, v] of Object.entries(TAXONOMIA)) if (v.includes(j[k])) visto[k] = j[k];
+    if (typeof j.por_que === "string") visto.por_que = j.por_que.slice(0, 240);
+    return visto;
+  } finally {
+    fs6.rmSync(tmp, { recursive: true, force: true });
+  }
+}
+async function huellas(datos, op = {}) {
+  const archivo3 = path6.join(datos, "registro.json");
+  const reg = leerRegistro(datos);
+  let hechas = 0;
+  for (const e of reg) {
+    const dir = e.carpeta;
+    const g = leerGuion(dir);
+    try {
+      e.experimento ??= JSON.parse(fs6.readFileSync(path6.join(dir, "experimento.json"), "utf8"));
+    } catch {
+    }
+    if (!op.todas && e.huella?.version === VERSION_HUELLA && (e.huella.visto || op.sinClaude)) continue;
+    if (!fs6.existsSync(path6.join(dir, "video.mp4"))) {
+      console.log(`\xB7 ${idDe(e)}: sin v\xEDdeo en el PC, salto`);
+      continue;
+    }
+    const h = { version: VERSION_HUELLA, fecha: (/* @__PURE__ */ new Date()).toISOString().slice(0, 10), medido: medir(e, g) };
+    if (!op.sinClaude) {
+      try {
+        h.visto = await ver(e, g, dir);
+      } catch (err) {
+        console.log(`\u26A0 ${idDe(e)}: ${err.message.slice(0, 160)}`);
+      }
+    }
+    e.huella = h;
+    hechas++;
+    console.log(`\u2705 ${idDe(e)} \xB7 ${h.visto ? Object.entries(h.visto).filter(([k]) => k !== "por_que").map(([, v]) => v).join(" \xB7 ") : "solo medido"}`);
+    fs6.writeFileSync(archivo3, JSON.stringify(reg, null, 1), "utf8");
+  }
+  return hechas;
+}
+
+// src/analitica/revisar.ts
+import fs7 from "node:fs";
+import path7 from "node:path";
+import { spawn as spawn2 } from "node:child_process";
+function claude2(prompt, minutos = 10) {
+  const args = ["-p", "--model", process.env.REVISION_MODELO ?? "opus", "--output-format", "json", "--no-session-persistence", "--strict-mcp-config", "--permission-mode", "dontAsk"];
+  const env = { ...process.env };
+  delete env.ANTHROPIC_API_KEY;
+  return new Promise((ok, mal) => {
+    const p = spawn2("claude", args, { env, windowsHide: true, shell: process.platform === "win32" });
+    let out = "";
+    const reloj = setTimeout(() => {
+      p.kill();
+      mal(new Error("Claude tard\xF3 demasiado"));
+    }, minutos * 6e4);
+    p.stdout.on("data", (d) => out += d);
+    p.on("error", (e) => {
+      clearTimeout(reloj);
+      mal(e);
+    });
+    p.on("close", () => {
+      clearTimeout(reloj);
+      ok(out);
+    });
+    p.stdin.end(prompt, "utf8");
+  });
+}
+async function revisar(datos, skillDir, op = {}) {
+  const dir = path7.join(datos, "redes", "revisiones");
+  fs7.mkdirSync(dir, { recursive: true });
+  const ultima = fs7.readdirSync(dir).filter((f) => f.endsWith(".md")).sort().at(-1);
+  if (!op.forzar && ultima && Date.now() - Date.parse(ultima.slice(0, 10)) < 6.5 * 864e5) return `\xDAltima revisi\xF3n ${ultima.slice(0, 10)}: a\xFAn no toca (semanal).`;
+  const a = calcular(datos);
+  if (a.videos_indice.length < 4 && !op.forzar) return `Solo ${a.videos_indice.length} v\xEDdeos con cifras maduras: la revisi\xF3n empieza con 4.`;
+  const reg = new Map(leerRegistro(datos).map((e) => [idDe(e), e]));
+  const ficha = (v) => {
+    const e = reg.get(v.id);
+    return [
+      `### ${v.indice}\xD7 \xB7 ${v.titulo}`,
+      e?.huella ? `Huella: ${JSON.stringify({ ...e.huella.medido, ...e.huella.visto })}` : "",
+      e?.experimento ? `Experimento: ${e.experimento.variable} = ${e.experimento.variante}` : "",
+      `Duraci\xF3n ${e?.duracion} s \xB7 estilo ${e?.estilo} \xB7 voz ${e?.voz ?? "\u2014"}`,
+      "Guion:",
+      ...(e?.escenas ?? []).map((x) => `  ${x.n}. [${x.inicio.toFixed(1)}-${x.fin.toFixed(1)} s] ${x.frase}`)
+    ].filter(Boolean).join("\n");
+  };
+  const arriba = a.videos_indice.slice(0, 3), abajo = a.videos_indice.slice(-3).reverse();
+  const est = leer(datos);
+  const prompt = [
+    "Eres el analista de una cuenta de v\xEDdeos cortos verticales de curiosidades (Instagram, TikTok, YouTube Shorts, Facebook).",
+    "Tu trabajo: descubrir POR QU\xC9 unos v\xEDdeos llegan a mucha m\xE1s gente que otros y c\xF3mo hacer los siguientes m\xE1s virales.",
+    "\xCDndice = vistas frente a las publicaciones anteriores de la cuenta en la misma red y a la misma edad (1\xD7 = lo normal).",
+    `Hay ${a.videos} v\xEDdeos. Con tan pocos, desconf\xEDa de las coincidencias: busca mecanismos (qu\xE9 hace el espectador en el primer segundo, si hay promesa, si se entiende sin sonido, si hay giro\u2026), no correlaciones sueltas.`,
+    "",
+    "## Rasgos frente al alcance (\xEDndice por nivel, n = publicaciones)",
+    JSON.stringify(a.factores),
+    "",
+    "## Retenci\xF3n (TikTok): puntos perdidos por segundo en cada tramo",
+    JSON.stringify(a.retencion),
+    "",
+    "## Los que M\xC1S funcionaron",
+    ...arriba.map(ficha),
+    "",
+    "## Los que MENOS funcionaron",
+    ...abajo.map(ficha),
+    "",
+    `## Experimentos: activo ${est.activo?.variable ?? "ninguno"}; en cola ${est.cola.map((x) => x.variable).join(", ") || "ninguno"}; cerrados: ${est.cerrados.map((c) => c.conclusion).join(" | ") || "ninguno"}`,
+    "",
+    "Responde SOLO con un JSON as\xED:",
+    '{"analisis": "6-12 frases en espa\xF1ol con lo que separa a los mejores de los peores y por qu\xE9",',
+    ' "hipotesis": [{"texto": "lecci\xF3n GENERAL aplicable a cualquier v\xEDdeo de curiosidades, en imperativo, sin t\xEDtulos ni nombres de cuenta (m\xE1x. 220 caracteres)", "confianza": "alta|media|baja"}],',
+    ' "experimentos": [{"variable": "nombre_corto_sin_espacios", "pregunta": "...", "variantes": [{"id": "corto", "instruccion": "orden concreta para el guionista, comprobable en el v\xEDdeo"}]}]}',
+    "M\xE1ximo 5 hip\xF3tesis y 2 experimentos (cada experimento con 2-3 variantes que cambien SOLO esa variable y que no repitan las variables ya probadas o en cola)."
+  ].join("\n");
+  const j = jsonDeClaude(await claude2(prompt));
+  const hip = (j.hipotesis ?? []).slice(0, 5);
+  const exps = (j.experimentos ?? []).slice(0, 2).map((x) => ({ ...x, origen: `revisi\xF3n ${(/* @__PURE__ */ new Date()).toISOString().slice(0, 10)}` }));
+  proponer(datos, exps);
+  const hoy = (/* @__PURE__ */ new Date()).toISOString().slice(0, 10);
+  const informe = [
+    `# Revisi\xF3n ${hoy} \xB7 ${a.videos} v\xEDdeos`,
+    "",
+    j.analisis ?? "",
+    "",
+    "## Hip\xF3tesis",
+    ...hip.map((h) => `- (${h.confianza}) ${h.texto}`),
+    "",
+    "## Experimentos propuestos",
+    ...exps.map((x) => `- ${x.variable}: ${x.pregunta} \u2192 ${x.variantes.map((v) => v.id).join(" / ")}`),
+    "",
+    "## Mejores",
+    ...arriba.map(ficha),
+    "",
+    "## Peores",
+    ...abajo.map(ficha)
+  ].join("\n");
+  fs7.writeFileSync(path7.join(dir, `${hoy}.md`), informe, "utf8");
+  if (skillDir && hip.length) {
+    const md = path7.join(skillDir, "referencia", "aprendizajes.md");
+    const ini = "<!-- revision:inicio -->", fin = "<!-- revision:fin -->";
+    const bloque = [
+      ini,
+      `### Pistas de la \xFAltima revisi\xF3n (${hoy} \xB7 ${a.videos} v\xEDdeos; hip\xF3tesis pendientes de experimento)`,
+      ...hip.map((h) => `- **Hip\xF3tesis (${h.confianza})** \xB7 ${h.texto}`),
+      fin
+    ].join("\n");
+    let texto = fs7.existsSync(md) ? fs7.readFileSync(md, "utf8") : "";
+    texto = texto.includes(ini) ? texto.replace(new RegExp(`${ini}[\\s\\S]*?${fin}`), bloque) : `${texto.trimEnd()}
+
+${bloque}
+`;
+    fs7.writeFileSync(md, texto, "utf8");
+  }
+  return informe;
 }
 
 // src/analitica/cli.ts
-var SKILL_DEV = process.env.SKILL_DEV ?? path5.join(os2.homedir(), "dev", "contratitular-skill", "contratitular-videos");
+var SKILL_DEV = process.env.SKILL_DEV ?? path8.join(os3.homedir(), "dev", "contratitular-skill", "contratitular-videos");
 function opciones(desde) {
   const a = process.argv.slice(desde), op = {};
   for (let k = 0; k < a.length; k++) if (a[k].startsWith("--")) op[a[k].slice(2)] = a[k + 1] && !a[k + 1].startsWith("--") ? a[++k] : "";
@@ -3500,15 +3937,20 @@ async function main() {
       break;
     }
     case "diagnostico": {
-      const { texto, archivo: archivo2 } = diagnostico(DATOS);
+      const { texto, archivo: archivo3 } = diagnostico(DATOS);
       console.log(texto);
-      if (archivo2) console.log(`
-\u{1F4DD} ${archivo2}`);
+      if (archivo3) console.log(`
+\u{1F4DD} ${archivo3}`);
       break;
     }
     case "aprender": {
-      const a = calcular(DATOS);
-      const skill = "sin-skill" in op || !fs5.existsSync(SKILL_DEV) ? null : SKILL_DEV;
+      let a = calcular(DATOS);
+      const cerrado = evaluar(DATOS, new Map(a.videos_indice.map((v) => [v.id, v])));
+      if (cerrado) {
+        console.log(`\u{1F9EA} Experimento cerrado (${cerrado.variable}): ${cerrado.conclusion}`);
+        a = calcular(DATOS);
+      }
+      const skill = "sin-skill" in op || !fs8.existsSync(SKILL_DEV) ? null : SKILL_DEV;
       guardar(DATOS, a, skill);
       console.log(`\u2705 ${a.videos} v\xEDdeos, ${a.publicaciones} publicaciones maduras \xB7 ${a.conclusiones.filter((c) => c.tipo === "regla").length} reglas, ${a.conclusiones.filter((c) => c.tipo === "hipotesis").length} hip\xF3tesis`);
       for (const c of a.conclusiones) console.log(`  ${c.tipo === "regla" ? "\u25A0" : "\u25A1"} ${c.texto}`);
@@ -3530,8 +3972,8 @@ async function main() {
     }
     case "sincronizar": {
       if (!arg1) throw new Error("Uso: sincronizar <carpeta de la web>");
-      const web = path5.resolve(arg1), git = (...a) => execFileSync("git", a, { cwd: web, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] });
-      const esGit = fs5.existsSync(path5.join(web, ".git"));
+      const web = path8.resolve(arg1), git = (...a) => execFileSync2("git", a, { cwd: web, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] });
+      const esGit = fs8.existsSync(path8.join(web, ".git"));
       if (esGit) {
         try {
           git("pull", "--rebase", "--autostash", "-q");
@@ -3539,16 +3981,26 @@ async function main() {
           console.log(`\u26A0 git pull: ${e.message.split("\n")[0]}`);
         }
       }
+      try {
+        await huellas(DATOS);
+      } catch (e) {
+        console.log(`\u26A0 huellas: ${e.message.split("\n")[0]}`);
+      }
       for (const f of ["publicaciones.json", "cuentas.json", "aprendizaje.json"]) {
-        const o = path5.join(web, "datos", "redes", f), d = path5.join(DATOS, "redes", f);
-        if (fs5.existsSync(o) && (!fs5.existsSync(d) || fs5.statSync(o).size >= fs5.statSync(d).size)) {
-          fs5.mkdirSync(path5.dirname(d), { recursive: true });
-          fs5.copyFileSync(o, d);
+        const o = path8.join(web, "datos", "redes", f), d = path8.join(DATOS, "redes", f);
+        if (fs8.existsSync(o) && (!fs8.existsSync(d) || fs8.statSync(o).size >= fs8.statSync(d).size)) {
+          fs8.mkdirSync(path8.dirname(d), { recursive: true });
+          fs8.copyFileSync(o, d);
         }
       }
       const limpio = leerRegistro(DATOS).map((e) => ({ ...e, carpeta: idDe(e), id: idDe(e), metricas: [] }));
-      fs5.mkdirSync(path5.join(web, "datos"), { recursive: true });
-      fs5.writeFileSync(path5.join(web, "datos", "registro.json"), JSON.stringify(limpio, null, 1), "utf8");
+      fs8.mkdirSync(path8.join(web, "datos"), { recursive: true });
+      fs8.writeFileSync(path8.join(web, "datos", "registro.json"), JSON.stringify(limpio, null, 1), "utf8");
+      const exp = path8.join(DATOS, "redes", "experimentos.json");
+      if (fs8.existsSync(exp)) {
+        fs8.mkdirSync(path8.join(web, "datos", "redes"), { recursive: true });
+        fs8.copyFileSync(exp, path8.join(web, "datos", "redes", "experimentos.json"));
+      }
       const { build } = await Promise.resolve().then(() => __toESM(require_main(), 1));
       await build({
         entryPoints: ["src/analitica/cli.ts"],
@@ -3556,7 +4008,7 @@ async function main() {
         platform: "node",
         format: "esm",
         logLevel: "warning",
-        outfile: path5.join(web, "pipeline", "colector.mjs"),
+        outfile: path8.join(web, "pipeline", "colector.mjs"),
         banner: { js: '// Colector del observatorio de Contratitular (generado: no editar).\nimport { createRequire as __cr } from "module"; const require = __cr(import.meta.url);' }
       });
       console.log(`\u2705 Registro (${limpio.length} v\xEDdeos) y colector copiados a ${web}`);
@@ -3574,23 +4026,44 @@ async function main() {
     }
     case "registrar": {
       if (!arg1) throw new Error("Uso: registrar <carpeta del v\xEDdeo>");
-      const dir = path5.resolve(arg1.replace(/guion\.json$/i, ""));
-      const base = path5.join(process.cwd(), "node_modules", "@remotion");
-      const comp = fs5.readdirSync(base).find((d) => d.startsWith(`compositor-${process.platform}-${process.arch}`));
-      const exe = path5.join(base, comp, process.platform === "win32" ? "ffprobe.exe" : "ffprobe");
-      const dur = Number(execFileSync(exe, ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path5.join(dir, "video.mp4")], { cwd: path5.dirname(exe), encoding: "utf8" }).trim());
+      const dir = path8.resolve(arg1.replace(/guion\.json$/i, ""));
+      const base = path8.join(process.cwd(), "node_modules", "@remotion");
+      const comp = fs8.readdirSync(base).find((d) => d.startsWith(`compositor-${process.platform}-${process.arch}`));
+      const exe = path8.join(base, comp, process.platform === "win32" ? "ffprobe.exe" : "ffprobe");
+      const dur = Number(execFileSync2(exe, ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path8.join(dir, "video.mp4")], { cwd: path8.dirname(exe), encoding: "utf8" }).trim());
       registrarAntiguo(DATOS, dir, dur, { familia: op.familia, voz: op.voz });
-      console.log(`\u2705 Registrado (${dur.toFixed(1)} s): ${path5.basename(dir)}`);
+      console.log(`\u2705 Registrado (${dur.toFixed(1)} s): ${path8.basename(dir)}`);
       break;
     }
     case "vincular": {
       if (!arg1 || !arg2 || !arg3) throw new Error("Uso: vincular <red> <id> <carpeta del v\xEDdeo>");
       vincular(DATOS, arg1, arg2, arg3);
-      console.log(`\u2705 ${arg1}:${arg2} \u2192 ${path5.basename(arg3)}`);
+      console.log(`\u2705 ${arg1}:${arg2} \u2192 ${path8.basename(arg3)}`);
+      break;
+    }
+    case "huella": {
+      const n = await huellas(DATOS, { todas: "todas" in op, sinClaude: "sin-claude" in op });
+      console.log(`\u2705 ${n} huellas nuevas`);
+      break;
+    }
+    case "experimento": {
+      if (arg1 === "asignar") {
+        console.log(JSON.stringify(asignar(DATOS), null, 1));
+        break;
+      }
+      const e = leer(DATOS);
+      console.log(e.activo ? `\u{1F9EA} Activo: ${e.activo.pregunta} (desde ${e.activo.inicio}) \xB7 ${JSON.stringify(e.activo.asignados ?? {})}` : "\u{1F9EA} Ninguno activo (arranca con el pr\xF3ximo v\xEDdeo)");
+      console.log(`En cola: ${e.cola.map((x) => x.variable).join(", ") || "\u2014"}`);
+      for (const c of e.cerrados) console.log(`  \u2714 ${c.fin} ${c.variable}: ${c.conclusion}`);
+      break;
+    }
+    case "revisar": {
+      const skill = "sin-skill" in op || !fs8.existsSync(SKILL_DEV) ? null : SKILL_DEV;
+      console.log(await revisar(DATOS, skill, { forzar: "forzar" in op }));
       break;
     }
     default:
-      console.log("\xD3rdenes: recoger \xB7 diagnostico \xB7 aprender \xB7 observatorio \xB7 colector \xB7 registrar \xB7 vincular");
+      console.log("\xD3rdenes: recoger \xB7 diagnostico \xB7 aprender \xB7 observatorio \xB7 colector \xB7 registrar \xB7 vincular \xB7 huella \xB7 experimento \xB7 revisar");
   }
 }
 main().catch((e) => {

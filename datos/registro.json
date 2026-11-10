@@ -68,6 +68,32 @@
   ],
   "datos": [],
   "metricas": [],
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-10",
+   "medido": {
+    "palabras_s": 2.71,
+    "escenas_min": 11.8,
+    "cifra_al_inicio": true,
+    "gancho_palabras": 13,
+    "portada_texto": false,
+    "giro_en_guion": false
+   },
+   "visto": {
+    "tema": "historia",
+    "emocion": "asombro",
+    "gancho_tipo": "cifra chocante",
+    "cercania": "mundo",
+    "promesa": "no",
+    "giro": "sí",
+    "cierre": "pregunta",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "no",
+    "por_que": "Gancho visual claro con texto grande y un interruptor animado, y una causa mínima con efecto enorme. Pero la primera frase no promete una recompensa concreta, y la ilustración es genérica y sin cara."
+   }
+  },
   "id": "2026-11-09-1330"
  },
  {
@@ -142,7 +168,33 @@
   "metricas": [],
   "texto": "Por qué huele tan bien la lluvia: el olor que fabrican las bacterias El petricor lo bautizaron en 1964 Isabel Joy Bear y Richard Thomas, del CSIRO australiano, en un artículo de la revista Nature. La geosmina la producen bacterias del suelo (sobre todo del género Streptomyces) y es la misma molécula que da a la remolacha su sabor «a tierra». ¿Tú también lo hueles antes de que empiece a llover? 🌧️ Ese olor a tierra mojada cuando empieza a llover tiene nombre, y no se lo puso un poeta, sino dos científicos australianos que en 1964 lo llamaron petricor: «piedra» y «sangre de los dioses». Y lo curioso es quién lo fabrica: bacterias del suelo que sueltan una molécula, la geosmina. Mientras la tierra está seca, se va quedando guardada entre sus granos… hasta que cae la primera gota: atrapa burbujitas de aire que, al estallar, lanzan el aroma. Y tu nariz la detectaría aunque echaras una cucharadita en 200 piscinas olímpicas. ¿Por qué tan fina? Quizá porque a nuestros antepasados les ayudaba a encontrar agua. Así que la próxima vez que huela a lluvia, fíjate: ¿lo notas antes de verla?",
   "familia": "gota",
-  "voz": "es-ES-Tristan:DragonHDLatestNeural"
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-10",
+   "medido": {
+    "palabras_s": 2.98,
+    "escenas_min": 11.9,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 18,
+    "portada_texto": false,
+    "giro_en_guion": false
+   },
+   "visto": {
+    "tema": "ciencia",
+    "emocion": "asombro",
+    "gancho_tipo": "otro",
+    "cercania": "universal",
+    "promesa": "no",
+    "giro": "no",
+    "cierre": "pregunta",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Ilustración clara y animada con subtítulos y un dato final potente (200 piscinas), pero la apertura es descriptiva, sin promesa ni tensión, y el personaje aparece tarde."
+   }
+  }
  },
  {
   "carpeta": "2026-11-11-1330",
@@ -206,6 +258,32 @@
   ],
   "datos": [],
   "metricas": [],
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-10",
+   "medido": {
+    "palabras_s": 2.52,
+    "escenas_min": 9.8,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 13,
+    "portada_texto": false,
+    "giro_en_guion": false
+   },
+   "visto": {
+    "tema": "economía",
+    "emocion": "asombro",
+    "gancho_tipo": "otro",
+    "cercania": "mundo",
+    "promesa": "no",
+    "giro": "no",
+    "cierre": "pregunta",
+    "primer_fotograma_claro": "no",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "El 11/11 y la explicación de los «unos solteros» intrigan, y el salto de 50 a 268.400 millones impacta. Pero el arranque visual es pobre: título a medias, sin calendario ni personaje."
+   }
+  },
   "id": "2026-11-11-1330"
  },
  {
@@ -290,7 +368,33 @@
   "id": "2026-11-09-prueba-endurance",
   "texto": "28 hombres atrapados en el hielo y un barco que tardó un siglo en aparecer El Endurance de Ernest Shackleton quedó atrapado en el hielo del mar de Weddell en 1915. Tras su hundimiento, la tripulación pasó meses sobre el hielo, llegó en botes a la isla Elefante y seis hombres navegaron hasta Georgia del Sur en el James Caird para pedir ayuda. En 2022, una expedición encontró el pecio a 3.008 metros de profundidad, a pocos kilómetros de donde lo había situado su capitán. 28 hombres atrapados en el hielo de la Antártida, sin barco y sin forma de pedir ayuda: era 1915, el hielo había aplastado su barco, el Endurance, y lo vieron hundirse, así que la pregunta era sencilla: ¿cómo sales vivo de allí? Primero, acampando meses sobre el hielo, hasta que en tres botes llegaron a una isla helada y deshabitada: Elefante. Pero allí nadie los iba a buscar, así que seis de ellos cruzaron más de 1.200 kilómetros de océano en un bote de siete metros, y llegaron a Georgia del Sur… por el lado equivocado, y aún tuvieron que cruzar a pie sus montañas heladas. Y cuando por fin volvieron a por los que esperaban en la isla, no faltaba nadie: los 28 sobrevivieron. Pero el barco se quedó en el fondo del mar, y durante más de un siglo nadie supo dónde estaba, hasta que en 2022 lo encontraron a 3.008 metros de profundidad, tan entero que todavía se lee su nombre.",
   "familia": "tum",
-  "voz": "es-ES-Tristan:DragonHDLatestNeural"
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-10",
+   "medido": {
+    "palabras_s": 3.05,
+    "escenas_min": 10,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 17,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "historia",
+    "emocion": "asombro",
+    "gancho_tipo": "cifra chocante",
+    "cercania": "mundo",
+    "promesa": "no",
+    "giro": "sí",
+    "cierre": "dato final",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Abre con una cifra y peligro claros y un giro potente (los 28 sobreviven), pero la ilustración es estática y el hallazgo final del barco puede sentirse como un segundo clímax que diluye el ritmo."
+   }
+  }
  },
  {
   "carpeta": "2026-11-11-1330-v2",
@@ -381,6 +485,125 @@
   "id": "2026-11-11-1330-v2",
   "texto": "Cuatro estudiantes solteros inventaron el día de compras más grande del mundo El Día del Soltero nació en 1993 en la Universidad de Nankín, como una celebración entre estudiantes sin pareja: el 11/11 son cuatro unos, y en el argot chino a un soltero se le llama «palo desnudo». En 2009 una plataforma china de comercio online lanzó ofertas ese día y vendió unos 50 millones de yuanes; en 2019 llegó a 268.400 millones (unos 38.400 millones de dólares) en un solo día. ¿Tú hoy compras o celebras? Te leo en comentarios. Hoy, 11 del 11, es el día de compras más grande del mundo, y no lo inventó ninguna tienda: lo inventaron cuatro estudiantes solteros de una residencia de la Universidad de Nankín, en 1993, que querían un día para celebrar, precisamente, que no tenían pareja. ¿Y por qué justo el 11 del 11? Fíjate en la fecha: son cuatro unos, como cuatro palitos solos, y en China a un soltero le llaman «palo desnudo». Fue una broma de universitarios hasta que, en 2009, una plataforma china de compras online lanzó ofertas ese día y vendió unos 50 millones de yuanes. Diez años después, esa misma plataforma vendió 268.400 millones en un solo día: más de cinco mil veces más, por una fecha que eligieron cuatro solteros. Así que si hoy te llega una oferta, ya sabes: todo empezó con cuatro chicos que no tenían con quién celebrarlo.",
   "familia": "burbuja",
-  "voz": "es-ES-Tristan:DragonHDLatestNeural"
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-10",
+   "medido": {
+    "palabras_s": 2.91,
+    "escenas_min": 11.9,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 19,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "economía",
+    "emocion": "asombro",
+    "gancho_tipo": "contradicción",
+    "cercania": "mundo",
+    "promesa": "sí",
+    "giro": "sí",
+    "cierre": "bucle",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "no",
+    "por_que": "Gancho con la fecha de hoy y un «no lo inventó ninguna tienda» que intriga, y el giro de 50 a 268.400 millones lo sostiene. Visual neón genérico sin caras; puede aburrir en las escenas de cifras."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-10-1430",
+  "titulo": "La parte de tu ojo que respira aire en vez de sangre",
+  "fecha": "2026-11-10",
+  "duracion": 40.5,
+  "estilo": "limpio",
+  "serie": "Cuerpo humano",
+  "gancho": "Parte de tu ojo respira directamente del aire, y no de la sangre,",
+  "palabras": 138,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 3.4,
+    "frase": "Parte de tu ojo respira directamente del aire, y no de la sangre,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 3.4,
+    "fin": 8.34,
+    "frase": "Es la córnea, la cúpula transparente de delante, y no tiene ni un solo vaso sanguíneo.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 8.34,
+    "fin": 12.48,
+    "frase": "Entonces, ¿de dónde saca el oxígeno una parte del cuerpo que vive sin sangre?",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 12.48,
+    "fin": 18.22,
+    "frase": "Y la respuesta está en tus lágrimas, que lo toman del aire, y en el líquido transparente que hay justo detrás.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 18.22,
+    "fin": 24.3,
+    "frase": "Y tiene su lógica: sin vasos de por medio, la luz cruza la córnea sin estorbos y la imagen llega limpia.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 24.3,
+    "fin": 30.94,
+    "frase": "Por eso, cuando te pones una lentilla, el material tiene que dejar pasar el oxígeno: si no, la córnea se queda sin aire y se hincha.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 30.94,
+    "fin": 40.48,
+    "frase": "Y de noche, con los párpados cerrados, le llega menos oxígeno y se apoya en los vasos del párpado: tu ojo cambia de fuente para seguir respirando.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-10-1430",
+  "texto": "La parte de tu ojo que respira aire en vez de sangre La córnea no tiene vasos sanguíneos: el oxígeno le llega del aire disuelto en las lágrimas y, de noche, desde los vasos del párpado. Por eso las lentillas se fabrican con materiales que dejan pasar el oxígeno. ¿Lo sabías? 👁️ Compártelo con quien lleve lentillas. Parte de tu ojo respira directamente del aire, y no de la sangre, Es la córnea, la cúpula transparente de delante, y no tiene ni un solo vaso sanguíneo. Entonces, ¿de dónde saca el oxígeno una parte del cuerpo que vive sin sangre? Y la respuesta está en tus lágrimas, que lo toman del aire, y en el líquido transparente que hay justo detrás. Y tiene su lógica: sin vasos de por medio, la luz cruza la córnea sin estorbos y la imagen llega limpia. Por eso, cuando te pones una lentilla, el material tiene que dejar pasar el oxígeno: si no, la córnea se queda sin aire y se hincha. Y de noche, con los párpados cerrados, le llega menos oxígeno y se apoya en los vasos del párpado: tu ojo cambia de fuente para seguir respirando.",
+  "familia": "gota",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-10",
+   "medido": {
+    "palabras_s": 3.41,
+    "escenas_min": 10.4,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 13,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "cuerpo humano",
+    "emocion": "asombro",
+    "gancho_tipo": "contradicción",
+    "cercania": "universal",
+    "promesa": "no",
+    "giro": "sí",
+    "cierre": "dato final",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "no",
+    "por_que": "La paradoja de un ojo que respira aire engancha y la ilustración es clara, pero la primera frase no promete una recompensa concreta y los 40 s de explicación pueden cansar."
+   }
+  }
  }
 ]
