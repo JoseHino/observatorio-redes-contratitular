@@ -1,128 +1,268 @@
 {
- "actualizado": "2026-11-10T07:18:04.037Z",
- "publicaciones": 8,
- "videos": 3,
+ "actualizado": "2026-11-10T08:18:05.400Z",
+ "publicaciones": 12,
+ "videos": 4,
  "factores": {
   "día": {
    "lunes": {
-    "n": 4,
-    "vistas": 1.06,
-    "interaccion": 1.08
+    "n": 8,
+    "vistas": 0.96,
+    "interaccion": 0.86
    },
    "domingo": {
     "n": 4,
     "vistas": 0.97,
-    "interaccion": 0.51
+    "interaccion": 0.49
    }
   },
   "franja": {
    "mediodía": {
     "n": 4,
     "vistas": 1.06,
-    "interaccion": 1.08
+    "interaccion": 1.05
    },
    "noche": {
-    "n": 4,
-    "vistas": 0.97,
-    "interaccion": 0.51
+    "n": 8,
+    "vistas": 0.91,
+    "interaccion": 0.54
    }
   },
   "estilo": {
    "pop": {
     "n": 4,
     "vistas": 1.06,
-    "interaccion": 1.08
+    "interaccion": 1.05
+   },
+   "pizarra": {
+    "n": 4,
+    "vistas": 0.88,
+    "interaccion": 0.73
    }
   },
   "serie": {
    "Tal día como hoy": {
     "n": 4,
     "vistas": 1.06,
-    "interaccion": 1.08
+    "interaccion": 1.05
+   },
+   "Ciencia": {
+    "n": 4,
+    "vistas": 0.88,
+    "interaccion": 0.73
    }
   },
   "duración": {
    "33-43 s": {
-    "n": 4,
-    "vistas": 1.06,
-    "interaccion": 1.08
+    "n": 8,
+    "vistas": 0.96,
+    "interaccion": 0.86
    }
   },
   "gancho": {
    "con cifra": {
     "n": 4,
     "vistas": 1.06,
-    "interaccion": 1.08
+    "interaccion": 1.05
+   },
+   "afirmación": {
+    "n": 4,
+    "vistas": 0.88,
+    "interaccion": 0.73
    }
   },
   "gancho largo": {
    "largo (>12)": {
-    "n": 4,
-    "vistas": 1.06,
-    "interaccion": 1.08
+    "n": 8,
+    "vistas": 0.96,
+    "interaccion": 0.86
    }
   },
   "escenas de datos": {
    "no": {
-    "n": 4,
-    "vistas": 1.06,
-    "interaccion": 1.08
+    "n": 8,
+    "vistas": 0.96,
+    "interaccion": 0.86
    }
   },
   "hora": {
    "12-14 h": {
     "n": 4,
     "vistas": 1.06,
-    "interaccion": 1.08
+    "interaccion": 1.05
    },
    "20-22 h": {
-    "n": 4,
-    "vistas": 0.97,
-    "interaccion": 0.51
+    "n": 8,
+    "vistas": 0.91,
+    "interaccion": 0.54
    }
   },
   "red": {
    "instagram": {
-    "n": 2,
-    "vistas": 1.45,
-    "interaccion": 0.88
+    "n": 3,
+    "vistas": 1.1,
+    "interaccion": 0.5
    },
    "tiktok": {
-    "n": 2,
-    "vistas": 0.84,
+    "n": 3,
+    "vistas": 0.87,
     "interaccion": 0.99
    },
    "youtube": {
-    "n": 2,
-    "vistas": 0.88,
-    "interaccion": 0.99
+    "n": 3,
+    "vistas": 0.94,
+    "interaccion": 1.15
    },
    "facebook": {
-    "n": 2,
+    "n": 3,
     "vistas": 0.99,
-    "interaccion": 0.47
+    "interaccion": 0.55
+   }
+  },
+  "sonido": {
+   "gota": {
+    "n": 4,
+    "vistas": 0.88,
+    "interaccion": 0.73
+   }
+  },
+  "voz": {
+   "Tristan HD": {
+    "n": 4,
+    "vistas": 0.88,
+    "interaccion": 0.73
    }
   }
  },
- "conclusiones": [],
+ "conclusiones": [
+  {
+   "tipo": "hipotesis",
+   "factor": "franja",
+   "mejor": "mediodía",
+   "n": 12,
+   "detalle": {
+    "mejor": {
+     "v": "mediodía",
+     "vistas": 1.06,
+     "interaccion": 1.05,
+     "n": 4
+    },
+    "resto": [
+     {
+      "v": "noche",
+      "vistas": 0.91,
+      "n": 8
+     }
+    ]
+   },
+   "texto": "franja: «mediodía» consigue 1.06× el alcance medio (n=4) e interacción 1.05×; frente a noche 0.91× (n=8)."
+  },
+  {
+   "tipo": "hipotesis",
+   "factor": "estilo",
+   "mejor": "pop",
+   "n": 8,
+   "detalle": {
+    "mejor": {
+     "v": "pop",
+     "vistas": 1.06,
+     "interaccion": 1.05,
+     "n": 4
+    },
+    "resto": [
+     {
+      "v": "pizarra",
+      "vistas": 0.88,
+      "n": 4
+     }
+    ]
+   },
+   "texto": "estilo: «pop» consigue 1.06× el alcance medio (n=4) e interacción 1.05×; frente a pizarra 0.88× (n=4)."
+  },
+  {
+   "tipo": "hipotesis",
+   "factor": "serie",
+   "mejor": "Tal día como hoy",
+   "n": 8,
+   "detalle": {
+    "mejor": {
+     "v": "Tal día como hoy",
+     "vistas": 1.06,
+     "interaccion": 1.05,
+     "n": 4
+    },
+    "resto": [
+     {
+      "v": "Ciencia",
+      "vistas": 0.88,
+      "n": 4
+     }
+    ]
+   },
+   "texto": "serie: «Tal día como hoy» consigue 1.06× el alcance medio (n=4) e interacción 1.05×; frente a Ciencia 0.88× (n=4)."
+  },
+  {
+   "tipo": "hipotesis",
+   "factor": "gancho",
+   "mejor": "con cifra",
+   "n": 8,
+   "detalle": {
+    "mejor": {
+     "v": "con cifra",
+     "vistas": 1.06,
+     "interaccion": 1.05,
+     "n": 4
+    },
+    "resto": [
+     {
+      "v": "afirmación",
+      "vistas": 0.88,
+      "n": 4
+     }
+    ]
+   },
+   "texto": "gancho: «con cifra» consigue 1.06× el alcance medio (n=4) e interacción 1.05×; frente a afirmación 0.88× (n=4)."
+  },
+  {
+   "tipo": "hipotesis",
+   "factor": "hora",
+   "mejor": "12-14 h",
+   "n": 12,
+   "detalle": {
+    "mejor": {
+     "v": "12-14 h",
+     "vistas": 1.06,
+     "interaccion": 1.05,
+     "n": 4
+    },
+    "resto": [
+     {
+      "v": "20-22 h",
+      "vistas": 0.91,
+      "n": 8
+     }
+    ]
+   },
+   "texto": "hora: «12-14 h» consigue 1.06× el alcance medio (n=4) e interacción 1.05×; frente a 20-22 h 0.91× (n=8)."
+  }
+ ],
  "pesos": {
   "familia": {
-   "pop": 0.111,
-   "gota": 0.111,
-   "madera": 0.111,
-   "marimba": 0.111,
-   "kalimba": 0.111,
-   "campanita": 0.111,
-   "cuerda": 0.111,
-   "burbuja": 0.111,
-   "tum": 0.111
+   "pop": 0.113,
+   "gota": 0.098,
+   "madera": 0.113,
+   "marimba": 0.113,
+   "kalimba": 0.113,
+   "campanita": 0.113,
+   "cuerda": 0.113,
+   "burbuja": 0.113,
+   "tum": 0.113
   },
   "estilo": {
-   "papel": 0.198,
-   "neon": 0.198,
-   "pop": 0.207,
-   "pizarra": 0.198,
-   "limpio": 0.198
+   "papel": 0.204,
+   "neon": 0.204,
+   "pop": 0.211,
+   "pizarra": 0.177,
+   "limpio": 0.204
   }
  },
  "horas_recomendadas": [
