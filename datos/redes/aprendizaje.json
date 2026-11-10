@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T01:18:00.398Z",
+ "actualizado": "2026-11-10T02:17:59.314Z",
  "publicaciones": 8,
  "videos": 3,
  "factores": {
@@ -11,7 +11,7 @@
    },
    "domingo": {
     "n": 4,
-    "vistas": 1.16,
+    "vistas": 1.13,
     "interaccion": 0.51
    }
   },
@@ -23,7 +23,7 @@
    },
    "noche": {
     "n": 4,
-    "vistas": 1.16,
+    "vistas": 1.13,
     "interaccion": 0.51
    }
   },
@@ -77,25 +77,25 @@
    },
    "20-22 h": {
     "n": 4,
-    "vistas": 1.16,
+    "vistas": 1.13,
     "interaccion": 0.51
    }
   },
   "red": {
    "instagram": {
     "n": 2,
-    "vistas": 1.5,
-    "interaccion": 0.86
+    "vistas": 1.47,
+    "interaccion": 0.87
    },
    "tiktok": {
     "n": 2,
-    "vistas": 1.06,
+    "vistas": 1.01,
     "interaccion": 0.99
    },
    "youtube": {
     "n": 2,
-    "vistas": 0.89,
-    "interaccion": 1
+    "vistas": 0.9,
+    "interaccion": 0.99
    },
    "facebook": {
     "n": 2,
@@ -126,7 +126,7 @@
   }
  },
  "horas_recomendadas": [
-  "20-22 h",
-  "12-14 h"
+  "12-14 h",
+  "20-22 h"
  ]
 }
