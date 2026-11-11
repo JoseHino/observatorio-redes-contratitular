@@ -35,6 +35,7 @@ jobs:
         env:
           UPLOADPOST_API_KEY: ${{ secrets.UPLOADPOST_API_KEY }}
           UPLOADPOST_USER: ${{ secrets.UPLOADPOST_USER }}
+          UPLOADPOST_FACEBOOK_PAGE_ID: ${{ secrets.UPLOADPOST_FACEBOOK_PAGE_ID }}
           CONTRATITULAR_DATOS: datos
         run: node pipeline/colector.mjs colector .
 

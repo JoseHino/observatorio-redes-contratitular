@@ -254,15 +254,76 @@
     }
   };
 
+  /* ¿A qué hora publicar?: índice a la misma edad (3 h y 24 h) según la hora de publicación (hora de Madrid) */
+  var H = D.hora || {};
+  var FRANJA_TXT = { 'mañana': L('mañana (antes de 12 h)', 'morning (before 12:00)'), 'mediodía': L('mediodía (12-16 h)', 'midday (12:00-16:00)'),
+    tarde: L('tarde (16-20 h)', 'afternoon (16:00-20:00)'), noche: L('noche (desde 20 h)', 'night (from 20:00)') };
+  var hora = {
+    id: 'hora', nombre: L('¿A qué hora?', 'What time?'),
+    titulo: L('¿Influye la hora a la que se publica?', 'Does posting time matter?'),
+    desc: L('Cada día se publican dos vídeos, uno a mediodía y otro por la noche, y la hora exacta se sortea dentro de cada ventana (en tramos de 15 minutos), así que la hora no la elige nadie según el vídeo. Para que sea justo, todos se comparan a la misma edad: a las 3 horas (cómo arranca) y a las 24 horas (a cuánta gente llega), frente a las publicaciones anteriores de la cuenta en esa red. La prueba que manda compara, día a día, el vídeo de mediodía con el de la noche del mismo día.',
+      'Two videos are posted every day, one at midday and one at night, and the exact time is drawn at random within each window (in 15-minute slots), so nobody picks the time based on the video. To be fair, all of them are compared at the same age: at 3 hours (how it starts) and at 24 hours (how many people it reaches), against the account\'s previous posts on that network. The deciding test compares, day by day, the midday video with the night video from the same day.'),
+    render: function () {
+      var r = H.resumen || {}, cards = [], partes = [];
+      var veredicto = {
+        pocos: L('<b>Aún no se puede decir.</b> Hay ' + (r.dias || 0) + ' día(s) con vídeo de mediodía y de noche ya maduros (24 h); hacen falta al menos 6 para empezar a sacar conclusiones.',
+          '<b>Too early to say.</b> There are ' + (r.dias || 0) + ' day(s) with both a midday and a night video older than 24 hours; at least 6 are needed before drawing conclusions.'),
+        mediodia: L('<b>Mejor a mediodía.</b>', '<b>Midday works better.</b>'), noche: L('<b>Mejor por la noche.</b>', '<b>Night works better.</b>'),
+        igual: L('<b>Sin diferencia clara</b> entre mediodía y noche por ahora.', '<b>No clear difference</b> between midday and night so far.')
+      }[r.veredicto || 'pocos'];
+      if (r.dias) veredicto += ' ' + L('El vídeo de mediodía ganó ' + r.ganaMediodia + ' de ' + r.dias + ' días; de media llega a ' + Math.round((r.cociente || 1) * 100) + ' por cada 100 del de la noche' + (r.p != null ? ' (p = ' + F.num(r.p, 2) + ')' : '') + '.',
+        'The midday video won ' + r.ganaMediodia + ' of ' + r.dias + ' days; on average it reaches ' + Math.round((r.cociente || 1) * 100) + ' for every 100 of the night one' + (r.p != null ? ' (p = ' + F.num(r.p, 2) + ')' : '') + '.');
+      partes.push(veredicto);
+      partes.push(L('Se considera que una franja gana cuando la diferencia es de al menos el 25 % y la prueba de permutación da p < 0,1. Con pocos días, una diferencia grande puede ser casualidad (un tema mejor que otro); por eso se mira día a día y no solo la media.',
+        'A time slot is considered the winner when the difference is at least 25% and the permutation test gives p < 0.1. With few days a big difference can be chance (one topic better than another); that is why it is compared day by day and not just on average.'));
+      var vs = H.lista || [];
+      if (vs.length) cards.push({
+        titulo: L('Cada vídeo según la hora a la que se publicó', 'Each video by the time it was posted'),
+        sub: L('Índice a las 24 h, media de sus redes (100 = lo normal) · hora de Madrid, de la más temprana a la más tardía', 'Index at 24 h, averaged over its networks (100 = normal) · Madrid time, earliest to latest'),
+        chips: [CHIP_VIVO], fuente: FUENTE_UP, ancho: 'full',
+        spec: { type: 'barh', x: vs.map(function (v) { return v.hm + ' · ' + v.titulo; }), xFormat: ent, series: [{ name: L('Índice a 24 h', 'Index at 24 h'), data: vs.map(function (v) { return Math.round(v.indice * 100); }) }] }
+      });
+      var fr = H.franjas || [];
+      if (fr.length) cards.push({
+        titulo: L('Por franja: cómo arranca y a cuánta gente llega', 'By time slot: how it starts and how far it gets'),
+        sub: L('Índice a las 3 h y a las 24 h (100 = lo normal; n = publicaciones)', 'Index at 3 h and at 24 h (100 = normal; n = posts)'),
+        chips: [CHIP_VIVO], fuente: FUENTE_UP,
+        nota: L('Si de noche el índice a 3 h es bajo pero a 24 h se iguala, el vídeo solo arranca más despacio (la gente lo ve a la mañana siguiente).', 'If at night the 3 h index is low but evens out at 24 h, the video just starts slower (people watch it the next morning).'),
+        spec: { type: 'bar', xType: 'cat', yFormat: ent, ref: 100, refLabel: L('Lo normal', 'Normal'),
+          x: fr.map(function (f) { return (FRANJA_TXT[f.franja] || f.franja) + ' (n=' + f.n + ')'; }),
+          series: [{ name: L('A las 3 h', 'At 3 h'), data: base100(fr.map(function (f) { return f.i3; })) }, { name: L('A las 24 h', 'At 24 h'), data: base100(fr.map(function (f) { return f.i24; })) }] }
+      });
+      var ph = H.porHora || [];
+      if (ph.length) cards.push({
+        titulo: L('Por hora y por red', 'By hour and network'), sub: L('Índice a las 24 h de las publicaciones de cada hora (100 = lo normal)', 'Index at 24 h of the posts in each hour (100 = normal)'),
+        chips: [CHIP_VIVO], fuente: FUENTE_UP,
+        nota: L('Cada red tiene su público y su algoritmo: puede que la mejor hora no sea la misma en TikTok que en YouTube.', 'Each network has its own audience and algorithm: the best time may not be the same on TikTok as on YouTube.'),
+        spec: { type: 'bar', xType: 'cat', yFormat: ent, ref: 100, refLabel: L('Lo normal', 'Normal'),
+          x: ph.map(function (x) { return x.h + ':00 (n=' + x.n + ')'; }),
+          series: ORDEN.map(function (rd) { return { name: NOMBRES[rd], data: base100(ph.map(function (x) { return x.porRed[rd]; })) }; }) }
+      });
+      var pa = H.pares || [];
+      if (pa.length) cards.push({
+        titulo: L('Mediodía frente a noche, día a día', 'Midday against night, day by day'), sub: L('Índice a las 24 h de cada vídeo del mismo día (100 = lo normal)', 'Index at 24 h of each video from the same day (100 = normal)'),
+        chips: [CHIP_VIVO], fuente: FUENTE_UP, ancho: 'full',
+        spec: { type: 'bar', xType: 'cat', yFormat: ent, ref: 100, refLabel: L('Lo normal', 'Normal'),
+          x: pa.map(function (p) { return dia(p.fecha) + ' · ' + p.mediodia + ' / ' + p.noche; }),
+          series: [{ name: L('Mediodía', 'Midday'), data: base100(pa.map(function (p) { return p.im; })) }, { name: L('Noche', 'Night'), data: base100(pa.map(function (p) { return p.in; })) }] }
+      });
+      if (!cards.length) partes.push(L('Aún no hay vídeos con 24 horas: aparecerán aquí.', 'No videos older than 24 hours yet: they will appear here.'));
+      return { nota: partes.map(function (x) { return '<p style="margin:.4em 0">' + x + '</p>'; }).join(''), cards: cards };
+    }
+  };
+
   Obs.init({
     titulo: L('Observatorio de redes · Contratitular', 'Social media observatory · Contratitular'),
     subtitulo: L('Cifras de cada vídeo en cada red, actualizadas cada hora, y lo que se aprende de ellas', 'Figures for every video on every network, updated hourly, and what we learn from them'),
     otroIdioma: EN ? '../' : 'en/',
-    secciones: [resumen].concat(ORDEN.map(seccionRed)).concat([viralidad, aprendizajes]),
+    secciones: [resumen].concat(ORDEN.map(seccionRed)).concat([viralidad, hora, aprendizajes]),
     actualizado: (D.meta || {}).actualizado,
     fuentes: [FUENTE_UP],
-    metodologia: L('Una Action de GitHub consulta cada hora la API de estadísticas de Upload-Post: lista las publicaciones de cada red, las empareja con su vídeo y guarda una medición de cada una con la hora, de modo que se puede ver cómo crece cada vídeo. El índice de cada vídeo es su número de vistas dividido entre la mediana de las 10 publicaciones anteriores de la cuenta en esa red, medidas a la misma edad (72 o 24 horas), para que el crecimiento de la cuenta no se confunda con el mérito del vídeo. Claude describe cada vídeo con una taxonomía cerrada y los experimentos cambian una sola variable, repartida de forma equilibrada; se cierran con una prueba de permutación (p < 0,1 y ventaja de al menos el 25 %). Los aprendizajes promedian, para cada rasgo, el logaritmo de ese índice, con un encogimiento hacia 100 que evita conclusiones con pocos datos.',
-      'A GitHub Action queries the Upload-Post analytics API every hour: it lists the posts on each network, matches them with their video and stores a timestamped measurement of each one, so you can see how every video grows. Each video\'s index is its views divided by the median of the account\'s previous 10 posts on that network, measured at the same age (72 or 24 hours), so account growth is not mistaken for the video\'s merit. Claude describes each video with a closed taxonomy and experiments change a single variable, assigned in a balanced way; they are closed with a permutation test (p < 0.1 and an advantage of at least 25%). The learnings average, for each feature, the logarithm of that index, with shrinkage towards 100 to avoid conclusions from too little data.'),
+    metodologia: L('Una Action de GitHub consulta cada hora la API de estadísticas de Upload-Post: lista las publicaciones de cada red, las empareja con su vídeo y guarda una medición de cada una con la hora, de modo que se puede ver cómo crece cada vídeo. El índice de cada vídeo es su número de vistas dividido entre la mediana de las 10 publicaciones anteriores de la cuenta en esa red, medidas a la misma edad (72 o 24 horas; las más recientes, a la edad que tengan), para que el crecimiento de la cuenta no se confunda con el mérito del vídeo. Claude describe cada vídeo con una taxonomía cerrada y los experimentos cambian una sola variable, repartida de forma equilibrada; se cierran con una prueba de permutación (p < 0,1 y ventaja de al menos el 25 %). Los aprendizajes promedian, para cada rasgo, el logaritmo de ese índice, con un encogimiento hacia 100 que evita conclusiones con pocos datos.',
+      'A GitHub Action queries the Upload-Post analytics API every hour: it lists the posts on each network, matches them with their video and stores a timestamped measurement of each one, so you can see how every video grows. Each video\'s index is its views divided by the median of the account\'s previous 10 posts on that network, measured at the same age (72 or 24 hours; the newest ones, at whatever age they have reached), so account growth is not mistaken for the video\'s merit. Claude describes each video with a closed taxonomy and experiments change a single variable, assigned in a balanced way; they are closed with a permutation test (p < 0.1 and an advantage of at least 25%). The learnings average, for each feature, the logarithm of that index, with shrinkage towards 100 to avoid conclusions from too little data.'),
     pie: L('Las cifras son las que devuelve cada red en el momento de la medición y pueden revisarse después (las redes depuran visitas no válidas).',
       'Figures are those returned by each network at the time of measurement and may be revised later (networks filter out invalid views).')
   });

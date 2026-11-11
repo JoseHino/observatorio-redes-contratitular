@@ -343,7 +343,7 @@ var require_dist = __commonJS({
         }
         return { injected: R.populate(process.env, n, o), loadedPaths: t };
       }
-      function K2(e) {
+      function K3(e) {
         let n = e[0];
         if (n === "--help" || n === "-h") {
           D();
@@ -414,8 +414,8 @@ var require_dist = __commonJS({
           }, 1e3), process.kill(process.pid, a));
         });
       }
-      F.exports = K2;
-      __require.main === F && K2(process.argv.slice(2));
+      F.exports = K3;
+      __require.main === F && K3(process.argv.slice(2));
     });
     var S = N();
     var qe = X();
@@ -3136,7 +3136,7 @@ async function recoger(datos, op = {}) {
     const cuentas = path2.join(dirRedes(datos), "cuentas.json");
     const hist = fs2.existsSync(cuentas) ? JSON.parse(fs2.readFileSync(cuentas, "utf8")) : [];
     if (!hist.length || ahora - Date.parse(hist.at(-1).t) > 20 * 36e5) {
-      hist.push({ t: (/* @__PURE__ */ new Date()).toISOString(), datos: await pedir(`/analytics/${encodeURIComponent(usuario)}?platforms=${redes.join(",")}`, clave) });
+      hist.push({ t: (/* @__PURE__ */ new Date()).toISOString(), datos: await pedir(`/analytics/${encodeURIComponent(usuario)}?platforms=${redes.join(",")}${process.env.UPLOADPOST_FACEBOOK_PAGE_ID ? `&page_id=${encodeURIComponent(process.env.UPLOADPOST_FACEBOOK_PAGE_ID)}` : ""}`, clave) });
       fs2.writeFileSync(cuentas, JSON.stringify(hist, null, 1), "utf8");
     }
   } catch (e) {
@@ -3173,8 +3173,8 @@ function filas(datos) {
     const edad = (p) => p.fotos.at(-1).horas;
     const ref = (p) => vistasA(p, 72) ?? vistasDe(p.fotos.at(-1).m);
     const ratioDe = (p, i) => {
-      const h = edad(p) >= 72 ? 72 : edad(p) >= 24 ? 24 : null;
-      const a = (q) => (h ? vistasA(q, h) : vistasDe(q.fotos.at(-1).m)) ?? void 0;
+      const h = edad(p) >= 72 ? 72 : edad(p) >= 24 ? 24 : Math.max(0.5, edad(p));
+      const a = (q) => vistasA(q, h);
       const previas = lista.slice(Math.max(0, i - 10), i).map(a).filter((v) => v !== void 0 && v > 0);
       const base = previas.length >= 3 ? mediana(previas) : mediana(lista.map(a).filter((v) => v !== void 0 && v > 0)) || 1;
       return (a(p) ?? ref(p)) / (base || 1);
@@ -3539,6 +3539,125 @@ ${bloque}
 // src/analitica/observatorio.ts
 import fs5 from "node:fs";
 import path5 from "node:path";
+
+// src/analitica/hora.ts
+var K2 = 2;
+var mediana3 = (xs) => {
+  if (!xs.length) return NaN;
+  const s = [...xs].sort((a, b) => a - b);
+  const k = Math.floor(s.length / 2);
+  return s.length % 2 ? s[k] : (s[k - 1] + s[k]) / 2;
+};
+var lg = (x) => Math.log(Math.max(0.05, x));
+var geo = (xs, k = 0) => xs.length ? +Math.exp(xs.reduce((a, x) => a + lg(x), 0) / (xs.length + k)).toFixed(2) : null;
+var madrid = (iso) => {
+  const p = Object.fromEntries(new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Madrid", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date(iso)).map((x) => [x.type, x.value]));
+  return { fecha: `${p.year}-${p.month}-${p.day}`, hm: `${p.hour}:${p.minute}`, h: Number(p.hour) + Number(p.minute) / 60 };
+};
+var franjaDe = (h) => h < 12 ? "ma\xF1ana" : h < 16 ? "mediod\xEDa" : h < 20 ? "tarde" : "noche";
+function indicesA(lista, h) {
+  const res = /* @__PURE__ */ new Map();
+  const ord = [...lista].sort((a2, b) => Date.parse(a2.publicado) - Date.parse(b.publicado));
+  const a = (q) => vistasA(q, h);
+  for (const [i, p] of ord.entries()) {
+    const v = a(p);
+    if (v === void 0) continue;
+    const previas = ord.slice(Math.max(0, i - 10), i).map(a).filter((x) => x !== void 0 && x > 0);
+    const base = previas.length >= 3 ? mediana3(previas) : mediana3(ord.map(a).filter((x) => x !== void 0 && x > 0));
+    if (base > 0) res.set(p, v / base);
+  }
+  return res;
+}
+function permutacion2(d) {
+  if (d.length < 2) return null;
+  const obs = Math.abs(d.reduce((a, b) => a + b, 0));
+  let extremos = 0, total = 0;
+  const prueba = (signos) => {
+    total++;
+    if (Math.abs(d.reduce((a, x, i) => a + signos(i) * x, 0)) >= obs - 1e-12) extremos++;
+  };
+  if (d.length <= 14) for (let m = 0; m < 1 << d.length; m++) prueba((i) => m >> i & 1 ? -1 : 1);
+  else for (let k = 0; k < 2e4; k++) prueba(() => Math.random() < 0.5 ? -1 : 1);
+  return +(extremos / total).toFixed(3);
+}
+function analizarHora(datos) {
+  const pubs = Object.values(leerPublicaciones(datos)).filter((p2) => p2.fotos.length);
+  const redes = [...new Set(pubs.map((p2) => p2.red))];
+  const filas2 = [];
+  for (const red of redes) {
+    const lista2 = pubs.filter((p2) => p2.red === red);
+    const i24 = indicesA(lista2, 24), i3 = indicesA(lista2, 3);
+    for (const p2 of lista2) {
+      const x = i24.get(p2);
+      if (x === void 0 || p2.fotos.at(-1).horas < 24) continue;
+      const m = madrid(p2.publicado);
+      filas2.push({ red, video: p2.video ?? `sin-vincular:${Math.round(Date.parse(p2.publicado) / 9e5)}`, titulo: p2.titulo ?? (p2.texto.split(/[.!?\n]/)[0] || p2.id), fecha: m.fecha, hm: m.hm, h: m.h, franja: franjaDe(m.h), i3: i3.get(p2) ?? null, i24: x });
+    }
+  }
+  const porVideo = /* @__PURE__ */ new Map();
+  for (const f of filas2) porVideo.set(f.video, [...porVideo.get(f.video) ?? [], f]);
+  const lista = [...porVideo.values()].map((xs) => {
+    const hs = xs.map((x) => x.h).sort((a, b) => a - b), h = hs[Math.floor(hs.length / 2)];
+    const ref = xs.find((x) => x.h === h);
+    const i3s = xs.map((x) => x.i3).filter((v) => v != null);
+    return {
+      titulo: ref.titulo.length > 38 ? ref.titulo.slice(0, 37).trimEnd() + "\u2026" : ref.titulo,
+      fecha: ref.fecha,
+      hm: ref.hm,
+      h,
+      franja: ref.franja,
+      indice: geo(xs.map((x) => x.i24)),
+      i3: geo(i3s),
+      redes: xs.length
+    };
+  }).sort((a, b) => a.h - b.h);
+  const porHora = [...new Set(filas2.map((f) => Math.floor(f.h)))].sort((a, b) => a - b).map((h) => {
+    const xs = filas2.filter((f) => Math.floor(f.h) === h);
+    return {
+      h,
+      n: xs.length,
+      videos: new Set(xs.map((x) => x.video)).size,
+      indice: geo(xs.map((x) => x.i24), K2),
+      porRed: Object.fromEntries(redes.map((r) => {
+        const ys = xs.filter((x) => x.red === r).map((x) => x.i24);
+        return [r, ys.length ? geo(ys) : null];
+      }))
+    };
+  });
+  const franjas = ["ma\xF1ana", "mediod\xEDa", "tarde", "noche"].map((fr) => {
+    const xs = filas2.filter((f) => f.franja === fr);
+    return { franja: fr, n: xs.length, videos: new Set(xs.map((x) => x.video)).size, i3: geo(xs.map((x) => x.i3).filter((v) => v != null), K2), i24: geo(xs.map((x) => x.i24), K2) };
+  }).filter((x) => x.n);
+  const pares = [];
+  for (const fecha of [...new Set(lista.map((v) => v.fecha))].sort()) {
+    const m = lista.filter((v) => v.fecha === fecha && v.h < 16), n = lista.filter((v) => v.fecha === fecha && v.h >= 19);
+    if (!m.length || !n.length) continue;
+    pares.push({ fecha, mediodia: m.map((v) => v.hm).join("/"), noche: n.map((v) => v.hm).join("/"), im: geo(m.map((v) => v.indice)), in: geo(n.map((v) => v.indice)) });
+  }
+  const d = pares.map((x) => lg(x.im) - lg(x.in));
+  const cociente = d.length ? +Math.exp(d.reduce((a, b) => a + b, 0) / d.length).toFixed(2) : null;
+  const p = permutacion2(d);
+  const veredicto = pares.length < 6 ? "pocos" : p !== null && p < 0.1 && cociente !== null && (cociente >= 1.25 || cociente <= 0.8) ? cociente > 1 ? "mediodia" : "noche" : "igual";
+  return {
+    publicaciones: filas2.length,
+    videos: lista.length,
+    lista: lista.map(({ h, ...x }) => x),
+    porHora,
+    franjas,
+    pares,
+    resumen: { dias: pares.length, ganaMediodia: d.filter((x) => x > 0).length, cociente, p, veredicto }
+  };
+}
+function textoHora(a) {
+  const r = a.resumen;
+  return [
+    `\xCDndice a las 24 h por franja (n = publicaciones): ${a.franjas.map((f) => `${f.franja} ${f.i24}\xD7 a 24 h, ${f.i3 ?? "\u2014"}\xD7 a 3 h (n=${f.n})`).join("; ")}.`,
+    `Por hora: ${a.porHora.map((x) => `${x.h} h ${x.indice}\xD7 (n=${x.n})`).join(", ")}.`,
+    `Pares mismo d\xEDa mediod\xEDa vs noche: ${r.dias} d\xEDas, gana mediod\xEDa ${r.ganaMediodia}, cociente medio ${r.cociente ?? "\u2014"}\xD7, p=${r.p ?? "\u2014"} \u2192 ${r.veredicto}.`
+  ].join("\n");
+}
+
+// src/analitica/observatorio.ts
 var EDADES = [["1 h", 1], ["3 h", 3], ["6 h", 6], ["12 h", 12], ["24 h", 24], ["48 h", 48], ["72 h", 72], ["7 d\xEDas", 168]];
 var r1 = (v) => v == null || !isFinite(v) ? null : Math.round(v * 10) / 10;
 var corto = (s, n = 34) => s.length > n ? s.slice(0, n - 1).trimEnd() + "\u2026" : s;
@@ -3595,7 +3714,7 @@ function exportar(datos, webDir) {
       // fechas ISO: la web las rotula en su idioma
       videos: fs_.map((f) => ({
         titulo: titulo(f),
-        publicado: f.p.publicado.slice(0, 16).replace("T", " "),
+        publicado: (({ fecha, hm }) => `${fecha} ${hm}`)(madrid(f.p.publicado)),
         url: f.p.url,
         vistas: f.vistas,
         v24: r1(f.v24),
@@ -3653,6 +3772,7 @@ function exportar(datos, webDir) {
     cola: est.cola.map((x) => ({ variable: x.variable, pregunta: x.pregunta })),
     cerrados: est.cerrados.map((c) => ({ variable: c.variable, pregunta: c.pregunta, conclusion: c.conclusion, ganadora: c.ganadora, fin: c.fin }))
   };
+  salida.hora = analizarHora(datos);
   const destino = path5.join(webDir, "data", "data.js");
   fs5.mkdirSync(path5.dirname(destino), { recursive: true });
   fs5.writeFileSync(destino, `/* Generado por la anal\xEDtica de Contratitular \u2014 no editar a mano. */
@@ -3886,6 +4006,9 @@ async function revisar(datos, skillDir, op = {}) {
     "",
     "## Retenci\xF3n (TikTok): puntos perdidos por segundo en cada tramo",
     JSON.stringify(a.retencion),
+    "",
+    "## Hora de publicaci\xF3n (\xEDndice a la misma edad; horas.ts sortea la hora dentro de cada ventana)",
+    textoHora(analizarHora(datos)),
     "",
     "## Los que M\xC1S funcionaron",
     ...arriba.map(ficha),
