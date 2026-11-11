@@ -1,40 +1,40 @@
 {
- "actualizado": "2026-11-11T08:18:36.181Z",
- "publicaciones": 16,
- "videos": 5,
+ "actualizado": "2026-11-11T09:18:38.224Z",
+ "publicaciones": 20,
+ "videos": 6,
  "factores": {
   "día": {
    "domingo": {
     "n": 4,
     "videos": 2,
     "vistas": 0.95,
-    "interaccion": 0.49
+    "interaccion": 0.47
    },
    "lunes": {
     "n": 8,
     "videos": 2,
     "vistas": 0.96,
-    "interaccion": 0.86
+    "interaccion": 0.79
    },
    "martes": {
-    "n": 4,
-    "videos": 1,
-    "vistas": 1.07,
-    "interaccion": 0.35
+    "n": 8,
+    "videos": 2,
+    "vistas": 0.82,
+    "interaccion": 0.45
    }
   },
   "franja": {
    "noche": {
-    "n": 8,
-    "videos": 3,
-    "vistas": 0.9,
-    "interaccion": 0.54
+    "n": 12,
+    "videos": 4,
+    "vistas": 0.78,
+    "interaccion": 0.55
    },
    "mediodía": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.07,
-    "interaccion": 0.56
+    "vistas": 1.08,
+    "interaccion": 0.52
    }
   },
   "hora": {
@@ -42,45 +42,51 @@
     "n": 8,
     "videos": 3,
     "vistas": 0.9,
-    "interaccion": 0.54
+    "interaccion": 0.5
    },
    "12-14 h": {
     "n": 4,
     "videos": 1,
     "vistas": 1.05,
-    "interaccion": 1.07
+    "interaccion": 1
    },
    "14-16 h": {
     "n": 4,
     "videos": 1,
     "vistas": 1.07,
-    "interaccion": 0.35
+    "interaccion": 0.34
+   },
+   "22-24 h": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 0.67,
+    "interaccion": 0.78
    }
   },
   "red": {
    "instagram": {
-    "n": 4,
-    "videos": 4,
-    "vistas": 1.11,
-    "interaccion": 0.34
+    "n": 5,
+    "videos": 5,
+    "vistas": 0.71,
+    "interaccion": 0.26
    },
    "tiktok": {
-    "n": 4,
-    "videos": 4,
-    "vistas": 0.89,
-    "interaccion": 0.96
+    "n": 5,
+    "videos": 5,
+    "vistas": 0.91,
+    "interaccion": 1.04
    },
    "youtube": {
-    "n": 4,
-    "videos": 4,
-    "vistas": 1.08,
-    "interaccion": 1.13
+    "n": 5,
+    "videos": 5,
+    "vistas": 1.18,
+    "interaccion": 1.03
    },
    "facebook": {
-    "n": 4,
-    "videos": 4,
-    "vistas": 0.88,
-    "interaccion": 0.37
+    "n": 5,
+    "videos": 5,
+    "vistas": 0.89,
+    "interaccion": 0.44
    }
   },
   "estilo": {
@@ -88,19 +94,25 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.05,
-    "interaccion": 1.07
+    "interaccion": 1
    },
    "pizarra": {
     "n": 4,
     "videos": 1,
     "vistas": 0.89,
-    "interaccion": 0.73
+    "interaccion": 0.67
    },
    "limpio": {
     "n": 4,
     "videos": 1,
     "vistas": 1.07,
-    "interaccion": 0.35
+    "interaccion": 0.34
+   },
+   "papel": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 0.67,
+    "interaccion": 0.78
    }
   },
   "serie": {
@@ -108,19 +120,25 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.05,
-    "interaccion": 1.07
+    "interaccion": 1
    },
    "Ciencia": {
     "n": 4,
     "videos": 1,
     "vistas": 0.89,
-    "interaccion": 0.73
+    "interaccion": 0.67
    },
    "Cuerpo humano": {
     "n": 4,
     "videos": 1,
     "vistas": 1.07,
-    "interaccion": 0.35
+    "interaccion": 0.34
+   },
+   "Animales": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 0.67,
+    "interaccion": 0.78
    }
   },
   "duración": {
@@ -128,7 +146,13 @@
     "n": 12,
     "videos": 3,
     "vistas": 1,
-    "interaccion": 0.58
+    "interaccion": 0.53
+   },
+   ">43 s": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 0.67,
+    "interaccion": 0.78
    }
   },
   "gancho": {
@@ -136,13 +160,13 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.05,
-    "interaccion": 1.07
+    "interaccion": 1
    },
    "afirmación": {
-    "n": 8,
-    "videos": 2,
-    "vistas": 0.97,
-    "interaccion": 0.44
+    "n": 12,
+    "videos": 3,
+    "vistas": 0.83,
+    "interaccion": 0.48
    }
   },
   "gancho largo": {
@@ -150,15 +174,21 @@
     "n": 12,
     "videos": 3,
     "vistas": 1,
-    "interaccion": 0.58
+    "interaccion": 0.53
+   },
+   "corto (≤12)": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 0.67,
+    "interaccion": 0.78
    }
   },
   "escenas de datos": {
    "no": {
-    "n": 12,
-    "videos": 3,
-    "vistas": 1,
-    "interaccion": 0.58
+    "n": 16,
+    "videos": 4,
+    "vistas": 0.88,
+    "interaccion": 0.56
    }
   },
   "ritmo": {
@@ -166,35 +196,35 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.05,
-    "interaccion": 1.07
+    "interaccion": 1
    },
    "rápido (>2,9 pal/s)": {
-    "n": 8,
-    "videos": 2,
-    "vistas": 0.97,
-    "interaccion": 0.44
+    "n": 12,
+    "videos": 3,
+    "vistas": 0.83,
+    "interaccion": 0.48
    }
   },
   "cortes": {
    "pocos (<12/min)": {
-    "n": 12,
-    "videos": 3,
-    "vistas": 1,
-    "interaccion": 0.58
+    "n": 16,
+    "videos": 4,
+    "vistas": 0.88,
+    "interaccion": 0.56
    }
   },
   "cifra en 5 primeras palabras": {
    "sí": {
-    "n": 4,
-    "videos": 1,
-    "vistas": 1.05,
-    "interaccion": 1.07
+    "n": 8,
+    "videos": 2,
+    "vistas": 0.81,
+    "interaccion": 0.86
    },
    "no": {
     "n": 8,
     "videos": 2,
     "vistas": 0.97,
-    "interaccion": 0.44
+    "interaccion": 0.41
    }
   },
   "tema": {
@@ -202,27 +232,33 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.05,
-    "interaccion": 1.07
+    "interaccion": 1
    },
    "ciencia": {
     "n": 4,
     "videos": 1,
     "vistas": 0.89,
-    "interaccion": 0.73
+    "interaccion": 0.67
    },
    "cuerpo humano": {
     "n": 4,
     "videos": 1,
     "vistas": 1.07,
-    "interaccion": 0.35
+    "interaccion": 0.34
+   },
+   "naturaleza": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 0.67,
+    "interaccion": 0.78
    }
   },
   "emocion": {
    "asombro": {
-    "n": 12,
-    "videos": 3,
-    "vistas": 1,
-    "interaccion": 0.58
+    "n": 16,
+    "videos": 4,
+    "vistas": 0.88,
+    "interaccion": 0.56
    }
   },
   "tipo de gancho": {
@@ -230,33 +266,39 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.05,
-    "interaccion": 1.07
+    "interaccion": 1
    },
    "otro": {
     "n": 4,
     "videos": 1,
     "vistas": 0.89,
-    "interaccion": 0.73
+    "interaccion": 0.67
    },
    "contradicción": {
     "n": 4,
     "videos": 1,
     "vistas": 1.07,
-    "interaccion": 0.35
+    "interaccion": 0.34
+   },
+   "misterio": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 0.67,
+    "interaccion": 0.78
    }
   },
   "cercania": {
    "mundo": {
-    "n": 4,
-    "videos": 1,
-    "vistas": 1.05,
-    "interaccion": 1.07
+    "n": 8,
+    "videos": 2,
+    "vistas": 0.81,
+    "interaccion": 0.86
    },
    "universal": {
     "n": 8,
     "videos": 2,
     "vistas": 0.97,
-    "interaccion": 0.44
+    "interaccion": 0.41
    }
   },
   "promesa": {
@@ -264,21 +306,27 @@
     "n": 12,
     "videos": 3,
     "vistas": 1,
-    "interaccion": 0.58
+    "interaccion": 0.53
+   },
+   "sí": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 0.67,
+    "interaccion": 0.78
    }
   },
   "giro": {
    "sí": {
-    "n": 8,
-    "videos": 2,
-    "vistas": 1.07,
-    "interaccion": 0.56
+    "n": 12,
+    "videos": 3,
+    "vistas": 0.89,
+    "interaccion": 0.57
    },
    "no": {
     "n": 4,
     "videos": 1,
     "vistas": 0.89,
-    "interaccion": 0.73
+    "interaccion": 0.67
    }
   },
   "cierre": {
@@ -286,51 +334,51 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.96,
-    "interaccion": 0.86
+    "interaccion": 0.79
    },
    "dato final": {
-    "n": 4,
-    "videos": 1,
-    "vistas": 1.07,
-    "interaccion": 0.35
+    "n": 8,
+    "videos": 2,
+    "vistas": 0.82,
+    "interaccion": 0.45
    }
   },
   "primer fotograma claro": {
    "sí": {
-    "n": 12,
-    "videos": 3,
-    "vistas": 1,
-    "interaccion": 0.58
+    "n": 16,
+    "videos": 4,
+    "vistas": 0.88,
+    "interaccion": 0.56
    }
   },
   "movimiento 1s": {
    "sí": {
-    "n": 12,
-    "videos": 3,
-    "vistas": 1,
-    "interaccion": 0.58
+    "n": 16,
+    "videos": 4,
+    "vistas": 0.88,
+    "interaccion": 0.56
    }
   },
   "texto 0s": {
    "sí": {
-    "n": 12,
-    "videos": 3,
-    "vistas": 1,
-    "interaccion": 0.58
+    "n": 16,
+    "videos": 4,
+    "vistas": 0.88,
+    "interaccion": 0.56
    }
   },
   "personaje": {
    "no": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.07,
-    "interaccion": 0.56
+    "vistas": 1.08,
+    "interaccion": 0.52
    },
    "sí": {
-    "n": 4,
-    "videos": 1,
-    "vistas": 0.89,
-    "interaccion": 0.73
+    "n": 8,
+    "videos": 2,
+    "vistas": 0.73,
+    "interaccion": 0.68
    }
   },
   "sonido": {
@@ -338,37 +386,43 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.97,
-    "interaccion": 0.44
+    "interaccion": 0.41
+   },
+   "burbuja": {
+    "n": 4,
+    "videos": 1,
+    "vistas": 0.67,
+    "interaccion": 0.78
    }
   },
   "voz": {
    "Tristan HD": {
-    "n": 8,
-    "videos": 2,
-    "vistas": 0.97,
-    "interaccion": 0.44
+    "n": 12,
+    "videos": 3,
+    "vistas": 0.83,
+    "interaccion": 0.48
    }
   }
  },
  "conclusiones": [],
  "pesos": {
   "familia": {
-   "pop": 0.114,
+   "pop": 0.117,
    "gota": 0.088,
-   "madera": 0.114,
-   "marimba": 0.114,
-   "kalimba": 0.114,
-   "campanita": 0.114,
-   "cuerda": 0.114,
-   "burbuja": 0.114,
-   "tum": 0.114
+   "madera": 0.117,
+   "marimba": 0.117,
+   "kalimba": 0.117,
+   "campanita": 0.117,
+   "cuerda": 0.117,
+   "burbuja": 0.095,
+   "tum": 0.117
   },
   "estilo": {
-   "papel": 0.215,
-   "neon": 0.215,
-   "pop": 0.224,
-   "pizarra": 0.187,
-   "limpio": 0.159
+   "papel": 0.184,
+   "neon": 0.228,
+   "pop": 0.232,
+   "pizarra": 0.192,
+   "limpio": 0.165
   }
  },
  "horas_recomendadas": [
@@ -377,20 +431,20 @@
  ],
  "retencion": {
   "0-1,5 s (gancho)": {
-   "n": 3,
-   "pierde_s": 26.2
+   "n": 4,
+   "pierde_s": 24.7
   },
   "resto de la 1.ª escena": {
-   "n": 3,
-   "pierde_s": 9.9
+   "n": 4,
+   "pierde_s": 10.1
   },
   "escenas centrales": {
-   "n": 3,
-   "pierde_s": 0.9
+   "n": 4,
+   "pierde_s": 1
   },
   "última escena": {
-   "n": 3,
-   "pierde_s": 0.1
+   "n": 4,
+   "pierde_s": 0.3
   }
  },
  "videos_indice": [
@@ -408,6 +462,11 @@
    "id": "2026-11-09-2100-v2",
    "titulo": "Por qué huele tan bien la lluvia: el olor que fabrican las bacterias",
    "indice": 0.83
+  },
+  {
+   "id": "2026-11-10-2200",
+   "titulo": "Por qué los wombats hacen caca en forma de cubo",
+   "indice": 0.55
   }
  ],
  "experimentos": {
