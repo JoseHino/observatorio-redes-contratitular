@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T09:18:38.224Z",
+ "actualizado": "2026-11-11T10:18:35.096Z",
  "publicaciones": 20,
  "videos": 6,
  "factores": {
@@ -19,7 +19,7 @@
    "martes": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.82,
+    "vistas": 0.83,
     "interaccion": 0.45
    }
   },
@@ -53,13 +53,13 @@
    "14-16 h": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.07,
+    "vistas": 1.08,
     "interaccion": 0.34
    },
    "22-24 h": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.67,
+    "vistas": 0.68,
     "interaccion": 0.78
    }
   },
@@ -80,13 +80,13 @@
     "n": 5,
     "videos": 5,
     "vistas": 1.18,
-    "interaccion": 1.03
+    "interaccion": 1.02
    },
    "facebook": {
     "n": 5,
     "videos": 5,
     "vistas": 0.89,
-    "interaccion": 0.44
+    "interaccion": 0.43
    }
   },
   "estilo": {
@@ -105,13 +105,13 @@
    "limpio": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.07,
+    "vistas": 1.08,
     "interaccion": 0.34
    },
    "papel": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.67,
+    "vistas": 0.68,
     "interaccion": 0.78
    }
   },
@@ -131,13 +131,13 @@
    "Cuerpo humano": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.07,
+    "vistas": 1.08,
     "interaccion": 0.34
    },
    "Animales": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.67,
+    "vistas": 0.68,
     "interaccion": 0.78
    }
   },
@@ -151,7 +151,7 @@
    ">43 s": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.67,
+    "vistas": 0.68,
     "interaccion": 0.78
    }
   },
@@ -179,7 +179,7 @@
    "corto (≤12)": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.67,
+    "vistas": 0.68,
     "interaccion": 0.78
    }
   },
@@ -243,13 +243,13 @@
    "cuerpo humano": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.07,
+    "vistas": 1.08,
     "interaccion": 0.34
    },
    "naturaleza": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.67,
+    "vistas": 0.68,
     "interaccion": 0.78
    }
   },
@@ -277,13 +277,13 @@
    "contradicción": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.07,
+    "vistas": 1.08,
     "interaccion": 0.34
    },
    "misterio": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.67,
+    "vistas": 0.68,
     "interaccion": 0.78
    }
   },
@@ -311,7 +311,7 @@
    "sí": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.67,
+    "vistas": 0.68,
     "interaccion": 0.78
    }
   },
@@ -339,7 +339,7 @@
    "dato final": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.82,
+    "vistas": 0.83,
     "interaccion": 0.45
    }
   },
@@ -377,7 +377,7 @@
    "sí": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.73,
+    "vistas": 0.74,
     "interaccion": 0.68
    }
   },
@@ -391,7 +391,7 @@
    "burbuja": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.67,
+    "vistas": 0.68,
     "interaccion": 0.78
    }
   },
@@ -414,14 +414,14 @@
    "kalimba": 0.117,
    "campanita": 0.117,
    "cuerda": 0.117,
-   "burbuja": 0.095,
+   "burbuja": 0.096,
    "tum": 0.117
   },
   "estilo": {
-   "papel": 0.184,
-   "neon": 0.228,
-   "pop": 0.232,
-   "pizarra": 0.192,
+   "papel": 0.185,
+   "neon": 0.227,
+   "pop": 0.231,
+   "pizarra": 0.191,
    "limpio": 0.165
   }
  },
@@ -466,7 +466,7 @@
   {
    "id": "2026-11-10-2200",
    "titulo": "Por qué los wombats hacen caca en forma de cubo",
-   "indice": 0.55
+   "indice": 0.56
   }
  ],
  "experimentos": {
