@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T04:18:34.865Z",
+ "actualizado": "2026-11-11T05:18:28.379Z",
  "publicaciones": 16,
  "videos": 5,
  "factores": {
@@ -19,8 +19,8 @@
    "martes": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.05,
-    "interaccion": 0.35
+    "vistas": 1.06,
+    "interaccion": 0.36
    }
   },
   "franja": {
@@ -33,7 +33,7 @@
    "mediodía": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.06,
+    "vistas": 1.07,
     "interaccion": 0.56
    }
   },
@@ -53,15 +53,15 @@
    "14-16 h": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.05,
-    "interaccion": 0.35
+    "vistas": 1.06,
+    "interaccion": 0.36
    }
   },
   "red": {
    "instagram": {
     "n": 4,
     "videos": 4,
-    "vistas": 1.09,
+    "vistas": 1.1,
     "interaccion": 0.34
    },
    "tiktok": {
@@ -73,8 +73,8 @@
    "youtube": {
     "n": 4,
     "videos": 4,
-    "vistas": 1.09,
-    "interaccion": 1.12
+    "vistas": 1.08,
+    "interaccion": 1.13
    },
    "facebook": {
     "n": 4,
@@ -94,13 +94,13 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.89,
-    "interaccion": 0.72
+    "interaccion": 0.73
    },
    "limpio": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.05,
-    "interaccion": 0.35
+    "vistas": 1.06,
+    "interaccion": 0.36
    }
   },
   "serie": {
@@ -114,21 +114,21 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.89,
-    "interaccion": 0.72
+    "interaccion": 0.73
    },
    "Cuerpo humano": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.05,
-    "interaccion": 0.35
+    "vistas": 1.06,
+    "interaccion": 0.36
    }
   },
   "duración": {
    "33-43 s": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.99,
-    "interaccion": 0.57
+    "vistas": 1,
+    "interaccion": 0.58
    }
   },
   "gancho": {
@@ -149,16 +149,16 @@
    "largo (>12)": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.99,
-    "interaccion": 0.57
+    "vistas": 1,
+    "interaccion": 0.58
    }
   },
   "escenas de datos": {
    "no": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.99,
-    "interaccion": 0.57
+    "vistas": 1,
+    "interaccion": 0.58
    }
   },
   "ritmo": {
@@ -179,8 +179,8 @@
    "pocos (<12/min)": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.99,
-    "interaccion": 0.57
+    "vistas": 1,
+    "interaccion": 0.58
    }
   },
   "cifra en 5 primeras palabras": {
@@ -208,21 +208,21 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.89,
-    "interaccion": 0.72
+    "interaccion": 0.73
    },
    "cuerpo humano": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.05,
-    "interaccion": 0.35
+    "vistas": 1.06,
+    "interaccion": 0.36
    }
   },
   "emocion": {
    "asombro": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.99,
-    "interaccion": 0.57
+    "vistas": 1,
+    "interaccion": 0.58
    }
   },
   "tipo de gancho": {
@@ -236,13 +236,13 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.89,
-    "interaccion": 0.72
+    "interaccion": 0.73
    },
    "contradicción": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.05,
-    "interaccion": 0.35
+    "vistas": 1.06,
+    "interaccion": 0.36
    }
   },
   "cercania": {
@@ -263,22 +263,22 @@
    "no": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.99,
-    "interaccion": 0.57
+    "vistas": 1,
+    "interaccion": 0.58
    }
   },
   "giro": {
    "sí": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.06,
+    "vistas": 1.07,
     "interaccion": 0.56
    },
    "no": {
     "n": 4,
     "videos": 1,
     "vistas": 0.89,
-    "interaccion": 0.72
+    "interaccion": 0.73
    }
   },
   "cierre": {
@@ -291,46 +291,46 @@
    "dato final": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.05,
-    "interaccion": 0.35
+    "vistas": 1.06,
+    "interaccion": 0.36
    }
   },
   "primer fotograma claro": {
    "sí": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.99,
-    "interaccion": 0.57
+    "vistas": 1,
+    "interaccion": 0.58
    }
   },
   "movimiento 1s": {
    "sí": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.99,
-    "interaccion": 0.57
+    "vistas": 1,
+    "interaccion": 0.58
    }
   },
   "texto 0s": {
    "sí": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.99,
-    "interaccion": 0.57
+    "vistas": 1,
+    "interaccion": 0.58
    }
   },
   "personaje": {
    "no": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.06,
+    "vistas": 1.07,
     "interaccion": 0.56
    },
    "sí": {
     "n": 4,
     "videos": 1,
     "vistas": 0.89,
-    "interaccion": 0.72
+    "interaccion": 0.73
    }
   },
   "sonido": {
@@ -364,16 +364,16 @@
    "tum": 0.114
   },
   "estilo": {
-   "papel": 0.216,
-   "neon": 0.216,
+   "papel": 0.215,
+   "neon": 0.215,
    "pop": 0.224,
-   "pizarra": 0.186,
-   "limpio": 0.158
+   "pizarra": 0.187,
+   "limpio": 0.16
   }
  },
  "horas_recomendadas": [
-  "12-14 h",
-  "14-16 h"
+  "14-16 h",
+  "12-14 h"
  ],
  "retencion": {
   "0-1,5 s (gancho)": {
@@ -395,13 +395,13 @@
  },
  "videos_indice": [
   {
-   "id": "2026-11-09-1330",
-   "titulo": "El ajuste mal hecho que apagó a 25 millones de personas en 1965",
-   "indice": 1.08
-  },
-  {
    "id": "2026-11-10-1430",
    "titulo": "La parte de tu ojo que respira aire en vez de sangre",
+   "indice": 1.1
+  },
+  {
+   "id": "2026-11-09-1330",
+   "titulo": "El ajuste mal hecho que apagó a 25 millones de personas en 1965",
    "indice": 1.08
   },
   {
