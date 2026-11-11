@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T07:18:31.161Z",
+ "actualizado": "2026-11-11T08:18:36.181Z",
  "publicaciones": 16,
  "videos": 5,
  "factores": {
@@ -19,8 +19,8 @@
    "martes": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
-    "interaccion": 0.36
+    "vistas": 1.07,
+    "interaccion": 0.35
    }
   },
   "franja": {
@@ -53,15 +53,15 @@
    "14-16 h": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
-    "interaccion": 0.36
+    "vistas": 1.07,
+    "interaccion": 0.35
    }
   },
   "red": {
    "instagram": {
     "n": 4,
     "videos": 4,
-    "vistas": 1.1,
+    "vistas": 1.11,
     "interaccion": 0.34
    },
    "tiktok": {
@@ -99,8 +99,8 @@
    "limpio": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
-    "interaccion": 0.36
+    "vistas": 1.07,
+    "interaccion": 0.35
    }
   },
   "serie": {
@@ -119,8 +119,8 @@
    "Cuerpo humano": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
-    "interaccion": 0.36
+    "vistas": 1.07,
+    "interaccion": 0.35
    }
   },
   "duración": {
@@ -141,7 +141,7 @@
    "afirmación": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.96,
+    "vistas": 0.97,
     "interaccion": 0.44
    }
   },
@@ -171,7 +171,7 @@
    "rápido (>2,9 pal/s)": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.96,
+    "vistas": 0.97,
     "interaccion": 0.44
    }
   },
@@ -193,7 +193,7 @@
    "no": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.96,
+    "vistas": 0.97,
     "interaccion": 0.44
    }
   },
@@ -213,8 +213,8 @@
    "cuerpo humano": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
-    "interaccion": 0.36
+    "vistas": 1.07,
+    "interaccion": 0.35
    }
   },
   "emocion": {
@@ -241,8 +241,8 @@
    "contradicción": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
-    "interaccion": 0.36
+    "vistas": 1.07,
+    "interaccion": 0.35
    }
   },
   "cercania": {
@@ -255,7 +255,7 @@
    "universal": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.96,
+    "vistas": 0.97,
     "interaccion": 0.44
    }
   },
@@ -291,8 +291,8 @@
    "dato final": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.06,
-    "interaccion": 0.36
+    "vistas": 1.07,
+    "interaccion": 0.35
    }
   },
   "primer fotograma claro": {
@@ -337,7 +337,7 @@
    "gota": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.96,
+    "vistas": 0.97,
     "interaccion": 0.44
    }
   },
@@ -345,7 +345,7 @@
    "Tristan HD": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.96,
+    "vistas": 0.97,
     "interaccion": 0.44
    }
   }
@@ -368,7 +368,7 @@
    "neon": 0.215,
    "pop": 0.224,
    "pizarra": 0.187,
-   "limpio": 0.16
+   "limpio": 0.159
   }
  },
  "horas_recomendadas": [
@@ -397,7 +397,7 @@
   {
    "id": "2026-11-10-1430",
    "titulo": "La parte de tu ojo que respira aire en vez de sangre",
-   "indice": 1.1
+   "indice": 1.11
   },
   {
    "id": "2026-11-09-1330",
