@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T19:18:33.923Z",
+ "actualizado": "2026-11-11T20:19:05.700Z",
  "publicaciones": 20,
  "videos": 6,
  "factores": {
@@ -42,7 +42,7 @@
     "n": 8,
     "videos": 3,
     "vistas": 0.9,
-    "interaccion": 0.5
+    "interaccion": 0.51
    },
    "12-14 h": {
     "n": 4,
@@ -100,7 +100,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.89,
-    "interaccion": 0.67
+    "interaccion": 0.68
    },
    "limpio": {
     "n": 4,
@@ -126,7 +126,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.89,
-    "interaccion": 0.67
+    "interaccion": 0.68
    },
    "Cuerpo humano": {
     "n": 4,
@@ -238,7 +238,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.89,
-    "interaccion": 0.67
+    "interaccion": 0.68
    },
    "cuerpo humano": {
     "n": 4,
@@ -272,7 +272,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.89,
-    "interaccion": 0.67
+    "interaccion": 0.68
    },
    "contradicción": {
     "n": 4,
@@ -326,7 +326,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.89,
-    "interaccion": 0.67
+    "interaccion": 0.68
    }
   },
   "cierre": {
@@ -436,7 +436,7 @@
   },
   "resto de la 1.ª escena": {
    "n": 4,
-   "pierde_s": 10.1
+   "pierde_s": 10.2
   },
   "escenas centrales": {
    "n": 4,
