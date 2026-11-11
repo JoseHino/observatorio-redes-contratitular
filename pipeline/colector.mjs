@@ -3173,7 +3173,8 @@ function filas(datos) {
     const edad = (p) => p.fotos.at(-1).horas;
     const ref = (p) => vistasA(p, 72) ?? vistasDe(p.fotos.at(-1).m);
     const ratioDe = (p, i) => {
-      const h = edad(p) >= 72 ? 72 : edad(p) >= 24 ? 24 : Math.max(0.5, edad(p));
+      if (edad(p) < 3) return NaN;
+      const h = edad(p) >= 72 ? 72 : edad(p) >= 24 ? 24 : edad(p);
       const a = (q) => vistasA(q, h);
       const previas = lista.slice(Math.max(0, i - 10), i).map(a).filter((v) => v !== void 0 && v > 0);
       const base = previas.length >= 3 ? mediana(previas) : mediana(lista.map(a).filter((v) => v !== void 0 && v > 0)) || 1;
@@ -3255,10 +3256,10 @@ function diagnostico(datos) {
     for (const f of xs) for (const c of caidasTikTok(f)) L.push(`- \u2198 ${(f.e?.titulo ?? "").slice(0, 40)}: ${c}`);
     L.push("");
   }
-  const conVideo = fs_.filter((f) => f.e);
+  const conVideo = fs_.filter((f) => f.e && isFinite(f.ratio));
   const porVideo = /* @__PURE__ */ new Map();
   const claveSuelta = (f) => `?${norm(f.p.texto).split(/\s+/).filter((w) => w.length > 3).slice(0, 5).join(" ")}`;
-  for (const f of fs_) {
+  for (const f of fs_.filter((x) => isFinite(x.ratio))) {
     const k = f.e ? idDe(f.e) : claveSuelta(f);
     porVideo.set(k, [...porVideo.get(k) ?? [], f]);
   }
