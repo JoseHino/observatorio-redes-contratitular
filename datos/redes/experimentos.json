@@ -1,0 +1,71 @@
+{
+ "activo": {
+  "min_por_variante": 8,
+  "max_dias": 35,
+  "variable": "gancho_tipo",
+  "pregunta": "¿Qué primera frase retiene más: cifra chocante, pregunta o contradicción?",
+  "variantes": [
+   {
+    "id": "cifra chocante",
+    "instruccion": "La PRIMERA frase abre con la cifra o el hecho chocante en sus 3 primeras palabras (p. ej. «25 millones de personas…»). Nada de preguntas al principio."
+   },
+   {
+    "id": "pregunta",
+    "instruccion": "La PRIMERA frase es una pregunta directa al espectador, corta (≤ 10 palabras), que no sepa responder y cuya respuesta sea el vídeo."
+   },
+   {
+    "id": "contradicción",
+    "instruccion": "La PRIMERA frase niega algo que casi todo el mundo cree («Te enseñaron que X. Es falso.»), en ≤ 12 palabras."
+   }
+  ],
+  "inicio": "2026-11-11",
+  "asignados": {
+   "cifra chocante": 1
+  }
+ },
+ "cola": [
+  {
+   "variable": "texto_0s",
+   "pregunta": "¿Un titular grande en pantalla desde el primer fotograma ayuda o estorba?",
+   "variantes": [
+    {
+     "id": "con titular",
+     "instruccion": "La primera escena lleva desde el fotograma 0 un titular grande (≤ 6 palabras) que resume el gancho, además del dibujo."
+    },
+    {
+     "id": "sin titular",
+     "instruccion": "La primera escena NO lleva texto en pantalla (solo los subtítulos): todo lo cuenta el dibujo en movimiento."
+    }
+   ]
+  },
+  {
+   "variable": "duracion",
+   "pregunta": "¿Rinde más un vídeo corto o uno largo con más historia?",
+   "variantes": [
+    {
+     "id": "corto",
+     "instruccion": "Duración objetivo 25-32 s: una sola idea, sin desvíos."
+    },
+    {
+     "id": "largo",
+     "instruccion": "Duración objetivo 48-58 s: con desarrollo, giro y al menos dos reenganches."
+    }
+   ]
+  },
+  {
+   "variable": "cierre",
+   "pregunta": "¿Qué final hace que se vuelva a ver o se comente más?",
+   "variantes": [
+    {
+     "id": "bucle",
+     "instruccion": "La ÚLTIMA frase enlaza con la primera, de forma que al repetirse el vídeo la frase inicial la continúa (bucle)."
+    },
+    {
+     "id": "pregunta",
+     "instruccion": "La ÚLTIMA frase es una pregunta al espectador para que conteste en los comentarios, relacionada con el dato."
+    }
+   ]
+  }
+ ],
+ "cerrados": []
+}

@@ -705,5 +705,102 @@
     "por_que": "La imagen de un wombat ilustrado y la paradoja de un cubo saliendo de un tubo redondo atrapan, pero el rótulo a medio escribir en el segundo 0,1 y el ritmo de 44 s pueden hacer que se abandone."
    }
   }
+ },
+ {
+  "carpeta": "2026-11-11-2045",
+  "titulo": "La palabra «robot» no la inventó quien escribió la obra",
+  "fecha": "2026-11-11",
+  "duracion": 42.6,
+  "estilo": "pop",
+  "serie": "Palabras",
+  "gancho": "«Robot» significa «trabajo forzado» en checo, y la palabra no la inventó el autor de la obra.",
+  "palabras": 118,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 6.08,
+    "frase": "«Robot» significa «trabajo forzado» en checo, y la palabra no la inventó el autor de la obra.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 6.08,
+    "fin": 11.58,
+    "frase": "Esa obra, de 1920, imaginaba fábricas de humanos artificiales para trabajar por nosotros,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 11.58,
+    "fin": 15.34,
+    "frase": "pero no eran de metal: eran de materia orgánica artificial.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 15.34,
+    "fin": 21.34,
+    "frase": "Su autor, Karel Chapek, quería llamarlos «labori», del latín «labor», pero le sonaba demasiado libresco,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 21.34,
+    "fin": 27.92,
+    "frase": "hasta que su hermano Josef, pintor, propuso «roboti»: el trabajo que los siervos debían a la fuerza a su señor.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 27.92,
+    "fin": 33.86,
+    "frase": "Y así un pintor bautizó a todas las máquinas del mundo… que en la obra ni eran máquinas.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 33.86,
+    "fin": 42.58,
+    "frase": "Karel lo contó en un periódico y dio el mérito a su hermano. Hoy la dice medio planeta sin saber que significa trabajar sin elegir.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-11-2045",
+  "texto": "La palabra «robot» no la inventó quien escribió la obra La palabra «robot» viene del checo «robota», el trabajo obligatorio que los siervos debían a su señor. Apareció en la obra de teatro R.U.R. (1920), de Karel Čapek, aunque la sugirió su hermano Josef, pintor; Karel lo reconoció él mismo en un artículo en 1933. Y los «robots» de la obra no eran de metal, sino seres artificiales de materia orgánica. ¿Conocías el origen? Compártelo con quien crea que robot siempre fue sinónimo de máquina de metal. «Robot» significa «trabajo forzado» en checo, y la palabra no la inventó el autor de la obra. Esa obra, de 1920, imaginaba fábricas de humanos artificiales para trabajar por nosotros, pero no eran de metal: eran de materia orgánica artificial. Su autor, Karel Chapek, quería llamarlos «labori», del latín «labor», pero le sonaba demasiado libresco, hasta que su hermano Josef, pintor, propuso «roboti»: el trabajo que los siervos debían a la fuerza a su señor. Y así un pintor bautizó a todas las máquinas del mundo… que en la obra ni eran máquinas. Karel lo contó en un periódico y dio el mérito a su hermano. Hoy la dice medio planeta sin saber que significa trabajar sin elegir.",
+  "familia": "tum",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "cifra chocante"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-11",
+   "medido": {
+    "palabras_s": 2.77,
+    "escenas_min": 9.9,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 17,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "cultura",
+    "emocion": "asombro",
+    "gancho_tipo": "contradicción",
+    "cercania": "mundo",
+    "promesa": "sí",
+    "giro": "sí",
+    "cierre": "moraleja",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Abre con texto grande y un personaje encadenado claros, y la revelación de que el inventor fue el hermano pintor y que no eran de metal sostiene la curiosidad, aunque el ritmo es denso."
+   }
+  }
  }
 ]
