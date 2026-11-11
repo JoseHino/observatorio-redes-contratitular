@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T10:18:35.096Z",
+ "actualizado": "2026-11-11T11:18:41.986Z",
  "publicaciones": 20,
  "videos": 6,
  "factores": {
@@ -27,7 +27,7 @@
    "noche": {
     "n": 12,
     "videos": 4,
-    "vistas": 0.78,
+    "vistas": 0.79,
     "interaccion": 0.55
    },
    "mediodía": {
@@ -217,7 +217,7 @@
    "sí": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.81,
+    "vistas": 0.82,
     "interaccion": 0.86
    },
    "no": {
@@ -291,7 +291,7 @@
    "mundo": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.81,
+    "vistas": 0.82,
     "interaccion": 0.86
    },
    "universal": {
@@ -320,7 +320,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.89,
-    "interaccion": 0.57
+    "interaccion": 0.56
    },
    "no": {
     "n": 4,
@@ -432,11 +432,11 @@
  "retencion": {
   "0-1,5 s (gancho)": {
    "n": 4,
-   "pierde_s": 24.7
+   "pierde_s": 24.6
   },
   "resto de la 1.ª escena": {
    "n": 4,
-   "pierde_s": 10.1
+   "pierde_s": 10.2
   },
   "escenas centrales": {
    "n": 4,
