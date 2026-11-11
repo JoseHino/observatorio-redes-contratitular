@@ -993,6 +993,27 @@
      "crossposted_views": null,
      "facebook_views": null
     }
+   },
+   {
+    "t": "2026-11-11T21:13:21.284Z",
+    "horas": 56.7,
+    "m": {
+     "likes": 1,
+     "comments": 0,
+     "media_product_type": "REELS",
+     "views": 31,
+     "impressions": 31,
+     "reach": 27,
+     "saves": 0,
+     "shares": 0,
+     "likes_insight": 1,
+     "comments_insight": 0,
+     "total_interactions": 1,
+     "ig_reels_avg_watch_time": 9374,
+     "ig_reels_video_view_total_time": 309363,
+     "crossposted_views": null,
+     "facebook_views": null
+    }
    }
   ],
   "video": "2026-11-09-1330"
@@ -14976,6 +14997,330 @@
        {
         "gender": "other_vv",
         "percentage": 0
+       }
+      ]
+     }
+    }
+   },
+   {
+    "t": "2026-11-11T21:13:47.755Z",
+    "horas": 56.7,
+    "m": {
+     "views": 796,
+     "likes": 6,
+     "comments": 0,
+     "shares": 0,
+     "reach": 718,
+     "favorites": 0,
+     "new_followers": 0,
+     "profile_views": 0,
+     "full_video_watched_rate": 0.0198,
+     "average_time_watched": 4.92,
+     "total_time_watched": 3982,
+     "is_ai_generated": true,
+     "retention": [
+      {
+       "percentage": 1,
+       "second": "0"
+      },
+      {
+       "percentage": 0.69,
+       "second": "1"
+      },
+      {
+       "percentage": 0.55,
+       "second": "2"
+      },
+      {
+       "percentage": 0.44,
+       "second": "3"
+      },
+      {
+       "percentage": 0.36,
+       "second": "4"
+      },
+      {
+       "percentage": 0.24,
+       "second": "5"
+      },
+      {
+       "percentage": 0.17,
+       "second": "6"
+      },
+      {
+       "percentage": 0.13,
+       "second": "7"
+      },
+      {
+       "percentage": 0.11,
+       "second": "8"
+      },
+      {
+       "percentage": 0.09,
+       "second": "9"
+      },
+      {
+       "percentage": 0.08,
+       "second": "10"
+      },
+      {
+       "percentage": 0.07,
+       "second": "11"
+      },
+      {
+       "percentage": 0.07,
+       "second": "12"
+      },
+      {
+       "percentage": 0.06,
+       "second": "13"
+      },
+      {
+       "percentage": 0.06,
+       "second": "14"
+      },
+      {
+       "percentage": 0.05,
+       "second": "15"
+      },
+      {
+       "percentage": 0.04,
+       "second": "16"
+      },
+      {
+       "percentage": 0.04,
+       "second": "17"
+      },
+      {
+       "percentage": 0.04,
+       "second": "18"
+      },
+      {
+       "percentage": 0.04,
+       "second": "19"
+      },
+      {
+       "percentage": 0.04,
+       "second": "20"
+      },
+      {
+       "percentage": 0.04,
+       "second": "21"
+      },
+      {
+       "percentage": 0.03,
+       "second": "22"
+      },
+      {
+       "percentage": 0.03,
+       "second": "23"
+      },
+      {
+       "percentage": 0.03,
+       "second": "24"
+      },
+      {
+       "percentage": 0.03,
+       "second": "25"
+      },
+      {
+       "percentage": 0.03,
+       "second": "26"
+      },
+      {
+       "percentage": 0.03,
+       "second": "27"
+      },
+      {
+       "percentage": 0.02,
+       "second": "28"
+      },
+      {
+       "percentage": 0.02,
+       "second": "29"
+      },
+      {
+       "percentage": 0.02,
+       "second": "30"
+      },
+      {
+       "percentage": 0.02,
+       "second": "31"
+      },
+      {
+       "percentage": 0.02,
+       "second": "32"
+      },
+      {
+       "percentage": 0.02,
+       "second": "33"
+      },
+      {
+       "percentage": 0.02,
+       "second": "34"
+      },
+      {
+       "percentage": 0.02,
+       "second": "35"
+      },
+      {
+       "percentage": 0.02,
+       "second": "36"
+      },
+      {
+       "percentage": 0.02,
+       "second": "37"
+      },
+      {
+       "percentage": 0.02,
+       "second": "38"
+      },
+      {
+       "percentage": 0.02,
+       "second": "39"
+      },
+      {
+       "percentage": 0.02,
+       "second": "40"
+      }
+     ],
+     "impression_sources": [
+      {
+       "impression_source": "Search",
+       "percentage": 0.01
+      },
+      {
+       "impression_source": "Sound",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Direct Message",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Follow",
+       "percentage": 0
+      },
+      {
+       "impression_source": "For You",
+       "percentage": 0.981
+      },
+      {
+       "impression_source": "Others",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Personal Profile",
+       "percentage": 0.009
+      }
+     ],
+     "audience_types": [
+      {
+       "percentage": 1,
+       "type": "NON_FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0.06,
+       "type": "RETURN_VIEWER"
+      },
+      {
+       "percentage": 0,
+       "type": "FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0.94,
+       "type": "NEW_VIEWER"
+      }
+     ],
+     "audience": {
+      "countries": [
+       {
+        "country": "GB",
+        "percentage": 0.012
+       },
+       {
+        "country": "RO",
+        "percentage": 0.002
+       },
+       {
+        "country": "FR",
+        "percentage": 0.011
+       },
+       {
+        "country": "AR",
+        "percentage": 0.006
+       },
+       {
+        "country": "DE",
+        "percentage": 0.006
+       },
+       {
+        "country": "US",
+        "percentage": 0.002
+       },
+       {
+        "country": "VE",
+        "percentage": 0.002
+       },
+       {
+        "country": "AE",
+        "percentage": 0.001
+       },
+       {
+        "country": "ES",
+        "percentage": 0.934
+       },
+       {
+        "country": "IT",
+        "percentage": 0.01
+       },
+       {
+        "country": "Others",
+        "percentage": 0.014
+       }
+      ],
+      "cities": [
+       {
+        "city_name": "ES Madrid",
+        "percentage": 0.2148
+       },
+       {
+        "city_name": "ES Malaga",
+        "percentage": 0.0392
+       },
+       {
+        "city_name": "ES Other",
+        "percentage": 0.481
+       },
+       {
+        "city_name": "ES Seville",
+        "percentage": 0.0392
+       },
+       {
+        "city_name": "ES Valencia",
+        "percentage": 0.0672
+       },
+       {
+        "city_name": "US Stark",
+        "percentage": 0.002
+       },
+       {
+        "city_name": "ES Barcelona",
+        "percentage": 0.0925
+       }
+      ],
+      "genders": [
+       {
+        "gender": "male_vv",
+        "percentage": 0.56
+       },
+       {
+        "gender": "other_vv",
+        "percentage": 0
+       },
+       {
+        "gender": "female_vv",
+        "percentage": 0.44
        }
       ]
      }
@@ -30958,6 +31303,22 @@
      "subscribers_gained": 0,
      "shares": 0
     }
+   },
+   {
+    "t": "2026-11-11T21:14:10.353Z",
+    "horas": 56.7,
+    "m": {
+     "views": 495,
+     "likes": 8,
+     "comments": 0,
+     "favorites": 0,
+     "watch_time_minutes": 0,
+     "average_view_duration_seconds": 0,
+     "average_view_percentage": 0,
+     "engaged_views": 0,
+     "subscribers_gained": 0,
+     "shares": 0
+    }
    }
   ],
   "video": "2026-11-09-1330"
@@ -32302,6 +32663,19 @@
    {
     "t": "2026-11-11T20:18:39.013Z",
     "horas": 55.8,
+    "m": {
+     "reactions": 2,
+     "likes": 2,
+     "comments": 0,
+     "shares": 0,
+     "views": 505,
+     "reach": 0,
+     "impressions": 505
+    }
+   },
+   {
+    "t": "2026-11-11T21:14:32.440Z",
+    "horas": 56.7,
     "m": {
      "reactions": 2,
      "likes": 2,
@@ -33868,6 +34242,27 @@
    {
     "t": "2026-11-11T20:17:29.425Z",
     "horas": 48.3,
+    "m": {
+     "likes": 0,
+     "comments": 0,
+     "media_product_type": "REELS",
+     "views": 12,
+     "impressions": 12,
+     "reach": 11,
+     "saves": 0,
+     "shares": 0,
+     "likes_insight": 0,
+     "comments_insight": 0,
+     "total_interactions": 0,
+     "ig_reels_avg_watch_time": 6878,
+     "ig_reels_video_view_total_time": 103178,
+     "crossposted_views": null,
+     "facebook_views": null
+    }
+   },
+   {
+    "t": "2026-11-11T21:13:25.913Z",
+    "horas": 49.2,
     "m": {
      "likes": 0,
      "comments": 0,
@@ -47052,6 +47447,346 @@
       ]
      }
     }
+   },
+   {
+    "t": "2026-11-11T21:13:51.521Z",
+    "horas": 49.2,
+    "m": {
+     "views": 780,
+     "likes": 11,
+     "comments": 0,
+     "shares": 0,
+     "reach": 700,
+     "favorites": 0,
+     "new_followers": 0,
+     "profile_views": 0,
+     "full_video_watched_rate": 0.0275,
+     "average_time_watched": 7.47,
+     "total_time_watched": 5967,
+     "is_ai_generated": true,
+     "retention": [
+      {
+       "percentage": 1,
+       "second": "0"
+      },
+      {
+       "percentage": 0.71,
+       "second": "1"
+      },
+      {
+       "percentage": 0.52,
+       "second": "2"
+      },
+      {
+       "percentage": 0.41,
+       "second": "3"
+      },
+      {
+       "percentage": 0.35,
+       "second": "4"
+      },
+      {
+       "percentage": 0.3,
+       "second": "5"
+      },
+      {
+       "percentage": 0.25,
+       "second": "6"
+      },
+      {
+       "percentage": 0.21,
+       "second": "7"
+      },
+      {
+       "percentage": 0.19,
+       "second": "8"
+      },
+      {
+       "percentage": 0.17,
+       "second": "9"
+      },
+      {
+       "percentage": 0.15,
+       "second": "10"
+      },
+      {
+       "percentage": 0.14,
+       "second": "11"
+      },
+      {
+       "percentage": 0.12,
+       "second": "12"
+      },
+      {
+       "percentage": 0.11,
+       "second": "13"
+      },
+      {
+       "percentage": 0.11,
+       "second": "14"
+      },
+      {
+       "percentage": 0.1,
+       "second": "15"
+      },
+      {
+       "percentage": 0.09,
+       "second": "16"
+      },
+      {
+       "percentage": 0.09,
+       "second": "17"
+      },
+      {
+       "percentage": 0.08,
+       "second": "18"
+      },
+      {
+       "percentage": 0.07,
+       "second": "19"
+      },
+      {
+       "percentage": 0.07,
+       "second": "20"
+      },
+      {
+       "percentage": 0.06,
+       "second": "21"
+      },
+      {
+       "percentage": 0.06,
+       "second": "22"
+      },
+      {
+       "percentage": 0.06,
+       "second": "23"
+      },
+      {
+       "percentage": 0.06,
+       "second": "24"
+      },
+      {
+       "percentage": 0.06,
+       "second": "25"
+      },
+      {
+       "percentage": 0.06,
+       "second": "26"
+      },
+      {
+       "percentage": 0.05,
+       "second": "27"
+      },
+      {
+       "percentage": 0.05,
+       "second": "28"
+      },
+      {
+       "percentage": 0.05,
+       "second": "29"
+      },
+      {
+       "percentage": 0.05,
+       "second": "30"
+      },
+      {
+       "percentage": 0.04,
+       "second": "31"
+      },
+      {
+       "percentage": 0.04,
+       "second": "32"
+      },
+      {
+       "percentage": 0.04,
+       "second": "33"
+      },
+      {
+       "percentage": 0.04,
+       "second": "34"
+      },
+      {
+       "percentage": 0.04,
+       "second": "35"
+      },
+      {
+       "percentage": 0.04,
+       "second": "36"
+      },
+      {
+       "percentage": 0.04,
+       "second": "37"
+      },
+      {
+       "percentage": 0.03,
+       "second": "38"
+      },
+      {
+       "percentage": 0.03,
+       "second": "39"
+      },
+      {
+       "percentage": 0.03,
+       "second": "40"
+      }
+     ],
+     "impression_sources": [
+      {
+       "impression_source": "Sound",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Direct Message",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Follow",
+       "percentage": 0
+      },
+      {
+       "impression_source": "For You",
+       "percentage": 0.988
+      },
+      {
+       "impression_source": "Others",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Personal Profile",
+       "percentage": 0.008
+      },
+      {
+       "impression_source": "Search",
+       "percentage": 0.004
+      }
+     ],
+     "audience_types": [
+      {
+       "percentage": 0,
+       "type": "FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0.88,
+       "type": "NEW_VIEWER"
+      },
+      {
+       "percentage": 1,
+       "type": "NON_FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0.12,
+       "type": "RETURN_VIEWER"
+      }
+     ],
+     "audience": {
+      "countries": [
+       {
+        "country": "US",
+        "percentage": 0.01
+       },
+       {
+        "country": "FR",
+        "percentage": 0.006
+       },
+       {
+        "country": "Others",
+        "percentage": 0.024
+       },
+       {
+        "country": "RO",
+        "percentage": 0.004
+       },
+       {
+        "country": "CO",
+        "percentage": 0.01
+       },
+       {
+        "country": "MT",
+        "percentage": 0.004
+       },
+       {
+        "country": "BO",
+        "percentage": 0.003
+       },
+       {
+        "country": "CA",
+        "percentage": 0.003
+       },
+       {
+        "country": "ES",
+        "percentage": 0.925
+       },
+       {
+        "country": "BE",
+        "percentage": 0.005
+       },
+       {
+        "country": "IT",
+        "percentage": 0.006
+       }
+      ],
+      "cities": [
+       {
+        "city_name": "CA Other",
+        "percentage": 0.0015
+       },
+       {
+        "city_name": "ES Barcelona",
+        "percentage": 0.0916
+       },
+       {
+        "city_name": "ES Madrid",
+        "percentage": 0.2128
+       },
+       {
+        "city_name": "ES Seville",
+        "percentage": 0.0398
+       },
+       {
+        "city_name": "CA York",
+        "percentage": 0.0015
+       },
+       {
+        "city_name": "ES Malaga",
+        "percentage": 0.0472
+       },
+       {
+        "city_name": "US Other",
+        "percentage": 0.0038
+       },
+       {
+        "city_name": "ES Other",
+        "percentage": 0.4792
+       },
+       {
+        "city_name": "ES Valencia",
+        "percentage": 0.0546
+       },
+       {
+        "city_name": "US Broward",
+        "percentage": 0.0013
+       },
+       {
+        "city_name": "US Tulsa",
+        "percentage": 0.005
+       }
+      ],
+      "genders": [
+       {
+        "gender": "other_vv",
+        "percentage": 0
+       },
+       {
+        "gender": "female_vv",
+        "percentage": 0.42
+       },
+       {
+        "gender": "male_vv",
+        "percentage": 0.58
+       }
+      ]
+     }
+    }
    }
   ]
  },
@@ -47745,6 +48480,22 @@
      "subscribers_gained": 0,
      "shares": 0
     }
+   },
+   {
+    "t": "2026-11-11T21:14:13.682Z",
+    "horas": 49.2,
+    "m": {
+     "views": 662,
+     "likes": 26,
+     "comments": 1,
+     "favorites": 0,
+     "watch_time_minutes": 0,
+     "average_view_duration_seconds": 0,
+     "average_view_percentage": 0,
+     "engaged_views": 0,
+     "subscribers_gained": 0,
+     "shares": 0
+    }
    }
   ]
  },
@@ -48345,6 +49096,19 @@
    {
     "t": "2026-11-11T20:18:43.387Z",
     "horas": 48.3,
+    "m": {
+     "reactions": 1,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "views": 375,
+     "reach": 0,
+     "impressions": 375
+    }
+   },
+   {
+    "t": "2026-11-11T21:14:37.411Z",
+    "horas": 49.2,
     "m": {
      "reactions": 1,
      "likes": 1,
@@ -48999,6 +49763,27 @@
    {
     "t": "2026-11-11T20:17:35.063Z",
     "horas": 30.8,
+    "m": {
+     "likes": 0,
+     "comments": 0,
+     "media_product_type": "REELS",
+     "views": 37,
+     "impressions": 37,
+     "reach": 29,
+     "saves": 0,
+     "shares": 0,
+     "likes_insight": 0,
+     "comments_insight": 0,
+     "total_interactions": 0,
+     "ig_reels_avg_watch_time": 6121,
+     "ig_reels_video_view_total_time": 208136,
+     "crossposted_views": null,
+     "facebook_views": null
+    }
+   },
+   {
+    "t": "2026-11-11T21:13:30.111Z",
+    "horas": 31.7,
     "m": {
      "likes": 0,
      "comments": 0,
@@ -55987,6 +56772,238 @@
       }
      ]
     }
+   },
+   {
+    "t": "2026-11-11T21:13:55.326Z",
+    "horas": 31.7,
+    "m": {
+     "views": 811,
+     "likes": 9,
+     "comments": 0,
+     "shares": 1,
+     "reach": 0,
+     "favorites": 0,
+     "new_followers": 0,
+     "profile_views": 0,
+     "full_video_watched_rate": 0.0492,
+     "average_time_watched": 6.35,
+     "total_time_watched": 5287,
+     "is_ai_generated": true,
+     "retention": [
+      {
+       "percentage": 1,
+       "second": "0"
+      },
+      {
+       "percentage": 0.66,
+       "second": "1"
+      },
+      {
+       "percentage": 0.51,
+       "second": "2"
+      },
+      {
+       "percentage": 0.42,
+       "second": "3"
+      },
+      {
+       "percentage": 0.32,
+       "second": "4"
+      },
+      {
+       "percentage": 0.25,
+       "second": "5"
+      },
+      {
+       "percentage": 0.19,
+       "second": "6"
+      },
+      {
+       "percentage": 0.16,
+       "second": "7"
+      },
+      {
+       "percentage": 0.15,
+       "second": "8"
+      },
+      {
+       "percentage": 0.13,
+       "second": "9"
+      },
+      {
+       "percentage": 0.13,
+       "second": "10"
+      },
+      {
+       "percentage": 0.12,
+       "second": "11"
+      },
+      {
+       "percentage": 0.11,
+       "second": "12"
+      },
+      {
+       "percentage": 0.11,
+       "second": "13"
+      },
+      {
+       "percentage": 0.11,
+       "second": "14"
+      },
+      {
+       "percentage": 0.1,
+       "second": "15"
+      },
+      {
+       "percentage": 0.1,
+       "second": "16"
+      },
+      {
+       "percentage": 0.09,
+       "second": "17"
+      },
+      {
+       "percentage": 0.08,
+       "second": "18"
+      },
+      {
+       "percentage": 0.07,
+       "second": "19"
+      },
+      {
+       "percentage": 0.07,
+       "second": "20"
+      },
+      {
+       "percentage": 0.07,
+       "second": "21"
+      },
+      {
+       "percentage": 0.06,
+       "second": "22"
+      },
+      {
+       "percentage": 0.06,
+       "second": "23"
+      },
+      {
+       "percentage": 0.06,
+       "second": "24"
+      },
+      {
+       "percentage": 0.06,
+       "second": "25"
+      },
+      {
+       "percentage": 0.05,
+       "second": "26"
+      },
+      {
+       "percentage": 0.05,
+       "second": "27"
+      },
+      {
+       "percentage": 0.05,
+       "second": "28"
+      },
+      {
+       "percentage": 0.05,
+       "second": "29"
+      },
+      {
+       "percentage": 0.05,
+       "second": "30"
+      },
+      {
+       "percentage": 0.05,
+       "second": "31"
+      },
+      {
+       "percentage": 0.05,
+       "second": "32"
+      },
+      {
+       "percentage": 0.05,
+       "second": "33"
+      },
+      {
+       "percentage": 0.04,
+       "second": "34"
+      },
+      {
+       "percentage": 0.04,
+       "second": "35"
+      },
+      {
+       "percentage": 0.04,
+       "second": "36"
+      },
+      {
+       "percentage": 0.04,
+       "second": "37"
+      },
+      {
+       "percentage": 0.04,
+       "second": "38"
+      },
+      {
+       "percentage": 0.04,
+       "second": "39"
+      },
+      {
+       "percentage": 0.04,
+       "second": "40"
+      }
+     ],
+     "impression_sources": [
+      {
+       "impression_source": "Direct Message",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Follow",
+       "percentage": 0
+      },
+      {
+       "impression_source": "For You",
+       "percentage": 0.992
+      },
+      {
+       "impression_source": "Others",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Personal Profile",
+       "percentage": 0.008
+      },
+      {
+       "impression_source": "Search",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Sound",
+       "percentage": 0
+      }
+     ],
+     "audience_types": [
+      {
+       "percentage": 0,
+       "type": "FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0,
+       "type": "NEW_VIEWER"
+      },
+      {
+       "percentage": 1,
+       "type": "NON_FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0,
+       "type": "RETURN_VIEWER"
+      }
+     ]
+    }
    }
   ]
  },
@@ -56494,6 +57511,22 @@
      "subscribers_gained": 0,
      "shares": 0
     }
+   },
+   {
+    "t": "2026-11-11T21:14:17.139Z",
+    "horas": 31.7,
+    "m": {
+     "views": 1096,
+     "likes": 11,
+     "comments": 0,
+     "favorites": 0,
+     "watch_time_minutes": 0,
+     "average_view_duration_seconds": 0,
+     "average_view_percentage": 0,
+     "engaged_views": 0,
+     "subscribers_gained": 0,
+     "shares": 0
+    }
    }
   ]
  },
@@ -56899,6 +57932,19 @@
    {
     "t": "2026-11-11T20:18:47.993Z",
     "horas": 30.8,
+    "m": {
+     "reactions": 0,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
+     "views": 216,
+     "reach": 0,
+     "impressions": 216
+    }
+   },
+   {
+    "t": "2026-11-11T21:14:42.321Z",
+    "horas": 31.7,
     "m": {
      "reactions": 0,
      "likes": 0,
@@ -57406,6 +58452,27 @@
    {
     "t": "2026-11-11T20:17:39.640Z",
     "horas": 23.3,
+    "m": {
+     "likes": 0,
+     "comments": 0,
+     "media_product_type": "REELS",
+     "views": 1,
+     "impressions": 1,
+     "reach": 1,
+     "saves": 0,
+     "shares": 0,
+     "likes_insight": 0,
+     "comments_insight": 0,
+     "total_interactions": 0,
+     "ig_reels_avg_watch_time": 41142,
+     "ig_reels_video_view_total_time": 164571,
+     "crossposted_views": null,
+     "facebook_views": null
+    }
+   },
+   {
+    "t": "2026-11-11T21:13:34.290Z",
+    "horas": 24.2,
     "m": {
      "likes": 0,
      "comments": 0,
@@ -63386,6 +64453,254 @@
       }
      ]
     }
+   },
+   {
+    "t": "2026-11-11T21:13:59.089Z",
+    "horas": 24.2,
+    "m": {
+     "views": 821,
+     "likes": 19,
+     "comments": 1,
+     "shares": 1,
+     "reach": 0,
+     "favorites": 1,
+     "new_followers": 0,
+     "profile_views": 0,
+     "full_video_watched_rate": 0.0912,
+     "average_time_watched": 12.27,
+     "total_time_watched": 10220,
+     "is_ai_generated": true,
+     "retention": [
+      {
+       "percentage": 1,
+       "second": "0"
+      },
+      {
+       "percentage": 0.79,
+       "second": "1"
+      },
+      {
+       "percentage": 0.62,
+       "second": "2"
+      },
+      {
+       "percentage": 0.53,
+       "second": "3"
+      },
+      {
+       "percentage": 0.47,
+       "second": "4"
+      },
+      {
+       "percentage": 0.44,
+       "second": "5"
+      },
+      {
+       "percentage": 0.4,
+       "second": "6"
+      },
+      {
+       "percentage": 0.38,
+       "second": "7"
+      },
+      {
+       "percentage": 0.37,
+       "second": "8"
+      },
+      {
+       "percentage": 0.35,
+       "second": "9"
+      },
+      {
+       "percentage": 0.34,
+       "second": "10"
+      },
+      {
+       "percentage": 0.33,
+       "second": "11"
+      },
+      {
+       "percentage": 0.3,
+       "second": "12"
+      },
+      {
+       "percentage": 0.28,
+       "second": "13"
+      },
+      {
+       "percentage": 0.26,
+       "second": "14"
+      },
+      {
+       "percentage": 0.25,
+       "second": "15"
+      },
+      {
+       "percentage": 0.24,
+       "second": "16"
+      },
+      {
+       "percentage": 0.23,
+       "second": "17"
+      },
+      {
+       "percentage": 0.22,
+       "second": "18"
+      },
+      {
+       "percentage": 0.22,
+       "second": "19"
+      },
+      {
+       "percentage": 0.21,
+       "second": "20"
+      },
+      {
+       "percentage": 0.21,
+       "second": "21"
+      },
+      {
+       "percentage": 0.21,
+       "second": "22"
+      },
+      {
+       "percentage": 0.2,
+       "second": "23"
+      },
+      {
+       "percentage": 0.17,
+       "second": "24"
+      },
+      {
+       "percentage": 0.16,
+       "second": "25"
+      },
+      {
+       "percentage": 0.15,
+       "second": "26"
+      },
+      {
+       "percentage": 0.15,
+       "second": "27"
+      },
+      {
+       "percentage": 0.14,
+       "second": "28"
+      },
+      {
+       "percentage": 0.14,
+       "second": "29"
+      },
+      {
+       "percentage": 0.14,
+       "second": "30"
+      },
+      {
+       "percentage": 0.13,
+       "second": "31"
+      },
+      {
+       "percentage": 0.13,
+       "second": "32"
+      },
+      {
+       "percentage": 0.13,
+       "second": "33"
+      },
+      {
+       "percentage": 0.13,
+       "second": "34"
+      },
+      {
+       "percentage": 0.12,
+       "second": "35"
+      },
+      {
+       "percentage": 0.11,
+       "second": "36"
+      },
+      {
+       "percentage": 0.11,
+       "second": "37"
+      },
+      {
+       "percentage": 0.11,
+       "second": "38"
+      },
+      {
+       "percentage": 0.11,
+       "second": "39"
+      },
+      {
+       "percentage": 0.1,
+       "second": "40"
+      },
+      {
+       "percentage": 0.09,
+       "second": "41"
+      },
+      {
+       "percentage": 0.09,
+       "second": "42"
+      },
+      {
+       "percentage": 0.07,
+       "second": "43"
+      },
+      {
+       "percentage": 0.05,
+       "second": "44"
+      }
+     ],
+     "impression_sources": [
+      {
+       "impression_source": "Sound",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Direct Message",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Follow",
+       "percentage": 0
+      },
+      {
+       "impression_source": "For You",
+       "percentage": 0.987
+      },
+      {
+       "impression_source": "Others",
+       "percentage": 0.004
+      },
+      {
+       "impression_source": "Personal Profile",
+       "percentage": 0.007
+      },
+      {
+       "impression_source": "Search",
+       "percentage": 0.002
+      }
+     ],
+     "audience_types": [
+      {
+       "percentage": 0,
+       "type": "FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0,
+       "type": "NEW_VIEWER"
+      },
+      {
+       "percentage": 1,
+       "type": "NON_FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0,
+       "type": "RETURN_VIEWER"
+      }
+     ]
+    }
    }
   ]
  },
@@ -63703,6 +65018,22 @@
    {
     "t": "2026-11-11T20:18:26.697Z",
     "horas": 23.3,
+    "m": {
+     "views": 1110,
+     "likes": 21,
+     "comments": 0,
+     "favorites": 0,
+     "watch_time_minutes": 0,
+     "average_view_duration_seconds": 0,
+     "average_view_percentage": 0,
+     "engaged_views": 0,
+     "subscribers_gained": 0,
+     "shares": 0
+    }
+   },
+   {
+    "t": "2026-11-11T21:14:20.401Z",
+    "horas": 24.2,
     "m": {
      "views": 1110,
      "likes": 21,
@@ -64038,6 +65369,19 @@
      "reach": 0,
      "impressions": 298
     }
+   },
+   {
+    "t": "2026-11-11T21:14:48.454Z",
+    "horas": 24.2,
+    "m": {
+     "reactions": 2,
+     "likes": 2,
+     "comments": 0,
+     "shares": 0,
+     "views": 298,
+     "reach": 0,
+     "impressions": 298
+    }
    }
   ]
  },
@@ -64200,6 +65544,27 @@
    {
     "t": "2026-11-11T20:17:44.369Z",
     "horas": 7.8,
+    "m": {
+     "likes": 0,
+     "comments": 0,
+     "media_product_type": "REELS",
+     "views": 2,
+     "impressions": 2,
+     "reach": 2,
+     "saves": 0,
+     "shares": 0,
+     "likes_insight": 0,
+     "comments_insight": 0,
+     "total_interactions": 0,
+     "ig_reels_avg_watch_time": 26719,
+     "ig_reels_video_view_total_time": 80157,
+     "crossposted_views": null,
+     "facebook_views": null
+    }
+   },
+   {
+    "t": "2026-11-11T21:13:38.810Z",
+    "horas": 8.7,
     "m": {
      "likes": 0,
      "comments": 0,
@@ -66404,6 +67769,278 @@
       }
      ]
     }
+   },
+   {
+    "t": "2026-11-11T21:14:02.929Z",
+    "horas": 8.7,
+    "m": {
+     "views": 442,
+     "likes": 20,
+     "comments": 0,
+     "shares": 0,
+     "reach": 0,
+     "favorites": 1,
+     "new_followers": 0,
+     "profile_views": 0,
+     "full_video_watched_rate": 0.0264,
+     "average_time_watched": 9.46,
+     "total_time_watched": 4294,
+     "is_ai_generated": true,
+     "retention": [
+      {
+       "percentage": 1,
+       "second": "0"
+      },
+      {
+       "percentage": 0.71,
+       "second": "1"
+      },
+      {
+       "percentage": 0.55,
+       "second": "2"
+      },
+      {
+       "percentage": 0.5,
+       "second": "3"
+      },
+      {
+       "percentage": 0.41,
+       "second": "4"
+      },
+      {
+       "percentage": 0.35,
+       "second": "5"
+      },
+      {
+       "percentage": 0.32,
+       "second": "6"
+      },
+      {
+       "percentage": 0.3,
+       "second": "7"
+      },
+      {
+       "percentage": 0.27,
+       "second": "8"
+      },
+      {
+       "percentage": 0.25,
+       "second": "9"
+      },
+      {
+       "percentage": 0.21,
+       "second": "10"
+      },
+      {
+       "percentage": 0.2,
+       "second": "11"
+      },
+      {
+       "percentage": 0.19,
+       "second": "12"
+      },
+      {
+       "percentage": 0.18,
+       "second": "13"
+      },
+      {
+       "percentage": 0.18,
+       "second": "14"
+      },
+      {
+       "percentage": 0.18,
+       "second": "15"
+      },
+      {
+       "percentage": 0.17,
+       "second": "16"
+      },
+      {
+       "percentage": 0.17,
+       "second": "17"
+      },
+      {
+       "percentage": 0.16,
+       "second": "18"
+      },
+      {
+       "percentage": 0.15,
+       "second": "19"
+      },
+      {
+       "percentage": 0.15,
+       "second": "20"
+      },
+      {
+       "percentage": 0.15,
+       "second": "21"
+      },
+      {
+       "percentage": 0.14,
+       "second": "22"
+      },
+      {
+       "percentage": 0.14,
+       "second": "23"
+      },
+      {
+       "percentage": 0.13,
+       "second": "24"
+      },
+      {
+       "percentage": 0.13,
+       "second": "25"
+      },
+      {
+       "percentage": 0.13,
+       "second": "26"
+      },
+      {
+       "percentage": 0.12,
+       "second": "27"
+      },
+      {
+       "percentage": 0.11,
+       "second": "28"
+      },
+      {
+       "percentage": 0.11,
+       "second": "29"
+      },
+      {
+       "percentage": 0.11,
+       "second": "30"
+      },
+      {
+       "percentage": 0.1,
+       "second": "31"
+      },
+      {
+       "percentage": 0.1,
+       "second": "32"
+      },
+      {
+       "percentage": 0.09,
+       "second": "33"
+      },
+      {
+       "percentage": 0.09,
+       "second": "34"
+      },
+      {
+       "percentage": 0.08,
+       "second": "35"
+      },
+      {
+       "percentage": 0.08,
+       "second": "36"
+      },
+      {
+       "percentage": 0.07,
+       "second": "37"
+      },
+      {
+       "percentage": 0.07,
+       "second": "38"
+      },
+      {
+       "percentage": 0.07,
+       "second": "39"
+      },
+      {
+       "percentage": 0.07,
+       "second": "40"
+      },
+      {
+       "percentage": 0.07,
+       "second": "41"
+      },
+      {
+       "percentage": 0.07,
+       "second": "42"
+      },
+      {
+       "percentage": 0.06,
+       "second": "43"
+      },
+      {
+       "percentage": 0.06,
+       "second": "44"
+      },
+      {
+       "percentage": 0.06,
+       "second": "45"
+      },
+      {
+       "percentage": 0.05,
+       "second": "46"
+      },
+      {
+       "percentage": 0.04,
+       "second": "47"
+      },
+      {
+       "percentage": 0.03,
+       "second": "48"
+      },
+      {
+       "percentage": 0.03,
+       "second": "49"
+      },
+      {
+       "percentage": 0.02,
+       "second": "50"
+      }
+     ],
+     "impression_sources": [
+      {
+       "impression_source": "Personal Profile",
+       "percentage": 0.002
+      },
+      {
+       "impression_source": "Search",
+       "percentage": 0.35
+      },
+      {
+       "impression_source": "Sound",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Direct Message",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Follow",
+       "percentage": 0
+      },
+      {
+       "impression_source": "For You",
+       "percentage": 0.644
+      },
+      {
+       "impression_source": "Others",
+       "percentage": 0.004
+      }
+     ],
+     "audience_types": [
+      {
+       "percentage": 0,
+       "type": "FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0,
+       "type": "NEW_VIEWER"
+      },
+      {
+       "percentage": 1,
+       "type": "NON_FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0,
+       "type": "RETURN_VIEWER"
+      }
+     ]
+    }
    }
   ]
  },
@@ -66543,6 +68180,22 @@
      "subscribers_gained": 0,
      "shares": 0
     }
+   },
+   {
+    "t": "2026-11-11T21:14:23.679Z",
+    "horas": 8.7,
+    "m": {
+     "views": 1027,
+     "likes": 12,
+     "comments": 0,
+     "favorites": 0,
+     "watch_time_minutes": 0,
+     "average_view_duration_seconds": 0,
+     "average_view_percentage": 0,
+     "engaged_views": 0,
+     "subscribers_gained": 0,
+     "shares": 0
+    }
    }
   ]
  },
@@ -66658,6 +68311,19 @@
      "reach": 0,
      "impressions": 48
     }
+   },
+   {
+    "t": "2026-11-11T21:14:53.038Z",
+    "horas": 8.7,
+    "m": {
+     "reactions": 0,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
+     "views": 51,
+     "reach": 0,
+     "impressions": 51
+    }
    }
   ]
  },
@@ -66667,8 +68333,8 @@
   "url": "https://www.instagram.com/reel/DfnQz4ogWvt/",
   "texto": "La palabra «robot» viene del checo «robota», el trabajo obligatorio que los siervos debían a su señor. Apareció en la obra de teatro R.U.R. (1920), de Karel Čapek, aunque la sugirió su hermano Josef, pintor; Karel lo reconoció él mismo en un artículo en 1933. Y los «robots» de la obra no eran de metal, sino seres artificiales de materia orgánica. ¿Conocías el origen? Compártelo con quien crea que robot siempre fue sinónimo de máquina de metal.\r\n\r\n👉 ¿Quieres crear vídeos como este gratis, solo con Claude? Entra en contratitular.es (enlace en el perfil)\r\n\r\nFuentes:\r\n· MIT Press Reader: The Czech Play That Gave Us the Word ‘Robot’\r\n· Popular Science: The first ‘robots’ were made of flesh and bone\r\n· Science Friday: The origin of the word robot\r\n\r\n🤖 Vídeo creado con IA a partir de fuentes verificadas.\r\n\r\n#curiosidades #palabras #etimologia #robot #idiomas",
   "publicado": "2026-11-11T19:45:35.000Z",
-  "video": null,
-  "titulo": null,
+  "video": "2026-11-11-2045",
+  "titulo": "La palabra «robot» no la inventó quien escribió la obra",
   "fotos": [
    {
     "t": "2026-11-11T20:17:48.638Z",
@@ -66690,6 +68356,27 @@
      "crossposted_views": null,
      "facebook_views": null
     }
+   },
+   {
+    "t": "2026-11-11T21:13:43.409Z",
+    "horas": 1.5,
+    "m": {
+     "likes": 1,
+     "comments": 0,
+     "media_product_type": "REELS",
+     "views": 124,
+     "impressions": 124,
+     "reach": 107,
+     "saves": 0,
+     "shares": 0,
+     "likes_insight": 1,
+     "comments_insight": 0,
+     "total_interactions": 1,
+     "ig_reels_avg_watch_time": 11645,
+     "ig_reels_video_view_total_time": 1234388,
+     "crossposted_views": null,
+     "facebook_views": null
+    }
    }
   ]
  },
@@ -66699,8 +68386,8 @@
   "url": "https://www.tiktok.com/@contratitular/video/7707002370558905633?utm_campaign=tt4d_open_api&utm_source=7529407175366705169",
   "texto": "La palabra «robot» viene del checo «robota», el trabajo obligatorio que los siervos debían a su señor. Apareció en la obra de teatro R.U.R. (1920), de Karel Čapek, aunque la sugirió su hermano Josef, pintor; Karel lo reconoció él mismo en un artículo en 1933. Y los «robots» de la obra no eran de metal, sino seres artificiales de materia orgánica. ¿Conocías el origen? Compártelo con quien crea que robot siempre fue sinónimo de máquina de metal. 👉 ¿Quieres crear vídeos como este gratis, solo con Claude? Entra en contratitular.es (enlace en el perfil) Fuentes: · MIT Press Reader: The Czech Play That Gave Us the Word ‘Robot’ · Popular Science: The first ‘robots’ were made of flesh and bone · Science Friday: The origin of the word robot 🤖 Vídeo creado con IA a partir de fuentes verificadas. #curiosidades #palabras #etimologia #robot #idiomas",
   "publicado": "2026-11-11T19:45:07.000Z",
-  "video": null,
-  "titulo": null,
+  "video": "2026-11-11-2045",
+  "titulo": "La palabra «robot» no la inventó quien escribió la obra",
   "fotos": [
    {
     "t": "2026-11-11T20:18:13.076Z",
@@ -66941,6 +68628,246 @@
       }
      ]
     }
+   },
+   {
+    "t": "2026-11-11T21:14:06.687Z",
+    "horas": 1.5,
+    "m": {
+     "views": 100,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "reach": 0,
+     "favorites": 0,
+     "new_followers": 0,
+     "profile_views": 0,
+     "full_video_watched_rate": 0.0217,
+     "average_time_watched": 7.13,
+     "total_time_watched": 655,
+     "is_ai_generated": true,
+     "retention": [
+      {
+       "percentage": 1,
+       "second": "0"
+      },
+      {
+       "percentage": 0.78,
+       "second": "1"
+      },
+      {
+       "percentage": 0.62,
+       "second": "2"
+      },
+      {
+       "percentage": 0.54,
+       "second": "3"
+      },
+      {
+       "percentage": 0.43,
+       "second": "4"
+      },
+      {
+       "percentage": 0.39,
+       "second": "5"
+      },
+      {
+       "percentage": 0.29,
+       "second": "6"
+      },
+      {
+       "percentage": 0.26,
+       "second": "7"
+      },
+      {
+       "percentage": 0.15,
+       "second": "8"
+      },
+      {
+       "percentage": 0.13,
+       "second": "9"
+      },
+      {
+       "percentage": 0.11,
+       "second": "10"
+      },
+      {
+       "percentage": 0.1,
+       "second": "11"
+      },
+      {
+       "percentage": 0.08,
+       "second": "12"
+      },
+      {
+       "percentage": 0.08,
+       "second": "13"
+      },
+      {
+       "percentage": 0.08,
+       "second": "14"
+      },
+      {
+       "percentage": 0.08,
+       "second": "15"
+      },
+      {
+       "percentage": 0.08,
+       "second": "16"
+      },
+      {
+       "percentage": 0.07,
+       "second": "17"
+      },
+      {
+       "percentage": 0.07,
+       "second": "18"
+      },
+      {
+       "percentage": 0.07,
+       "second": "19"
+      },
+      {
+       "percentage": 0.07,
+       "second": "20"
+      },
+      {
+       "percentage": 0.07,
+       "second": "21"
+      },
+      {
+       "percentage": 0.07,
+       "second": "22"
+      },
+      {
+       "percentage": 0.06,
+       "second": "23"
+      },
+      {
+       "percentage": 0.04,
+       "second": "24"
+      },
+      {
+       "percentage": 0.04,
+       "second": "25"
+      },
+      {
+       "percentage": 0.04,
+       "second": "26"
+      },
+      {
+       "percentage": 0.04,
+       "second": "27"
+      },
+      {
+       "percentage": 0.04,
+       "second": "28"
+      },
+      {
+       "percentage": 0.04,
+       "second": "29"
+      },
+      {
+       "percentage": 0.04,
+       "second": "30"
+      },
+      {
+       "percentage": 0.04,
+       "second": "31"
+      },
+      {
+       "percentage": 0.04,
+       "second": "32"
+      },
+      {
+       "percentage": 0.03,
+       "second": "33"
+      },
+      {
+       "percentage": 0.03,
+       "second": "34"
+      },
+      {
+       "percentage": 0.03,
+       "second": "35"
+      },
+      {
+       "percentage": 0.03,
+       "second": "36"
+      },
+      {
+       "percentage": 0.03,
+       "second": "37"
+      },
+      {
+       "percentage": 0.03,
+       "second": "38"
+      },
+      {
+       "percentage": 0.03,
+       "second": "39"
+      },
+      {
+       "percentage": 0.03,
+       "second": "40"
+      },
+      {
+       "percentage": 0.03,
+       "second": "41"
+      },
+      {
+       "percentage": 0.02,
+       "second": "42"
+      }
+     ],
+     "impression_sources": [
+      {
+       "impression_source": "Others",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Personal Profile",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Search",
+       "percentage": 0.011
+      },
+      {
+       "impression_source": "Sound",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Direct Message",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Follow",
+       "percentage": 0
+      },
+      {
+       "impression_source": "For You",
+       "percentage": 0.989
+      }
+     ],
+     "audience_types": [
+      {
+       "percentage": 0,
+       "type": "NEW_VIEWER"
+      },
+      {
+       "percentage": 1,
+       "type": "NON_FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0,
+       "type": "RETURN_VIEWER"
+      },
+      {
+       "percentage": 0,
+       "type": "FOLLOWER_PERCENT"
+      }
+     ]
+    }
    }
   ]
  },
@@ -66962,6 +68889,16 @@
      "comments": 0,
      "favorites": 0
     }
+   },
+   {
+    "t": "2026-11-11T21:14:26.955Z",
+    "horas": 1.5,
+    "m": {
+     "views": 304,
+     "likes": 9,
+     "comments": 0,
+     "favorites": 0
+    }
    }
   ]
  },
@@ -66971,8 +68908,8 @@
   "url": "https://www.facebook.com/reel/1629612355611275/",
   "texto": "La palabra «robot» viene del checo «robota», el trabajo obligatorio que los siervos debían a su señor. Apareció en la obra de teatro R.U.R. (1920), de Karel Čapek, aunque la sugirió su hermano Josef, pintor; Karel lo reconoció él mismo en un artículo en 1933. Y los «robots» de la obra no eran de metal, sino seres artificiales de materia orgánica. ¿Conocías el origen? Compártelo con quien crea que robot siempre fue sinónimo de máquina de metal.\n\n👉 ¿Quieres crear vídeos como este gratis, solo con Claude? Entra en contratitular.es (enlace en el perfil)\n\nFuentes:\n· MIT Press Reader: The Czech Play That Gave Us the Word ‘Robot’\n· Popular Science: The first ‘robots’ were made of flesh and bone\n· Science Friday: The origin of the word robot\n\n🤖 Vídeo creado con IA a partir de fuentes verificadas.\n\n#curiosidades #palabras #etimologia #robot #idiomas",
   "publicado": "2026-11-11T19:45:39.000Z",
-  "video": null,
-  "titulo": null,
+  "video": "2026-11-11-2045",
+  "titulo": "La palabra «robot» no la inventó quien escribió la obra",
   "fotos": [
    {
     "t": "2026-11-11T20:19:02.547Z",
@@ -66985,6 +68922,19 @@
      "views": 2,
      "reach": 0,
      "impressions": 2
+    }
+   },
+   {
+    "t": "2026-11-11T21:14:58.345Z",
+    "horas": 1.5,
+    "m": {
+     "reactions": 0,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
+     "views": 54,
+     "reach": 0,
+     "impressions": 54
     }
    }
   ]

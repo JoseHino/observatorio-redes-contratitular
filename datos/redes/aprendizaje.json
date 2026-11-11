@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T20:19:05.700Z",
+ "actualizado": "2026-11-11T21:15:01.861Z",
  "publicaciones": 20,
  "videos": 6,
  "factores": {
@@ -19,7 +19,7 @@
    "martes": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.84,
+    "vistas": 0.85,
     "interaccion": 0.45
    }
   },
@@ -33,7 +33,7 @@
    "mediodía": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.09,
+    "vistas": 1.08,
     "interaccion": 0.52
    }
   },
@@ -59,7 +59,7 @@
    "22-24 h": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.68,
+    "vistas": 0.69,
     "interaccion": 0.77
    }
   },
@@ -67,7 +67,7 @@
    "instagram": {
     "n": 5,
     "videos": 5,
-    "vistas": 0.69,
+    "vistas": 0.72,
     "interaccion": 0.26
    },
    "tiktok": {
@@ -79,13 +79,13 @@
    "youtube": {
     "n": 5,
     "videos": 5,
-    "vistas": 1.13,
+    "vistas": 1.09,
     "interaccion": 1.03
    },
    "facebook": {
     "n": 5,
     "videos": 5,
-    "vistas": 0.98,
+    "vistas": 0.99,
     "interaccion": 0.43
    }
   },
@@ -99,7 +99,7 @@
    "pizarra": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.89,
+    "vistas": 0.88,
     "interaccion": 0.68
    },
    "limpio": {
@@ -111,7 +111,7 @@
    "papel": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.68,
+    "vistas": 0.69,
     "interaccion": 0.77
    }
   },
@@ -125,7 +125,7 @@
    "Ciencia": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.89,
+    "vistas": 0.88,
     "interaccion": 0.68
    },
    "Cuerpo humano": {
@@ -137,7 +137,7 @@
    "Animales": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.68,
+    "vistas": 0.69,
     "interaccion": 0.77
    }
   },
@@ -145,13 +145,13 @@
    "33-43 s": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.01,
+    "vistas": 1,
     "interaccion": 0.53
    },
    ">43 s": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.68,
+    "vistas": 0.69,
     "interaccion": 0.77
    }
   },
@@ -173,13 +173,13 @@
    "largo (>12)": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.01,
+    "vistas": 1,
     "interaccion": 0.53
    },
    "corto (≤12)": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.68,
+    "vistas": 0.69,
     "interaccion": 0.77
    }
   },
@@ -187,7 +187,7 @@
    "no": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.88,
+    "vistas": 0.89,
     "interaccion": 0.56
    }
   },
@@ -209,7 +209,7 @@
    "pocos (<12/min)": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.88,
+    "vistas": 0.89,
     "interaccion": 0.56
    }
   },
@@ -217,7 +217,7 @@
    "sí": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.82,
+    "vistas": 0.83,
     "interaccion": 0.86
    },
    "no": {
@@ -237,7 +237,7 @@
    "ciencia": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.89,
+    "vistas": 0.88,
     "interaccion": 0.68
    },
    "cuerpo humano": {
@@ -249,7 +249,7 @@
    "naturaleza": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.68,
+    "vistas": 0.69,
     "interaccion": 0.77
    }
   },
@@ -257,7 +257,7 @@
    "asombro": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.88,
+    "vistas": 0.89,
     "interaccion": 0.56
    }
   },
@@ -271,7 +271,7 @@
    "otro": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.89,
+    "vistas": 0.88,
     "interaccion": 0.68
    },
    "contradicción": {
@@ -283,7 +283,7 @@
    "misterio": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.68,
+    "vistas": 0.69,
     "interaccion": 0.77
    }
   },
@@ -291,7 +291,7 @@
    "mundo": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.82,
+    "vistas": 0.83,
     "interaccion": 0.86
    },
    "universal": {
@@ -305,13 +305,13 @@
    "no": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.01,
+    "vistas": 1,
     "interaccion": 0.53
    },
    "sí": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.68,
+    "vistas": 0.69,
     "interaccion": 0.77
    }
   },
@@ -319,13 +319,13 @@
    "sí": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.9,
+    "vistas": 0.91,
     "interaccion": 0.56
    },
    "no": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.89,
+    "vistas": 0.88,
     "interaccion": 0.68
    }
   },
@@ -339,7 +339,7 @@
    "dato final": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.84,
+    "vistas": 0.85,
     "interaccion": 0.45
    }
   },
@@ -347,7 +347,7 @@
    "sí": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.88,
+    "vistas": 0.89,
     "interaccion": 0.56
    }
   },
@@ -355,7 +355,7 @@
    "sí": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.88,
+    "vistas": 0.89,
     "interaccion": 0.56
    }
   },
@@ -363,7 +363,7 @@
    "sí": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.88,
+    "vistas": 0.89,
     "interaccion": 0.56
    }
   },
@@ -371,13 +371,13 @@
    "no": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.09,
+    "vistas": 1.08,
     "interaccion": 0.52
    },
    "sí": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.74,
+    "vistas": 0.75,
     "interaccion": 0.68
    }
   },
@@ -391,7 +391,7 @@
    "burbuja": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.68,
+    "vistas": 0.69,
     "interaccion": 0.77
    }
   },
@@ -414,11 +414,11 @@
    "kalimba": 0.117,
    "campanita": 0.117,
    "cuerda": 0.117,
-   "burbuja": 0.095,
+   "burbuja": 0.096,
    "tum": 0.117
   },
   "estilo": {
-   "papel": 0.184,
+   "papel": 0.185,
    "neon": 0.227,
    "pop": 0.231,
    "pizarra": 0.192,
@@ -456,7 +456,7 @@
   {
    "id": "2026-11-09-1330",
    "titulo": "El ajuste mal hecho que apagó a 25 millones de personas en 1965",
-   "indice": 1.08
+   "indice": 1.07
   },
   {
    "id": "2026-11-09-2100-v2",
@@ -466,11 +466,17 @@
   {
    "id": "2026-11-10-2200",
    "titulo": "Por qué los wombats hacen caca en forma de cubo",
-   "indice": 0.56
+   "indice": 0.58
   }
  ],
  "experimentos": {
-  "activo": null,
+  "activo": {
+   "variable": "gancho_tipo",
+   "pregunta": "¿Qué primera frase retiene más: cifra chocante, pregunta o contradicción?",
+   "asignados": {
+    "cifra chocante": 1
+   }
+  },
   "cerrados": []
  }
 }
