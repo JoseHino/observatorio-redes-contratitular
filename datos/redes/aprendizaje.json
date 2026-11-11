@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T11:18:41.986Z",
+ "actualizado": "2026-11-11T12:18:34.689Z",
  "publicaciones": 20,
  "videos": 6,
  "factores": {
@@ -60,7 +60,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.68,
-    "interaccion": 0.78
+    "interaccion": 0.77
    }
   },
   "red": {
@@ -112,7 +112,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.68,
-    "interaccion": 0.78
+    "interaccion": 0.77
    }
   },
   "serie": {
@@ -138,7 +138,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.68,
-    "interaccion": 0.78
+    "interaccion": 0.77
    }
   },
   "duración": {
@@ -152,7 +152,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.68,
-    "interaccion": 0.78
+    "interaccion": 0.77
    }
   },
   "gancho": {
@@ -180,7 +180,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.68,
-    "interaccion": 0.78
+    "interaccion": 0.77
    }
   },
   "escenas de datos": {
@@ -250,7 +250,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.68,
-    "interaccion": 0.78
+    "interaccion": 0.77
    }
   },
   "emocion": {
@@ -284,7 +284,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.68,
-    "interaccion": 0.78
+    "interaccion": 0.77
    }
   },
   "cercania": {
@@ -312,7 +312,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.68,
-    "interaccion": 0.78
+    "interaccion": 0.77
    }
   },
   "giro": {
@@ -392,7 +392,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.68,
-    "interaccion": 0.78
+    "interaccion": 0.77
    }
   },
   "voz": {
@@ -414,14 +414,14 @@
    "kalimba": 0.117,
    "campanita": 0.117,
    "cuerda": 0.117,
-   "burbuja": 0.096,
+   "burbuja": 0.095,
    "tum": 0.117
   },
   "estilo": {
-   "papel": 0.185,
-   "neon": 0.227,
+   "papel": 0.184,
+   "neon": 0.228,
    "pop": 0.231,
-   "pizarra": 0.191,
+   "pizarra": 0.192,
    "limpio": 0.165
   }
  },
