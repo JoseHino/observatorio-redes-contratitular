@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T13:18:53.327Z",
+ "actualizado": "2026-11-11T14:18:52.974Z",
  "publicaciones": 20,
  "videos": 6,
  "factores": {
@@ -19,7 +19,7 @@
    "martes": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.83,
+    "vistas": 0.84,
     "interaccion": 0.45
    }
   },
@@ -33,7 +33,7 @@
    "mediodía": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.08,
+    "vistas": 1.09,
     "interaccion": 0.52
    }
   },
@@ -53,7 +53,7 @@
    "14-16 h": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.08,
+    "vistas": 1.09,
     "interaccion": 0.34
    },
    "22-24 h": {
@@ -67,7 +67,7 @@
    "instagram": {
     "n": 5,
     "videos": 5,
-    "vistas": 0.72,
+    "vistas": 0.69,
     "interaccion": 0.26
    },
    "tiktok": {
@@ -79,13 +79,13 @@
    "youtube": {
     "n": 5,
     "videos": 5,
-    "vistas": 1.18,
+    "vistas": 1.13,
     "interaccion": 1.03
    },
    "facebook": {
     "n": 5,
     "videos": 5,
-    "vistas": 0.89,
+    "vistas": 0.98,
     "interaccion": 0.43
    }
   },
@@ -105,7 +105,7 @@
    "limpio": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.08,
+    "vistas": 1.09,
     "interaccion": 0.34
    },
    "papel": {
@@ -131,7 +131,7 @@
    "Cuerpo humano": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.08,
+    "vistas": 1.09,
     "interaccion": 0.34
    },
    "Animales": {
@@ -145,7 +145,7 @@
    "33-43 s": {
     "n": 12,
     "videos": 3,
-    "vistas": 1,
+    "vistas": 1.01,
     "interaccion": 0.53
    },
    ">43 s": {
@@ -165,7 +165,7 @@
    "afirmación": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.83,
+    "vistas": 0.84,
     "interaccion": 0.48
    }
   },
@@ -173,7 +173,7 @@
    "largo (>12)": {
     "n": 12,
     "videos": 3,
-    "vistas": 1,
+    "vistas": 1.01,
     "interaccion": 0.53
    },
    "corto (≤12)": {
@@ -201,7 +201,7 @@
    "rápido (>2,9 pal/s)": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.83,
+    "vistas": 0.84,
     "interaccion": 0.48
    }
   },
@@ -223,7 +223,7 @@
    "no": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.97,
+    "vistas": 0.98,
     "interaccion": 0.41
    }
   },
@@ -243,7 +243,7 @@
    "cuerpo humano": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.08,
+    "vistas": 1.09,
     "interaccion": 0.34
    },
    "naturaleza": {
@@ -277,7 +277,7 @@
    "contradicción": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.08,
+    "vistas": 1.09,
     "interaccion": 0.34
    },
    "misterio": {
@@ -297,7 +297,7 @@
    "universal": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.97,
+    "vistas": 0.98,
     "interaccion": 0.41
    }
   },
@@ -305,7 +305,7 @@
    "no": {
     "n": 12,
     "videos": 3,
-    "vistas": 1,
+    "vistas": 1.01,
     "interaccion": 0.53
    },
    "sí": {
@@ -319,7 +319,7 @@
    "sí": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.89,
+    "vistas": 0.9,
     "interaccion": 0.56
    },
    "no": {
@@ -339,7 +339,7 @@
    "dato final": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.83,
+    "vistas": 0.84,
     "interaccion": 0.45
    }
   },
@@ -371,7 +371,7 @@
    "no": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.08,
+    "vistas": 1.09,
     "interaccion": 0.52
    },
    "sí": {
@@ -385,7 +385,7 @@
    "gota": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.97,
+    "vistas": 0.98,
     "interaccion": 0.41
    },
    "burbuja": {
@@ -399,7 +399,7 @@
    "Tristan HD": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.83,
+    "vistas": 0.84,
     "interaccion": 0.48
    }
   }
@@ -419,10 +419,10 @@
   },
   "estilo": {
    "papel": 0.184,
-   "neon": 0.228,
+   "neon": 0.227,
    "pop": 0.231,
    "pizarra": 0.192,
-   "limpio": 0.165
+   "limpio": 0.166
   }
  },
  "horas_recomendadas": [
@@ -436,7 +436,7 @@
   },
   "resto de la 1.ª escena": {
    "n": 4,
-   "pierde_s": 10.2
+   "pierde_s": 10.1
   },
   "escenas centrales": {
    "n": 4,
@@ -451,7 +451,7 @@
   {
    "id": "2026-11-10-1430",
    "titulo": "La parte de tu ojo que respira aire en vez de sangre",
-   "indice": 1.12
+   "indice": 1.14
   },
   {
    "id": "2026-11-09-1330",
