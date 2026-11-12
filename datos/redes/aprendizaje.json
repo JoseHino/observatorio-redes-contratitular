@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T09:18:52.171Z",
+ "actualizado": "2026-11-12T10:18:53.434Z",
  "publicaciones": 28,
  "videos": 8,
  "factores": {
@@ -25,7 +25,7 @@
    "miércoles": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.73,
+    "vistas": 0.72,
     "interaccion": 0.63
    }
   },
@@ -91,7 +91,7 @@
    "facebook": {
     "n": 7,
     "videos": 7,
-    "vistas": 0.85,
+    "vistas": 0.84,
     "interaccion": 0.37
    }
   },
@@ -161,7 +161,7 @@
    "Palabras": {
     "n": 3,
     "videos": 1,
-    "vistas": 1.12,
+    "vistas": 1.11,
     "interaccion": 1.1
    }
   },
@@ -291,7 +291,7 @@
    "cultura": {
     "n": 3,
     "videos": 1,
-    "vistas": 1.12,
+    "vistas": 1.11,
     "interaccion": 1.1
    }
   },
@@ -393,7 +393,7 @@
    "moraleja": {
     "n": 3,
     "videos": 1,
-    "vistas": 1.12,
+    "vistas": 1.11,
     "interaccion": 1.1
    }
   },
@@ -451,7 +451,7 @@
    "tum": {
     "n": 3,
     "videos": 1,
-    "vistas": 1.12,
+    "vistas": 1.11,
     "interaccion": 1.1
    }
   },
@@ -460,14 +460,14 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.77,
-    "interaccion": 0.51
+    "interaccion": 0.5
    }
   },
   "exp: gancho_tipo": {
    "cifra chocante": {
     "n": 3,
     "videos": 1,
-    "vistas": 1.12,
+    "vistas": 1.11,
     "interaccion": 1.1
    }
   }
@@ -543,14 +543,14 @@
  "pesos": {
   "familia": {
    "pop": 0.117,
-   "gota": 0.088,
+   "gota": 0.089,
    "madera": 0.117,
    "marimba": 0.117,
    "kalimba": 0.117,
    "campanita": 0.117,
    "cuerda": 0.117,
    "burbuja": 0.083,
-   "tum": 0.126
+   "tum": 0.125
   },
   "estilo": {
    "papel": 0.197,
@@ -586,7 +586,7 @@
   {
    "id": "2026-11-11-2045",
    "titulo": "La palabra «robot» no la inventó quien escribió la obra",
-   "indice": 1.21,
+   "indice": 1.2,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
