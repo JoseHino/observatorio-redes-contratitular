@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T05:18:49.906Z",
+ "actualizado": "2026-11-12T06:19:07.815Z",
  "publicaciones": 24,
  "videos": 7,
  "factores": {
@@ -34,7 +34,7 @@
     "n": 12,
     "videos": 4,
     "vistas": 0.81,
-    "interaccion": 0.58
+    "interaccion": 0.57
    },
    "mediodía": {
     "n": 12,
@@ -66,7 +66,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.69,
-    "interaccion": 0.84
+    "interaccion": 0.82
    }
   },
   "red": {
@@ -86,7 +86,7 @@
     "n": 6,
     "videos": 6,
     "vistas": 1.28,
-    "interaccion": 1.16
+    "interaccion": 1.14
    },
    "facebook": {
     "n": 6,
@@ -118,7 +118,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.69,
-    "interaccion": 0.84
+    "interaccion": 0.82
    },
    "neon": {
     "n": 4,
@@ -150,7 +150,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.69,
-    "interaccion": 0.84
+    "interaccion": 0.82
    },
    "Dinero": {
     "n": 4,
@@ -170,7 +170,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.53,
-    "interaccion": 0.55
+    "interaccion": 0.54
    }
   },
   "gancho": {
@@ -198,7 +198,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.69,
-    "interaccion": 0.84
+    "interaccion": 0.82
    }
   },
   "escenas de datos": {
@@ -206,7 +206,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 0.89,
-    "interaccion": 0.59
+    "interaccion": 0.58
    },
    "sí": {
     "n": 4,
@@ -225,7 +225,7 @@
    "rápido (>2,9 pal/s)": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.7,
+    "vistas": 0.69,
     "interaccion": 0.44
    }
   },
@@ -234,7 +234,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.75,
-    "interaccion": 0.52
+    "interaccion": 0.51
    }
   },
   "cifra en 5 primeras palabras": {
@@ -242,7 +242,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.83,
-    "interaccion": 0.9
+    "interaccion": 0.89
    },
    "no": {
     "n": 12,
@@ -274,7 +274,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.69,
-    "interaccion": 0.84
+    "interaccion": 0.82
    },
    "economía": {
     "n": 4,
@@ -288,7 +288,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.75,
-    "interaccion": 0.52
+    "interaccion": 0.51
    }
   },
   "tipo de gancho": {
@@ -314,7 +314,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.69,
-    "interaccion": 0.84
+    "interaccion": 0.82
    }
   },
   "cercania": {
@@ -342,7 +342,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.53,
-    "interaccion": 0.55
+    "interaccion": 0.54
    }
   },
   "giro": {
@@ -384,7 +384,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.75,
-    "interaccion": 0.52
+    "interaccion": 0.51
    }
   },
   "movimiento 1s": {
@@ -392,7 +392,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.75,
-    "interaccion": 0.52
+    "interaccion": 0.51
    }
   },
   "texto 0s": {
@@ -400,7 +400,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.75,
-    "interaccion": 0.52
+    "interaccion": 0.51
    }
   },
   "personaje": {
@@ -414,7 +414,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.75,
-    "interaccion": 0.72
+    "interaccion": 0.71
    }
   },
   "sonido": {
@@ -428,14 +428,14 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.53,
-    "interaccion": 0.55
+    "interaccion": 0.54
    }
   },
   "voz": {
    "Tristan HD": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.7,
+    "vistas": 0.69,
     "interaccion": 0.44
    }
   }
@@ -517,15 +517,15 @@
    "kalimba": 0.118,
    "campanita": 0.118,
    "cuerda": 0.118,
-   "burbuja": 0.082,
+   "burbuja": 0.081,
    "tum": 0.118
   },
   "estilo": {
-   "papel": 0.206,
+   "papel": 0.204,
    "neon": 0.154,
-   "pop": 0.253,
+   "pop": 0.254,
    "pizarra": 0.209,
-   "limpio": 0.178
+   "limpio": 0.179
   }
  },
  "horas_recomendadas": [
