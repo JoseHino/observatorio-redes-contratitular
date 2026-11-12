@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T08:18:53.352Z",
+ "actualizado": "2026-11-12T09:18:52.171Z",
  "publicaciones": 28,
  "videos": 8,
  "factores": {
@@ -33,7 +33,7 @@
    "noche": {
     "n": 16,
     "videos": 6,
-    "vistas": 0.9,
+    "vistas": 0.89,
     "interaccion": 0.67
    },
    "mediodía": {
@@ -47,7 +47,7 @@
    "20-22 h": {
     "n": 12,
     "videos": 5,
-    "vistas": 1.02,
+    "vistas": 1.01,
     "interaccion": 0.67
    },
    "12-14 h": {
@@ -99,7 +99,7 @@
    "pop": {
     "n": 7,
     "videos": 2,
-    "vistas": 1.11,
+    "vistas": 1.1,
     "interaccion": 1.15
    },
    "pizarra": {
@@ -161,7 +161,7 @@
    "Palabras": {
     "n": 3,
     "videos": 1,
-    "vistas": 1.13,
+    "vistas": 1.12,
     "interaccion": 1.1
    }
   },
@@ -225,7 +225,7 @@
    "medio": {
     "n": 7,
     "videos": 2,
-    "vistas": 1.11,
+    "vistas": 1.1,
     "interaccion": 1.15
    },
    "rápido (>2,9 pal/s)": {
@@ -239,7 +239,7 @@
    "pocos (<12/min)": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.82,
+    "vistas": 0.81,
     "interaccion": 0.58
    }
   },
@@ -291,7 +291,7 @@
    "cultura": {
     "n": 3,
     "videos": 1,
-    "vistas": 1.13,
+    "vistas": 1.12,
     "interaccion": 1.1
    }
   },
@@ -299,7 +299,7 @@
    "asombro": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.82,
+    "vistas": 0.81,
     "interaccion": 0.58
    }
   },
@@ -333,7 +333,7 @@
    "mundo": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.76,
+    "vistas": 0.75,
     "interaccion": 0.74
    },
    "universal": {
@@ -393,7 +393,7 @@
    "moraleja": {
     "n": 3,
     "videos": 1,
-    "vistas": 1.13,
+    "vistas": 1.12,
     "interaccion": 1.1
    }
   },
@@ -401,7 +401,7 @@
    "sí": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.82,
+    "vistas": 0.81,
     "interaccion": 0.58
    }
   },
@@ -409,7 +409,7 @@
    "sí": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.82,
+    "vistas": 0.81,
     "interaccion": 0.58
    }
   },
@@ -417,7 +417,7 @@
    "sí": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.82,
+    "vistas": 0.81,
     "interaccion": 0.58
    }
   },
@@ -431,7 +431,7 @@
    "sí": {
     "n": 11,
     "videos": 3,
-    "vistas": 0.84,
+    "vistas": 0.83,
     "interaccion": 0.76
    }
   },
@@ -451,7 +451,7 @@
    "tum": {
     "n": 3,
     "videos": 1,
-    "vistas": 1.13,
+    "vistas": 1.12,
     "interaccion": 1.1
    }
   },
@@ -459,7 +459,7 @@
    "Tristan HD": {
     "n": 20,
     "videos": 5,
-    "vistas": 0.78,
+    "vistas": 0.77,
     "interaccion": 0.51
    }
   },
@@ -467,7 +467,7 @@
    "cifra chocante": {
     "n": 3,
     "videos": 1,
-    "vistas": 1.13,
+    "vistas": 1.12,
     "interaccion": 1.1
    }
   }
@@ -586,7 +586,7 @@
   {
    "id": "2026-11-11-2045",
    "titulo": "La palabra «robot» no la inventó quien escribió la obra",
-   "indice": 1.23,
+   "indice": 1.21,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
