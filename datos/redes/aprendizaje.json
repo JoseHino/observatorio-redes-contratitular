@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T18:19:32.742Z",
+ "actualizado": "2026-11-12T19:18:53.737Z",
  "publicaciones": 28,
  "videos": 8,
  "factores": {
@@ -99,7 +99,7 @@
    "pop": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.08,
+    "vistas": 1.07,
     "interaccion": 1.15
    },
    "pizarra": {
@@ -161,7 +161,7 @@
    "Palabras": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.15,
+    "vistas": 1.14,
     "interaccion": 1.08
    }
   },
@@ -225,7 +225,7 @@
    "medio": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.08,
+    "vistas": 1.07,
     "interaccion": 1.15
    },
    "rápido (>2,9 pal/s)": {
@@ -239,7 +239,7 @@
    "pocos (<12/min)": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.81,
+    "vistas": 0.8,
     "interaccion": 0.58
    }
   },
@@ -291,7 +291,7 @@
    "cultura": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.15,
+    "vistas": 1.14,
     "interaccion": 1.08
    }
   },
@@ -299,7 +299,7 @@
    "asombro": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.81,
+    "vistas": 0.8,
     "interaccion": 0.58
    }
   },
@@ -353,7 +353,7 @@
    "sí": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.68,
+    "vistas": 0.67,
     "interaccion": 0.64
    }
   },
@@ -393,7 +393,7 @@
    "moraleja": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.15,
+    "vistas": 1.14,
     "interaccion": 1.08
    }
   },
@@ -401,7 +401,7 @@
    "sí": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.81,
+    "vistas": 0.8,
     "interaccion": 0.58
    }
   },
@@ -409,7 +409,7 @@
    "sí": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.81,
+    "vistas": 0.8,
     "interaccion": 0.58
    }
   },
@@ -417,7 +417,7 @@
    "sí": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.81,
+    "vistas": 0.8,
     "interaccion": 0.58
    }
   },
@@ -451,7 +451,7 @@
    "tum": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.15,
+    "vistas": 1.14,
     "interaccion": 1.08
    }
   },
@@ -467,7 +467,7 @@
    "cifra chocante": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.15,
+    "vistas": 1.14,
     "interaccion": 1.08
    }
   }
@@ -532,12 +532,12 @@
     "resto": [
      {
       "v": "sí",
-      "vistas": 0.68,
+      "vistas": 0.67,
       "n": 12
      }
     ]
    },
-   "texto": "promesa: «no» consigue 0.99× el alcance medio (3 vídeos) e interacción 0.56×; frente a sí 0.68× (3 vídeos)."
+   "texto": "promesa: «no» consigue 0.99× el alcance medio (3 vídeos) e interacción 0.56×; frente a sí 0.67× (3 vídeos)."
   }
  ],
  "pesos": {
@@ -555,7 +555,7 @@
   "estilo": {
    "papel": 0.198,
    "neon": 0.152,
-   "pop": 0.266,
+   "pop": 0.265,
    "pizarra": 0.207,
    "limpio": 0.177
   }
@@ -586,7 +586,7 @@
   {
    "id": "2026-11-11-2045",
    "titulo": "La palabra «robot» no la inventó quien escribió la obra",
-   "indice": 1.23,
+   "indice": 1.22,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
