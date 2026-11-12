@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T02:18:50.694Z",
+ "actualizado": "2026-11-12T03:18:47.848Z",
  "publicaciones": 24,
  "videos": 7,
  "factores": {
@@ -25,7 +25,7 @@
    "miércoles": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.5,
+    "vistas": 0.51,
     "interaccion": 0.44
    }
   },
@@ -53,7 +53,7 @@
    "12-14 h": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.68,
+    "vistas": 0.69,
     "interaccion": 0.62
    },
    "14-16 h": {
@@ -123,7 +123,7 @@
    "neon": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.5,
+    "vistas": 0.51,
     "interaccion": 0.44
    }
   },
@@ -155,7 +155,7 @@
    "Dinero": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.5,
+    "vistas": 0.51,
     "interaccion": 0.44
    }
   },
@@ -177,7 +177,7 @@
    "con cifra": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.68,
+    "vistas": 0.69,
     "interaccion": 0.62
    },
    "afirmación": {
@@ -211,7 +211,7 @@
    "sí": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.5,
+    "vistas": 0.51,
     "interaccion": 0.44
    }
   },
@@ -225,7 +225,7 @@
    "rápido (>2,9 pal/s)": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.69,
+    "vistas": 0.7,
     "interaccion": 0.43
    }
   },
@@ -247,7 +247,7 @@
    "no": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.73,
+    "vistas": 0.74,
     "interaccion": 0.38
    }
   },
@@ -279,7 +279,7 @@
    "economía": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.5,
+    "vistas": 0.51,
     "interaccion": 0.44
    }
   },
@@ -375,7 +375,7 @@
    "bucle": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.5,
+    "vistas": 0.51,
     "interaccion": 0.44
    }
   },
@@ -435,7 +435,7 @@
    "Tristan HD": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.69,
+    "vistas": 0.7,
     "interaccion": 0.43
    }
   }
@@ -478,12 +478,12 @@
     "resto": [
      {
       "v": "con cifra",
-      "vistas": 0.68,
+      "vistas": 0.69,
       "n": 8
      }
     ]
    },
-   "texto": "gancho: «afirmación» consigue 0.84× el alcance medio (3 vídeos) e interacción 0.49×; frente a con cifra 0.68× (2 vídeos)."
+   "texto": "gancho: «afirmación» consigue 0.84× el alcance medio (3 vídeos) e interacción 0.49×; frente a con cifra 0.69× (2 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -522,7 +522,7 @@
   },
   "estilo": {
    "papel": 0.202,
-   "neon": 0.154,
+   "neon": 0.155,
    "pop": 0.255,
    "pizarra": 0.21,
    "limpio": 0.179
@@ -535,7 +535,7 @@
  "retencion": {
   "0-1,5 s (gancho)": {
    "n": 5,
-   "pierde_s": 24.7
+   "pierde_s": 24.8
   },
   "resto de la 1.ª escena": {
    "n": 5,
