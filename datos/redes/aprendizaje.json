@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T19:18:53.737Z",
+ "actualizado": "2026-11-12T20:18:32.458Z",
  "publicaciones": 28,
  "videos": 8,
  "factores": {
@@ -13,7 +13,7 @@
    "lunes": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.94,
+    "vistas": 0.89,
     "interaccion": 0.86
    },
    "martes": {
@@ -33,7 +33,7 @@
    "noche": {
     "n": 16,
     "videos": 5,
-    "vistas": 0.86,
+    "vistas": 0.84,
     "interaccion": 0.67
    },
    "mediodía": {
@@ -47,7 +47,7 @@
    "20-22 h": {
     "n": 12,
     "videos": 4,
-    "vistas": 0.96,
+    "vistas": 0.93,
     "interaccion": 0.67
    },
    "12-14 h": {
@@ -73,25 +73,25 @@
    "instagram": {
     "n": 7,
     "videos": 7,
-    "vistas": 0.58,
+    "vistas": 0.56,
     "interaccion": 0.31
    },
    "tiktok": {
     "n": 7,
     "videos": 7,
     "vistas": 0.83,
-    "interaccion": 1.14
+    "interaccion": 1.13
    },
    "youtube": {
     "n": 7,
     "videos": 7,
-    "vistas": 1.26,
+    "vistas": 1.23,
     "interaccion": 1.07
    },
    "facebook": {
     "n": 7,
     "videos": 7,
-    "vistas": 0.8,
+    "vistas": 0.81,
     "interaccion": 0.37
    }
   },
@@ -105,7 +105,7 @@
    "pizarra": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.91,
+    "vistas": 0.84,
     "interaccion": 0.67
    },
    "limpio": {
@@ -137,7 +137,7 @@
    "Ciencia": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.91,
+    "vistas": 0.84,
     "interaccion": 0.67
    },
    "Cuerpo humano": {
@@ -169,7 +169,7 @@
    "33-43 s": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.04,
+    "vistas": 1.01,
     "interaccion": 0.66
    },
    ">43 s": {
@@ -189,7 +189,7 @@
    "afirmación": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.92,
+    "vistas": 0.9,
     "interaccion": 0.57
    }
   },
@@ -197,7 +197,7 @@
    "largo (>12)": {
     "n": 20,
     "videos": 5,
-    "vistas": 0.86,
+    "vistas": 0.84,
     "interaccion": 0.56
    },
    "corto (≤12)": {
@@ -211,7 +211,7 @@
    "no": {
     "n": 20,
     "videos": 5,
-    "vistas": 0.93,
+    "vistas": 0.91,
     "interaccion": 0.66
    },
    "sí": {
@@ -231,7 +231,7 @@
    "rápido (>2,9 pal/s)": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.7,
+    "vistas": 0.68,
     "interaccion": 0.42
    }
   },
@@ -239,7 +239,7 @@
    "pocos (<12/min)": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.8,
+    "vistas": 0.79,
     "interaccion": 0.58
    }
   },
@@ -253,7 +253,7 @@
    "no": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.83,
+    "vistas": 0.81,
     "interaccion": 0.47
    }
   },
@@ -267,7 +267,7 @@
    "ciencia": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.91,
+    "vistas": 0.84,
     "interaccion": 0.67
    },
    "cuerpo humano": {
@@ -299,7 +299,7 @@
    "asombro": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.8,
+    "vistas": 0.79,
     "interaccion": 0.58
    }
   },
@@ -313,7 +313,7 @@
    "otro": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.91,
+    "vistas": 0.84,
     "interaccion": 0.67
    },
    "contradicción": {
@@ -339,7 +339,7 @@
    "universal": {
     "n": 8,
     "videos": 2,
-    "vistas": 1,
+    "vistas": 0.95,
     "interaccion": 0.41
    }
   },
@@ -347,7 +347,7 @@
    "no": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.99,
+    "vistas": 0.96,
     "interaccion": 0.56
    },
    "sí": {
@@ -362,12 +362,12 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.79,
-    "interaccion": 0.59
+    "interaccion": 0.58
    },
    "no": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.91,
+    "vistas": 0.84,
     "interaccion": 0.67
    }
   },
@@ -375,7 +375,7 @@
    "pregunta": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.94,
+    "vistas": 0.89,
     "interaccion": 0.86
    },
    "dato final": {
@@ -401,7 +401,7 @@
    "sí": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.8,
+    "vistas": 0.79,
     "interaccion": 0.58
    }
   },
@@ -409,7 +409,7 @@
    "sí": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.8,
+    "vistas": 0.79,
     "interaccion": 0.58
    }
   },
@@ -417,7 +417,7 @@
    "sí": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.8,
+    "vistas": 0.79,
     "interaccion": 0.58
    }
   },
@@ -431,7 +431,7 @@
    "sí": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.87,
+    "vistas": 0.84,
     "interaccion": 0.78
    }
   },
@@ -439,7 +439,7 @@
    "gota": {
     "n": 8,
     "videos": 2,
-    "vistas": 1,
+    "vistas": 0.95,
     "interaccion": 0.41
    },
    "burbuja": {
@@ -459,7 +459,7 @@
    "Tristan HD": {
     "n": 20,
     "videos": 5,
-    "vistas": 0.78,
+    "vistas": 0.76,
     "interaccion": 0.5
    }
   },
@@ -481,7 +481,7 @@
    "detalle": {
     "mejor": {
      "v": "33-43 s",
-     "vistas": 1.04,
+     "vistas": 1.01,
      "interaccion": 0.66,
      "n": 16
     },
@@ -493,7 +493,7 @@
      }
     ]
    },
-   "texto": "duración: «33-43 s» consigue 1.04× el alcance medio (4 vídeos) e interacción 0.66×; frente a >43 s 0.53× (2 vídeos)."
+   "texto": "duración: «33-43 s» consigue 1.01× el alcance medio (4 vídeos) e interacción 0.66×; frente a >43 s 0.53× (2 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -503,7 +503,7 @@
    "detalle": {
     "mejor": {
      "v": "afirmación",
-     "vistas": 0.92,
+     "vistas": 0.9,
      "interaccion": 0.57,
      "n": 16
     },
@@ -515,7 +515,7 @@
      }
     ]
    },
-   "texto": "gancho: «afirmación» consigue 0.92× el alcance medio (4 vídeos) e interacción 0.57×; frente a con cifra 0.66× (2 vídeos)."
+   "texto": "gancho: «afirmación» consigue 0.90× el alcance medio (4 vídeos) e interacción 0.57×; frente a con cifra 0.66× (2 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -525,7 +525,7 @@
    "detalle": {
     "mejor": {
      "v": "no",
-     "vistas": 0.99,
+     "vistas": 0.96,
      "interaccion": 0.56,
      "n": 12
     },
@@ -537,27 +537,27 @@
      }
     ]
    },
-   "texto": "promesa: «no» consigue 0.99× el alcance medio (3 vídeos) e interacción 0.56×; frente a sí 0.67× (3 vídeos)."
+   "texto": "promesa: «no» consigue 0.96× el alcance medio (3 vídeos) e interacción 0.56×; frente a sí 0.67× (3 vídeos)."
   }
  ],
  "pesos": {
   "familia": {
-   "pop": 0.117,
-   "gota": 0.089,
-   "madera": 0.117,
-   "marimba": 0.117,
-   "kalimba": 0.117,
-   "campanita": 0.117,
-   "cuerda": 0.117,
+   "pop": 0.118,
+   "gota": 0.088,
+   "madera": 0.118,
+   "marimba": 0.118,
+   "kalimba": 0.118,
+   "campanita": 0.118,
+   "cuerda": 0.118,
    "burbuja": 0.08,
    "tum": 0.126
   },
   "estilo": {
-   "papel": 0.198,
+   "papel": 0.199,
    "neon": 0.152,
-   "pop": 0.265,
-   "pizarra": 0.207,
-   "limpio": 0.177
+   "pop": 0.267,
+   "pizarra": 0.203,
+   "limpio": 0.178
   }
  },
  "horas_recomendadas": [
@@ -603,7 +603,7 @@
   {
    "id": "2026-11-09-2100-v2",
    "titulo": "Por qué huele tan bien la lluvia: el olor que fabrican las bacterias",
-   "indice": 0.87
+   "indice": 0.77
   },
   {
    "id": "2026-11-10-2200",
