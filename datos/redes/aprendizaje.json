@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T16:19:02.561Z",
+ "actualizado": "2026-11-12T17:18:52.016Z",
  "publicaciones": 28,
  "videos": 8,
  "factores": {
@@ -567,11 +567,11 @@
  "retencion": {
   "0-1,5 s (gancho)": {
    "n": 6,
-   "pierde_s": 23.7
+   "pierde_s": 23.8
   },
   "resto de la 1.ª escena": {
    "n": 6,
-   "pierde_s": 9.6
+   "pierde_s": 9.5
   },
   "escenas centrales": {
    "n": 6,
