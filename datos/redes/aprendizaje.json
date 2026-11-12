@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T15:19:01.655Z",
+ "actualizado": "2026-11-12T16:19:02.561Z",
  "publicaciones": 28,
  "videos": 8,
  "factores": {
@@ -567,11 +567,11 @@
  "retencion": {
   "0-1,5 s (gancho)": {
    "n": 6,
-   "pierde_s": 23.8
+   "pierde_s": 23.7
   },
   "resto de la 1.ª escena": {
    "n": 6,
-   "pierde_s": 9.5
+   "pierde_s": 9.6
   },
   "escenas centrales": {
    "n": 6,
@@ -586,7 +586,7 @@
   {
    "id": "2026-11-11-2045",
    "titulo": "La palabra «robot» no la inventó quien escribió la obra",
-   "indice": 1.23,
+   "indice": 1.24,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
