@@ -343,7 +343,7 @@ var require_dist = __commonJS({
         }
         return { injected: R.populate(process.env, n, o), loadedPaths: t };
       }
-      function K3(e) {
+      function K4(e) {
         let n = e[0];
         if (n === "--help" || n === "-h") {
           D();
@@ -414,8 +414,8 @@ var require_dist = __commonJS({
           }, 1e3), process.kill(process.pid, a));
         });
       }
-      F.exports = K3;
-      __require.main === F && K3(process.argv.slice(2));
+      F.exports = K4;
+      __require.main === F && K4(process.argv.slice(2));
     });
     var S = N();
     var qe = X();
@@ -3054,21 +3054,47 @@ function textoDeVideo(e) {
   }
   return `${e.titulo} ${e.gancho} ${e.texto ?? ""} ${extra}`;
 }
-function emparejar(p, registro) {
-  const a = fichas(p.texto);
-  if (a.size < 3) return null;
-  let mejor = null, punt = 0;
-  for (const e of registro) {
-    if (Date.parse(p.publicado) < Date.parse(e.fecha) - 3 * 864e5) continue;
-    const b = fichas(textoDeVideo(e));
-    const comunes = [...a].filter((w) => b.has(w)).length;
-    const s = comunes / Math.min(a.size, b.size || 1);
-    if (s > punt) {
-      punt = s;
-      mejor = e;
+function emparejarTodo(almacen, registro) {
+  if (!registro.length) return;
+  const textos = new Map(registro.map((e) => [e, fichas(textoDeVideo(e))]));
+  const df = /* @__PURE__ */ new Map();
+  for (const s of textos.values()) for (const w of s) df.set(w, (df.get(w) ?? 0) + 1);
+  const util = (w) => registro.length < 4 || (df.get(w) ?? 0) / registro.length <= 0.5;
+  const pubs = Object.values(almacen);
+  for (const red of new Set(pubs.map((p) => p.red))) {
+    const deRed = pubs.filter((p) => p.red === red);
+    const usados = new Set(deRed.filter((p) => p.manual && p.video).map((p) => p.video));
+    const libres = deRed.filter((p) => !p.manual);
+    const pares = [];
+    for (const p of libres) {
+      const a = [...fichas(p.texto)].filter(util);
+      if (a.length < 2) continue;
+      for (const e of registro) {
+        if (usados.has(idDe(e)) || Date.parse(p.publicado) < Date.parse(e.fecha) - 3 * 864e5) continue;
+        const b = new Set([...textos.get(e)].filter(util));
+        const s = a.filter((w) => b.has(w)).length / Math.min(a.length, b.size || 1);
+        if (s >= 0.3) pares.push({ p, e, s });
+      }
     }
+    pares.sort((x, y) => y.s - x.s);
+    const hecha = /* @__PURE__ */ new Set();
+    for (const { p, e } of pares) {
+      if (hecha.has(p) || usados.has(idDe(e))) continue;
+      hecha.add(p);
+      usados.add(idDe(e));
+      Object.assign(p, { video: idDe(e), titulo: e.titulo });
+    }
+    for (const p of libres) if (!hecha.has(p)) Object.assign(p, { video: null, titulo: null });
   }
-  return punt >= 0.3 ? mejor : null;
+  for (const p of pubs) {
+    if (p.video) continue;
+    const t = Date.parse(p.publicado);
+    const ids = new Set(pubs.filter((q) => q.red !== p.red && q.video && Math.abs(Date.parse(q.publicado) - t) < 10 * 6e4).map((q) => q.video));
+    const [id] = ids;
+    if (ids.size !== 1 || pubs.some((q) => q.red === p.red && q.video === id)) continue;
+    const e = registro.find((x) => idDe(x) === id);
+    if (e) Object.assign(p, { video: id, titulo: e.titulo });
+  }
 }
 function vincular(datos, red, id, carpeta) {
   const a = leerPublicaciones(datos);
@@ -3076,7 +3102,7 @@ function vincular(datos, red, id, carpeta) {
   if (!p) throw new Error(`No conozco ${red}:${id}. Ejecuta antes \xABrecoger\xBB.`);
   const e = leerRegistro(datos).find((x) => idDe(x) === path2.basename(path2.resolve(carpeta)));
   if (!e) throw new Error(`Ese v\xEDdeo no est\xE1 en el registro: ${carpeta} (usa \xABregistrar\xBB si es anterior al registro).`);
-  Object.assign(p, { video: idDe(e), titulo: e.titulo });
+  Object.assign(p, { video: idDe(e), titulo: e.titulo, manual: true });
   guardarPublicaciones(datos, a);
 }
 async function recoger(datos, op = {}) {
@@ -3102,12 +3128,8 @@ async function recoger(datos, op = {}) {
         almacen[k] = { red, id: String(m.id), url: m.permalink ?? null, texto: `${m.title ?? ""} ${m.caption ?? ""}`.trim(), publicado: fechaISO(m.timestamp ?? m.create_time), video: null, titulo: null, fotos: [] };
         nuevas++;
       }
-      const p = almacen[k];
-      if (!p.video) {
-        const e = emparejar(p, registro);
-        if (e) Object.assign(p, { video: idDe(e), titulo: e.titulo });
-      }
     }
+    emparejarTodo(almacen, registro);
     const cada = (p) => {
       const h = (ahora - Date.parse(p.publicado)) / 36e5;
       return op.minHoras ?? (h < 72 ? 0.9 : h < 14 * 24 ? 5.5 : 23);
@@ -3131,6 +3153,7 @@ async function recoger(datos, op = {}) {
       await espera(3100);
     }
   }
+  emparejarTodo(almacen, registro);
   guardarPublicaciones(datos, almacen);
   try {
     const cuentas = path2.join(dirRedes(datos), "cuentas.json");
@@ -3658,11 +3681,132 @@ function textoHora(a) {
   ].join("\n");
 }
 
+// src/analitica/entreRedes.ts
+var EDAD = 24;
+var K3 = 1;
+var lg2 = (x) => Math.log(Math.max(0.05, x));
+var geo2 = (xs, k = 0) => xs.length ? +Math.exp(xs.reduce((a, x) => a + lg2(x), 0) / (xs.length + k)).toFixed(2) : null;
+var corto = (s, n = 40) => s.length > n ? s.slice(0, n - 1).trimEnd() + "\u2026" : s;
+function rangos(xs) {
+  const o = xs.map((v, i) => [v, i]).sort((a, b) => a[0] - b[0]);
+  const r = new Array(xs.length);
+  for (let i = 0; i < o.length; ) {
+    let j = i;
+    while (j + 1 < o.length && o[j + 1][0] === o[i][0]) j++;
+    for (let k = i; k <= j; k++) r[o[k][1]] = (i + j) / 2 + 1;
+    i = j + 1;
+  }
+  return r;
+}
+function spearman(a, b) {
+  if (a.length < 3) return null;
+  const ra = rangos(a), rb = rangos(b), n = a.length, ma = (n + 1) / 2;
+  let sab = 0, saa = 0, sbb = 0;
+  for (let i = 0; i < n; i++) {
+    sab += (ra[i] - ma) * (rb[i] - ma);
+    saa += (ra[i] - ma) ** 2;
+    sbb += (rb[i] - ma) ** 2;
+  }
+  return saa && sbb ? +(sab / Math.sqrt(saa * sbb)).toFixed(2) : null;
+}
+function analizarRedes(datos) {
+  const pubs = Object.values(leerPublicaciones(datos)).filter((p) => p.fotos.length);
+  const reg = new Map(leerRegistro(datos).map((e) => [idDe(e), e]));
+  const redes = [...new Set(pubs.map((p) => p.red))];
+  const idx = /* @__PURE__ */ new Map();
+  for (const red of redes) for (const [p, x] of indicesA(pubs.filter((q) => q.red === red), EDAD)) if (p.fotos.at(-1).horas >= EDAD) idx.set(p, x);
+  const grupos = /* @__PURE__ */ new Map();
+  for (const p of idx.keys()) {
+    const k = p.video ?? `sin-vincular:${Math.round(Date.parse(p.publicado) / 9e5)}`;
+    grupos.set(k, [...grupos.get(k) ?? [], p]);
+  }
+  const videos = [];
+  for (const [video, xs] of grupos) {
+    if (xs.length < 2) continue;
+    const indices = Object.fromEntries(redes.map((r) => {
+      const p = xs.find((q) => q.red === r);
+      return [r, p ? +idx.get(p).toFixed(2) : null];
+    }));
+    const con = Object.entries(indices).filter((x) => x[1] != null).sort((a, b) => b[1] - a[1]);
+    const [mejor, mx] = con[0], [peor, mn] = con.at(-1);
+    const restoMejor = geo2(con.slice(1).map((x) => x[1]));
+    const perfil = con.every((x) => x[1] >= 1.5) ? "todas" : mx >= 1.5 && mx / restoMejor >= 2 && con.slice(1).every((x) => x[1] < 1.5) ? "una" : con.every((x) => x[1] < 0.67) ? "ninguna" : mx / Math.max(0.05, mn) >= 3 ? "desigual" : "parejo";
+    const p0 = xs[0], e = p0.video ? reg.get(p0.video) : void 0;
+    videos.push({
+      video,
+      titulo: corto(e?.titulo ?? p0.titulo ?? (p0.texto.split(/[.!?\n]/)[0] || p0.id)),
+      fecha: p0.publicado.slice(0, 10),
+      indices,
+      mejor,
+      peor,
+      separacion: +(mx / Math.max(0.05, mn)).toFixed(1),
+      perfil
+    });
+  }
+  videos.sort((a, b) => b.fecha.localeCompare(a.fecha) || b.separacion - a.separacion);
+  const parejas = [];
+  for (let i = 0; i < redes.length; i++) for (let j = i + 1; j < redes.length; j++) {
+    const a = redes[i], b = redes[j];
+    const ok = videos.filter((v) => v.indices[a] != null && v.indices[b] != null);
+    parejas.push({ a, b, n: ok.length, rho: spearman(ok.map((v) => lg2(v.indices[a])), ok.map((v) => lg2(v.indices[b]))) });
+  }
+  const validas = parejas.filter((x) => x.rho != null && x.n >= 3);
+  const rhoMedia = validas.length ? +(validas.reduce((s, x) => s + x.rho * x.n, 0) / validas.reduce((s, x) => s + x.n, 0)).toFixed(2) : null;
+  const acum = {};
+  for (const [p, x] of idx) {
+    const e = p.video ? reg.get(p.video) ?? null : null;
+    if (!e) continue;
+    for (const [k, v] of Object.entries(rasgos({ p, e }))) {
+      if (k === "d\xEDa" || k === "franja" || k.startsWith("exp:")) continue;
+      const n = ((acum[k] ??= {})[p.red] ??= {})[v] ??= { ls: [], ids: /* @__PURE__ */ new Set() };
+      n.ls.push(x);
+      n.ids.add(idDe(e));
+    }
+  }
+  const rasgosOut = [];
+  for (const [k, porRed] of Object.entries(acum)) {
+    const fila = {};
+    for (const r of redes) {
+      const ord = Object.entries(porRed[r] ?? {}).map(([v, a]) => ({ v, i: geo2(a.ls, K3), n: a.ids.size })).sort((a, b) => b.i - a.i);
+      fila[r] = ord.length >= 2 ? { nivel: ord[0].v, indice: ord[0].i, videos: ord[0].n, segundo: ord[1].v, indiceSegundo: ord[1].i } : null;
+    }
+    const ganadores = Object.values(fila).filter((x) => !!x && x.indice / Math.max(0.05, x.indiceSegundo ?? 1) >= 1.2);
+    if (ganadores.length < 2) continue;
+    rasgosOut.push({ rasgo: k, porRed: fila, distinto: new Set(ganadores.map((x) => x.nivel)).size > 1 });
+  }
+  rasgosOut.sort((a, b) => Number(b.distinto) - Number(a.distinto));
+  const veredicto = videos.length < 6 || rhoMedia == null ? "pocos" : rhoMedia >= 0.5 ? "video" : rhoMedia <= 0.2 ? "red" : "mixto";
+  return {
+    edad: EDAD,
+    redes,
+    videos,
+    parejas,
+    rasgos: rasgosOut,
+    resumen: { videos: videos.length, rhoMedia, soloUna: videos.filter((v) => v.perfil === "una").length, desiguales: videos.filter((v) => v.perfil === "una" || v.perfil === "desigual").length, veredicto }
+  };
+}
+function textoRedes(a) {
+  const r = a.resumen;
+  return [
+    `\xCDndice a las ${a.edad} h en cada red (1\xD7 = lo normal en esa red), ${r.videos} v\xEDdeos con al menos dos redes:`,
+    ...a.videos.map((v) => `- ${v.titulo}: ${Object.entries(v.indices).filter(([, x]) => x != null).map(([k, x]) => `${k} ${x}\xD7`).join(", ")} \u2192 ${v.perfil}${v.perfil === "una" ? ` (solo ${v.mejor})` : ""}`),
+    `Correlaci\xF3n entre redes (Spearman, n = v\xEDdeos): ${a.parejas.map((p) => `${p.a}-${p.b} ${p.rho ?? "\u2014"} (n=${p.n})`).join("; ")}. Media ${r.rhoMedia ?? "\u2014"} \u2192 ${r.veredicto}.`,
+    a.rasgos.length ? `Rasgo que gana en cada red: ${a.rasgos.map((x) => `${x.rasgo}: ${Object.entries(x.porRed).filter(([, y]) => y).map(([k, y]) => `${k} \xAB${y.nivel}\xBB ${y.indice}\xD7`).join(", ")}${x.distinto ? " [CAMBIA SEG\xDAN LA RED]" : ""}`).join(" | ")}` : "A\xFAn no hay rasgos con ganador claro en dos redes."
+  ].join("\n");
+}
+
 // src/analitica/observatorio.ts
-var EDADES = [["1 h", 1], ["3 h", 3], ["6 h", 6], ["12 h", 12], ["24 h", 24], ["48 h", 48], ["72 h", 72], ["7 d\xEDas", 168]];
+var HORAS = Array.from({ length: 72 }, (_, i) => i + 1);
+function vistasHora(p, h) {
+  const f = p.fotos;
+  const ant = [...f].reverse().find((x) => x.horas <= h), sig = f.find((x) => x.horas >= h);
+  if (!ant || !sig || sig.horas - ant.horas > 2.5) return null;
+  if (sig.horas === ant.horas) return vistasDe(ant.m);
+  return Math.round(vistasDe(ant.m) + (vistasDe(sig.m) - vistasDe(ant.m)) * (h - ant.horas) / (sig.horas - ant.horas));
+}
 var r1 = (v) => v == null || !isFinite(v) ? null : Math.round(v * 10) / 10;
-var corto = (s, n = 34) => s.length > n ? s.slice(0, n - 1).trimEnd() + "\u2026" : s;
-var titulo = (f) => corto(f.e?.titulo ?? f.p.texto.split(/[.!?\n]/)[0] ?? f.p.id);
+var corto2 = (s, n = 34) => s.length > n ? s.slice(0, n - 1).trimEnd() + "\u2026" : s;
+var titulo = (f) => corto2(f.e?.titulo ?? f.p.texto.split(/[.!?\n]/)[0] ?? f.p.id);
 function exportar(datos, webDir) {
   const todas = filas(datos);
   const pubs = Object.values(leerPublicaciones(datos));
@@ -3728,10 +3872,7 @@ function exportar(datos, webDir) {
         completado: r1(f.completado),
         seguidores: f.seguidores ?? null
       })),
-      crecimiento: { x: EDADES.map(([, h]) => h), series: recientes.map((f) => ({ name: titulo(f), data: EDADES.map(([, h]) => {
-        const v = vistasA(f.p, h);
-        return v === void 0 ? null : Math.round(v);
-      }) })) },
+      crecimiento: { x: HORAS, series: fs_.slice(0, 10).map((f) => ({ name: titulo(f), data: HORAS.map((h) => vistasHora(f.p, h)) })) },
       retencion: ret.length ? { x: Array.from({ length: maxSeg + 1 }, (_, s) => `${s} s`), series: ret.map((f) => ({ name: titulo(f), data: Array.from({ length: maxSeg + 1 }, (_, s) => {
         const c = f.p.fotos.at(-1).m.retention.find((x) => Number(x.second) === s);
         return c ? Math.round(c.percentage * 1e3) / 10 : null;
@@ -3757,7 +3898,7 @@ function exportar(datos, webDir) {
   salida.viralidad = {
     videos: a.videos_indice.map((v) => {
       const e = reg.get(v.id);
-      return { titulo: corto(v.titulo, 40), indice: v.indice, huella: e?.huella?.visto ?? null, medido: e?.huella?.medido ?? null, experimento: e?.experimento ?? null };
+      return { titulo: corto2(v.titulo, 40), indice: v.indice, huella: e?.huella?.visto ?? null, medido: e?.huella?.medido ?? null, experimento: e?.experimento ?? null };
     }),
     activo: est.activo ? {
       variable: est.activo.variable,
@@ -3774,6 +3915,7 @@ function exportar(datos, webDir) {
     cerrados: est.cerrados.map((c) => ({ variable: c.variable, pregunta: c.pregunta, conclusion: c.conclusion, ganadora: c.ganadora, fin: c.fin }))
   };
   salida.hora = analizarHora(datos);
+  salida.entreRedes = analizarRedes(datos);
   const destino = path5.join(webDir, "data", "data.js");
   fs5.mkdirSync(path5.dirname(destino), { recursive: true });
   fs5.writeFileSync(destino, `/* Generado por la anal\xEDtica de Contratitular \u2014 no editar a mano. */
@@ -4010,6 +4152,10 @@ async function revisar(datos, skillDir, op = {}) {
     "",
     "## Hora de publicaci\xF3n (\xEDndice a la misma edad; horas.ts sortea la hora dentro de cada ventana)",
     textoHora(analizarHora(datos)),
+    "",
+    "## Entre redes: el MISMO v\xEDdeo en cada red (si funciona en una y no en otra, manda la red: p\xFAblico y algoritmo distintos)",
+    textoRedes(analizarRedes(datos)),
+    "Si un v\xEDdeo destaca solo en una red o un rasgo gana en una red y pierde en otra, dilo y prop\xF3n c\xF3mo adaptar a cada red lo que se pueda adaptar sin rehacer el v\xEDdeo (texto del post, t\xEDtulo, portada, hora).",
     "",
     "## Los que M\xC1S funcionaron",
     ...arriba.map(ficha),

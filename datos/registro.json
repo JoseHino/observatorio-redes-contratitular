@@ -802,5 +802,608 @@
     "por_que": "Abre con texto grande y un personaje encadenado claros, y la revelación de que el inventor fue el hermano pintor y que no eran de metal sostiene la curiosidad, aunque el ritmo es denso."
    }
   }
+ },
+ {
+  "carpeta": "2026-11-12-1345",
+  "titulo": "Te enseñaron que el Everest es la montaña más alta. Es falso",
+  "fecha": "2026-11-12",
+  "duracion": 33.2,
+  "estilo": "pizarra",
+  "serie": "Geografía",
+  "gancho": "Te enseñaron que el Everest es la montaña más alta. Es falso.",
+  "palabras": 108,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 4,
+    "frase": "Te enseñaron que el Everest es la montaña más alta. Es falso.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 4,
+    "fin": 10.24,
+    "frase": "Pero solo si la mides desde el nivel del mar, 8.849 metros, y hay dos formas más de medir.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 10.24,
+    "fin": 16.04,
+    "frase": "Si mides desde la base, gana el Mauna Kea, en Hawái: más de 10.000 metros, más de la mitad bajo el océano,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 16.04,
+    "fin": 22.04,
+    "frase": "y desde el centro de la Tierra, gana el Chimborazo, en Ecuador, que ni llega a 6.300 metros.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 22.04,
+    "fin": 27.62,
+    "frase": "Porque la Tierra no es una bola perfecta: se ensancha en el ecuador, y ese volcán está justo encima del bulto.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 27.62,
+    "fin": 33.24,
+    "frase": "Y su cima queda más de 2 kilómetros más lejos del centro que la del Everest.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-12-1345",
+  "texto": "Te enseñaron que el Everest es la montaña más alta. Es falso Según desde dónde midas, ganan tres montañas distintas: el Everest sobre el nivel del mar, el Mauna Kea desde su base y el Chimborazo desde el centro de la Tierra, porque el planeta se ensancha en el ecuador. ¿Se lo contarías a alguien que sigue creyendo que el Everest es la más alta en todo? 🏔️ ¿Cuál te enseñaron a ti? Te enseñaron que el Everest es la montaña más alta. Es falso. Pero solo si la mides desde el nivel del mar, 8.849 metros, y hay dos formas más de medir. Si mides desde la base, gana el Mauna Kea, en Hawái: más de 10.000 metros, más de la mitad bajo el océano, y desde el centro de la Tierra, gana el Chimborazo, en Ecuador, que ni llega a 6.300 metros. Porque la Tierra no es una bola perfecta: se ensancha en el ecuador, y ese volcán está justo encima del bulto. Y su cima queda más de 2 kilómetros más lejos del centro que la del Everest.",
+  "familia": "burbuja",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "contradicción"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-12",
+   "medido": {
+    "palabras_s": 3.25,
+    "escenas_min": 10.8,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 12,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "geografía",
+    "emocion": "asombro",
+    "gancho_tipo": "contradicción",
+    "cercania": "universal",
+    "promesa": "sí",
+    "giro": "sí",
+    "cierre": "dato final",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "no",
+    "por_que": "Abre con una contradicción directa a algo aprendido en el colegio y el giro de tres formas de medir engancha, pero la ilustración sin personaje y el texto que aparece palabra a palabra enfrían el arranque."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-12-2200",
+  "titulo": "El plástico de burbujas nació como papel pintado y fracasó dos veces",
+  "fecha": "2026-11-12",
+  "duracion": 38.3,
+  "estilo": "limpio",
+  "serie": "Inventos",
+  "gancho": "¿Para qué se inventó el plástico de burbujas?",
+  "palabras": 97,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 2.52,
+    "frase": "¿Para qué se inventó el plástico de burbujas?",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 2.52,
+    "fin": 8.76,
+    "frase": "La respuesta es un doble fracaso: en 1957 dos ingenieros querían venderlo como papel pintado,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 8.76,
+    "fin": 12.9,
+    "frase": "y lo fabricaron sellando dos cortinas de baño con burbujas de aire dentro.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 12.9,
+    "fin": 18.32,
+    "frase": "Aquello no se vendió, así que probaron como aislante para invernaderos… y tampoco.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 18.32,
+    "fin": 25.06,
+    "frase": "Hasta que, hacia 1961, IBM lo usó para enviar su ordenador 1401 sin que se rompiera.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 25.06,
+    "fin": 31.38,
+    "frase": "Y resulta que el aire atrapado no servía para decorar una pared, sino para amortiguar los golpes.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 31.38,
+    "fin": 38.28,
+    "frase": "Y así, tras dos fracasos, nació el embalaje que hoy todos reventamos sin poder parar.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-12-2200",
+  "texto": "El plástico de burbujas nació como papel pintado y fracasó dos veces Alfred Fielding y Marc Chavannes sellaron dos cortinas de baño con aire dentro en 1957 para crear un papel pintado con textura. No se vendió, y como aislante para invernaderos tampoco acabó de cuajar, hasta que IBM lo usó para enviar su ordenador 1401. ¿Qué otro invento crees que nació de un fracaso? Cuéntalo en comentarios 👇 ¿Para qué se inventó el plástico de burbujas? La respuesta es un doble fracaso: en 1957 dos ingenieros querían venderlo como papel pintado, y lo fabricaron sellando dos cortinas de baño con burbujas de aire dentro. Aquello no se vendió, así que probaron como aislante para invernaderos… y tampoco. Hasta que, hacia 1961, IBM lo usó para enviar su ordenador 1401 sin que se rompiera. Y resulta que el aire atrapado no servía para decorar una pared, sino para amortiguar los golpes. Y así, tras dos fracasos, nació el embalaje que hoy todos reventamos sin poder parar.",
+  "familia": "madera",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "pregunta"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-12",
+   "medido": {
+    "palabras_s": 2.53,
+    "escenas_min": 11,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 8,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "historia",
+    "emocion": "asombro",
+    "gancho_tipo": "pregunta",
+    "cercania": "universal",
+    "promesa": "sí",
+    "giro": "sí",
+    "cierre": "bucle",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "no",
+    "por_que": "La pregunta inicial sobre un objeto cotidiano y el giro del doble fracaso retienen, pero la ilustración plana sin personaje y el texto que aparece palabra a palabra pueden hacer que se abandone."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-13-1430",
+  "titulo": "Un niño de 11 años inventó el polo helado por olvidarse un vaso fuera",
+  "fecha": "2026-11-12",
+  "duracion": 41.2,
+  "estilo": "papel",
+  "serie": "Comida",
+  "gancho": "Un niño de 11 años inventó el polo helado por dejarse un vaso fuera toda la noche.",
+  "palabras": 123,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 4.44,
+    "frase": "Un niño de 11 años inventó el polo helado por dejarse un vaso fuera toda la noche.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 4.44,
+    "fin": 7.98,
+    "frase": "Y lo raro no es el descuido, sino cómo acabó la historia.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 7.98,
+    "fin": 14.84,
+    "frase": "Era 1905, y Frank Epperson, según contó él mismo, removía polvo de refresco con agua usando un palito,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 14.84,
+    "fin": 19.04,
+    "frase": "cuando se olvidó el vaso en el porche. Por la mañana, estaba congelado.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 19.04,
+    "fin": 23.62,
+    "frase": "Se lo comió, y le encantó. Casi veinte años después lo patentó.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 23.62,
+    "fin": 28.42,
+    "frase": "Pero sus hijos lo llamaban «el sicle de papá», y de ahí salió Popsicle.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 28.42,
+    "fin": 34.34,
+    "frase": "Y en 1925 vendió los derechos a una empresa de Nueva York, y contó que se quedó sin nada.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 8,
+    "inicio": 34.34,
+    "fin": 41.24,
+    "frase": "Hoy se vende en todo el mundo, pero él ni conservó la marca. ¿Qué descuido tuyo valdría millones?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-13-1430",
+  "texto": "Un niño de 11 años inventó el polo helado por olvidarse un vaso fuera Según contó Frank Epperson años después, aquel vaso olvidado en 1905 acabó siendo el Popsicle, y su nombre vino de sus propios hijos. En 1925 vendió los derechos a una empresa de Nueva York y dijo que acabó sin nada. ¿Qué descuido tuyo podría haber sido una gran idea? Cuéntamelo en los comentarios 🍧 Un niño de 11 años inventó el polo helado por dejarse un vaso fuera toda la noche. Y lo raro no es el descuido, sino cómo acabó la historia. Era 1905, y Frank Epperson, según contó él mismo, removía polvo de refresco con agua usando un palito, cuando se olvidó el vaso en el porche. Por la mañana, estaba congelado. Se lo comió, y le encantó. Casi veinte años después lo patentó. Pero sus hijos lo llamaban «el sicle de papá», y de ahí salió Popsicle. Y en 1925 vendió los derechos a una empresa de Nueva York, y contó que se quedó sin nada. Hoy se vende en todo el mundo, pero él ni conservó la marca. ¿Qué descuido tuyo valdría millones?",
+  "familia": "campanita",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "cifra chocante"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-12",
+   "medido": {
+    "palabras_s": 2.99,
+    "escenas_min": 11.7,
+    "cifra_al_inicio": true,
+    "gancho_palabras": 17,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "historia",
+    "emocion": "asombro",
+    "gancho_tipo": "cifra chocante",
+    "cercania": "universal",
+    "promesa": "no",
+    "giro": "sí",
+    "cierre": "pregunta",
+    "primer_fotograma_claro": "no",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Gancho curioso con un niño de 11 años y un giro final con el inventor arruinado. Pero el fotograma inicial es semitransparente y el texto se lee por partes, y eso puede frenar el arranque."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-13-1945",
+  "titulo": "La nave que llegó a Marte y no vio nada: esperó, y cambió todo",
+  "fecha": "2026-11-12",
+  "duracion": 39.7,
+  "estilo": "neon",
+  "serie": "Espacio",
+  "gancho": "¿Qué haces si llegas a Marte y está tapado?",
+  "palabras": 117,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 2.82,
+    "frase": "¿Qué haces si llegas a Marte y está tapado?",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 2.82,
+    "fin": 8.74,
+    "frase": "Le pasó a la Mariner nueve, allá por 1971, y lo que hizo cambió lo que sabemos de Marte.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 8.74,
+    "fin": 15.14,
+    "frase": "Era la primera nave en orbitar otro planeta, y tras 167 días de viaje solo vio una tormenta de polvo.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 15.14,
+    "fin": 19.44,
+    "frase": "Pero estaba hecha para durar, así que esperó semanas dando vueltas a un mundo invisible,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 19.44,
+    "fin": 25.22,
+    "frase": "hasta que el polvo empezó a bajar y asomaron unas manchas oscuras que resultaron ser volcanes.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 25.22,
+    "fin": 28.54,
+    "frase": "Hasta entonces Marte parecía un mundo de cráteres, casi como la Luna. Y no lo era.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 28.54,
+    "fin": 39.72,
+    "frase": "Y aquella espera dio 7.329 fotos, más de las previstas, y un mapa del 85 % de Marte. Todo por saber esperar.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-13-1945",
+  "texto": "La nave que llegó a Marte y no vio nada: esperó, y cambió todo Cuando Mariner 9 llegó a Marte en noviembre de 1971, una tormenta de polvo cubría el planeta entero. En vez de rendirse, la sonda esperó semanas a que se despejara. Lo que apareció debajo, entre otras cosas volcanes, cambió la imagen que teníamos de Marte. ¿Tú habrías esperado o habrías apagado la sonda? Envíaselo a quien nunca tiene paciencia 🚀 ¿Qué haces si llegas a Marte y está tapado? Le pasó a la Mariner nueve, allá por 1971, y lo que hizo cambió lo que sabemos de Marte. Era la primera nave en orbitar otro planeta, y tras 167 días de viaje solo vio una tormenta de polvo. Pero estaba hecha para durar, así que esperó semanas dando vueltas a un mundo invisible, hasta que el polvo empezó a bajar y asomaron unas manchas oscuras que resultaron ser volcanes. Hasta entonces Marte parecía un mundo de cráteres, casi como la Luna. Y no lo era. Y aquella espera dio 7.329 fotos, más de las previstas, y un mapa del 85 % de Marte. Todo por saber esperar.",
+  "familia": "madera",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "pregunta"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-12",
+   "medido": {
+    "palabras_s": 2.95,
+    "escenas_min": 10.6,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 9,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "ciencia",
+    "emocion": "asombro",
+    "gancho_tipo": "pregunta",
+    "cercania": "universal",
+    "promesa": "no",
+    "giro": "sí",
+    "cierre": "moraleja",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "no",
+    "por_que": "La pregunta inicial y el giro de los volcanes bajo el polvo enganchan, pero la ilustración genérica de Marte y la narración lenta y plana en el centro pueden provocar abandono."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-15-1230",
+  "titulo": "Te enseñaron que los vikingos llevaban cuernos. Es falso",
+  "fecha": "2026-11-12",
+  "duracion": 39.3,
+  "estilo": "limpio",
+  "serie": "Historia",
+  "gancho": "Te enseñaron que los vikingos llevaban cuernos. Es falso.",
+  "palabras": 114,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 3.66,
+    "frase": "Te enseñaron que los vikingos llevaban cuernos. Es falso.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 3.66,
+    "fin": 6.92,
+    "frase": "Y el principal culpable fue un diseñador de vestuario de ópera.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 6.92,
+    "fin": 13.78,
+    "frase": "Carl Emil Doepler vistió en 1876, en Bayreuth, a los héroes de una ópera de Wagner con cascos con cuernos,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 13.78,
+    "fin": 17.58,
+    "frase": "porque quedaban imponentes en escena. Y la imagen se quedó para siempre.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 17.58,
+    "fin": 21.96,
+    "frase": "Pero sí existen cascos con cuernos de verdad:",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 21.96,
+    "fin": 25.02,
+    "frase": "hallados en Vekso, en Dinamarca, son de la Edad de Bronce, más de mil años anteriores a los vikingos.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 25.02,
+    "fin": 32.26,
+    "frase": "El casco vikingo más famoso, hallado en Noruega en 1943, es redondo, de hierro y sin cuernos.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 8,
+    "inicio": 32.26,
+    "fin": 36.56,
+    "frase": "Los cuernos, de la Edad de Bronce; el mito, de un teatro.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 9,
+    "inicio": 36.56,
+    "fin": 39.28,
+    "frase": "¿Qué otro mito te creías tú?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-15-1230",
+  "texto": "Te enseñaron que los vikingos llevaban cuernos. Es falso Los cascos con cuernos de los vikingos nacieron en un teatro: en 1876 el diseñador Carl Emil Doepler los puso a los héroes de una ópera de Wagner en Bayreuth porque quedaban imponentes. Los únicos cascos con cuernos que se han encontrado en Escandinavia, como los de Veksø (Dinamarca), son de la Edad de Bronce, mucho antes de los vikingos. Envíaselo a quien aún se los imagine así. ¿Qué otro mito histórico te creías? Te enseñaron que los vikingos llevaban cuernos. Es falso. Y el principal culpable fue un diseñador de vestuario de ópera. Carl Emil Doepler vistió en 1876, en Bayreuth, a los héroes de una ópera de Wagner con cascos con cuernos, porque quedaban imponentes en escena. Y la imagen se quedó para siempre. Pero sí existen cascos con cuernos de verdad: hallados en Vekso, en Dinamarca, son de la Edad de Bronce, más de mil años anteriores a los vikingos. El casco vikingo más famoso, hallado en Noruega en 1943, es redondo, de hierro y sin cuernos. Los cuernos, de la Edad de Bronce; el mito, de un teatro. ¿Qué otro mito te creías tú?",
+  "familia": "tum",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "contradicción"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-12",
+   "medido": {
+    "palabras_s": 2.9,
+    "escenas_min": 13.7,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 9,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "historia",
+    "emocion": "asombro",
+    "gancho_tipo": "contradicción",
+    "cercania": "mundo",
+    "promesa": "sí",
+    "giro": "sí",
+    "cierre": "pregunta",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Abre desmintiendo un mito muy conocido y promete revelar al culpable; el personaje vikingo y el texto animado enganchan, pero el cierre con pregunta genérica no invita a repetir."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-15-2015",
+  "titulo": "El mar que oyes dentro de una caracola no es el mar",
+  "fecha": "2026-11-12",
+  "duracion": 35.9,
+  "estilo": "papel",
+  "serie": "Ciencia",
+  "gancho": "¿Por qué suena el mar dentro de una caracola?",
+  "palabras": 114,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 2.6,
+    "frase": "¿Por qué suena el mar dentro de una caracola?",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 2.6,
+    "fin": 6.78,
+    "frase": "Y te adelanto que no es el mar, y ahora sabrás qué oyes de verdad.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 6.78,
+    "fin": 11.72,
+    "frase": "Se dijo que era tu propia sangre, pero en una sala insonorizada la caracola se queda muda,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 11.72,
+    "fin": 16.32,
+    "frase": "porque no fabrica ningún sonido: solo recoge el ruido que ya hay a tu alrededor.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 16.32,
+    "fin": 22.92,
+    "frase": "Voces, coches, tu ropa… todo rebota dentro y se refuerzan unas frecuencias, hasta que suena a olas.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 22.92,
+    "fin": 26.96,
+    "frase": "Por eso cada caracola suena distinta, y más fuerte en una calle ruidosa.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 26.96,
+    "fin": 31.8,
+    "frase": "Y ni siquiera necesitas una: vale una taza vacía o tu mano ahuecada sobre la oreja.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 8,
+    "inicio": 31.8,
+    "fin": 35.88,
+    "frase": "¿Con qué lo pruebas primero, con la taza o con la mano?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-15-2015",
+  "texto": "El mar que oyes dentro de una caracola no es el mar Esa caracola no guarda el mar: funciona como un resonador que amplifica el ruido de tu alrededor y deja pasar unas frecuencias más que otras. Por eso cambia de una concha a otra y casi desaparece donde hay silencio total. Pruébalo con una taza o con la mano en la oreja. 🐚 Mándaselo a alguien que de niño juraba que oía el mar. ¿Por qué suena el mar dentro de una caracola? Y te adelanto que no es el mar, y ahora sabrás qué oyes de verdad. Se dijo que era tu propia sangre, pero en una sala insonorizada la caracola se queda muda, porque no fabrica ningún sonido: solo recoge el ruido que ya hay a tu alrededor. Voces, coches, tu ropa… todo rebota dentro y se refuerzan unas frecuencias, hasta que suena a olas. Por eso cada caracola suena distinta, y más fuerte en una calle ruidosa. Y ni siquiera necesitas una: vale una taza vacía o tu mano ahuecada sobre la oreja. ¿Con qué lo pruebas primero, con la taza o con la mano?",
+  "familia": "campanita",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "pregunta"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-12",
+   "medido": {
+    "palabras_s": 3.18,
+    "escenas_min": 13.4,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 9,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "ciencia",
+    "emocion": "asombro",
+    "gancho_tipo": "pregunta",
+    "cercania": "universal",
+    "promesa": "sí",
+    "giro": "sí",
+    "cierre": "pregunta",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Abre con una pregunta y promete desmontar un mito conocido; la ilustración con personaje y el texto animado mantienen la atención, y el cierre invita a probarlo con una taza o la mano."
+   }
+  }
  }
 ]

@@ -121,11 +121,11 @@
           spec: { type: 'barh', xLabel: V, x: titulos(r), yFormat: 'num', series: [{ name: L('Vistas', 'Views'), data: col(r, 'vistas') }] }
         });
         cards.push({
-          titulo: L('Cómo crece cada vídeo', 'How each video grows'), sub: L('Vistas a la misma edad desde que se publicó', 'Views at the same age since posting'),
-          chips: [CHIP_VIVO], fuente: FUENTE_UP, ancho: 'full',
-          nota: L('Los últimos 8 vídeos. Un hueco significa que el vídeo aún no ha llegado a esa edad o que no hubo medición entonces.',
-            'The last 8 videos. A gap means the video has not reached that age yet or was not measured at that point.'),
-          spec: { type: 'line', xType: 'cat', xLabel: L('Edad', 'Age'), x: R[r].crecimiento.x.map(edad), yFormat: 'num', desdeCero: true, series: R[r].crecimiento.series.slice(0, 8) }
+          titulo: L('Cómo crece cada vídeo, hora a hora', 'How each video grows, hour by hour'), sub: L('Vistas acumuladas en cada hora desde que se publicó (primeras 72 h)', 'Cumulative views at each hour since posting (first 72 h)'),
+          chips: [CHIP_VIVO], fuente: FUENTE_UP, ancho: 'full', alto: 'tall',
+          nota: L('Las últimas 10 publicaciones, con una medición cada hora. Pulsa un vídeo en la leyenda para ocultarlo o mostrarlo. Un hueco significa que aún no ha llegado a esa hora o que esa hora no hubo medición.',
+            'The last 10 posts, measured every hour. Click a video in the legend to hide or show it. A gap means it has not reached that hour yet or there was no measurement then.'),
+          spec: { type: 'line', xType: 'cat', xLabel: L('Horas desde que se publicó', 'Hours since posting'), x: R[r].crecimiento.x.map(edad), yFormat: 'num', desdeCero: true, zoom: false, series: R[r].crecimiento.series }
         });
         cards.push({
           titulo: L('Frente a la cuenta', 'Against the account'), sub: L('Índice de vistas: 100 = la mediana de la cuenta', 'Views index: 100 = the account median'),
@@ -315,11 +315,73 @@
     }
   };
 
+  /* Entre redes: el MISMO vídeo en cada red. Si despega en una y no en otra, manda la red (su público y su algoritmo) */
+  var X = D.entreRedes || {};
+  var celda = function (v) {
+    if (v == null) return '<td style="text-align:center;color:var(--ink-mut)">—</td>';
+    var fondo = v >= 1.5 ? 'color-mix(in srgb, var(--ok) 22%, transparent)' : v < 0.67 ? 'color-mix(in srgb, var(--crit) 18%, transparent)' : 'transparent';
+    return '<td style="text-align:right;padding:.3em .6em;background:' + fondo + ';font-variant-numeric:tabular-nums">' + F.num(Math.round(v * 100), 0) + '</td>';
+  };
+  var tabla = function (cab, filas) {
+    return '<div style="overflow-x:auto"><table style="border-collapse:collapse;font-size:.92em;margin:.5em 0;min-width:100%"><thead><tr>' +
+      cab.map(function (c, i) { return '<th style="text-align:' + (i ? 'right' : 'left') + ';padding:.3em .6em;border-bottom:1px solid var(--line-strong);white-space:nowrap">' + c + '</th>'; }).join('') +
+      '</tr></thead><tbody>' + filas.map(function (f) { return '<tr style="border-bottom:1px solid var(--line)">' + f + '</tr>'; }).join('') + '</tbody></table></div>';
+  };
+  var entreRedes = {
+    id: 'entre-redes', nombre: L('Entre redes', 'Across networks'),
+    titulo: L('¿Viral en una red y no en otra?', 'Viral on one network but not on another?'),
+    desc: L('Cada vídeo se publica igual en todas las redes, así que es un experimento perfecto: el contenido es el mismo y solo cambia la red. Para compararlas en la misma escala, en cada red el vídeo se mide frente a lo normal en esa red (sus 10 publicaciones anteriores a la misma edad, 24 horas): 100 = lo normal allí. Si un vídeo funciona en todas, manda el vídeo; si despega en una y se hunde en otra, manda la red, y eso dice qué premia cada público y cada algoritmo.',
+      'Every video is posted identically on every network, which makes a perfect experiment: the content is the same and only the network changes. To compare them on the same scale, on each network the video is measured against what is normal on that network (its previous 10 posts at the same age, 24 hours): 100 = normal there. If a video works everywhere, the video is what matters; if it takes off on one and sinks on another, the network is what matters, and that tells you what each audience and algorithm rewards.'),
+    render: function () {
+      var vs = X.videos || [], rs = (X.redes || []).filter(function (r) { return NOMBRES[r]; }), res = X.resumen || {}, partes = [], cards = [];
+      if (!vs.length) return { nota: L('Aún no hay vídeos con 24 horas en al menos dos redes: aparecerán aquí.', 'No videos older than 24 hours on at least two networks yet: they will appear here.'), cards: [] };
+      var rho = res.rhoMedia == null ? '—' : F.num(res.rhoMedia, 2);
+      var ver = {
+        pocos: L('<b>Aún es pronto para una conclusión general</b> (' + res.videos + ' vídeos; hacen falta al menos 6), pero los casos sueltos ya enseñan cosas:',
+          '<b>Too early for a general conclusion</b> (' + res.videos + ' videos; at least 6 are needed), but the individual cases already teach something:'),
+        video: L('<b>Manda el vídeo:</b> lo que funciona en una red suele funcionar en las demás (correlación media ' + rho + ').', '<b>The video is what matters:</b> what works on one network tends to work on the others (average correlation ' + rho + ').'),
+        red: L('<b>Cada red va por libre:</b> que un vídeo funcione en una apenas dice nada de las demás (correlación media ' + rho + '). Conviene adaptar a cada red lo que se pueda: título, texto, portada y hora.', '<b>Each network goes its own way:</b> a video working on one says little about the others (average correlation ' + rho + '). Adapt what you can to each network: title, caption, cover and time.'),
+        mixto: L('<b>En parte manda el vídeo y en parte la red</b> (correlación media ' + rho + ').', '<b>Partly the video, partly the network</b> (average correlation ' + rho + ').')
+      }[res.veredicto || 'pocos'];
+      partes.push(ver);
+      var casos = vs.filter(function (v) { return v.perfil === 'una' || v.perfil === 'desigual'; }).map(function (v) {
+        return '<li><b>' + esc(v.titulo) + '</b>: ' + (v.perfil === 'una' ? L('solo despega en ', 'only takes off on ') : L('va mejor en ', 'does best on ')) + NOMBRES[v.mejor] + ' (' + Math.round(v.indices[v.mejor] * 100) + ')' +
+          L(' y donde peor va es ', ' and worst on ') + NOMBRES[v.peor] + ' (' + Math.round(v.indices[v.peor] * 100) + ')</li>';
+      });
+      if (casos.length) partes.push('<ul style="margin:.4em 0 0 1.1em">' + casos.join('') + '</ul>');
+      var PERFIL = { todas: L('funciona en todas', 'works everywhere'), una: L('solo en una', 'only on one'), ninguna: L('flojo en todas', 'weak everywhere'), desigual: L('muy desigual', 'very uneven'), parejo: L('parejo', 'even') };
+      partes.push('<b>' + L('Índice de cada vídeo en cada red', 'Index of each video on each network') + '</b> <small>(' + L('100 = lo normal en esa red; en verde, 150 o más; en rojo, menos de 67', '100 = normal on that network; green, 150 or more; red, under 67') + ')</small>' +
+        tabla([L('Vídeo', 'Video')].concat(rs.map(function (r) { return NOMBRES[r]; })).concat([L('Perfil', 'Profile')]),
+          vs.map(function (v) { return '<td style="padding:.3em .6em">' + esc(v.titulo) + '</td>' + rs.map(function (r) { return celda(v.indices[r]); }).join('') + '<td style="text-align:right;padding:.3em .6em;white-space:nowrap">' + PERFIL[v.perfil] + '</td>'; })));
+      var ra = X.rasgos || [];
+      if (ra.length) partes.push('<b>' + L('Qué premia cada red', 'What each network rewards') + '</b> <small>(' + L('el rasgo que mejor funciona en cada red, con su índice; ⇄ = el ganador cambia según la red. Con pocos vídeos son pistas, no reglas', 'the feature that works best on each network, with its index; ⇄ = the winner changes by network. With few videos these are hints, not rules') + ')</small>' +
+        tabla([L('Rasgo', 'Feature')].concat(rs.map(function (r) { return NOMBRES[r]; })),
+          ra.map(function (x) {
+            return '<td style="padding:.3em .6em">' + (x.distinto ? '⇄ ' : '') + esc(NOMBRE_FACTOR[x.rasgo] || x.rasgo) + '</td>' + rs.map(function (r) {
+              var y = x.porRed[r];
+              return '<td style="text-align:right;padding:.3em .6em">' + (y ? esc(nivel(y.nivel)) + ' <small style="color:var(--ink-mut)">' + Math.round(y.indice * 100) + '</small>' : '—') + '</td>';
+            }).join('');
+          })));
+      var pj = X.parejas || [];
+      if (pj.length) cards.push({
+        titulo: L('¿Lo que funciona en una red funciona en otra?', 'Does what works on one network work on another?'),
+        sub: L('Correlación entre redes (de −1 a 1; n = vídeos en las dos)', 'Correlation between networks (−1 to 1; n = videos on both)'),
+        chips: [CHIP_VIVO], fuente: FUENTE_UP, ancho: 'full',
+        nota: L('Cerca de 1: los vídeos que van bien en una van bien en la otra. Cerca de 0: no tienen nada que ver. Negativa: lo que gusta en una, en la otra no. Con menos de 8 vídeos puede cambiar mucho.',
+          'Close to 1: videos that do well on one do well on the other. Close to 0: unrelated. Negative: what one audience likes, the other does not. With fewer than 8 videos it can change a lot.'),
+        spec: { type: 'bar', xType: 'cat', yMin: -1, yMax: 1, yFormat: function (v) { return v == null ? '—' : F.num(v, 2); }, yTick: function (v) { return F.num(v, 1); }, xTodas: true,
+          x: pj.map(function (p) { return NOMBRES[p.a] + '–' + NOMBRES[p.b] + ' (n=' + p.n + ')'; }),
+          series: [{ name: L('Correlación', 'Correlation'), data: pj.map(function (p) { return p.rho; }) }] }
+      });
+      return { nota: partes.map(function (x) { return '<div style="margin:.5em 0">' + x + '</div>'; }).join(''), cards: cards };
+    }
+  };
+
   Obs.init({
     titulo: L('Observatorio de redes · Contratitular', 'Social media observatory · Contratitular'),
     subtitulo: L('Cifras de cada vídeo en cada red, actualizadas cada hora, y lo que se aprende de ellas', 'Figures for every video on every network, updated hourly, and what we learn from them'),
     otroIdioma: EN ? '../' : 'en/',
-    secciones: [resumen].concat(ORDEN.map(seccionRed)).concat([viralidad, hora, aprendizajes]),
+    secciones: [resumen].concat(ORDEN.map(seccionRed)).concat([entreRedes, viralidad, hora, aprendizajes]),
     actualizado: (D.meta || {}).actualizado,
     fuentes: [FUENTE_UP],
     metodologia: L('Una Action de GitHub consulta cada hora la API de estadísticas de Upload-Post: lista las publicaciones de cada red, las empareja con su vídeo y guarda una medición de cada una con la hora, de modo que se puede ver cómo crece cada vídeo. El índice de cada vídeo es su número de vistas dividido entre la mediana de las 10 publicaciones anteriores de la cuenta en esa red, medidas a la misma edad (72 o 24 horas; las más recientes, a la edad que tengan), para que el crecimiento de la cuenta no se confunda con el mérito del vídeo. Claude describe cada vídeo con una taxonomía cerrada y los experimentos cambian una sola variable, repartida de forma equilibrada; se cierran con una prueba de permutación (p < 0,1 y ventaja de al menos el 25 %). Los aprendizajes promedian, para cada rasgo, el logaritmo de ese índice, con un encogimiento hacia 100 que evita conclusiones con pocos datos.',
