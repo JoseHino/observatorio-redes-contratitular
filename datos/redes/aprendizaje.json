@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T06:19:07.815Z",
+ "actualizado": "2026-11-12T07:18:54.703Z",
  "publicaciones": 24,
  "videos": 7,
  "factores": {
@@ -60,13 +60,13 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.09,
-    "interaccion": 0.34
+    "interaccion": 0.35
    },
    "22-24 h": {
     "n": 4,
     "videos": 1,
     "vistas": 0.69,
-    "interaccion": 0.82
+    "interaccion": 0.81
    }
   },
   "red": {
@@ -112,13 +112,13 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.09,
-    "interaccion": 0.34
+    "interaccion": 0.35
    },
    "papel": {
     "n": 4,
     "videos": 1,
     "vistas": 0.69,
-    "interaccion": 0.82
+    "interaccion": 0.81
    },
    "neon": {
     "n": 4,
@@ -144,13 +144,13 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.09,
-    "interaccion": 0.34
+    "interaccion": 0.35
    },
    "Animales": {
     "n": 4,
     "videos": 1,
     "vistas": 0.69,
-    "interaccion": 0.82
+    "interaccion": 0.81
    },
    "Dinero": {
     "n": 4,
@@ -164,7 +164,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 1,
-    "interaccion": 0.54
+    "interaccion": 0.55
    },
    ">43 s": {
     "n": 8,
@@ -198,7 +198,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.69,
-    "interaccion": 0.82
+    "interaccion": 0.81
    }
   },
   "escenas de datos": {
@@ -225,7 +225,7 @@
    "rápido (>2,9 pal/s)": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.69,
+    "vistas": 0.7,
     "interaccion": 0.44
    }
   },
@@ -242,7 +242,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.83,
-    "interaccion": 0.89
+    "interaccion": 0.88
    },
    "no": {
     "n": 12,
@@ -268,13 +268,13 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.09,
-    "interaccion": 0.34
+    "interaccion": 0.35
    },
    "naturaleza": {
     "n": 4,
     "videos": 1,
     "vistas": 0.69,
-    "interaccion": 0.82
+    "interaccion": 0.81
    },
    "economía": {
     "n": 4,
@@ -314,7 +314,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.69,
-    "interaccion": 0.82
+    "interaccion": 0.81
    }
   },
   "cercania": {
@@ -322,13 +322,13 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.65,
-    "interaccion": 0.65
+    "interaccion": 0.64
    },
    "universal": {
     "n": 8,
     "videos": 2,
     "vistas": 0.98,
-    "interaccion": 0.42
+    "interaccion": 0.43
    }
   },
   "promesa": {
@@ -336,7 +336,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 1,
-    "interaccion": 0.54
+    "interaccion": 0.55
    },
    "sí": {
     "n": 8,
@@ -414,7 +414,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.75,
-    "interaccion": 0.71
+    "interaccion": 0.7
    }
   },
   "sonido": {
@@ -422,7 +422,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.98,
-    "interaccion": 0.42
+    "interaccion": 0.43
    },
    "burbuja": {
     "n": 8,
@@ -435,7 +435,7 @@
    "Tristan HD": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.69,
+    "vistas": 0.7,
     "interaccion": 0.44
    }
   }
@@ -450,7 +450,7 @@
     "mejor": {
      "v": "33-43 s",
      "vistas": 1,
-     "interaccion": 0.54,
+     "interaccion": 0.55,
      "n": 12
     },
     "resto": [
@@ -461,7 +461,7 @@
      }
     ]
    },
-   "texto": "duración: «33-43 s» consigue 1.00× el alcance medio (3 vídeos) e interacción 0.54×; frente a >43 s 0.53× (2 vídeos)."
+   "texto": "duración: «33-43 s» consigue 1.00× el alcance medio (3 vídeos) e interacción 0.55×; frente a >43 s 0.53× (2 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -494,7 +494,7 @@
     "mejor": {
      "v": "no",
      "vistas": 1,
-     "interaccion": 0.54,
+     "interaccion": 0.55,
      "n": 12
     },
     "resto": [
@@ -505,7 +505,7 @@
      }
     ]
    },
-   "texto": "promesa: «no» consigue 1.00× el alcance medio (3 vídeos) e interacción 0.54×; frente a sí 0.53× (2 vídeos)."
+   "texto": "promesa: «no» consigue 1.00× el alcance medio (3 vídeos) e interacción 0.55×; frente a sí 0.53× (2 vídeos)."
   }
  ],
  "pesos": {
@@ -521,11 +521,11 @@
    "tum": 0.118
   },
   "estilo": {
-   "papel": 0.204,
+   "papel": 0.203,
    "neon": 0.154,
    "pop": 0.254,
    "pizarra": 0.209,
-   "limpio": 0.179
+   "limpio": 0.18
   }
  },
  "horas_recomendadas": [
