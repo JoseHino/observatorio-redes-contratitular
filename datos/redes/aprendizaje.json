@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T22:18:54.085Z",
+ "actualizado": "2026-11-12T23:18:47.037Z",
  "publicaciones": 28,
  "videos": 8,
  "factores": {
@@ -162,7 +162,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.14,
-    "interaccion": 1.08
+    "interaccion": 1.07
    }
   },
   "duración": {
@@ -292,7 +292,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.14,
-    "interaccion": 1.08
+    "interaccion": 1.07
    }
   },
   "emocion": {
@@ -348,7 +348,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.96,
-    "interaccion": 0.56
+    "interaccion": 0.57
    },
    "sí": {
     "n": 12,
@@ -394,7 +394,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.14,
-    "interaccion": 1.08
+    "interaccion": 1.07
    }
   },
   "primer fotograma claro": {
@@ -452,7 +452,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.14,
-    "interaccion": 1.08
+    "interaccion": 1.07
    }
   },
   "voz": {
@@ -468,7 +468,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.14,
-    "interaccion": 1.08
+    "interaccion": 1.07
    }
   }
  },
@@ -526,7 +526,7 @@
     "mejor": {
      "v": "no",
      "vistas": 0.96,
-     "interaccion": 0.56,
+     "interaccion": 0.57,
      "n": 12
     },
     "resto": [
@@ -537,7 +537,7 @@
      }
     ]
    },
-   "texto": "promesa: «no» consigue 0.96× el alcance medio (3 vídeos) e interacción 0.56×; frente a sí 0.67× (3 vídeos)."
+   "texto": "promesa: «no» consigue 0.96× el alcance medio (3 vídeos) e interacción 0.57×; frente a sí 0.67× (3 vídeos)."
   }
  ],
  "pesos": {
