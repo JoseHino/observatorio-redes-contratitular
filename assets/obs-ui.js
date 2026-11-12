@@ -119,6 +119,12 @@
             }).join('') +
           '</select></label>'
       : '';
+    /* Botones de dos o tres opciones (otra forma de ver la MISMA gráfica): c.segmento =
+       {opciones:[{v,txt}], valor, spec(valor)}. */
+    if (c.segmento) control += '<div class="obs-segment" data-seg="' + id + '">' +
+      (c.segmento.opciones || []).map(function (o) {
+        return '<button type="button" data-v="' + esc(o.v) + '" aria-pressed="' + (String(o.v) === String(c.segmento.valor) ? 'true' : 'false') + '">' + esc(o.txt == null ? o.v : o.txt) + '</button>';
+      }).join('') + '</div>';
     var chips = (c.chips || []).map(function (ch) {
       var cls = ch.tipo ? ' ' + ch.tipo : '';
       return '<span class="obs-chip' + cls + '">' + (ch.tipo === 'live' ? '<span class="dot"></span>' : '') + esc(ch.txt) + '</span>';
@@ -265,6 +271,18 @@
       Obs.chart(plot, c.spec);
       /* El selector redibuja la misma tarjeta con otra spec; la vista de tabla y
          la descarga leen la spec del nodo, así que se actualizan solas. */
+      if (c.segmento && typeof c.segmento.spec === 'function') {
+        var seg = art.querySelector('.obs-segment[data-seg]');
+        if (seg) seg.addEventListener('click', function (ev) {
+          var b = ev.target.closest('button[data-v]');
+          if (!b || b.getAttribute('aria-pressed') === 'true') return;
+          seg.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+          art.classList.remove('showing-table');
+          var wrap = art.querySelector('.obs-table-wrap');
+          if (wrap) wrap.innerHTML = '';
+          Obs.chart(plot, c.segmento.spec(b.getAttribute('data-v')));
+        });
+      }
       if (c.control && typeof c.control.spec === 'function') {
         var sel = art.querySelector('select[data-ctrl]');
         if (sel) sel.addEventListener('change', function () {

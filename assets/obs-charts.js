@@ -29,6 +29,7 @@
       enVivo: 'En vivo', actualizados: 'Datos actualizados ', verTabla: 'Ver los datos en tabla', verGrafica: 'Volver a la gráfica',
       png: 'Descargar la gráfica en PNG', csv: 'Descargar los datos en CSV', imprimir: 'Imprimir o guardar en PDF',
       tema: 'Cambiar de tema', claro: 'Cambiar a modo claro', oscuro: 'Cambiar a modo oscuro',
+      zoom: 'Ampliar una zona (arrastra un recuadro)', zoomAtras: 'Deshacer la ampliación', zoomQuitar: 'Ver la gráfica entera',
       sinLibreria: 'No se pudo cargar la librería de gráficas.', sinDatos: 'Sin datos publicados para este indicador.',
       ahora: 'hace un momento', haceMin: 'hace {n} min', haceH: 'hace {n} h', haceDias: 'hace {n} días', otroIdioma: 'Read in English'
     },
@@ -37,6 +38,7 @@
       enVivo: 'Live', actualizados: 'Data updated ', verTabla: 'View the data as a table', verGrafica: 'Back to the chart',
       png: 'Download the chart as PNG', csv: 'Download the data as CSV', imprimir: 'Print or save as PDF',
       tema: 'Change theme', claro: 'Switch to light mode', oscuro: 'Switch to dark mode',
+      zoom: 'Zoom into an area (drag a box)', zoomAtras: 'Undo zoom', zoomQuitar: 'Show the whole chart',
       sinLibreria: 'The charts library could not be loaded.', sinDatos: 'No data published for this indicator.',
       ahora: 'just now', haceMin: '{n} min ago', haceH: '{n} h ago', haceDias: '{n} days ago', otroIdioma: 'Leer en español'
     }
@@ -221,6 +223,11 @@
       } : undefined,
       formatter: function (p) {
         var arr = Array.isArray(p) ? p : [p];
+        /* tooltipCercana: con muchas líneas, solo la que está bajo el ratón (la elige Obs.chart) */
+        if (spec.tooltipCercana && arr.length > 1) {
+          if (spec.__cerca == null) return '';
+          arr = arr.filter(function (it) { return it.seriesIndex === spec.__cerca; });
+        }
         if (!arr.length) return '';
         var cab = '<div style="font-weight:600;margin-bottom:5px">' + (arr[0].axisValueLabel || arr[0].name || '') + '</div>';
         var filas = arr.map(function (it) {
@@ -253,7 +260,31 @@
 
   /* -------------------------------------------------- 4. Constructor de spec */
 
+  /* zoomCaja: lupa para seleccionar un recuadro (en los dos ejes) y botón para volver;
+     además Ctrl+rueda acerca y arrastrar desplaza. La rueda sola sigue moviendo la página. */
   function construir(spec) {
+    var op = construirBase(spec);
+    if (!spec.zoomCaja || spec.type === 'donut' || spec.type === 'pie') return op;
+    var T = tema(), barh = spec.type === 'barh';
+    op.toolbox = {
+      right: 6, top: 0, itemSize: 15, itemGap: 10,
+      iconStyle: { borderColor: T.mut }, emphasis: { iconStyle: { borderColor: T.serie[0] } },
+      feature: {
+        dataZoom: { filterMode: 'none', title: { zoom: Obs.t('zoom'), back: Obs.t('zoomAtras') } },
+        restore: { title: Obs.t('zoomQuitar') }
+      }
+    };
+    op.grid = Object.assign({}, op.grid, { top: (op.grid.top || 12) + 22 });
+    var dentro = { type: 'inside', zoomOnMouseWheel: 'ctrl', moveOnMouseWheel: false, moveOnMouseMove: true, filterMode: 'none' };
+    var dz = (op.dataZoom || []).slice();
+    if (!dz.some(function (d) { return d.type === 'inside'; })) dz.push(Object.assign(barh ? { yAxisIndex: 0 } : { xAxisIndex: 0 }, dentro));
+    else dz = dz.map(function (d) { return d.type === 'inside' ? Object.assign({}, d, dentro) : d; });
+    dz.push(Object.assign({ yAxisIndex: barh ? undefined : 0, xAxisIndex: barh ? 0 : undefined }, dentro, { zoomOnMouseWheel: 'shift', moveOnMouseMove: false }));
+    op.dataZoom = dz;
+    return op;
+  }
+
+  function construirBase(spec) {
     var T = tema();
     var fn = resolveFmt(spec.yFormat);
     var ss = spec.series || [];
@@ -431,12 +462,44 @@
     var inst = echarts.init(nodo, null, { renderer: 'canvas', devicePixelRatio: 2 });
     inst.setOption(construir(spec), true);
 
+    if (spec.tooltipCercana) cercana(inst, spec);
+
     /* La spec viaja con el nodo: la vista de tabla y la exportación la releen. */
     nodo.__obsSpec = spec;
     registry = registry.filter(function (r) { return r.el !== nodo; });
     registry.push({ el: nodo, inst: inst, spec: spec });
     return inst;
   };
+
+  /* tooltipCercana: en cada movimiento del ratón, la serie visible cuya línea pasa más cerca
+     (en píxeles, en la categoría bajo el ratón); se resalta y el tooltip muestra solo esa. */
+  function cercana(inst, spec) {
+    spec.__cerca = null;
+    var ocultas = {};
+    inst.on('legendselectchanged', function (e) { ocultas = {}; Object.keys(e.selected).forEach(function (k) { if (!e.selected[k]) ocultas[k] = true; }); });
+    var poner = function (k) {
+      if (k === spec.__cerca) return;
+      if (spec.__cerca != null) inst.dispatchAction({ type: 'downplay', seriesIndex: spec.__cerca });
+      spec.__cerca = k;
+      if (k != null) inst.dispatchAction({ type: 'highlight', seriesIndex: k });
+    };
+    inst.getZr().on('mousemove', function (e) {
+      var pt = [e.offsetX, e.offsetY];
+      if (!inst.containPixel('grid', pt)) { poner(null); return; }
+      var i = Math.round(inst.convertFromPixel({ xAxisIndex: 0 }, e.offsetX));
+      var mejor = null, dist = Infinity;
+      (spec.series || []).forEach(function (s, k) {
+        var v = s.data && s.data[i];
+        if (v == null || ocultas[s.name]) return;
+        var y = inst.convertToPixel({ yAxisIndex: 0 }, v), d = Math.abs(y - e.offsetY);
+        if (d < dist) { dist = d; mejor = k; }
+      });
+      var antes = spec.__cerca;
+      poner(mejor);
+      if (antes !== mejor) inst.dispatchAction({ type: 'showTip', x: e.offsetX, y: e.offsetY });
+    });
+    inst.getZr().on('globalout', function () { poner(null); });
+  }
 
   /** Vuelve a dibujar todo con los tokens actuales (tras cambiar de tema). */
   Obs.repintar = function () {

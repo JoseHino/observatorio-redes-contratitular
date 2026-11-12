@@ -106,6 +106,27 @@
     }
   };
 
+  /* Todas las gráficas con zoom: lupa (arrastrar un recuadro), Ctrl+rueda y botón para volver a la vista entera */
+  var dibujar = Obs.chart;
+  Obs.chart = function (el, spec) { if (spec && spec.zoomCaja == null) spec.zoomCaja = true; return dibujar(el, spec); };
+
+  /* Crecimiento hora a hora. «Todas desde 0»: cada vídeo arranca en (0 h, 0 vistas) y se une con su primera
+     medición, para comparar arranques aunque la primera medición llegara tarde. Al pasar el ratón, solo la línea señalada. */
+  function specCrecimiento(r, desde0) {
+    var c = R[r].crecimiento, x = c.x, series = c.series;
+    if (desde0) {
+      x = [0].concat(x);
+      series = series.map(function (s) {
+        var d = [0].concat(s.data), j = 1;
+        while (j < d.length && d[j] == null) j++;
+        if (j < d.length) for (var k = 1; k < j; k++) d[k] = Math.round(d[j] * k / j);
+        return { name: s.name, data: d };
+      });
+    }
+    return { type: 'line', xType: 'cat', xLabel: L('Horas desde que se publicó', 'Hours since posting'), x: x.map(edad), yFormat: 'num', desdeCero: true,
+      zoom: true, zoomDesde: 0, tooltipCercana: true, series: series };
+  }
+
   /* ------------------------------------------------------ Una por red --- */
   function seccionRed(r) {
     var N = NOMBRES[r] || r;
@@ -123,9 +144,10 @@
         cards.push({
           titulo: L('Cómo crece cada vídeo, hora a hora', 'How each video grows, hour by hour'), sub: L('Vistas acumuladas en cada hora desde que se publicó (primeras 72 h)', 'Cumulative views at each hour since posting (first 72 h)'),
           chips: [CHIP_VIVO], fuente: FUENTE_UP, ancho: 'full', alto: 'tall',
-          nota: L('Las últimas 10 publicaciones, con una medición cada hora. Pulsa un vídeo en la leyenda para ocultarlo o mostrarlo. Un hueco significa que aún no ha llegado a esa hora o que esa hora no hubo medición.',
-            'The last 10 posts, measured every hour. Click a video in the legend to hide or show it. A gap means it has not reached that hour yet or there was no measurement then.'),
-          spec: { type: 'line', xType: 'cat', xLabel: L('Horas desde que se publicó', 'Hours since posting'), x: R[r].crecimiento.x.map(edad), yFormat: 'num', desdeCero: true, zoom: false, series: R[r].crecimiento.series }
+          nota: L('Las últimas 10 publicaciones, con una medición cada hora. Pulsa un vídeo en la leyenda para ocultarlo o mostrarlo; con la lupa de arriba a la derecha arrastras un recuadro para ampliar. Un hueco significa que aún no ha llegado a esa hora o que esa hora no hubo medición. En «Todas desde 0», el tramo entre la hora 0 y la primera medición es una recta.',
+            'The last 10 posts, measured every hour. Click a video in the legend to hide or show it; use the magnifier at the top right to drag a box and zoom. A gap means it has not reached that hour yet or there was no measurement then. In “All from 0”, the stretch between hour 0 and the first measurement is a straight line.'),
+          segmento: { valor: 'medido', opciones: [{ v: 'medido', txt: L('Como se midió', 'As measured') }, { v: 'cero', txt: L('Todas desde 0', 'All from 0') }], spec: function (v) { return specCrecimiento(r, v === 'cero'); } },
+          spec: specCrecimiento(r, false)
         });
         cards.push({
           titulo: L('Frente a la cuenta', 'Against the account'), sub: L('Índice de vistas: 100 = la mediana de la cuenta', 'Views index: 100 = the account median'),
@@ -142,7 +164,7 @@
           titulo: L('Retención segundo a segundo', 'Second-by-second retention'), sub: L('Porcentaje de espectadores que siguen viendo', 'Share of viewers still watching'),
           chips: [CHIP_VIVO], fuente: FUENTE_UP, ancho: 'full', alto: 'tall',
           nota: L('Los primeros segundos deciden: una caída fuerte al principio es un gancho que no engancha.', 'The first seconds decide: a sharp early drop means the hook is not working.'),
-          spec: { type: 'line', xType: 'cat', xLabel: L('Segundo', 'Second'), x: R[r].retencion.x, yFormat: 'pct', desdeCero: true, zoom: false, series: R[r].retencion.series.slice(0, 8) }
+          spec: { type: 'line', xType: 'cat', xLabel: L('Segundo', 'Second'), x: R[r].retencion.x, yFormat: 'pct', desdeCero: true, zoom: false, tooltipCercana: true, series: R[r].retencion.series.slice(0, 8) }
         });
         if (R[r].fuentes) cards.push({
           titulo: L('De dónde llegan las visitas', 'Where views come from'), sub: L('Media de todos los vídeos', 'Average across all videos'),
