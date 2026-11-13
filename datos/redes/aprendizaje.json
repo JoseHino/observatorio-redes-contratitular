@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T06:19:21.044Z",
+ "actualizado": "2026-11-13T07:19:10.036Z",
  "publicaciones": 32,
  "videos": 9,
  "factores": {
@@ -357,7 +357,7 @@
    "universal": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.96,
+    "vistas": 0.95,
     "interaccion": 0.65
    }
   },
@@ -549,7 +549,7 @@
    "detalle": {
     "mejor": {
      "v": "universal",
-     "vistas": 0.96,
+     "vistas": 0.95,
      "interaccion": 0.65,
      "n": 12
     },
@@ -561,7 +561,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 0.96× el alcance medio (3 vídeos) e interacción 0.65×; frente a mundo 0.75× (4 vídeos)."
+   "texto": "cercania: «universal» consigue 0.95× el alcance medio (3 vídeos) e interacción 0.65×; frente a mundo 0.75× (4 vídeos)."
   },
   {
    "tipo": "hipotesis",
