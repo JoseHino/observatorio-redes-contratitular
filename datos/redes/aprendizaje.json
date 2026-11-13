@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T01:20:12.651Z",
+ "actualizado": "2026-11-13T02:18:49.162Z",
  "publicaciones": 32,
  "videos": 9,
  "factores": {
@@ -32,7 +32,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.91,
-    "interaccion": 1.83
+    "interaccion": 1.85
    }
   },
   "franja": {
@@ -91,14 +91,14 @@
    "youtube": {
     "n": 8,
     "videos": 8,
-    "vistas": 1.26,
+    "vistas": 1.27,
     "interaccion": 1.04
    },
    "facebook": {
     "n": 8,
     "videos": 8,
-    "vistas": 0.95,
-    "interaccion": 0.4
+    "vistas": 0.96,
+    "interaccion": 0.41
    }
   },
   "estilo": {
@@ -111,8 +111,8 @@
    "pizarra": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.88,
-    "interaccion": 1.09
+    "vistas": 0.89,
+    "interaccion": 1.1
    },
    "limpio": {
     "n": 4,
@@ -174,7 +174,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.91,
-    "interaccion": 1.83
+    "interaccion": 1.85
    }
   },
   "duración": {
@@ -224,7 +224,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 0.93,
-    "interaccion": 0.7
+    "interaccion": 0.71
    },
    "sí": {
     "n": 4,
@@ -266,7 +266,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.83,
-    "interaccion": 0.57
+    "interaccion": 0.58
    }
   },
   "tema": {
@@ -310,7 +310,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.91,
-    "interaccion": 1.83
+    "interaccion": 1.85
    }
   },
   "emocion": {
@@ -358,7 +358,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.95,
-    "interaccion": 0.65
+    "interaccion": 0.66
    }
   },
   "promesa": {
@@ -400,7 +400,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.85,
-    "interaccion": 0.69
+    "interaccion": 0.7
    },
    "bucle": {
     "n": 4,
@@ -492,7 +492,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.91,
-    "interaccion": 1.83
+    "interaccion": 1.85
    }
   }
  },
@@ -550,7 +550,7 @@
     "mejor": {
      "v": "universal",
      "vistas": 0.95,
-     "interaccion": 0.65,
+     "interaccion": 0.66,
      "n": 12
     },
     "resto": [
@@ -561,7 +561,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 0.95× el alcance medio (3 vídeos) e interacción 0.65×; frente a mundo 0.75× (4 vídeos)."
+   "texto": "cercania: «universal» consigue 0.95× el alcance medio (3 vídeos) e interacción 0.66×; frente a mundo 0.75× (4 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -602,8 +602,8 @@
    "papel": 0.192,
    "neon": 0.137,
    "pop": 0.253,
-   "pizarra": 0.25,
-   "limpio": 0.167
+   "pizarra": 0.252,
+   "limpio": 0.166
   }
  },
  "horas_recomendadas": [
