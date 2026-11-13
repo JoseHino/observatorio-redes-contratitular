@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T03:18:53.633Z",
+ "actualizado": "2026-11-13T04:18:51.774Z",
  "publicaciones": 32,
  "videos": 9,
  "factores": {
@@ -31,8 +31,8 @@
    "jueves": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.9,
-    "interaccion": 1.85
+    "vistas": 0.93,
+    "interaccion": 1.8
    }
   },
   "franja": {
@@ -46,7 +46,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 0.81,
-    "interaccion": 0.61
+    "interaccion": 0.6
    }
   },
   "hora": {
@@ -59,8 +59,8 @@
    "12-14 h": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.73,
-    "interaccion": 0.86
+    "vistas": 0.74,
+    "interaccion": 0.85
    },
    "14-16 h": {
     "n": 4,
@@ -79,7 +79,7 @@
    "instagram": {
     "n": 8,
     "videos": 8,
-    "vistas": 0.62,
+    "vistas": 0.63,
     "interaccion": 0.32
    },
    "tiktok": {
@@ -111,8 +111,8 @@
    "pizarra": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.88,
-    "interaccion": 1.1
+    "vistas": 0.9,
+    "interaccion": 1.08
    },
    "limpio": {
     "n": 4,
@@ -173,15 +173,15 @@
    "Geografía": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.9,
-    "interaccion": 1.85
+    "vistas": 0.93,
+    "interaccion": 1.8
    }
   },
   "duración": {
    "33-43 s": {
     "n": 20,
     "videos": 5,
-    "vistas": 1.02,
+    "vistas": 1.03,
     "interaccion": 0.72
    },
    ">43 s": {
@@ -201,7 +201,7 @@
    "afirmación": {
     "n": 20,
     "videos": 5,
-    "vistas": 0.91,
+    "vistas": 0.92,
     "interaccion": 0.67
    }
   },
@@ -215,16 +215,16 @@
    "corto (≤12)": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.76,
-    "interaccion": 1.19
+    "vistas": 0.77,
+    "interaccion": 1.17
    }
   },
   "escenas de datos": {
    "no": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.93,
-    "interaccion": 0.71
+    "vistas": 0.94,
+    "interaccion": 0.7
    },
    "sí": {
     "n": 4,
@@ -251,8 +251,8 @@
    "pocos (<12/min)": {
     "n": 28,
     "videos": 7,
-    "vistas": 0.82,
-    "interaccion": 0.62
+    "vistas": 0.83,
+    "interaccion": 0.61
    }
   },
   "cifra en 5 primeras palabras": {
@@ -260,13 +260,13 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.83,
-    "interaccion": 0.79
+    "interaccion": 0.8
    },
    "no": {
     "n": 20,
     "videos": 5,
-    "vistas": 0.83,
-    "interaccion": 0.58
+    "vistas": 0.84,
+    "interaccion": 0.57
    }
   },
   "tema": {
@@ -309,16 +309,16 @@
    "geografía": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.9,
-    "interaccion": 1.85
+    "vistas": 0.93,
+    "interaccion": 1.8
    }
   },
   "emocion": {
    "asombro": {
     "n": 28,
     "videos": 7,
-    "vistas": 0.82,
-    "interaccion": 0.62
+    "vistas": 0.83,
+    "interaccion": 0.61
    }
   },
   "tipo de gancho": {
@@ -337,7 +337,7 @@
    "contradicción": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.83,
+    "vistas": 0.84,
     "interaccion": 0.59
    },
    "misterio": {
@@ -357,8 +357,8 @@
    "universal": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.95,
-    "interaccion": 0.66
+    "vistas": 0.96,
+    "interaccion": 0.65
    }
   },
   "promesa": {
@@ -371,8 +371,8 @@
    "sí": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.71,
-    "interaccion": 0.78
+    "vistas": 0.72,
+    "interaccion": 0.77
    }
   },
   "giro": {
@@ -380,7 +380,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 0.82,
-    "interaccion": 0.64
+    "interaccion": 0.63
    },
    "no": {
     "n": 4,
@@ -399,8 +399,8 @@
    "dato final": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.85,
-    "interaccion": 0.7
+    "vistas": 0.86,
+    "interaccion": 0.69
    },
    "bucle": {
     "n": 4,
@@ -419,24 +419,24 @@
    "sí": {
     "n": 28,
     "videos": 7,
-    "vistas": 0.82,
-    "interaccion": 0.62
+    "vistas": 0.83,
+    "interaccion": 0.61
    }
   },
   "movimiento 1s": {
    "sí": {
     "n": 28,
     "videos": 7,
-    "vistas": 0.82,
-    "interaccion": 0.62
+    "vistas": 0.83,
+    "interaccion": 0.61
    }
   },
   "texto 0s": {
    "sí": {
     "n": 28,
     "videos": 7,
-    "vistas": 0.82,
-    "interaccion": 0.62
+    "vistas": 0.83,
+    "interaccion": 0.61
    }
   },
   "personaje": {
@@ -444,7 +444,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 0.81,
-    "interaccion": 0.61
+    "interaccion": 0.6
    },
    "sí": {
     "n": 12,
@@ -463,8 +463,8 @@
    "burbuja": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.61,
-    "interaccion": 0.77
+    "vistas": 0.62,
+    "interaccion": 0.76
    },
    "tum": {
     "n": 4,
@@ -491,8 +491,8 @@
    "contradicción": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.9,
-    "interaccion": 1.85
+    "vistas": 0.93,
+    "interaccion": 1.8
    }
   }
  },
@@ -505,7 +505,7 @@
    "detalle": {
     "mejor": {
      "v": "33-43 s",
-     "vistas": 1.02,
+     "vistas": 1.03,
      "interaccion": 0.72,
      "n": 20
     },
@@ -517,7 +517,7 @@
      }
     ]
    },
-   "texto": "duración: «33-43 s» consigue 1.02× el alcance medio (5 vídeos) e interacción 0.72×; frente a >43 s 0.53× (2 vídeos)."
+   "texto": "duración: «33-43 s» consigue 1.03× el alcance medio (5 vídeos) e interacción 0.72×; frente a >43 s 0.53× (2 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -527,7 +527,7 @@
    "detalle": {
     "mejor": {
      "v": "afirmación",
-     "vistas": 0.91,
+     "vistas": 0.92,
      "interaccion": 0.67,
      "n": 20
     },
@@ -539,7 +539,7 @@
      }
     ]
    },
-   "texto": "gancho: «afirmación» consigue 0.91× el alcance medio (5 vídeos) e interacción 0.67×; frente a con cifra 0.68× (2 vídeos)."
+   "texto": "gancho: «afirmación» consigue 0.92× el alcance medio (5 vídeos) e interacción 0.67×; frente a con cifra 0.68× (2 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -549,8 +549,8 @@
    "detalle": {
     "mejor": {
      "v": "universal",
-     "vistas": 0.95,
-     "interaccion": 0.66,
+     "vistas": 0.96,
+     "interaccion": 0.65,
      "n": 12
     },
     "resto": [
@@ -561,7 +561,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 0.95× el alcance medio (3 vídeos) e interacción 0.66×; frente a mundo 0.75× (4 vídeos)."
+   "texto": "cercania: «universal» consigue 0.96× el alcance medio (3 vídeos) e interacción 0.65×; frente a mundo 0.75× (4 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -578,12 +578,12 @@
     "resto": [
      {
       "v": "sí",
-      "vistas": 0.71,
+      "vistas": 0.72,
       "n": 16
      }
     ]
    },
-   "texto": "promesa: «no» consigue 1.02× el alcance medio (3 vídeos) e interacción 0.49×; frente a sí 0.71× (4 vídeos)."
+   "texto": "promesa: «no» consigue 1.02× el alcance medio (3 vídeos) e interacción 0.49×; frente a sí 0.72× (4 vídeos)."
   }
  ],
  "pesos": {
@@ -649,7 +649,7 @@
   {
    "id": "2026-11-12-1345",
    "titulo": "Te enseñaron que el Everest es la montaña más alta. Es falso",
-   "indice": 0.86,
+   "indice": 0.89,
    "variable": "gancho_tipo",
    "variante": "contradicción"
   },
