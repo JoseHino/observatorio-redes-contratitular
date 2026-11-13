@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T14:18:57.203Z",
+ "actualizado": "2026-11-13T15:18:55.378Z",
  "publicaciones": 36,
  "videos": 10,
  "factores": {
@@ -31,16 +31,16 @@
    "jueves": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.94,
-    "interaccion": 1.7
+    "vistas": 0.97,
+    "interaccion": 1.65
    }
   },
   "franja": {
    "noche": {
     "n": 20,
     "videos": 6,
-    "vistas": 0.88,
-    "interaccion": 0.65
+    "vistas": 0.9,
+    "interaccion": 0.64
    },
    "mediodía": {
     "n": 16,
@@ -71,16 +71,16 @@
    "22-24 h": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.78,
-    "interaccion": 1.05
+    "vistas": 0.81,
+    "interaccion": 1.02
    }
   },
   "red": {
    "instagram": {
     "n": 9,
     "videos": 9,
-    "vistas": 0.61,
-    "interaccion": 0.35
+    "vistas": 0.63,
+    "interaccion": 0.34
    },
    "tiktok": {
     "n": 9,
@@ -91,13 +91,13 @@
    "youtube": {
     "n": 9,
     "videos": 9,
-    "vistas": 1.27,
+    "vistas": 1.26,
     "interaccion": 1.04
    },
    "facebook": {
     "n": 9,
     "videos": 9,
-    "vistas": 1.08,
+    "vistas": 1.09,
     "interaccion": 0.44
    }
   },
@@ -117,8 +117,8 @@
    "limpio": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.02,
-    "interaccion": 0.65
+    "vistas": 1.06,
+    "interaccion": 0.63
    },
    "papel": {
     "n": 4,
@@ -179,16 +179,16 @@
    "Inventos": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.95,
-    "interaccion": 1.57
+    "vistas": 1.01,
+    "interaccion": 1.49
    }
   },
   "duración": {
    "33-43 s": {
     "n": 24,
     "videos": 6,
-    "vistas": 1.01,
-    "interaccion": 0.75
+    "vistas": 1.03,
+    "interaccion": 0.74
    },
    ">43 s": {
     "n": 8,
@@ -213,8 +213,8 @@
    "pregunta": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.95,
-    "interaccion": 1.57
+    "vistas": 1.01,
+    "interaccion": 1.49
    }
   },
   "gancho largo": {
@@ -227,15 +227,15 @@
    "corto (≤12)": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.82,
-    "interaccion": 1.24
+    "vistas": 0.84,
+    "interaccion": 1.22
    }
   },
   "escenas de datos": {
    "no": {
     "n": 28,
     "videos": 7,
-    "vistas": 0.94,
+    "vistas": 0.95,
     "interaccion": 0.72
    },
    "sí": {
@@ -249,8 +249,8 @@
    "medio": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.06,
-    "interaccion": 1
+    "vistas": 1.09,
+    "interaccion": 0.98
    },
    "rápido (>2,9 pal/s)": {
     "n": 20,
@@ -263,8 +263,8 @@
    "pocos (<12/min)": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.84,
-    "interaccion": 0.64
+    "vistas": 0.85,
+    "interaccion": 0.63
    }
   },
   "cifra en 5 primeras palabras": {
@@ -277,7 +277,7 @@
    "no": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.86,
+    "vistas": 0.87,
     "interaccion": 0.63
    }
   },
@@ -285,8 +285,8 @@
    "historia": {
     "n": 8,
     "videos": 2,
-    "vistas": 1,
-    "interaccion": 1.17
+    "vistas": 1.04,
+    "interaccion": 1.13
    },
    "ciencia": {
     "n": 4,
@@ -329,8 +329,8 @@
    "asombro": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.84,
-    "interaccion": 0.64
+    "vistas": 0.85,
+    "interaccion": 0.63
    }
   },
   "tipo de gancho": {
@@ -361,8 +361,8 @@
    "pregunta": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.95,
-    "interaccion": 1.57
+    "vistas": 1.01,
+    "interaccion": 1.49
    }
   },
   "cercania": {
@@ -375,8 +375,8 @@
    "universal": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.96,
-    "interaccion": 0.77
+    "vistas": 0.98,
+    "interaccion": 0.76
    }
   },
   "promesa": {
@@ -389,16 +389,16 @@
    "sí": {
     "n": 20,
     "videos": 5,
-    "vistas": 0.76,
-    "interaccion": 0.83
+    "vistas": 0.77,
+    "interaccion": 0.82
    }
   },
   "giro": {
    "sí": {
     "n": 28,
     "videos": 7,
-    "vistas": 0.84,
-    "interaccion": 0.67
+    "vistas": 0.85,
+    "interaccion": 0.66
    },
    "no": {
     "n": 4,
@@ -423,8 +423,8 @@
    "bucle": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.64,
-    "interaccion": 0.75
+    "vistas": 0.66,
+    "interaccion": 0.73
    },
    "moraleja": {
     "n": 4,
@@ -437,32 +437,32 @@
    "sí": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.84,
-    "interaccion": 0.64
+    "vistas": 0.85,
+    "interaccion": 0.63
    }
   },
   "movimiento 1s": {
    "sí": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.84,
-    "interaccion": 0.64
+    "vistas": 0.85,
+    "interaccion": 0.63
    }
   },
   "texto 0s": {
    "sí": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.84,
-    "interaccion": 0.64
+    "vistas": 0.85,
+    "interaccion": 0.63
    }
   },
   "personaje": {
    "no": {
     "n": 20,
     "videos": 5,
-    "vistas": 0.84,
-    "interaccion": 0.68
+    "vistas": 0.85,
+    "interaccion": 0.67
    },
    "sí": {
     "n": 12,
@@ -493,16 +493,16 @@
    "madera": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.95,
-    "interaccion": 1.57
+    "vistas": 1.01,
+    "interaccion": 1.49
    }
   },
   "voz": {
    "Tristan HD": {
     "n": 28,
     "videos": 7,
-    "vistas": 0.81,
-    "interaccion": 0.63
+    "vistas": 0.82,
+    "interaccion": 0.62
    }
   },
   "exp: gancho_tipo": {
@@ -521,8 +521,8 @@
    "pregunta": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.95,
-    "interaccion": 1.57
+    "vistas": 1.01,
+    "interaccion": 1.49
    }
   }
  },
@@ -535,8 +535,8 @@
    "detalle": {
     "mejor": {
      "v": "33-43 s",
-     "vistas": 1.01,
-     "interaccion": 0.75,
+     "vistas": 1.03,
+     "interaccion": 0.74,
      "n": 24
     },
     "resto": [
@@ -547,7 +547,7 @@
      }
     ]
    },
-   "texto": "duración: «33-43 s» consigue 1.01× el alcance medio (6 vídeos) e interacción 0.75×; frente a >43 s 0.53× (2 vídeos)."
+   "texto": "duración: «33-43 s» consigue 1.03× el alcance medio (6 vídeos) e interacción 0.74×; frente a >43 s 0.53× (2 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -557,8 +557,8 @@
    "detalle": {
     "mejor": {
      "v": "medio",
-     "vistas": 1.06,
-     "interaccion": 1,
+     "vistas": 1.09,
+     "interaccion": 0.98,
      "n": 12
     },
     "resto": [
@@ -569,7 +569,7 @@
      }
     ]
    },
-   "texto": "ritmo: «medio» consigue 1.06× el alcance medio (3 vídeos) e interacción 1.00×; frente a rápido (>2,9 pal/s) 0.74× (5 vídeos)."
+   "texto": "ritmo: «medio» consigue 1.09× el alcance medio (3 vídeos) e interacción 0.98×; frente a rápido (>2,9 pal/s) 0.74× (5 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -579,8 +579,8 @@
    "detalle": {
     "mejor": {
      "v": "universal",
-     "vistas": 0.96,
-     "interaccion": 0.77,
+     "vistas": 0.98,
+     "interaccion": 0.76,
      "n": 16
     },
     "resto": [
@@ -591,7 +591,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 0.96× el alcance medio (4 vídeos) e interacción 0.77×; frente a mundo 0.75× (4 vídeos)."
+   "texto": "cercania: «universal» consigue 0.98× el alcance medio (4 vídeos) e interacción 0.76×; frente a mundo 0.75× (4 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -608,19 +608,19 @@
     "resto": [
      {
       "v": "sí",
-      "vistas": 0.76,
+      "vistas": 0.77,
       "n": 20
      }
     ]
    },
-   "texto": "promesa: «no» consigue 1.02× el alcance medio (3 vídeos) e interacción 0.45×; frente a sí 0.76× (5 vídeos)."
+   "texto": "promesa: «no» consigue 1.02× el alcance medio (3 vídeos) e interacción 0.45×; frente a sí 0.77× (5 vídeos)."
   }
  ],
  "pesos": {
   "familia": {
    "pop": 0.117,
    "gota": 0.08,
-   "madera": 0.138,
+   "madera": 0.139,
    "marimba": 0.117,
    "kalimba": 0.117,
    "campanita": 0.117,
@@ -633,7 +633,7 @@
    "neon": 0.134,
    "pop": 0.234,
    "pizarra": 0.236,
-   "limpio": 0.211
+   "limpio": 0.212
   }
  },
  "horas_recomendadas": [
@@ -677,18 +677,18 @@
    "indice": 1.08
   },
   {
+   "id": "2026-11-12-2200",
+   "titulo": "El plástico de burbujas nació como papel pintado y fracasó dos veces",
+   "indice": 1.01,
+   "variable": "gancho_tipo",
+   "variante": "pregunta"
+  },
+  {
    "id": "2026-11-12-1345",
    "titulo": "Te enseñaron que el Everest es la montaña más alta. Es falso",
    "indice": 0.92,
    "variable": "gancho_tipo",
    "variante": "contradicción"
-  },
-  {
-   "id": "2026-11-12-2200",
-   "titulo": "El plástico de burbujas nació como papel pintado y fracasó dos veces",
-   "indice": 0.92,
-   "variable": "gancho_tipo",
-   "variante": "pregunta"
   },
   {
    "id": "2026-11-09-2100-v2",
