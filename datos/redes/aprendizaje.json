@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T05:18:51.991Z",
+ "actualizado": "2026-11-13T06:19:21.044Z",
  "publicaciones": 32,
  "videos": 9,
  "factores": {
@@ -26,12 +26,12 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.72,
-    "interaccion": 0.53
+    "interaccion": 0.54
    },
    "jueves": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.92,
+    "vistas": 0.91,
     "interaccion": 1.8
    }
   },
@@ -59,7 +59,7 @@
    "12-14 h": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.74,
+    "vistas": 0.73,
     "interaccion": 0.85
    },
    "14-16 h": {
@@ -79,7 +79,7 @@
    "instagram": {
     "n": 8,
     "videos": 8,
-    "vistas": 0.63,
+    "vistas": 0.62,
     "interaccion": 0.32
    },
    "tiktok": {
@@ -97,7 +97,7 @@
    "facebook": {
     "n": 8,
     "videos": 8,
-    "vistas": 0.96,
+    "vistas": 0.95,
     "interaccion": 0.41
    }
   },
@@ -173,7 +173,7 @@
    "Geografía": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.92,
+    "vistas": 0.91,
     "interaccion": 1.8
    }
   },
@@ -244,7 +244,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.73,
-    "interaccion": 0.54
+    "interaccion": 0.55
    }
   },
   "cortes": {
@@ -309,7 +309,7 @@
    "geografía": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.92,
+    "vistas": 0.91,
     "interaccion": 1.8
    }
   },
@@ -371,7 +371,7 @@
    "sí": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.72,
+    "vistas": 0.71,
     "interaccion": 0.77
    }
   },
@@ -399,7 +399,7 @@
    "dato final": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.86,
+    "vistas": 0.85,
     "interaccion": 0.69
    },
    "bucle": {
@@ -463,7 +463,7 @@
    "burbuja": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.62,
+    "vistas": 0.61,
     "interaccion": 0.76
    },
    "tum": {
@@ -491,7 +491,7 @@
    "contradicción": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.92,
+    "vistas": 0.91,
     "interaccion": 1.8
    }
   }
@@ -578,12 +578,12 @@
     "resto": [
      {
       "v": "sí",
-      "vistas": 0.72,
+      "vistas": 0.71,
       "n": 16
      }
     ]
    },
-   "texto": "promesa: «no» consigue 1.02× el alcance medio (3 vídeos) e interacción 0.49×; frente a sí 0.72× (4 vídeos)."
+   "texto": "promesa: «no» consigue 1.02× el alcance medio (3 vídeos) e interacción 0.49×; frente a sí 0.71× (4 vídeos)."
   }
  ],
  "pesos": {
@@ -649,7 +649,7 @@
   {
    "id": "2026-11-12-1345",
    "titulo": "Te enseñaron que el Everest es la montaña más alta. Es falso",
-   "indice": 0.89,
+   "indice": 0.87,
    "variable": "gancho_tipo",
    "variante": "contradicción"
   },
