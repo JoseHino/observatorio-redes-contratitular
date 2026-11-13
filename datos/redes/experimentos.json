@@ -67,6 +67,36 @@
      "instruccion": "La ÚLTIMA frase es una pregunta al espectador para que conteste en los comentarios, relacionada con el dato."
     }
    ]
+  },
+  {
+   "variable": "objeto_primera_palabra",
+   "pregunta": "¿Retiene más en el primer segundo y medio nombrar el objeto conocido en las primeras palabras que llegar a él tras un contexto?",
+   "variantes": [
+    {
+     "id": "objeto_delante",
+     "instruccion": "La primera o segunda palabra de la locución es el objeto o protagonista concreto (p. ej. «Los wombats…», «El plástico de burbujas…») y aparece dibujado en el fotograma 0."
+    },
+    {
+     "id": "contexto_delante",
+     "instruccion": "La locución empieza con 4-6 palabras de contexto (fecha, lugar o categoría, p. ej. «Un animal australiano…») y el objeto concreto se nombra después de la palabra 6."
+    }
+   ],
+   "origen": "revisión 2026-11-13"
+  },
+  {
+   "variable": "palabras_por_segundo",
+   "pregunta": "Con el mismo guion, ¿un ritmo de locución más pausado mejora la retención o la empeora?",
+   "variantes": [
+    {
+     "id": "pausado",
+     "instruccion": "Ajusta guion y velocidad de voz para quedar entre 2,4 y 2,7 palabras por segundo en todo el vídeo, sin cambiar gancho, duración objetivo ni cierre."
+    },
+    {
+     "id": "rapido",
+     "instruccion": "Ajusta guion y velocidad de voz para quedar entre 3,2 y 3,5 palabras por segundo en todo el vídeo, sin cambiar gancho, duración objetivo ni cierre."
+    }
+   ],
+   "origen": "revisión 2026-11-13"
   }
  ],
  "cerrados": []
