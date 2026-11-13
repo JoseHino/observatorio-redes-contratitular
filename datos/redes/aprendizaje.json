@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T11:18:50.853Z",
+ "actualizado": "2026-11-13T12:19:30.311Z",
  "publicaciones": 36,
  "videos": 10,
  "factores": {
@@ -32,7 +32,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.93,
-    "interaccion": 1.66
+    "interaccion": 1.67
    }
   },
   "franja": {
@@ -40,7 +40,7 @@
     "n": 20,
     "videos": 6,
     "vistas": 0.88,
-    "interaccion": 0.64
+    "interaccion": 0.65
    },
    "mediodía": {
     "n": 16,
@@ -59,7 +59,7 @@
    "12-14 h": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.75,
+    "vistas": 0.74,
     "interaccion": 0.74
    },
    "14-16 h": {
@@ -117,8 +117,8 @@
    "limpio": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.01,
-    "interaccion": 0.64
+    "vistas": 1.02,
+    "interaccion": 0.65
    },
    "papel": {
     "n": 4,
@@ -179,8 +179,8 @@
    "Inventos": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.93,
-    "interaccion": 1.54
+    "vistas": 0.94,
+    "interaccion": 1.55
    }
   },
   "duración": {
@@ -213,8 +213,8 @@
    "pregunta": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.93,
-    "interaccion": 1.54
+    "vistas": 0.94,
+    "interaccion": 1.55
    }
   },
   "gancho largo": {
@@ -249,8 +249,8 @@
    "medio": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.05,
-    "interaccion": 0.99
+    "vistas": 1.06,
+    "interaccion": 1
    },
    "rápido (>2,9 pal/s)": {
     "n": 20,
@@ -361,8 +361,8 @@
    "pregunta": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.93,
-    "interaccion": 1.54
+    "vistas": 0.94,
+    "interaccion": 1.55
    }
   },
   "cercania": {
@@ -375,7 +375,7 @@
    "universal": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.95,
+    "vistas": 0.96,
     "interaccion": 0.76
    }
   },
@@ -397,7 +397,7 @@
    "sí": {
     "n": 28,
     "videos": 7,
-    "vistas": 0.83,
+    "vistas": 0.84,
     "interaccion": 0.66
    },
    "no": {
@@ -423,8 +423,8 @@
    "bucle": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.63,
-    "interaccion": 0.74
+    "vistas": 0.64,
+    "interaccion": 0.75
    },
    "moraleja": {
     "n": 4,
@@ -493,8 +493,8 @@
    "madera": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.93,
-    "interaccion": 1.54
+    "vistas": 0.94,
+    "interaccion": 1.55
    }
   },
   "voz": {
@@ -521,8 +521,8 @@
    "pregunta": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.93,
-    "interaccion": 1.54
+    "vistas": 0.94,
+    "interaccion": 1.55
    }
   }
  },
@@ -557,8 +557,8 @@
    "detalle": {
     "mejor": {
      "v": "medio",
-     "vistas": 1.05,
-     "interaccion": 0.99,
+     "vistas": 1.06,
+     "interaccion": 1,
      "n": 12
     },
     "resto": [
@@ -569,7 +569,7 @@
      }
     ]
    },
-   "texto": "ritmo: «medio» consigue 1.05× el alcance medio (3 vídeos) e interacción 0.99×; frente a rápido (>2,9 pal/s) 0.74× (5 vídeos)."
+   "texto": "ritmo: «medio» consigue 1.06× el alcance medio (3 vídeos) e interacción 1.00×; frente a rápido (>2,9 pal/s) 0.74× (5 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -579,7 +579,7 @@
    "detalle": {
     "mejor": {
      "v": "universal",
-     "vistas": 0.95,
+     "vistas": 0.96,
      "interaccion": 0.76,
      "n": 16
     },
@@ -591,7 +591,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 0.95× el alcance medio (4 vídeos) e interacción 0.76×; frente a mundo 0.75× (4 vídeos)."
+   "texto": "cercania: «universal» consigue 0.96× el alcance medio (4 vídeos) e interacción 0.76×; frente a mundo 0.75× (4 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -620,20 +620,20 @@
   "familia": {
    "pop": 0.117,
    "gota": 0.08,
-   "madera": 0.136,
+   "madera": 0.137,
    "marimba": 0.117,
    "kalimba": 0.117,
    "campanita": 0.117,
    "cuerda": 0.117,
-   "burbuja": 0.085,
+   "burbuja": 0.084,
    "tum": 0.112
   },
   "estilo": {
    "papel": 0.185,
    "neon": 0.134,
-   "pop": 0.236,
-   "pizarra": 0.236,
-   "limpio": 0.209
+   "pop": 0.235,
+   "pizarra": 0.235,
+   "limpio": 0.211
   }
  },
  "horas_recomendadas": [
@@ -686,7 +686,7 @@
   {
    "id": "2026-11-12-2200",
    "titulo": "El plástico de burbujas nació como papel pintado y fracasó dos veces",
-   "indice": 0.9,
+   "indice": 0.91,
    "variable": "gancho_tipo",
    "variante": "pregunta"
   },
