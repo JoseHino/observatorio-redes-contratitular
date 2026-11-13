@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T20:19:11.864Z",
+ "actualizado": "2026-11-13T21:18:54.724Z",
  "publicaciones": 36,
  "videos": 10,
  "factores": {
@@ -31,7 +31,7 @@
    "jueves": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.06,
+    "vistas": 1.07,
     "interaccion": 1.37
    }
   },
@@ -71,8 +71,8 @@
    "22-24 h": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.88,
-    "interaccion": 1.46
+    "vistas": 0.89,
+    "interaccion": 1.45
    }
   },
   "red": {
@@ -117,7 +117,7 @@
    "limpio": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.16,
+    "vistas": 1.17,
     "interaccion": 0.57
    },
    "papel": {
@@ -179,8 +179,8 @@
    "Inventos": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.17,
-    "interaccion": 1.26
+    "vistas": 1.18,
+    "interaccion": 1.25
    }
   },
   "duración": {
@@ -213,8 +213,8 @@
    "pregunta": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.17,
-    "interaccion": 1.26
+    "vistas": 1.18,
+    "interaccion": 1.25
    }
   },
   "gancho largo": {
@@ -227,8 +227,8 @@
    "corto (≤12)": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.89,
-    "interaccion": 1.49
+    "vistas": 0.9,
+    "interaccion": 1.48
    }
   },
   "escenas de datos": {
@@ -249,7 +249,7 @@
    "medio": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.15,
+    "vistas": 1.16,
     "interaccion": 0.82
    },
    "rápido (>2,9 pal/s)": {
@@ -361,8 +361,8 @@
    "pregunta": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.17,
-    "interaccion": 1.26
+    "vistas": 1.18,
+    "interaccion": 1.25
    }
   },
   "cercania": {
@@ -461,7 +461,7 @@
    "no": {
     "n": 20,
     "videos": 5,
-    "vistas": 0.88,
+    "vistas": 0.89,
     "interaccion": 0.6
    },
    "sí": {
@@ -493,8 +493,8 @@
    "madera": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.17,
-    "interaccion": 1.26
+    "vistas": 1.18,
+    "interaccion": 1.25
    }
   },
   "voz": {
@@ -521,8 +521,8 @@
    "pregunta": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.17,
-    "interaccion": 1.26
+    "vistas": 1.18,
+    "interaccion": 1.25
    }
   }
  },
@@ -557,7 +557,7 @@
    "detalle": {
     "mejor": {
      "v": "medio",
-     "vistas": 1.15,
+     "vistas": 1.16,
      "interaccion": 0.82,
      "n": 12
     },
@@ -569,7 +569,7 @@
      }
     ]
    },
-   "texto": "ritmo: «medio» consigue 1.15× el alcance medio (3 vídeos) e interacción 0.82×; frente a rápido (>2,9 pal/s) 0.73× (5 vídeos)."
+   "texto": "ritmo: «medio» consigue 1.16× el alcance medio (3 vídeos) e interacción 0.82×; frente a rápido (>2,9 pal/s) 0.73× (5 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -662,7 +662,7 @@
   {
    "id": "2026-11-12-2200",
    "titulo": "El plástico de burbujas nació como papel pintado y fracasó dos veces",
-   "indice": 1.27,
+   "indice": 1.28,
    "variable": "gancho_tipo",
    "variante": "pregunta"
   },
