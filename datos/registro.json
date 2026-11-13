@@ -1405,5 +1405,208 @@
     "por_que": "Abre con una pregunta y promete desmontar un mito conocido; la ilustración con personaje y el texto animado mantienen la atención, y el cierre invita a probarlo con una taza o la mano."
    }
   }
+ },
+ {
+  "carpeta": "2026-11-16-1345",
+  "titulo": "Te enseñaron que tienes 10 veces más bacterias que células. Es falso",
+  "fecha": "2026-11-12",
+  "duracion": 30.4,
+  "estilo": "neon",
+  "serie": "Cuerpo humano",
+  "gancho": "Diez veces más bacterias que células: eso te enseñaron, y es falso,",
+  "palabras": 100,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 4.2,
+    "frase": "Diez veces más bacterias que células: eso te enseñaron, y es falso,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 4.2,
+    "fin": 8.02,
+    "frase": "y la verdad es más rara: la cuenta cambia hasta cuando vas al baño,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 8.02,
+    "fin": 11.58,
+    "frase": "Ese diez a uno salió de un cálculo hecho a ojo que se copió durante décadas,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 11.58,
+    "fin": 18.06,
+    "frase": "Hasta que en 2016 lo recontaron: unos 38 billones de bacterias frente a 30 billones de células humanas.",
+    "tipo": "barras"
+   },
+   {
+    "n": 5,
+    "inicio": 18.06,
+    "fin": 20.14,
+    "frase": "Casi uno a uno. Tan justo que,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 20.14,
+    "fin": 24.66,
+    "frase": "como casi todas viven en el intestino grueso, una visita al baño puede inclinar la balanza.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 24.66,
+    "fin": 30.38,
+    "frase": "Así que no eres un saco de bacterias con algo de ti dentro: eres un empate técnico.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [
+   "barras"
+  ],
+  "metricas": [],
+  "id": "2026-11-16-1345",
+  "texto": "Te enseñaron que tienes 10 veces más bacterias que células. Es falso En 2016 un equipo del Instituto Weizmann y del Hospital for Sick Children recalculó la cifra para un hombre adulto de referencia: unos 38 billones de bacterias y unos 30 billones de células humanas, con bastante margen de error de una persona a otra. Y eso sin contar virus ni hongos. ¿A quién se lo mandas, que todavía repite lo del diez a uno? Diez veces más bacterias que células: eso te enseñaron, y es falso, y la verdad es más rara: la cuenta cambia hasta cuando vas al baño, Ese diez a uno salió de un cálculo hecho a ojo que se copió durante décadas, Hasta que en 2016 lo recontaron: unos 38 billones de bacterias frente a 30 billones de células humanas. Casi uno a uno. Tan justo que, como casi todas viven en el intestino grueso, una visita al baño puede inclinar la balanza. Así que no eres un saco de bacterias con algo de ti dentro: eres un empate técnico.",
+  "familia": "burbuja",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "cifra chocante"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-13",
+   "medido": {
+    "palabras_s": 3.29,
+    "escenas_min": 13.8,
+    "cifra_al_inicio": true,
+    "gancho_palabras": 12,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "cuerpo humano",
+    "emocion": "asombro",
+    "gancho_tipo": "contradicción",
+    "cercania": "universal",
+    "promesa": "sí",
+    "giro": "sí",
+    "cierre": "dato final",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "no",
+    "por_que": "Abre desmintiendo un dato conocido con un visual claro (10:1) y la promesa de una cifra real, pero las cifras en billones y el ritmo rápido pueden saturar a mitad del vídeo."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-16-2000",
+  "titulo": "Te enseñaron que los murciélagos son ciegos. Es falso",
+  "fecha": "2026-11-12",
+  "duracion": 36.5,
+  "estilo": "pop",
+  "serie": "Animales",
+  "gancho": "Te enseñaron que los murciélagos son ciegos. Es falso.",
+  "palabras": 111,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 3.26,
+    "frase": "Te enseñaron que los murciélagos son ciegos. Es falso.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 3.26,
+    "fin": 6.52,
+    "frase": "Ninguna especie lo es, y te cuento de dónde sale esa fama:",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 6.52,
+    "fin": 10.34,
+    "frase": "unos cazan lanzando chillidos y leyendo el eco, la ecolocalización,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 10.34,
+    "fin": 14.98,
+    "frase": "pero los zorros voladores casi no la usan: se guían con unos ojazos y con el olfato.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 14.98,
+    "fin": 19.24,
+    "frase": "Y los que sí usan el eco también ven; simplemente dependen más de las orejas.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 19.24,
+    "fin": 26.26,
+    "frase": "De hecho, un estudio de 2018 con 111 especies halló que la mayoría ve luz ultravioleta, esa que tú no ves.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 26.26,
+    "fin": 31.54,
+    "frase": "Pero solo algunas la perdieron: las que mejor oyen. Parece que cambiaron esa vista por oído.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 8,
+    "inicio": 31.54,
+    "fin": 36.46,
+    "frase": "Y no son ciegos, son especialistas. ¿A quién le mandarías esto?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-16-2000",
+  "texto": "Te enseñaron que los murciélagos son ciegos. Es falso Ningún murciélago es ciego. Muchos cazan con ecolocalización, pero los zorros voladores se guían sobre todo con la vista y el olfato, y un estudio de 2018 con 111 especies encontró que la mayoría puede ver luz ultravioleta. Solo algunas especies, las de oído más fino, parecen haber cambiado esa vista por el oído. ¿Qué otra «verdad» te contaron mal? Cuéntamelo en los comentarios 👇 Te enseñaron que los murciélagos son ciegos. Es falso. Ninguna especie lo es, y te cuento de dónde sale esa fama: unos cazan lanzando chillidos y leyendo el eco, la ecolocalización, pero los zorros voladores casi no la usan: se guían con unos ojazos y con el olfato. Y los que sí usan el eco también ven; simplemente dependen más de las orejas. De hecho, un estudio de 2018 con 111 especies halló que la mayoría ve luz ultravioleta, esa que tú no ves. Pero solo algunas la perdieron: las que mejor oyen. Parece que cambiaron esa vista por oído. Y no son ciegos, son especialistas. ¿A quién le mandarías esto?",
+  "familia": "pop",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "contradicción"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-13",
+   "medido": {
+    "palabras_s": 3.04,
+    "escenas_min": 13.2,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 9,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "naturaleza",
+    "emocion": "asombro",
+    "gancho_tipo": "contradicción",
+    "cercania": "universal",
+    "promesa": "sí",
+    "giro": "sí",
+    "cierre": "pregunta",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Gancho de creencia falsa con murciélago simpático y texto grande desde el inicio; el giro de los rayos UV mantiene el interés, aunque el guion es denso y el cierre depende de compartir."
+   }
+  }
  }
 ]
