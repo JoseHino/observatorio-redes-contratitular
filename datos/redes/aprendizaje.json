@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T16:19:02.901Z",
+ "actualizado": "2026-11-13T17:18:50.645Z",
  "publicaciones": 36,
  "videos": 10,
  "factores": {
@@ -31,16 +31,16 @@
    "jueves": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.98,
-    "interaccion": 1.66
+    "vistas": 1.01,
+    "interaccion": 1.63
    }
   },
   "franja": {
    "noche": {
     "n": 20,
     "videos": 6,
-    "vistas": 0.9,
-    "interaccion": 0.64
+    "vistas": 0.91,
+    "interaccion": 0.63
    },
    "mediodía": {
     "n": 16,
@@ -71,16 +71,16 @@
    "22-24 h": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.82,
-    "interaccion": 1.03
+    "vistas": 0.84,
+    "interaccion": 1
    }
   },
   "red": {
    "instagram": {
     "n": 9,
     "videos": 9,
-    "vistas": 0.63,
-    "interaccion": 0.34
+    "vistas": 0.64,
+    "interaccion": 0.33
    },
    "tiktok": {
     "n": 9,
@@ -92,12 +92,12 @@
     "n": 9,
     "videos": 9,
     "vistas": 1.26,
-    "interaccion": 1.04
+    "interaccion": 1.05
    },
    "facebook": {
     "n": 9,
     "videos": 9,
-    "vistas": 1.09,
+    "vistas": 1.1,
     "interaccion": 0.45
    }
   },
@@ -117,8 +117,8 @@
    "limpio": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.07,
-    "interaccion": 0.64
+    "vistas": 1.1,
+    "interaccion": 0.62
    },
    "papel": {
     "n": 4,
@@ -174,20 +174,20 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.54
+    "interaccion": 1.55
    },
    "Inventos": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.03,
-    "interaccion": 1.51
+    "vistas": 1.07,
+    "interaccion": 1.45
    }
   },
   "duración": {
    "33-43 s": {
     "n": 24,
     "videos": 6,
-    "vistas": 1.03,
+    "vistas": 1.04,
     "interaccion": 0.74
    },
    ">43 s": {
@@ -213,8 +213,8 @@
    "pregunta": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.03,
-    "interaccion": 1.51
+    "vistas": 1.07,
+    "interaccion": 1.45
    }
   },
   "gancho largo": {
@@ -227,8 +227,8 @@
    "corto (≤12)": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.85,
-    "interaccion": 1.23
+    "vistas": 0.86,
+    "interaccion": 1.21
    }
   },
   "escenas de datos": {
@@ -236,7 +236,7 @@
     "n": 28,
     "videos": 7,
     "vistas": 0.96,
-    "interaccion": 0.72
+    "interaccion": 0.71
    },
    "sí": {
     "n": 4,
@@ -249,8 +249,8 @@
    "medio": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.1,
-    "interaccion": 0.98
+    "vistas": 1.12,
+    "interaccion": 0.97
    },
    "rápido (>2,9 pal/s)": {
     "n": 20,
@@ -263,8 +263,8 @@
    "pocos (<12/min)": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.85,
-    "interaccion": 0.64
+    "vistas": 0.86,
+    "interaccion": 0.63
    }
   },
   "cifra en 5 primeras palabras": {
@@ -277,16 +277,16 @@
    "no": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.87,
-    "interaccion": 0.63
+    "vistas": 0.88,
+    "interaccion": 0.62
    }
   },
   "tema": {
    "historia": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.05,
-    "interaccion": 1.14
+    "vistas": 1.08,
+    "interaccion": 1.12
    },
    "ciencia": {
     "n": 4,
@@ -322,15 +322,15 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.54
+    "interaccion": 1.55
    }
   },
   "emocion": {
    "asombro": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.85,
-    "interaccion": 0.64
+    "vistas": 0.86,
+    "interaccion": 0.63
    }
   },
   "tipo de gancho": {
@@ -361,8 +361,8 @@
    "pregunta": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.03,
-    "interaccion": 1.51
+    "vistas": 1.07,
+    "interaccion": 1.45
    }
   },
   "cercania": {
@@ -375,8 +375,8 @@
    "universal": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.99,
-    "interaccion": 0.76
+    "vistas": 1,
+    "interaccion": 0.75
    }
   },
   "promesa": {
@@ -389,7 +389,7 @@
    "sí": {
     "n": 20,
     "videos": 5,
-    "vistas": 0.77,
+    "vistas": 0.78,
     "interaccion": 0.82
    }
   },
@@ -397,7 +397,7 @@
    "sí": {
     "n": 28,
     "videos": 7,
-    "vistas": 0.85,
+    "vistas": 0.86,
     "interaccion": 0.66
    },
    "no": {
@@ -418,13 +418,13 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.87,
-    "interaccion": 0.62
+    "interaccion": 0.63
    },
    "bucle": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.67,
-    "interaccion": 0.74
+    "vistas": 0.69,
+    "interaccion": 0.72
    },
    "moraleja": {
     "n": 4,
@@ -437,24 +437,24 @@
    "sí": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.85,
-    "interaccion": 0.64
+    "vistas": 0.86,
+    "interaccion": 0.63
    }
   },
   "movimiento 1s": {
    "sí": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.85,
-    "interaccion": 0.64
+    "vistas": 0.86,
+    "interaccion": 0.63
    }
   },
   "texto 0s": {
    "sí": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.85,
-    "interaccion": 0.64
+    "vistas": 0.86,
+    "interaccion": 0.63
    }
   },
   "personaje": {
@@ -462,7 +462,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.86,
-    "interaccion": 0.68
+    "interaccion": 0.67
    },
    "sí": {
     "n": 12,
@@ -493,8 +493,8 @@
    "madera": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.03,
-    "interaccion": 1.51
+    "vistas": 1.07,
+    "interaccion": 1.45
    }
   },
   "voz": {
@@ -516,13 +516,13 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.54
+    "interaccion": 1.55
    },
    "pregunta": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.03,
-    "interaccion": 1.51
+    "vistas": 1.07,
+    "interaccion": 1.45
    }
   }
  },
@@ -535,7 +535,7 @@
    "detalle": {
     "mejor": {
      "v": "33-43 s",
-     "vistas": 1.03,
+     "vistas": 1.04,
      "interaccion": 0.74,
      "n": 24
     },
@@ -547,7 +547,7 @@
      }
     ]
    },
-   "texto": "duración: «33-43 s» consigue 1.03× el alcance medio (6 vídeos) e interacción 0.74×; frente a >43 s 0.53× (2 vídeos)."
+   "texto": "duración: «33-43 s» consigue 1.04× el alcance medio (6 vídeos) e interacción 0.74×; frente a >43 s 0.53× (2 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -557,8 +557,8 @@
    "detalle": {
     "mejor": {
      "v": "medio",
-     "vistas": 1.1,
-     "interaccion": 0.98,
+     "vistas": 1.12,
+     "interaccion": 0.97,
      "n": 12
     },
     "resto": [
@@ -569,7 +569,7 @@
      }
     ]
    },
-   "texto": "ritmo: «medio» consigue 1.10× el alcance medio (3 vídeos) e interacción 0.98×; frente a rápido (>2,9 pal/s) 0.74× (5 vídeos)."
+   "texto": "ritmo: «medio» consigue 1.12× el alcance medio (3 vídeos) e interacción 0.97×; frente a rápido (>2,9 pal/s) 0.74× (5 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -579,8 +579,8 @@
    "detalle": {
     "mejor": {
      "v": "universal",
-     "vistas": 0.99,
-     "interaccion": 0.76,
+     "vistas": 1,
+     "interaccion": 0.75,
      "n": 16
     },
     "resto": [
@@ -591,7 +591,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 0.99× el alcance medio (4 vídeos) e interacción 0.76×; frente a mundo 0.75× (4 vídeos)."
+   "texto": "cercania: «universal» consigue 1.00× el alcance medio (4 vídeos) e interacción 0.75×; frente a mundo 0.75× (4 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -608,12 +608,12 @@
     "resto": [
      {
       "v": "sí",
-      "vistas": 0.77,
+      "vistas": 0.78,
       "n": 20
      }
     ]
    },
-   "texto": "promesa: «no» consigue 1.02× el alcance medio (3 vídeos) e interacción 0.45×; frente a sí 0.77× (5 vídeos)."
+   "texto": "promesa: «no» consigue 1.02× el alcance medio (3 vídeos) e interacción 0.45×; frente a sí 0.78× (5 vídeos)."
   }
  ],
  "pesos": {
@@ -672,16 +672,16 @@
    "indice": 1.14
   },
   {
+   "id": "2026-11-12-2200",
+   "titulo": "El plástico de burbujas nació como papel pintado y fracasó dos veces",
+   "indice": 1.11,
+   "variable": "gancho_tipo",
+   "variante": "pregunta"
+  },
+  {
    "id": "2026-11-09-1330",
    "titulo": "El ajuste mal hecho que apagó a 25 millones de personas en 1965",
    "indice": 1.08
-  },
-  {
-   "id": "2026-11-12-2200",
-   "titulo": "El plástico de burbujas nació como papel pintado y fracasó dos veces",
-   "indice": 1.04,
-   "variable": "gancho_tipo",
-   "variante": "pregunta"
   },
   {
    "id": "2026-11-12-1345",
