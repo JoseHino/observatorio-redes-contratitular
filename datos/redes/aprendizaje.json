@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T13:19:05.698Z",
+ "actualizado": "2026-11-13T14:18:57.203Z",
  "publicaciones": 36,
  "videos": 10,
  "factores": {
@@ -32,7 +32,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.94,
-    "interaccion": 1.66
+    "interaccion": 1.7
    }
   },
   "franja": {
@@ -40,7 +40,7 @@
     "n": 20,
     "videos": 6,
     "vistas": 0.88,
-    "interaccion": 0.64
+    "interaccion": 0.65
    },
    "mediodía": {
     "n": 16,
@@ -60,7 +60,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.74,
-    "interaccion": 0.74
+    "interaccion": 0.75
    },
    "14-16 h": {
     "n": 4,
@@ -72,7 +72,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.78,
-    "interaccion": 1.04
+    "interaccion": 1.05
    }
   },
   "red": {
@@ -92,13 +92,13 @@
     "n": 9,
     "videos": 9,
     "vistas": 1.27,
-    "interaccion": 1.01
+    "interaccion": 1.04
    },
    "facebook": {
     "n": 9,
     "videos": 9,
     "vistas": 1.08,
-    "interaccion": 0.45
+    "interaccion": 0.44
    }
   },
   "estilo": {
@@ -106,19 +106,19 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.12,
-    "interaccion": 0.77
+    "interaccion": 0.76
    },
    "pizarra": {
     "n": 8,
     "videos": 2,
     "vistas": 0.91,
-    "interaccion": 0.95
+    "interaccion": 0.96
    },
    "limpio": {
     "n": 8,
     "videos": 2,
     "vistas": 1.02,
-    "interaccion": 0.64
+    "interaccion": 0.65
    },
    "papel": {
     "n": 4,
@@ -168,19 +168,19 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.14,
-    "interaccion": 0.78
+    "interaccion": 0.77
    },
    "Geografía": {
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.52
+    "interaccion": 1.54
    },
    "Inventos": {
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.54
+    "interaccion": 1.57
    }
   },
   "duración": {
@@ -214,7 +214,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.54
+    "interaccion": 1.57
    }
   },
   "gancho largo": {
@@ -228,7 +228,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.82,
-    "interaccion": 1.23
+    "interaccion": 1.24
    }
   },
   "escenas de datos": {
@@ -250,7 +250,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 1.06,
-    "interaccion": 0.99
+    "interaccion": 1
    },
    "rápido (>2,9 pal/s)": {
     "n": 20,
@@ -272,7 +272,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.83,
-    "interaccion": 0.72
+    "interaccion": 0.71
    },
    "no": {
     "n": 24,
@@ -286,7 +286,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1,
-    "interaccion": 1.16
+    "interaccion": 1.17
    },
    "ciencia": {
     "n": 4,
@@ -316,13 +316,13 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.14,
-    "interaccion": 0.78
+    "interaccion": 0.77
    },
    "geografía": {
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.52
+    "interaccion": 1.54
    }
   },
   "emocion": {
@@ -362,7 +362,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.54
+    "interaccion": 1.57
    }
   },
   "cercania": {
@@ -376,7 +376,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 0.96,
-    "interaccion": 0.76
+    "interaccion": 0.77
    }
   },
   "promesa": {
@@ -398,7 +398,7 @@
     "n": 28,
     "videos": 7,
     "vistas": 0.84,
-    "interaccion": 0.66
+    "interaccion": 0.67
    },
    "no": {
     "n": 4,
@@ -424,13 +424,13 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.64,
-    "interaccion": 0.74
+    "interaccion": 0.75
    },
    "moraleja": {
     "n": 4,
     "videos": 1,
     "vistas": 1.14,
-    "interaccion": 0.78
+    "interaccion": 0.77
    }
   },
   "primer fotograma claro": {
@@ -468,7 +468,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.87,
-    "interaccion": 0.62
+    "interaccion": 0.61
    }
   },
   "sonido": {
@@ -488,13 +488,13 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.14,
-    "interaccion": 0.78
+    "interaccion": 0.77
    },
    "madera": {
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.54
+    "interaccion": 1.57
    }
   },
   "voz": {
@@ -502,7 +502,7 @@
     "n": 28,
     "videos": 7,
     "vistas": 0.81,
-    "interaccion": 0.62
+    "interaccion": 0.63
    }
   },
   "exp: gancho_tipo": {
@@ -510,19 +510,19 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.14,
-    "interaccion": 0.78
+    "interaccion": 0.77
    },
    "contradicción": {
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.52
+    "interaccion": 1.54
    },
    "pregunta": {
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.54
+    "interaccion": 1.57
    }
   }
  },
@@ -558,7 +558,7 @@
     "mejor": {
      "v": "medio",
      "vistas": 1.06,
-     "interaccion": 0.99,
+     "interaccion": 1,
      "n": 12
     },
     "resto": [
@@ -569,7 +569,7 @@
      }
     ]
    },
-   "texto": "ritmo: «medio» consigue 1.06× el alcance medio (3 vídeos) e interacción 0.99×; frente a rápido (>2,9 pal/s) 0.74× (5 vídeos)."
+   "texto": "ritmo: «medio» consigue 1.06× el alcance medio (3 vídeos) e interacción 1.00×; frente a rápido (>2,9 pal/s) 0.74× (5 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -580,7 +580,7 @@
     "mejor": {
      "v": "universal",
      "vistas": 0.96,
-     "interaccion": 0.76,
+     "interaccion": 0.77,
      "n": 16
     },
     "resto": [
@@ -591,7 +591,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 0.96× el alcance medio (4 vídeos) e interacción 0.76×; frente a mundo 0.75× (4 vídeos)."
+   "texto": "cercania: «universal» consigue 0.96× el alcance medio (4 vídeos) e interacción 0.77×; frente a mundo 0.75× (4 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -620,20 +620,20 @@
   "familia": {
    "pop": 0.117,
    "gota": 0.08,
-   "madera": 0.137,
+   "madera": 0.138,
    "marimba": 0.117,
    "kalimba": 0.117,
    "campanita": 0.117,
    "cuerda": 0.117,
    "burbuja": 0.084,
-   "tum": 0.112
+   "tum": 0.111
   },
   "estilo": {
    "papel": 0.185,
    "neon": 0.134,
-   "pop": 0.235,
+   "pop": 0.234,
    "pizarra": 0.236,
-   "limpio": 0.21
+   "limpio": 0.211
   }
  },
  "horas_recomendadas": [
