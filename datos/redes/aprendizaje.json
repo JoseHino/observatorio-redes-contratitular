@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T02:18:49.162Z",
+ "actualizado": "2026-11-13T03:18:53.633Z",
  "publicaciones": 32,
  "videos": 9,
  "factores": {
@@ -31,7 +31,7 @@
    "jueves": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.91,
+    "vistas": 0.9,
     "interaccion": 1.85
    }
   },
@@ -111,7 +111,7 @@
    "pizarra": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.89,
+    "vistas": 0.88,
     "interaccion": 1.1
    },
    "limpio": {
@@ -173,7 +173,7 @@
    "Geografía": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.91,
+    "vistas": 0.9,
     "interaccion": 1.85
    }
   },
@@ -309,7 +309,7 @@
    "geografía": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.91,
+    "vistas": 0.9,
     "interaccion": 1.85
    }
   },
@@ -491,7 +491,7 @@
    "contradicción": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.91,
+    "vistas": 0.9,
     "interaccion": 1.85
    }
   }
@@ -602,8 +602,8 @@
    "papel": 0.192,
    "neon": 0.137,
    "pop": 0.253,
-   "pizarra": 0.252,
-   "limpio": 0.166
+   "pizarra": 0.251,
+   "limpio": 0.167
   }
  },
  "horas_recomendadas": [
