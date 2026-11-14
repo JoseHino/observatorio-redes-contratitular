@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T13:19:28.402Z",
+ "actualizado": "2026-11-14T14:19:12.747Z",
  "publicaciones": 44,
  "videos": 12,
  "factores": {
@@ -37,7 +37,7 @@
    "viernes": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.4,
+    "vistas": 1.39,
     "interaccion": 0.98
    }
   },
@@ -46,7 +46,7 @@
     "n": 20,
     "videos": 6,
     "vistas": 0.95,
-    "interaccion": 0.78
+    "interaccion": 0.79
    },
    "mediodía": {
     "n": 20,
@@ -57,7 +57,7 @@
    "tarde": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.18,
+    "vistas": 1.17,
     "interaccion": 0.87
    }
   },
@@ -89,7 +89,7 @@
    "18-20 h": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.18,
+    "vistas": 1.17,
     "interaccion": 0.87
    }
   },
@@ -110,7 +110,7 @@
     "n": 11,
     "videos": 11,
     "vistas": 1.19,
-    "interaccion": 1.02
+    "interaccion": 1.01
    },
    "facebook": {
     "n": 11,
@@ -209,7 +209,7 @@
    "Espacio": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.18,
+    "vistas": 1.17,
     "interaccion": 0.87
    }
   },
@@ -218,7 +218,7 @@
     "n": 32,
     "videos": 8,
     "vistas": 1.15,
-    "interaccion": 0.77
+    "interaccion": 0.76
    },
    ">43 s": {
     "n": 8,
@@ -243,7 +243,7 @@
    "pregunta": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.22,
+    "vistas": 1.21,
     "interaccion": 1.11
    }
   },
@@ -391,7 +391,7 @@
    "pregunta": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.22,
+    "vistas": 1.21,
     "interaccion": 1.11
    }
   },
@@ -459,7 +459,7 @@
    "moraleja": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.2,
+    "vistas": 1.19,
     "interaccion": 0.78
    }
   },
@@ -529,7 +529,7 @@
    "madera": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.22,
+    "vistas": 1.21,
     "interaccion": 1.11
    },
    "campanita": {
@@ -563,7 +563,7 @@
    "pregunta": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.22,
+    "vistas": 1.21,
     "interaccion": 1.11
    }
   }
@@ -578,7 +578,7 @@
     "mejor": {
      "v": "33-43 s",
      "vistas": 1.15,
-     "interaccion": 0.77,
+     "interaccion": 0.76,
      "n": 32
     },
     "resto": [
@@ -589,7 +589,7 @@
      }
     ]
    },
-   "texto": "duración: «33-43 s» consigue 1.15× el alcance medio (8 vídeos) e interacción 0.77×; frente a >43 s 0.57× (2 vídeos)."
+   "texto": "duración: «33-43 s» consigue 1.15× el alcance medio (8 vídeos) e interacción 0.76×; frente a >43 s 0.57× (2 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -718,7 +718,7 @@
   {
    "id": "2026-11-13-1945",
    "titulo": "La nave que llegó a Marte y no vio nada: esperó, y cambió todo",
-   "indice": 1.28,
+   "indice": 1.27,
    "variable": "gancho_tipo",
    "variante": "pregunta"
   },
