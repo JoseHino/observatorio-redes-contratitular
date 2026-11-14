@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T04:18:48.217Z",
+ "actualizado": "2026-11-14T05:18:49.672Z",
  "publicaciones": 40,
  "videos": 11,
  "factores": {
@@ -37,8 +37,8 @@
    "viernes": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.63,
-    "interaccion": 1.07
+    "vistas": 1.64,
+    "interaccion": 1.06
    }
   },
   "franja": {
@@ -191,8 +191,8 @@
    "Comida": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.63,
-    "interaccion": 1.07
+    "vistas": 1.64,
+    "interaccion": 1.06
    }
   },
   "duración": {
@@ -284,7 +284,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 1.12,
-    "interaccion": 1.19
+    "interaccion": 1.18
    },
    "no": {
     "n": 24,
@@ -298,7 +298,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 1.34,
-    "interaccion": 1.1
+    "interaccion": 1.09
    },
    "ciencia": {
     "n": 4,
@@ -409,7 +409,7 @@
    "sí": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.98,
+    "vistas": 0.99,
     "interaccion": 0.81
    },
    "no": {
@@ -423,7 +423,7 @@
    "pregunta": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.18,
+    "vistas": 1.19,
     "interaccion": 0.76
    },
    "dato final": {
@@ -455,8 +455,8 @@
    "no": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.63,
-    "interaccion": 1.07
+    "vistas": 1.64,
+    "interaccion": 1.06
    }
   },
   "movimiento 1s": {
@@ -517,8 +517,8 @@
    "campanita": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.63,
-    "interaccion": 1.07
+    "vistas": 1.64,
+    "interaccion": 1.06
    }
   },
   "voz": {
@@ -533,7 +533,7 @@
    "cifra chocante": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.45,
+    "vistas": 1.46,
     "interaccion": 0.89
    },
    "contradicción": {
@@ -604,7 +604,7 @@
     "mejor": {
      "v": "sí",
      "vistas": 1.12,
-     "interaccion": 1.19,
+     "interaccion": 1.18,
      "n": 12
     },
     "resto": [
@@ -615,7 +615,7 @@
      }
     ]
    },
-   "texto": "cifra en 5 primeras palabras: «sí» consigue 1.12× el alcance medio (3 vídeos) e interacción 1.19×; frente a no 0.90× (6 vídeos)."
+   "texto": "cifra en 5 primeras palabras: «sí» consigue 1.12× el alcance medio (3 vídeos) e interacción 1.18×; frente a no 0.90× (6 vídeos)."
   },
   {
    "tipo": "regla",
@@ -730,7 +730,7 @@
   {
    "id": "2026-11-13-1430",
    "titulo": "Un niño de 11 años inventó el polo helado por olvidarse un vaso fuera",
-   "indice": 2.09,
+   "indice": 2.1,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
