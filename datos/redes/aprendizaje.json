@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T20:19:09.458Z",
+ "actualizado": "2026-11-14T21:18:50.384Z",
  "publicaciones": 44,
  "videos": 12,
  "factores": {
@@ -110,7 +110,7 @@
     "n": 11,
     "videos": 11,
     "vistas": 1.11,
-    "interaccion": 1.01
+    "interaccion": 1
    },
    "facebook": {
     "n": 11,
@@ -142,7 +142,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.08,
-    "interaccion": 1.46
+    "interaccion": 1.45
    },
    "neon": {
     "n": 8,
@@ -286,7 +286,7 @@
     "n": 28,
     "videos": 7,
     "vistas": 0.95,
-    "interaccion": 0.69
+    "interaccion": 0.68
    }
   },
   "cortes": {
@@ -671,7 +671,7 @@
    "tum": 0.107
   },
   "estilo": {
-   "papel": 0.26,
+   "papel": 0.259,
    "neon": 0.15,
    "pop": 0.201,
    "pizarra": 0.2,
