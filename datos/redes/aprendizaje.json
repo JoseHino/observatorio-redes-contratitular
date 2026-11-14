@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T02:19:10.751Z",
+ "actualizado": "2026-11-14T03:18:49.101Z",
  "publicaciones": 40,
  "videos": 11,
  "factores": {
@@ -14,7 +14,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.94,
-    "interaccion": 0.64
+    "interaccion": 0.65
    },
    "martes": {
     "n": 8,
@@ -32,13 +32,13 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.07,
-    "interaccion": 1.52
+    "interaccion": 1.54
    },
    "viernes": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.6,
-    "interaccion": 1.09
+    "vistas": 1.61,
+    "interaccion": 1.08
    }
   },
   "franja": {
@@ -71,14 +71,14 @@
    "14-16 h": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.4,
+    "vistas": 1.41,
     "interaccion": 0.52
    },
    "22-24 h": {
     "n": 8,
     "videos": 2,
     "vistas": 0.94,
-    "interaccion": 1.64
+    "interaccion": 1.66
    }
   },
   "red": {
@@ -86,7 +86,7 @@
     "n": 10,
     "videos": 10,
     "vistas": 0.92,
-    "interaccion": 0.54
+    "interaccion": 0.53
    },
    "tiktok": {
     "n": 10,
@@ -103,8 +103,8 @@
    "facebook": {
     "n": 10,
     "videos": 10,
-    "vistas": 1.16,
-    "interaccion": 0.45
+    "vistas": 1.17,
+    "interaccion": 0.47
    }
   },
   "estilo": {
@@ -118,7 +118,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.9,
-    "interaccion": 0.92
+    "interaccion": 0.93
    },
    "limpio": {
     "n": 8,
@@ -130,7 +130,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.14,
-    "interaccion": 1.42
+    "interaccion": 1.43
    },
    "neon": {
     "n": 4,
@@ -144,13 +144,13 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.03,
-    "interaccion": 0.81
+    "interaccion": 0.82
    },
    "Ciencia": {
     "n": 4,
     "videos": 1,
     "vistas": 0.88,
-    "interaccion": 0.59
+    "interaccion": 0.6
    },
    "Cuerpo humano": {
     "n": 4,
@@ -162,7 +162,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.77,
-    "interaccion": 1.66
+    "interaccion": 1.67
    },
    "Dinero": {
     "n": 4,
@@ -174,25 +174,25 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.14,
-    "interaccion": 0.75
+    "interaccion": 0.76
    },
    "Geografía": {
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.46
+    "interaccion": 1.48
    },
    "Inventos": {
     "n": 4,
     "videos": 1,
     "vistas": 1.18,
-    "interaccion": 1.38
+    "interaccion": 1.39
    },
    "Comida": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.6,
-    "interaccion": 1.09
+    "vistas": 1.61,
+    "interaccion": 1.08
    }
   },
   "duración": {
@@ -213,20 +213,20 @@
    "con cifra": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.92,
+    "vistas": 0.93,
     "interaccion": 0.64
    },
    "afirmación": {
     "n": 20,
     "videos": 5,
     "vistas": 0.94,
-    "interaccion": 0.74
+    "interaccion": 0.75
    },
    "pregunta": {
     "n": 4,
     "videos": 1,
     "vistas": 1.18,
-    "interaccion": 1.38
+    "interaccion": 1.39
    }
   },
   "gancho largo": {
@@ -240,7 +240,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.94,
-    "interaccion": 1.68
+    "interaccion": 1.7
    }
   },
   "escenas de datos": {
@@ -262,7 +262,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 1.15,
-    "interaccion": 0.93
+    "interaccion": 0.94
    },
    "rápido (>2,9 pal/s)": {
     "n": 24,
@@ -276,7 +276,7 @@
     "n": 36,
     "videos": 9,
     "vistas": 0.96,
-    "interaccion": 0.75
+    "interaccion": 0.76
    }
   },
   "cifra en 5 primeras palabras": {
@@ -290,7 +290,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 0.9,
-    "interaccion": 0.6
+    "interaccion": 0.61
    }
   },
   "tema": {
@@ -304,7 +304,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.88,
-    "interaccion": 0.59
+    "interaccion": 0.6
    },
    "cuerpo humano": {
     "n": 4,
@@ -316,7 +316,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.77,
-    "interaccion": 1.66
+    "interaccion": 1.67
    },
    "economía": {
     "n": 4,
@@ -328,13 +328,13 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.14,
-    "interaccion": 0.75
+    "interaccion": 0.76
    },
    "geografía": {
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.46
+    "interaccion": 1.48
    }
   },
   "emocion": {
@@ -342,21 +342,21 @@
     "n": 36,
     "videos": 9,
     "vistas": 0.96,
-    "interaccion": 0.75
+    "interaccion": 0.76
    }
   },
   "tipo de gancho": {
    "cifra chocante": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.35,
+    "vistas": 1.36,
     "interaccion": 0.93
    },
    "otro": {
     "n": 4,
     "videos": 1,
     "vistas": 0.88,
-    "interaccion": 0.59
+    "interaccion": 0.6
    },
    "contradicción": {
     "n": 16,
@@ -368,13 +368,13 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.77,
-    "interaccion": 1.66
+    "interaccion": 1.67
    },
    "pregunta": {
     "n": 4,
     "videos": 1,
     "vistas": 1.18,
-    "interaccion": 1.38
+    "interaccion": 1.39
    }
   },
   "cercania": {
@@ -382,13 +382,13 @@
     "n": 16,
     "videos": 4,
     "vistas": 0.77,
-    "interaccion": 0.74
+    "interaccion": 0.75
    },
    "universal": {
     "n": 20,
     "videos": 5,
     "vistas": 1.16,
-    "interaccion": 0.78
+    "interaccion": 0.79
    }
   },
   "promesa": {
@@ -402,7 +402,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.83,
-    "interaccion": 1
+    "interaccion": 1.01
    }
   },
   "giro": {
@@ -416,21 +416,21 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.88,
-    "interaccion": 0.59
+    "interaccion": 0.6
    }
   },
   "cierre": {
    "pregunta": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.17,
+    "vistas": 1.18,
     "interaccion": 0.76
    },
    "dato final": {
     "n": 12,
     "videos": 3,
     "vistas": 0.91,
-    "interaccion": 0.89
+    "interaccion": 0.9
    },
    "bucle": {
     "n": 8,
@@ -442,7 +442,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.14,
-    "interaccion": 0.75
+    "interaccion": 0.76
    }
   },
   "primer fotograma claro": {
@@ -455,8 +455,8 @@
    "no": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.6,
-    "interaccion": 1.09
+    "vistas": 1.61,
+    "interaccion": 1.08
    }
   },
   "movimiento 1s": {
@@ -464,7 +464,7 @@
     "n": 36,
     "videos": 9,
     "vistas": 0.96,
-    "interaccion": 0.75
+    "interaccion": 0.76
    }
   },
   "texto 0s": {
@@ -472,7 +472,7 @@
     "n": 36,
     "videos": 9,
     "vistas": 0.96,
-    "interaccion": 0.75
+    "interaccion": 0.76
    }
   },
   "personaje": {
@@ -486,7 +486,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.08,
-    "interaccion": 0.93
+    "interaccion": 0.94
    }
   },
   "sonido": {
@@ -494,39 +494,39 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.98,
-    "interaccion": 0.36
+    "interaccion": 0.37
    },
    "burbuja": {
     "n": 12,
     "videos": 3,
     "vistas": 0.65,
-    "interaccion": 0.98
+    "interaccion": 0.99
    },
    "tum": {
     "n": 4,
     "videos": 1,
     "vistas": 1.14,
-    "interaccion": 0.75
+    "interaccion": 0.76
    },
    "madera": {
     "n": 4,
     "videos": 1,
     "vistas": 1.18,
-    "interaccion": 1.38
+    "interaccion": 1.39
    },
    "campanita": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.6,
-    "interaccion": 1.09
+    "vistas": 1.61,
+    "interaccion": 1.08
    }
   },
   "voz": {
    "Tristan HD": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.95,
-    "interaccion": 0.75
+    "vistas": 0.96,
+    "interaccion": 0.76
    }
   },
   "exp: gancho_tipo": {
@@ -540,13 +540,13 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.46
+    "interaccion": 1.48
    },
    "pregunta": {
     "n": 4,
     "videos": 1,
     "vistas": 1.18,
-    "interaccion": 1.38
+    "interaccion": 1.39
    }
   }
  },
@@ -582,7 +582,7 @@
     "mejor": {
      "v": "medio",
      "vistas": 1.15,
-     "interaccion": 0.93,
+     "interaccion": 0.94,
      "n": 12
     },
     "resto": [
@@ -593,7 +593,7 @@
      }
     ]
    },
-   "texto": "ritmo: «medio» consigue 1.15× el alcance medio (3 vídeos) e interacción 0.93×; frente a rápido (>2,9 pal/s) 0.88× (6 vídeos)."
+   "texto": "ritmo: «medio» consigue 1.15× el alcance medio (3 vídeos) e interacción 0.94×; frente a rápido (>2,9 pal/s) 0.88× (6 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -626,7 +626,7 @@
     "mejor": {
      "v": "universal",
      "vistas": 1.16,
-     "interaccion": 0.78,
+     "interaccion": 0.79,
      "n": 20
     },
     "resto": [
@@ -637,7 +637,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.16× el alcance medio (5 vídeos) e interacción 0.78×; frente a mundo 0.77× (4 vídeos)."
+   "texto": "cercania: «universal» consigue 1.16× el alcance medio (5 vídeos) e interacción 0.79×; frente a mundo 0.77× (4 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -670,7 +670,7 @@
     "mejor": {
      "v": "sí",
      "vistas": 1.08,
-     "interaccion": 0.93,
+     "interaccion": 0.94,
      "n": 16
     },
     "resto": [
@@ -681,7 +681,7 @@
      }
     ]
    },
-   "texto": "personaje: «sí» consigue 1.08× el alcance medio (4 vídeos) e interacción 0.93×; frente a no 0.88× (5 vídeos)."
+   "texto": "personaje: «sí» consigue 1.08× el alcance medio (4 vídeos) e interacción 0.94×; frente a no 0.88× (5 vídeos)."
   }
  ],
  "pesos": {
@@ -691,16 +691,16 @@
    "madera": 0.137,
    "marimba": 0.112,
    "kalimba": 0.112,
-   "campanita": 0.141,
+   "campanita": 0.14,
    "cuerda": 0.112,
    "burbuja": 0.094,
-   "tum": 0.105
+   "tum": 0.106
   },
   "estilo": {
-   "papel": 0.272,
-   "neon": 0.122,
-   "pop": 0.206,
-   "pizarra": 0.206,
+   "papel": 0.273,
+   "neon": 0.121,
+   "pop": 0.205,
+   "pizarra": 0.207,
    "limpio": 0.194
   }
  },
@@ -730,7 +730,7 @@
   {
    "id": "2026-11-13-1430",
    "titulo": "Un niño de 11 años inventó el polo helado por olvidarse un vaso fuera",
-   "indice": 2.03,
+   "indice": 2.04,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
