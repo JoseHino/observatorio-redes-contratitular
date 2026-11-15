@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T04:18:52.487Z",
+ "actualizado": "2026-11-15T05:18:55.384Z",
  "publicaciones": 48,
  "videos": 14,
  "factores": {
@@ -38,13 +38,13 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.57,
-    "interaccion": 0.92
+    "interaccion": 0.91
    },
    "sábado": {
     "n": 4,
     "videos": 2,
-    "vistas": 1.9,
-    "interaccion": 0.82
+    "vistas": 1.91,
+    "interaccion": 0.91
    }
   },
   "franja": {
@@ -58,7 +58,7 @@
     "n": 24,
     "videos": 7,
     "vistas": 1.09,
-    "interaccion": 0.64
+    "interaccion": 0.65
    },
    "tarde": {
     "n": 4,
@@ -78,7 +78,7 @@
     "n": 16,
     "videos": 5,
     "vistas": 0.96,
-    "interaccion": 0.73
+    "interaccion": 0.76
    },
    "14-16 h": {
     "n": 8,
@@ -104,7 +104,7 @@
     "n": 12,
     "videos": 12,
     "vistas": 1.14,
-    "interaccion": 0.49
+    "interaccion": 0.52
    },
    "tiktok": {
     "n": 12,
@@ -121,7 +121,7 @@
    "facebook": {
     "n": 12,
     "videos": 12,
-    "vistas": 1.56,
+    "vistas": 1.57,
     "interaccion": 0.53
    }
   },
