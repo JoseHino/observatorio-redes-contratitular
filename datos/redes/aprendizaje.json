@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T20:19:35.092Z",
+ "actualizado": "2026-11-15T21:18:56.950Z",
  "publicaciones": 52,
  "videos": 16,
  "factores": {
@@ -38,7 +38,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.57,
-    "interaccion": 0.97
+    "interaccion": 0.98
    },
    "sábado": {
     "n": 8,
@@ -230,7 +230,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.56,
-    "interaccion": 0.82
+    "interaccion": 0.83
    }
   },
   "gancho": {
@@ -250,7 +250,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.36,
-    "interaccion": 1.11
+    "interaccion": 1.12
    }
   },
   "gancho largo": {
@@ -398,7 +398,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.36,
-    "interaccion": 1.11
+    "interaccion": 1.12
    }
   },
   "cercania": {
@@ -474,7 +474,7 @@
     "n": 36,
     "videos": 9,
     "vistas": 0.96,
-    "interaccion": 0.76
+    "interaccion": 0.77
    },
    "no": {
     "n": 4,
@@ -504,7 +504,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 1,
-    "interaccion": 0.69
+    "interaccion": 0.7
    },
    "sí": {
     "n": 16,
@@ -536,7 +536,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.36,
-    "interaccion": 1.11
+    "interaccion": 1.12
    },
    "campanita": {
     "n": 4,
@@ -558,7 +558,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.37,
-    "interaccion": 0.98
+    "interaccion": 0.99
    },
    "contradicción": {
     "n": 4,
@@ -570,7 +570,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.36,
-    "interaccion": 1.11
+    "interaccion": 1.12
    }
   }
  },
