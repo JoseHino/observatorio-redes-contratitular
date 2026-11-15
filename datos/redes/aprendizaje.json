@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T13:19:51.863Z",
+ "actualizado": "2026-11-15T14:19:13.527Z",
  "publicaciones": 52,
  "videos": 16,
  "factores": {
@@ -20,7 +20,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.9,
-    "interaccion": 0.7
+    "interaccion": 0.71
    },
    "miércoles": {
     "n": 8,
@@ -58,7 +58,7 @@
     "n": 24,
     "videos": 7,
     "vistas": 1.09,
-    "interaccion": 0.67
+    "interaccion": 0.68
    },
    "tarde": {
     "n": 4,
@@ -116,7 +116,7 @@
     "n": 13,
     "videos": 13,
     "vistas": 0.98,
-    "interaccion": 0.96
+    "interaccion": 0.97
    },
    "facebook": {
     "n": 13,
@@ -264,7 +264,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.07,
-    "interaccion": 1.47
+    "interaccion": 1.48
    }
   },
   "escenas de datos": {
@@ -314,7 +314,7 @@
     "n": 28,
     "videos": 7,
     "vistas": 0.97,
-    "interaccion": 0.64
+    "interaccion": 0.65
    }
   },
   "tema": {
@@ -322,7 +322,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 1.27,
-    "interaccion": 1.2
+    "interaccion": 1.21
    },
    "ciencia": {
     "n": 8,
@@ -374,7 +374,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.27,
-    "interaccion": 1.02
+    "interaccion": 1.03
    },
    "otro": {
     "n": 4,
@@ -434,7 +434,7 @@
     "n": 36,
     "videos": 9,
     "vistas": 1.02,
-    "interaccion": 0.84
+    "interaccion": 0.85
    },
    "no": {
     "n": 4,
@@ -550,7 +550,7 @@
     "n": 36,
     "videos": 9,
     "vistas": 0.99,
-    "interaccion": 0.79
+    "interaccion": 0.8
    }
   },
   "exp: gancho_tipo": {
