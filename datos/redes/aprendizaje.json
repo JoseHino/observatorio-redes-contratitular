@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T06:19:37.206Z",
+ "actualizado": "2026-11-15T07:19:42.634Z",
  "publicaciones": 48,
  "videos": 14,
  "factores": {
@@ -32,19 +32,19 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.07,
-    "interaccion": 1.53
+    "interaccion": 1.52
    },
    "viernes": {
     "n": 8,
     "videos": 2,
     "vistas": 1.57,
-    "interaccion": 0.91
+    "interaccion": 0.92
    },
    "sábado": {
     "n": 4,
     "videos": 2,
-    "vistas": 1.94,
-    "interaccion": 0.9
+    "vistas": 1.96,
+    "interaccion": 0.89
    }
   },
   "franja": {
@@ -57,14 +57,14 @@
    "mediodía": {
     "n": 24,
     "videos": 7,
-    "vistas": 1.09,
+    "vistas": 1.1,
     "interaccion": 0.65
    },
    "tarde": {
     "n": 4,
     "videos": 1,
     "vistas": 1.42,
-    "interaccion": 0.76
+    "interaccion": 0.77
    }
   },
   "hora": {
@@ -96,7 +96,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.42,
-    "interaccion": 0.76
+    "interaccion": 0.77
    }
   },
   "red": {
@@ -121,8 +121,8 @@
    "facebook": {
     "n": 12,
     "videos": 12,
-    "vistas": 1.57,
-    "interaccion": 0.53
+    "vistas": 1.58,
+    "interaccion": 0.52
    }
   },
   "estilo": {
@@ -216,7 +216,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.42,
-    "interaccion": 0.76
+    "interaccion": 0.77
    }
   },
   "duración": {
@@ -250,7 +250,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.36,
-    "interaccion": 1.04
+    "interaccion": 1.05
    }
   },
   "gancho largo": {
@@ -398,7 +398,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.36,
-    "interaccion": 1.04
+    "interaccion": 1.05
    }
   },
   "cercania": {
@@ -536,7 +536,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.36,
-    "interaccion": 1.04
+    "interaccion": 1.05
    },
    "campanita": {
     "n": 4,
@@ -570,7 +570,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.36,
-    "interaccion": 1.04
+    "interaccion": 1.05
    }
   }
  },
@@ -668,10 +668,10 @@
   "familia": {
    "pop": 0.113,
    "gota": 0.076,
-   "madera": 0.13,
+   "madera": 0.131,
    "marimba": 0.113,
    "kalimba": 0.113,
-   "campanita": 0.14,
+   "campanita": 0.139,
    "cuerda": 0.113,
    "burbuja": 0.095,
    "tum": 0.107
