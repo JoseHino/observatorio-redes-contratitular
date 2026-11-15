@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T09:18:59.721Z",
+ "actualizado": "2026-11-15T10:18:49.943Z",
  "publicaciones": 52,
  "videos": 16,
  "factores": {
@@ -38,12 +38,12 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.57,
-    "interaccion": 1
+    "interaccion": 0.99
    },
    "sábado": {
     "n": 8,
     "videos": 4,
-    "vistas": 1.5,
+    "vistas": 1.49,
     "interaccion": 0.86
    }
   },
@@ -103,7 +103,7 @@
    "instagram": {
     "n": 13,
     "videos": 13,
-    "vistas": 1.26,
+    "vistas": 1.25,
     "interaccion": 0.62
    },
    "tiktok": {
@@ -130,7 +130,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.09,
-    "interaccion": 0.83
+    "interaccion": 0.84
    },
    "pizarra": {
     "n": 8,
@@ -264,7 +264,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.07,
-    "interaccion": 1.51
+    "interaccion": 1.52
    }
   },
   "escenas de datos": {
@@ -412,7 +412,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 1.2,
-    "interaccion": 0.84
+    "interaccion": 0.83
    }
   },
   "promesa": {
@@ -628,7 +628,7 @@
     "mejor": {
      "v": "universal",
      "vistas": 1.2,
-     "interaccion": 0.84,
+     "interaccion": 0.83,
      "n": 24
     },
     "resto": [
@@ -639,7 +639,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.20× el alcance medio (6 vídeos) e interacción 0.84×; frente a mundo 0.76× (4 vídeos)."
+   "texto": "cercania: «universal» consigue 1.20× el alcance medio (6 vídeos) e interacción 0.83×; frente a mundo 0.76× (4 vídeos)."
   },
   {
    "tipo": "regla",
@@ -677,9 +677,9 @@
    "tum": 0.109
   },
   "estilo": {
-   "papel": 0.264,
+   "papel": 0.263,
    "neon": 0.15,
-   "pop": 0.201,
+   "pop": 0.202,
    "pizarra": 0.197,
    "limpio": 0.188
   }
