@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T05:18:55.384Z",
+ "actualizado": "2026-11-15T06:19:37.206Z",
  "publicaciones": 48,
  "videos": 14,
  "factores": {
@@ -43,8 +43,8 @@
    "sábado": {
     "n": 4,
     "videos": 2,
-    "vistas": 1.91,
-    "interaccion": 0.91
+    "vistas": 1.94,
+    "interaccion": 0.9
    }
   },
   "franja": {
@@ -77,8 +77,8 @@
    "12-14 h": {
     "n": 16,
     "videos": 5,
-    "vistas": 0.96,
-    "interaccion": 0.76
+    "vistas": 0.97,
+    "interaccion": 0.75
    },
    "14-16 h": {
     "n": 8,
