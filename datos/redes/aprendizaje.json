@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T10:18:49.943Z",
+ "actualizado": "2026-11-15T11:18:52.580Z",
  "publicaciones": 52,
  "videos": 16,
  "factores": {
@@ -20,7 +20,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.9,
-    "interaccion": 0.72
+    "interaccion": 0.73
    },
    "miércoles": {
     "n": 8,
@@ -38,13 +38,13 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.57,
-    "interaccion": 0.99
+    "interaccion": 1
    },
    "sábado": {
     "n": 8,
     "videos": 4,
     "vistas": 1.49,
-    "interaccion": 0.86
+    "interaccion": 0.85
    }
   },
   "franja": {
@@ -52,7 +52,7 @@
     "n": 24,
     "videos": 8,
     "vistas": 0.96,
-    "interaccion": 0.85
+    "interaccion": 0.86
    },
    "mediodía": {
     "n": 24,
@@ -90,7 +90,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.94,
-    "interaccion": 1.83
+    "interaccion": 1.84
    },
    "18-20 h": {
     "n": 4,
@@ -104,7 +104,7 @@
     "n": 13,
     "videos": 13,
     "vistas": 1.25,
-    "interaccion": 0.62
+    "interaccion": 0.63
    },
    "tiktok": {
     "n": 13,
@@ -162,7 +162,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.01,
-    "interaccion": 0.89
+    "interaccion": 0.9
    },
    "Ciencia": {
     "n": 4,
@@ -198,7 +198,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.55
+    "interaccion": 1.56
    },
    "Inventos": {
     "n": 4,
@@ -210,7 +210,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.48,
-    "interaccion": 1.21
+    "interaccion": 1.22
    },
    "Espacio": {
     "n": 4,
@@ -230,7 +230,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.56,
-    "interaccion": 0.83
+    "interaccion": 0.84
    }
   },
   "gancho": {
@@ -238,7 +238,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.88,
-    "interaccion": 0.7
+    "interaccion": 0.71
    },
    "afirmación": {
     "n": 20,
@@ -250,7 +250,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.36,
-    "interaccion": 1.13
+    "interaccion": 1.14
    }
   },
   "gancho largo": {
@@ -358,7 +358,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.55
+    "interaccion": 1.56
    }
   },
   "emocion": {
@@ -398,7 +398,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.36,
-    "interaccion": 1.13
+    "interaccion": 1.14
    }
   },
   "cercania": {
@@ -412,7 +412,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 1.2,
-    "interaccion": 0.83
+    "interaccion": 0.84
    }
   },
   "promesa": {
@@ -426,7 +426,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.82,
-    "interaccion": 1.1
+    "interaccion": 1.11
    }
   },
   "giro": {
@@ -480,7 +480,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.48,
-    "interaccion": 1.21
+    "interaccion": 1.22
    }
   },
   "movimiento 1s": {
@@ -536,13 +536,13 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.36,
-    "interaccion": 1.13
+    "interaccion": 1.14
    },
    "campanita": {
     "n": 4,
     "videos": 1,
     "vistas": 1.48,
-    "interaccion": 1.21
+    "interaccion": 1.22
    }
   },
   "voz": {
@@ -558,19 +558,19 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.37,
-    "interaccion": 1
+    "interaccion": 1.01
    },
    "contradicción": {
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.55
+    "interaccion": 1.56
    },
    "pregunta": {
     "n": 8,
     "videos": 2,
     "vistas": 1.36,
-    "interaccion": 1.13
+    "interaccion": 1.14
    }
   }
  },
@@ -628,7 +628,7 @@
     "mejor": {
      "v": "universal",
      "vistas": 1.2,
-     "interaccion": 0.83,
+     "interaccion": 0.84,
      "n": 24
     },
     "resto": [
@@ -639,7 +639,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.20× el alcance medio (6 vídeos) e interacción 0.83×; frente a mundo 0.76× (4 vídeos)."
+   "texto": "cercania: «universal» consigue 1.20× el alcance medio (6 vídeos) e interacción 0.84×; frente a mundo 0.76× (4 vídeos)."
   },
   {
    "tipo": "regla",
@@ -671,7 +671,7 @@
    "madera": 0.133,
    "marimba": 0.111,
    "kalimba": 0.111,
-   "campanita": 0.141,
+   "campanita": 0.142,
    "cuerda": 0.111,
    "burbuja": 0.096,
    "tum": 0.109
