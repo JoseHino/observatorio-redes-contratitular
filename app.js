@@ -24,6 +24,15 @@
   var base100 = function (a) { return (a || []).map(function (v) { return v == null ? null : Math.round(v * 100); }); };
   var porMil = function (a) { return (a || []).map(function (v) { return v == null ? null : Math.round(v * 10); }); };
   var ent = function (v) { return v == null || !isFinite(v) ? '—' : F.num(v, 0); };
+  /* Cifras grandes abreviadas: desde 10.000 → 10k, 10,15k; desde un millón → 1,25M (hasta dos decimales, sin ceros sobrantes) */
+  var kmil = function (v) {
+    if (v == null || !isFinite(v)) return '—';
+    var a = Math.abs(v), d = function (x) { return Math.floor(x * 100) / 100; };
+    var corto = function (x) { return F.num(x, 2).replace(/[.,]?0+$/, ''); };
+    if (a >= 1e6) return corto(d(v / 1e6)) + 'M';
+    if (a >= 1e4) return corto(d(v / 1e3)) + 'k';
+    return F.num(v, 0);
+  };
   var col = function (r, k) { return (R[r].videos || []).map(function (v) { return v[k]; }); };
   var titulos = function (r) { return (R[r].videos || []).map(function (v) { return v.titulo; }); };
 
@@ -74,13 +83,13 @@
       var dias = ORDEN.length ? R[ORDEN[0]].evolucion.x.map(dia) : [];
       return {
         hero: {
-          valor: total, label: L('Vistas en todas las redes', 'Views across all networks'), formato: F.num,
-          extra: ORDEN.map(function (r) { return { label: NOMBRES[r], valor: R[r].kpi.vistas, formato: F.num }; })
+          valor: total, label: L('Vistas en todas las redes', 'Views across all networks'), formato: kmil,
+          extra: ORDEN.map(function (r) { return { label: NOMBRES[r], valor: R[r].kpi.vistas, formato: kmil }; })
         },
         kpis: [{
           label: L('Última actualización', 'Last update') + (RETRASO ? L(' · ¡con retraso!', ' · delayed!') : ''),
           valor: ACT, formato: horaAct, unidad: ACT ? ' · ' + Obs.desde(ACT) : ''
-        }].concat(ORDEN.map(function (r) { return { label: NOMBRES[r] + L(' · seguidores', ' · followers'), valor: R[r].kpi.seguidores }; })),
+        }].concat(ORDEN.map(function (r) { return { label: NOMBRES[r] + L(' · seguidores', ' · followers'), valor: R[r].kpi.seguidores, formato: kmil }; })),
         cards: [
           {
             titulo: L('Vistas acumuladas por red', 'Cumulative views by network'), sub: L('Suma de las vistas de todos los vídeos, día a día', 'Sum of the views of every video, day by day'),
