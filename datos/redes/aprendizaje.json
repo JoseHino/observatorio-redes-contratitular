@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T09:18:53.487Z",
+ "actualizado": "2026-11-16T10:19:00.284Z",
  "publicaciones": 60,
  "videos": 18,
  "factores": {
@@ -147,7 +147,7 @@
    "papel": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.59,
+    "vistas": 1.58,
     "interaccion": 1.31
    },
    "neon": {
@@ -297,7 +297,7 @@
    "rápido (>2,9 pal/s)": {
     "n": 32,
     "videos": 8,
-    "vistas": 1.14,
+    "vistas": 1.13,
     "interaccion": 0.75
    }
   },
@@ -312,7 +312,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 2.39,
-    "interaccion": 1.06
+    "interaccion": 1.05
    }
   },
   "cifra en 5 primeras palabras": {
@@ -423,7 +423,7 @@
    "universal": {
     "n": 28,
     "videos": 7,
-    "vistas": 1.45,
+    "vistas": 1.44,
     "interaccion": 0.85
    }
   },
@@ -459,7 +459,7 @@
    "pregunta": {
     "n": 20,
     "videos": 5,
-    "vistas": 1.62,
+    "vistas": 1.61,
     "interaccion": 0.92
    },
    "dato final": {
@@ -553,7 +553,7 @@
    "campanita": {
     "n": 8,
     "videos": 2,
-    "vistas": 2.23,
+    "vistas": 2.22,
     "interaccion": 1.12
    }
   },
@@ -693,7 +693,7 @@
    "detalle": {
     "mejor": {
      "v": "universal",
-     "vistas": 1.45,
+     "vistas": 1.44,
      "interaccion": 0.85,
      "n": 28
     },
@@ -705,7 +705,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.45× el alcance medio (7 vídeos) e interacción 0.85×; frente a mundo 0.92× (5 vídeos)."
+   "texto": "cercania: «universal» consigue 1.44× el alcance medio (7 vídeos) e interacción 0.85×; frente a mundo 0.92× (5 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -715,7 +715,7 @@
    "detalle": {
     "mejor": {
      "v": "pregunta",
-     "vistas": 1.62,
+     "vistas": 1.61,
      "interaccion": 0.92,
      "n": 20
     },
@@ -732,7 +732,7 @@
      }
     ]
    },
-   "texto": "cierre: «pregunta» consigue 1.62× el alcance medio (5 vídeos) e interacción 0.92×; frente a moraleja 1.34× (2 vídeos), dato final 0.94× (3 vídeos)."
+   "texto": "cierre: «pregunta» consigue 1.61× el alcance medio (5 vídeos) e interacción 0.92×; frente a moraleja 1.34× (2 vídeos), dato final 0.94× (3 vídeos)."
   },
   {
    "tipo": "regla",
@@ -797,11 +797,11 @@
    "tum": 0.122
   },
   "estilo": {
-   "papel": 0.27,
+   "papel": 0.269,
    "neon": 0.143,
    "pop": 0.192,
    "pizarra": 0.192,
-   "limpio": 0.203
+   "limpio": 0.204
   }
  },
  "horas_recomendadas": [
@@ -830,14 +830,14 @@
   {
    "id": "2026-11-15-2015",
    "titulo": "El mar que oyes dentro de una caracola no es el mar",
-   "indice": 4.11,
+   "indice": 4.09,
    "variable": "gancho_tipo",
    "variante": "pregunta"
   },
   {
    "id": "2026-11-15-1230",
    "titulo": "Te enseñaron que los vikingos llevaban cuernos. Es falso",
-   "indice": 2.15,
+   "indice": 2.16,
    "variable": "gancho_tipo",
    "variante": "contradicción"
   },
@@ -908,7 +908,7 @@
    "pregunta": "¿Qué primera frase retiene más: cifra chocante, pregunta o contradicción?",
    "asignados": {
     "cifra chocante": 4,
-    "contradicción": 4,
+    "contradicción": 5,
     "pregunta": 4
    }
   },
