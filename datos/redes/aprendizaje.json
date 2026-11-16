@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T12:20:07.612Z",
+ "actualizado": "2026-11-16T13:19:55.638Z",
  "publicaciones": 60,
  "videos": 18,
  "factores": {
@@ -312,7 +312,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 2.4,
-    "interaccion": 1.06
+    "interaccion": 1.05
    }
   },
   "cifra en 5 primeras palabras": {
@@ -423,7 +423,7 @@
    "universal": {
     "n": 28,
     "videos": 7,
-    "vistas": 1.44,
+    "vistas": 1.45,
     "interaccion": 0.86
    }
   },
@@ -445,7 +445,7 @@
    "sí": {
     "n": 44,
     "videos": 11,
-    "vistas": 1.24,
+    "vistas": 1.25,
     "interaccion": 0.88
    },
    "no": {
@@ -553,7 +553,7 @@
    "campanita": {
     "n": 8,
     "videos": 2,
-    "vistas": 2.22,
+    "vistas": 2.23,
     "interaccion": 1.12
    }
   },
@@ -693,7 +693,7 @@
    "detalle": {
     "mejor": {
      "v": "universal",
-     "vistas": 1.44,
+     "vistas": 1.45,
      "interaccion": 0.86,
      "n": 28
     },
@@ -705,7 +705,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.44× el alcance medio (7 vídeos) e interacción 0.86×; frente a mundo 0.93× (5 vídeos)."
+   "texto": "cercania: «universal» consigue 1.45× el alcance medio (7 vídeos) e interacción 0.86×; frente a mundo 0.93× (5 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -830,7 +830,7 @@
   {
    "id": "2026-11-15-2015",
    "titulo": "El mar que oyes dentro de una caracola no es el mar",
-   "indice": 4.08,
+   "indice": 4.09,
    "variable": "gancho_tipo",
    "variante": "pregunta"
   },
