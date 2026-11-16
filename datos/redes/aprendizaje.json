@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T13:19:55.638Z",
+ "actualizado": "2026-11-16T14:19:26.154Z",
  "publicaciones": 60,
  "videos": 18,
  "factores": {
@@ -325,8 +325,8 @@
    "no": {
     "n": 36,
     "videos": 9,
-    "vistas": 1.24,
-    "interaccion": 0.74
+    "vistas": 1.25,
+    "interaccion": 0.73
    }
   },
   "tema": {
@@ -424,7 +424,7 @@
     "n": 28,
     "videos": 7,
     "vistas": 1.45,
-    "interaccion": 0.86
+    "interaccion": 0.85
    }
   },
   "promesa": {
@@ -542,7 +542,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.48,
-    "interaccion": 0.94
+    "interaccion": 0.93
    },
    "madera": {
     "n": 8,
@@ -694,7 +694,7 @@
     "mejor": {
      "v": "universal",
      "vistas": 1.45,
-     "interaccion": 0.86,
+     "interaccion": 0.85,
      "n": 28
     },
     "resto": [
@@ -705,7 +705,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.45× el alcance medio (7 vídeos) e interacción 0.86×; frente a mundo 0.93× (5 vídeos)."
+   "texto": "cercania: «universal» consigue 1.45× el alcance medio (7 vídeos) e interacción 0.85×; frente a mundo 0.93× (5 vídeos)."
   },
   {
    "tipo": "hipotesis",
