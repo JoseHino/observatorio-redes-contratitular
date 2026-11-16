@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T20:19:30.324Z",
+ "actualizado": "2026-11-16T21:18:55.976Z",
  "publicaciones": 60,
  "videos": 18,
  "factores": {
@@ -72,7 +72,7 @@
     "n": 20,
     "videos": 7,
     "vistas": 1.21,
-    "interaccion": 0.63
+    "interaccion": 0.62
    },
    "12-14 h": {
     "n": 20,
@@ -116,7 +116,7 @@
     "n": 15,
     "videos": 15,
     "vistas": 1.01,
-    "interaccion": 1.14
+    "interaccion": 1.13
    },
    "facebook": {
     "n": 15,
@@ -142,7 +142,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 1.39,
-    "interaccion": 0.76
+    "interaccion": 0.75
    },
    "papel": {
     "n": 12,
@@ -222,7 +222,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.68,
-    "interaccion": 1.09
+    "interaccion": 1.08
    }
   },
   "duración": {
@@ -250,7 +250,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 1.09,
-    "interaccion": 0.83
+    "interaccion": 0.82
    },
    "pregunta": {
     "n": 12,
@@ -522,7 +522,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 1.4,
-    "interaccion": 1.02
+    "interaccion": 1.01
    }
   },
   "sonido": {
@@ -542,7 +542,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.48,
-    "interaccion": 0.94
+    "interaccion": 0.93
    },
    "madera": {
     "n": 8,
@@ -576,7 +576,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.39,
-    "interaccion": 1.36
+    "interaccion": 1.35
    },
    "pregunta": {
     "n": 12,
@@ -716,7 +716,7 @@
     "mejor": {
      "v": "sí",
      "vistas": 1.4,
-     "interaccion": 1.02,
+     "interaccion": 1.01,
      "n": 24
     },
     "resto": [
@@ -727,7 +727,7 @@
      }
     ]
    },
-   "texto": "personaje: «sí» consigue 1.40× el alcance medio (6 vídeos) e interacción 1.02×; frente a no 0.99× (6 vídeos)."
+   "texto": "personaje: «sí» consigue 1.40× el alcance medio (6 vídeos) e interacción 1.01×; frente a no 0.99× (6 vídeos)."
   },
   {
    "tipo": "hipotesis",
