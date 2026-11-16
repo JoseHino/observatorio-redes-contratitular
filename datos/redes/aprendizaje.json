@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T04:18:47.897Z",
+ "actualizado": "2026-11-16T05:18:50.668Z",
  "publicaciones": 56,
  "videos": 17,
  "factores": {
@@ -7,7 +7,7 @@
    "domingo": {
     "n": 8,
     "videos": 3,
-    "vistas": 1.29,
+    "vistas": 1.3,
     "interaccion": 0.63
    },
    "lunes": {
@@ -32,7 +32,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.12,
-    "interaccion": 1.63
+    "interaccion": 1.64
    },
    "viernes": {
     "n": 8,
@@ -52,7 +52,7 @@
     "n": 24,
     "videos": 8,
     "vistas": 0.96,
-    "interaccion": 0.8
+    "interaccion": 0.81
    },
    "mediodía": {
     "n": 28,
@@ -90,7 +90,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.94,
-    "interaccion": 1.65
+    "interaccion": 1.66
    },
    "18-20 h": {
     "n": 4,
@@ -104,7 +104,7 @@
     "n": 14,
     "videos": 14,
     "vistas": 1.36,
-    "interaccion": 0.62
+    "interaccion": 0.64
    },
    "tiktok": {
     "n": 14,
@@ -136,19 +136,19 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.94,
-    "interaccion": 0.94
+    "interaccion": 0.95
    },
    "limpio": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.38,
+    "vistas": 1.39,
     "interaccion": 0.74
    },
    "papel": {
     "n": 8,
     "videos": 2,
     "vistas": 1.08,
-    "interaccion": 1.44
+    "interaccion": 1.45
    },
    "neon": {
     "n": 8,
@@ -180,7 +180,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.77,
-    "interaccion": 1.55
+    "interaccion": 1.56
    },
    "Dinero": {
     "n": 4,
@@ -192,25 +192,25 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.14,
-    "interaccion": 0.81
+    "interaccion": 0.82
    },
    "Geografía": {
     "n": 4,
     "videos": 1,
     "vistas": 1.03,
-    "interaccion": 1.52
+    "interaccion": 1.53
    },
    "Inventos": {
     "n": 4,
     "videos": 1,
     "vistas": 1.17,
-    "interaccion": 1.48
+    "interaccion": 1.49
    },
    "Comida": {
     "n": 4,
     "videos": 1,
     "vistas": 1.48,
-    "interaccion": 1.18
+    "interaccion": 1.19
    },
    "Espacio": {
     "n": 4,
@@ -221,7 +221,7 @@
    "Historia": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.66,
+    "vistas": 1.67,
     "interaccion": 1.08
    }
   },
@@ -250,7 +250,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 1.09,
-    "interaccion": 0.8
+    "interaccion": 0.81
    },
    "pregunta": {
     "n": 8,
@@ -270,7 +270,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 1.24,
-    "interaccion": 1.35
+    "interaccion": 1.36
    }
   },
   "escenas de datos": {
@@ -311,7 +311,7 @@
    "medios": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.66,
+    "vistas": 1.67,
     "interaccion": 1.08
    }
   },
@@ -334,7 +334,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.44,
-    "interaccion": 1.18
+    "interaccion": 1.19
    },
    "ciencia": {
     "n": 8,
@@ -352,7 +352,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.77,
-    "interaccion": 1.55
+    "interaccion": 1.56
    },
    "economía": {
     "n": 4,
@@ -364,13 +364,13 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.14,
-    "interaccion": 0.81
+    "interaccion": 0.82
    },
    "geografía": {
     "n": 4,
     "videos": 1,
     "vistas": 1.03,
-    "interaccion": 1.52
+    "interaccion": 1.53
    }
   },
   "emocion": {
@@ -386,7 +386,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.29,
-    "interaccion": 1.02
+    "interaccion": 1.03
    },
    "otro": {
     "n": 4,
@@ -398,13 +398,13 @@
     "n": 20,
     "videos": 5,
     "vistas": 1.01,
-    "interaccion": 0.61
+    "interaccion": 0.62
    },
    "misterio": {
     "n": 4,
     "videos": 1,
     "vistas": 0.77,
-    "interaccion": 1.55
+    "interaccion": 1.56
    },
    "pregunta": {
     "n": 8,
@@ -460,7 +460,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.31,
-    "interaccion": 0.87
+    "interaccion": 0.88
    },
    "dato final": {
     "n": 12,
@@ -478,7 +478,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.34,
-    "interaccion": 0.77
+    "interaccion": 0.78
    }
   },
   "primer fotograma claro": {
@@ -492,7 +492,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.48,
-    "interaccion": 1.18
+    "interaccion": 1.19
    }
   },
   "movimiento 1s": {
@@ -541,8 +541,8 @@
    "tum": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.46,
-    "interaccion": 0.92
+    "vistas": 1.47,
+    "interaccion": 0.93
    },
    "madera": {
     "n": 8,
@@ -554,7 +554,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.48,
-    "interaccion": 1.18
+    "interaccion": 1.19
    }
   },
   "voz": {
@@ -562,7 +562,7 @@
     "n": 40,
     "videos": 10,
     "vistas": 1.09,
-    "interaccion": 0.8
+    "interaccion": 0.81
    }
   },
   "exp: gancho_tipo": {
@@ -595,7 +595,7 @@
    "detalle": {
     "mejor": {
      "v": "limpio",
-     "vistas": 1.38,
+     "vistas": 1.39,
      "interaccion": 0.74,
      "n": 12
     },
@@ -612,7 +612,7 @@
      }
     ]
    },
-   "texto": "estilo: «limpio» consigue 1.38× el alcance medio (3 vídeos) e interacción 0.74×; frente a pop 1.10× (2 vídeos), papel 1.08× (2 vídeos)."
+   "texto": "estilo: «limpio» consigue 1.39× el alcance medio (3 vídeos) e interacción 0.74×; frente a pop 1.10× (2 vídeos), papel 1.08× (2 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -645,7 +645,7 @@
     "mejor": {
      "v": "corto (≤12)",
      "vistas": 1.24,
-     "interaccion": 1.35,
+     "interaccion": 1.36,
      "n": 20
     },
     "resto": [
@@ -656,7 +656,7 @@
      }
     ]
    },
-   "texto": "gancho largo: «corto (≤12)» consigue 1.24× el alcance medio (5 vídeos) e interacción 1.35×; frente a largo (>12) 0.96× (6 vídeos)."
+   "texto": "gancho largo: «corto (≤12)» consigue 1.24× el alcance medio (5 vídeos) e interacción 1.36×; frente a largo (>12) 0.96× (6 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -689,7 +689,7 @@
     "mejor": {
      "v": "historia",
      "vistas": 1.44,
-     "interaccion": 1.18,
+     "interaccion": 1.19,
      "n": 16
     },
     "resto": [
@@ -705,7 +705,7 @@
      }
     ]
    },
-   "texto": "tema: «historia» consigue 1.44× el alcance medio (4 vídeos) e interacción 1.18×; frente a ciencia 1.15× (2 vídeos), cultura 1.14× (1 vídeos)."
+   "texto": "tema: «historia» consigue 1.44× el alcance medio (4 vídeos) e interacción 1.19×; frente a ciencia 1.15× (2 vídeos), cultura 1.14× (1 vídeos)."
   },
   {
    "tipo": "regla",
@@ -784,12 +784,12 @@
    "campanita": 0.138,
    "cuerda": 0.11,
    "burbuja": 0.093,
-   "tum": 0.124
+   "tum": 0.125
   },
   "estilo": {
    "papel": 0.248,
    "neon": 0.147,
-   "pop": 0.199,
+   "pop": 0.198,
    "pizarra": 0.197,
    "limpio": 0.209
   }
@@ -820,7 +820,7 @@
   {
    "id": "2026-11-15-1230",
    "titulo": "Te enseñaron que los vikingos llevaban cuernos. Es falso",
-   "indice": 2.14,
+   "indice": 2.15,
    "variable": "gancho_tipo",
    "variante": "contradicción"
   },
