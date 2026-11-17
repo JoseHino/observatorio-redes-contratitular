@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T02:19:38.311Z",
+ "actualizado": "2026-11-17T03:18:59.392Z",
  "publicaciones": 64,
  "videos": 19,
  "factores": {
@@ -14,7 +14,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 1.04,
-    "interaccion": 0.82
+    "interaccion": 0.83
    },
    "martes": {
     "n": 8,
@@ -58,7 +58,7 @@
     "n": 32,
     "videos": 9,
     "vistas": 1.24,
-    "interaccion": 0.79
+    "interaccion": 0.8
    },
    "tarde": {
     "n": 4,
@@ -122,7 +122,7 @@
     "n": 16,
     "videos": 16,
     "vistas": 1.48,
-    "interaccion": 0.62
+    "interaccion": 0.63
    }
   },
   "estilo": {
@@ -154,7 +154,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.95,
-    "interaccion": 0.67
+    "interaccion": 0.68
    }
   },
   "serie": {
@@ -174,7 +174,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.19,
-    "interaccion": 0.54
+    "interaccion": 0.56
    },
    "Animales": {
     "n": 4,
@@ -242,7 +242,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.22,
-    "interaccion": 1.12
+    "interaccion": 1.17
    }
   },
   "gancho": {
@@ -256,7 +256,7 @@
     "n": 28,
     "videos": 7,
     "vistas": 1.12,
-    "interaccion": 0.88
+    "interaccion": 0.89
    },
    "pregunta": {
     "n": 12,
@@ -276,7 +276,7 @@
     "n": 28,
     "videos": 7,
     "vistas": 1.44,
-    "interaccion": 1.32
+    "interaccion": 1.34
    }
   },
   "escenas de datos": {
@@ -290,7 +290,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.74,
-    "interaccion": 0.63
+    "interaccion": 0.65
    }
   },
   "ritmo": {
@@ -298,13 +298,13 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.32,
-    "interaccion": 1.09
+    "interaccion": 1.08
    },
    "rápido (>2,9 pal/s)": {
     "n": 36,
     "videos": 9,
     "vistas": 1.14,
-    "interaccion": 0.8
+    "interaccion": 0.81
    }
   },
   "cortes": {
@@ -318,7 +318,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 1.92,
-    "interaccion": 1.12
+    "interaccion": 1.14
    }
   },
   "cifra en 5 primeras palabras": {
@@ -326,7 +326,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.13,
-    "interaccion": 1.26
+    "interaccion": 1.28
    },
    "no": {
     "n": 36,
@@ -352,7 +352,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.19,
-    "interaccion": 0.54
+    "interaccion": 0.56
    },
    "naturaleza": {
     "n": 4,
@@ -404,7 +404,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 1.06,
-    "interaccion": 0.7
+    "interaccion": 0.71
    },
    "misterio": {
     "n": 4,
@@ -430,7 +430,7 @@
     "n": 32,
     "videos": 8,
     "vistas": 1.41,
-    "interaccion": 0.9
+    "interaccion": 0.91
    }
   },
   "promesa": {
@@ -444,7 +444,7 @@
     "n": 32,
     "videos": 8,
     "vistas": 1.17,
-    "interaccion": 1.1
+    "interaccion": 1.11
    }
   },
   "giro": {
@@ -452,7 +452,7 @@
     "n": 48,
     "videos": 12,
     "vistas": 1.24,
-    "interaccion": 0.92
+    "interaccion": 0.93
    },
    "no": {
     "n": 4,
@@ -472,7 +472,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.02,
-    "interaccion": 0.97
+    "interaccion": 0.98
    },
    "bucle": {
     "n": 8,
@@ -542,7 +542,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 0.78,
-    "interaccion": 1.05
+    "interaccion": 1.07
    },
    "tum": {
     "n": 8,
@@ -567,8 +567,8 @@
    "Tristan HD": {
     "n": 48,
     "videos": 12,
-    "vistas": 1.22,
-    "interaccion": 0.88
+    "vistas": 1.21,
+    "interaccion": 0.89
    }
   },
   "exp: gancho_tipo": {
@@ -576,7 +576,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 1.37,
-    "interaccion": 1.07
+    "interaccion": 1.09
    },
    "contradicción": {
     "n": 8,
@@ -629,7 +629,7 @@
     "mejor": {
      "v": "corto (≤12)",
      "vistas": 1.44,
-     "interaccion": 1.32,
+     "interaccion": 1.34,
      "n": 28
     },
     "resto": [
@@ -640,7 +640,7 @@
      }
     ]
    },
-   "texto": "gancho largo: «corto (≤12)» consigue 1.44× el alcance medio (7 vídeos) e interacción 1.32×; frente a largo (>12) 0.96× (6 vídeos)."
+   "texto": "gancho largo: «corto (≤12)» consigue 1.44× el alcance medio (7 vídeos) e interacción 1.34×; frente a largo (>12) 0.96× (6 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -673,7 +673,7 @@
     "mejor": {
      "v": "medios",
      "vistas": 1.92,
-     "interaccion": 1.12,
+     "interaccion": 1.14,
      "n": 12
     },
     "resto": [
@@ -684,7 +684,7 @@
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.92× el alcance medio (3 vídeos) e interacción 1.12×; frente a pocos (<12/min) 1.02× (10 vídeos)."
+   "texto": "cortes: «medios» consigue 1.92× el alcance medio (3 vídeos) e interacción 1.14×; frente a pocos (<12/min) 1.02× (10 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -722,7 +722,7 @@
     "mejor": {
      "v": "universal",
      "vistas": 1.41,
-     "interaccion": 0.9,
+     "interaccion": 0.91,
      "n": 32
     },
     "resto": [
@@ -733,7 +733,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.41× el alcance medio (8 vídeos) e interacción 0.90×; frente a mundo 0.92× (5 vídeos)."
+   "texto": "cercania: «universal» consigue 1.41× el alcance medio (8 vídeos) e interacción 0.91×; frente a mundo 0.92× (5 vídeos)."
   },
   {
    "tipo": "regla",
@@ -788,18 +788,18 @@
  "pesos": {
   "familia": {
    "pop": 0.106,
-   "gota": 0.074,
+   "gota": 0.073,
    "madera": 0.128,
    "marimba": 0.106,
    "kalimba": 0.106,
    "campanita": 0.152,
    "cuerda": 0.106,
-   "burbuja": 0.098,
+   "burbuja": 0.099,
    "tum": 0.122
   },
   "estilo": {
    "papel": 0.261,
-   "neon": 0.163,
+   "neon": 0.164,
    "pop": 0.189,
    "pizarra": 0.188,
    "limpio": 0.199
@@ -859,7 +859,7 @@
   {
    "id": "2026-11-16-1345",
    "titulo": "Te enseñaron que tienes 10 veces más bacterias que células. Es falso",
-   "indice": 1.35,
+   "indice": 1.34,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
