@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T04:19:07.114Z",
+ "actualizado": "2026-11-17T05:18:55.306Z",
  "publicaciones": 64,
  "videos": 19,
  "factores": {
@@ -13,7 +13,7 @@
    "lunes": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.04,
+    "vistas": 1.03,
     "interaccion": 0.83
    },
    "martes": {
@@ -57,7 +57,7 @@
    "mediodía": {
     "n": 32,
     "videos": 9,
-    "vistas": 1.24,
+    "vistas": 1.23,
     "interaccion": 0.8
    },
    "tarde": {
@@ -241,7 +241,7 @@
    "<33 s": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.21,
+    "vistas": 1.2,
     "interaccion": 1.17
    }
   },
@@ -303,7 +303,7 @@
    "rápido (>2,9 pal/s)": {
     "n": 36,
     "videos": 9,
-    "vistas": 1.14,
+    "vistas": 1.13,
     "interaccion": 0.81
    }
   },
@@ -317,7 +317,7 @@
    "medios": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.91,
+    "vistas": 1.9,
     "interaccion": 1.14
    }
   },
@@ -429,7 +429,7 @@
    "universal": {
     "n": 32,
     "videos": 8,
-    "vistas": 1.41,
+    "vistas": 1.4,
     "interaccion": 0.91
    }
   },
@@ -471,7 +471,7 @@
    "dato final": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.02,
+    "vistas": 1.01,
     "interaccion": 0.98
    },
    "bucle": {
@@ -575,7 +575,7 @@
    "cifra chocante": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.37,
+    "vistas": 1.36,
     "interaccion": 1.09
    },
    "contradicción": {
@@ -672,7 +672,7 @@
    "detalle": {
     "mejor": {
      "v": "medios",
-     "vistas": 1.91,
+     "vistas": 1.9,
      "interaccion": 1.14,
      "n": 12
     },
@@ -684,7 +684,7 @@
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.91× el alcance medio (3 vídeos) e interacción 1.14×; frente a pocos (<12/min) 1.02× (10 vídeos)."
+   "texto": "cortes: «medios» consigue 1.90× el alcance medio (3 vídeos) e interacción 1.14×; frente a pocos (<12/min) 1.02× (10 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -721,7 +721,7 @@
    "detalle": {
     "mejor": {
      "v": "universal",
-     "vistas": 1.41,
+     "vistas": 1.4,
      "interaccion": 0.91,
      "n": 32
     },
@@ -733,7 +733,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.41× el alcance medio (8 vídeos) e interacción 0.91×; frente a mundo 0.92× (5 vídeos)."
+   "texto": "cercania: «universal» consigue 1.40× el alcance medio (8 vídeos) e interacción 0.91×; frente a mundo 0.92× (5 vídeos)."
   },
   {
    "tipo": "regla",
@@ -777,12 +777,12 @@
      },
      {
       "v": "cifra chocante",
-      "vistas": 1.37,
+      "vistas": 1.36,
       "n": 12
      }
     ]
    },
-   "texto": "exp: gancho_tipo: «pregunta» consigue 1.78× el alcance medio (3 vídeos) e interacción 1.12×; frente a contradicción 1.39× (2 vídeos), cifra chocante 1.37× (3 vídeos)."
+   "texto": "exp: gancho_tipo: «pregunta» consigue 1.78× el alcance medio (3 vídeos) e interacción 1.12×; frente a contradicción 1.39× (2 vídeos), cifra chocante 1.36× (3 vídeos)."
   }
  ],
  "pesos": {
@@ -859,7 +859,7 @@
   {
    "id": "2026-11-16-1345",
    "titulo": "Te enseñaron que tienes 10 veces más bacterias que células. Es falso",
-   "indice": 1.32,
+   "indice": 1.31,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
