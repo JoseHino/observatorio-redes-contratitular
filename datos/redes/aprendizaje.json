@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T19:19:59.000Z",
+ "actualizado": "2026-11-17T20:19:12.344Z",
  "publicaciones": 68,
  "videos": 20,
  "factores": {
@@ -204,7 +204,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.17,
-    "interaccion": 1.47
+    "interaccion": 1.48
    },
    "Comida": {
     "n": 4,
@@ -340,7 +340,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.45,
-    "interaccion": 1.19
+    "interaccion": 1.2
    },
    "ciencia": {
     "n": 12,
@@ -554,7 +554,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.38,
-    "interaccion": 1.11
+    "interaccion": 1.12
    },
    "campanita": {
     "n": 8,
@@ -817,7 +817,7 @@
   "familia": {
    "pop": 0.1,
    "gota": 0.074,
-   "madera": 0.128,
+   "madera": 0.129,
    "marimba": 0.108,
    "kalimba": 0.108,
    "campanita": 0.153,
