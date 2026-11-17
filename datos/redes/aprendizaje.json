@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T07:19:52.926Z",
+ "actualizado": "2026-11-17T08:19:29.582Z",
  "publicaciones": 68,
  "videos": 20,
  "factores": {
@@ -44,7 +44,7 @@
     "n": 8,
     "videos": 4,
     "vistas": 1.45,
-    "interaccion": 0.84
+    "interaccion": 0.85
    }
   },
   "franja": {
@@ -58,7 +58,7 @@
     "n": 32,
     "videos": 9,
     "vistas": 1.23,
-    "interaccion": 0.8
+    "interaccion": 0.81
    },
    "tarde": {
     "n": 4,
@@ -104,7 +104,7 @@
     "n": 17,
     "videos": 17,
     "vistas": 1.74,
-    "interaccion": 0.65
+    "interaccion": 0.66
    },
    "tiktok": {
     "n": 17,
@@ -121,7 +121,7 @@
    "facebook": {
     "n": 17,
     "videos": 17,
-    "vistas": 1.38,
+    "vistas": 1.37,
     "interaccion": 0.65
    }
   },
@@ -173,7 +173,7 @@
    "Cuerpo humano": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.17,
+    "vistas": 1.16,
     "interaccion": 0.56
    },
    "Animales": {
@@ -198,7 +198,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.03,
-    "interaccion": 1.56
+    "interaccion": 1.57
    },
    "Inventos": {
     "n": 4,
@@ -241,8 +241,8 @@
    "<33 s": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.18,
-    "interaccion": 1.17
+    "vistas": 1.17,
+    "interaccion": 1.18
    }
   },
   "gancho": {
@@ -351,7 +351,7 @@
    "cuerpo humano": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.17,
+    "vistas": 1.16,
     "interaccion": 0.56
    },
    "naturaleza": {
@@ -376,7 +376,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.03,
-    "interaccion": 1.56
+    "interaccion": 1.57
    }
   },
   "emocion": {
@@ -384,7 +384,7 @@
     "n": 56,
     "videos": 14,
     "vistas": 1.17,
-    "interaccion": 0.89
+    "interaccion": 0.9
    }
   },
   "tipo de gancho": {
@@ -438,7 +438,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 1.24,
-    "interaccion": 0.63
+    "interaccion": 0.64
    },
    "sí": {
     "n": 36,
@@ -465,7 +465,7 @@
    "pregunta": {
     "n": 24,
     "videos": 6,
-    "vistas": 1.44,
+    "vistas": 1.43,
     "interaccion": 0.95
    },
    "dato final": {
@@ -491,7 +491,7 @@
    "sí": {
     "n": 52,
     "videos": 13,
-    "vistas": 1.14,
+    "vistas": 1.13,
     "interaccion": 0.87
    },
    "no": {
@@ -506,7 +506,7 @@
     "n": 56,
     "videos": 14,
     "vistas": 1.17,
-    "interaccion": 0.89
+    "interaccion": 0.9
    }
   },
   "texto 0s": {
@@ -514,7 +514,7 @@
     "n": 56,
     "videos": 14,
     "vistas": 1.17,
-    "interaccion": 0.89
+    "interaccion": 0.9
    }
   },
   "personaje": {
@@ -573,7 +573,7 @@
    "Tristan HD": {
     "n": 52,
     "videos": 13,
-    "vistas": 1.19,
+    "vistas": 1.18,
     "interaccion": 0.9
    }
   },
@@ -863,18 +863,18 @@
    "variante": "pregunta"
   },
   {
-   "id": "2026-11-16-1345",
-   "titulo": "Te enseñaron que tienes 10 veces más bacterias que células. Es falso",
-   "indice": 1.28,
-   "variable": "gancho_tipo",
-   "variante": "cifra chocante"
-  },
-  {
    "id": "2026-11-12-2200",
    "titulo": "El plástico de burbujas nació como papel pintado y fracasó dos veces",
    "indice": 1.27,
    "variable": "gancho_tipo",
    "variante": "pregunta"
+  },
+  {
+   "id": "2026-11-16-1345",
+   "titulo": "Te enseñaron que tienes 10 veces más bacterias que células. Es falso",
+   "indice": 1.27,
+   "variable": "gancho_tipo",
+   "variante": "cifra chocante"
   },
   {
    "id": "2026-11-11-2045",
@@ -928,9 +928,9 @@
    "variable": "gancho_tipo",
    "pregunta": "¿Qué primera frase retiene más: cifra chocante, pregunta o contradicción?",
    "asignados": {
-    "cifra chocante": 4,
+    "cifra chocante": 5,
     "contradicción": 5,
-    "pregunta": 4
+    "pregunta": 5
    }
   },
   "cerrados": []
