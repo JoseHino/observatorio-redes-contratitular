@@ -1608,5 +1608,194 @@
     "por_que": "Gancho de creencia falsa con murciélago simpático y texto grande desde el inicio; el giro de los rayos UV mantiene el interés, aunque el guion es denso y el cierre depende de compartir."
    }
   }
+ },
+ {
+  "carpeta": "2026-11-17-1415",
+  "titulo": "3,69 céntimos: lo que costaba fabricar una moneda de un céntimo",
+  "fecha": "2026-11-17",
+  "duracion": 37.7,
+  "estilo": "pizarra",
+  "serie": "Dinero",
+  "gancho": "3,69 céntimos costaba fabricar una moneda que vale solo uno,",
+  "palabras": 102,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 3.92,
+    "frase": "3,69 céntimos costaba fabricar una moneda que vale solo uno,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 3.92,
+    "fin": 8.78,
+    "frase": "y así la moneda más pequeña de Estados Unidos acabó siendo un pésimo negocio.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 8.78,
+    "fin": 14.12,
+    "frase": "Hace diez años, hacerla costaba 1,42 céntimos: ya perdía dinero, pero poco,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 14.12,
+    "fin": 20.2,
+    "frase": "hasta que el coste no paró de subir, y solo en 2024 la fábrica perdió 85 millones de dólares.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 20.2,
+    "fin": 23.54,
+    "frase": "Es decir, cada moneda costaba casi cuatro veces lo que valía.",
+    "tipo": "barras"
+   },
+   {
+    "n": 6,
+    "inicio": 23.54,
+    "fin": 30.2,
+    "frase": "Así que el 12 de noviembre de 2025, tras 232 años, la fábrica de Filadelfia acuñó la última.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 30.2,
+    "fin": 37.68,
+    "frase": "Siguen siendo dinero legal: valen un céntimo, aunque ya nadie las fabrique. ¿Cuántas guardas tú en un cajón?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [
+   "barras"
+  ],
+  "metricas": [],
+  "id": "2026-11-17-1415",
+  "texto": "3,69 céntimos: lo que costaba fabricar una moneda de un céntimo Hasta el 12 de noviembre de 2025, la Casa de la Moneda de EE. UU. fabricaba monedas de un céntimo que le costaban 3,69 céntimos cada una: perdió unos 85 millones de dólares en un solo año fiscal. Siguen siendo dinero legal, así que las que tengas valen un céntimo. ¿Cuántas guardas tú en un cajón? 🪙 Envíaselo a quien las junta todas. 3,69 céntimos costaba fabricar una moneda que vale solo uno, y así la moneda más pequeña de Estados Unidos acabó siendo un pésimo negocio. Hace diez años, hacerla costaba 1,42 céntimos: ya perdía dinero, pero poco, hasta que el coste no paró de subir, y solo en 2024 la fábrica perdió 85 millones de dólares. Es decir, cada moneda costaba casi cuatro veces lo que valía. Así que el 12 de noviembre de 2025, tras 232 años, la fábrica de Filadelfia acuñó la última. Siguen siendo dinero legal: valen un céntimo, aunque ya nadie las fabrique. ¿Cuántas guardas tú en un cajón?",
+  "familia": "campanita",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "cifra chocante"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-17",
+   "medido": {
+    "palabras_s": 2.71,
+    "escenas_min": 11.1,
+    "cifra_al_inicio": true,
+    "gancho_palabras": 10,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "economía",
+    "emocion": "asombro",
+    "gancho_tipo": "cifra chocante",
+    "cercania": "mundo",
+    "promesa": "no",
+    "giro": "sí",
+    "cierre": "pregunta",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "no",
+    "por_que": "La cifra 3,69¢ en grande abre con una paradoja clara, pero la animación es estática y sin personaje, y la parte central de datos puede cansar."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-17-2145",
+  "titulo": "¿Qué significa «OK»? Nació como una falta de ortografía hecha a propósito",
+  "fecha": "2026-11-17",
+  "duracion": 38.1,
+  "estilo": "limpio",
+  "serie": "Palabras",
+  "gancho": "¿Qué significa realmente «OK»?",
+  "palabras": 111,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 2.54,
+    "frase": "¿Qué significa realmente «OK»?",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 2.54,
+    "fin": 8.06,
+    "frase": "Te habrán dicho que viene del griego, de un idioma indígena o de un general, pero todo eso se descartó.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 8.06,
+    "fin": 15.38,
+    "frase": "Y es que nació en Boston en 1839, cuando los periodistas se divertían inventando abreviaturas escritas mal a propósito,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 15.38,
+    "fin": 23.66,
+    "frase": "y el 23 de marzo el Boston Morning Post imprimió «OK»: un «oll korrect», o sea un «all correct» escrito con faltas adrede.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 23.66,
+    "fin": 30.18,
+    "frase": "Y lo normal era que aquella moda se olvidara en unos meses, pero «OK» se quedó, y hoy lo entiende medio mundo.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 30.18,
+    "fin": 38.12,
+    "frase": "Así que cada vez que lo dices, repites un chiste de periodistas de hace casi 190 años. ¿A quién se lo cuentas primero?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-17-2145",
+  "texto": "¿Qué significa «OK»? Nació como una falta de ortografía hecha a propósito «OK» no viene del griego ni de ningún idioma indígena: apareció impreso el 23 de marzo de 1839 en el Boston Morning Post, en plena moda de abreviaturas con faltas puestas a propósito. El lingüista Allen Walker Read lo demostró en los años 60. ¿Qué otra palabra cotidiana te gustaría saber de dónde sale? Envíaselo a quien diga «OK» a todo 🙂 ¿Qué significa realmente «OK»? Te habrán dicho que viene del griego, de un idioma indígena o de un general, pero todo eso se descartó. Y es que nació en Boston en 1839, cuando los periodistas se divertían inventando abreviaturas escritas mal a propósito, y el 23 de marzo el Boston Morning Post imprimió «OK»: un «oll korrect», o sea un «all correct» escrito con faltas adrede. Y lo normal era que aquella moda se olvidara en unos meses, pero «OK» se quedó, y hoy lo entiende medio mundo. Así que cada vez que lo dices, repites un chiste de periodistas de hace casi 190 años. ¿A quién se lo cuentas primero?",
+  "familia": "madera",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "pregunta"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-17",
+   "medido": {
+    "palabras_s": 2.91,
+    "escenas_min": 9.4,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 4,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "cultura",
+    "emocion": "intriga",
+    "gancho_tipo": "pregunta",
+    "cercania": "universal",
+    "promesa": "sí",
+    "giro": "sí",
+    "cierre": "pregunta",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "no",
+    "por_que": "La pregunta sobre una palabra cotidiana engancha con un texto grande desde el 0,1 s, pero el ritmo visual es bastante plano y los personajes genéricos aportan poca emoción."
+   }
+  }
  }
 ]
