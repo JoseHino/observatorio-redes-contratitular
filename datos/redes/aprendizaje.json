@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T05:18:55.306Z",
+ "actualizado": "2026-11-17T06:20:13.915Z",
  "publicaciones": 64,
  "videos": 19,
  "factores": {
@@ -173,7 +173,7 @@
    "Cuerpo humano": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.18,
+    "vistas": 1.17,
     "interaccion": 0.56
    },
    "Animales": {
@@ -241,7 +241,7 @@
    "<33 s": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.2,
+    "vistas": 1.19,
     "interaccion": 1.17
    }
   },
@@ -275,7 +275,7 @@
    "corto (≤12)": {
     "n": 28,
     "videos": 7,
-    "vistas": 1.44,
+    "vistas": 1.43,
     "interaccion": 1.34
    }
   },
@@ -325,7 +325,7 @@
    "sí": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.13,
+    "vistas": 1.12,
     "interaccion": 1.28
    },
    "no": {
@@ -351,7 +351,7 @@
    "cuerpo humano": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.18,
+    "vistas": 1.17,
     "interaccion": 0.56
    },
    "naturaleza": {
@@ -403,7 +403,7 @@
    "contradicción": {
     "n": 24,
     "videos": 6,
-    "vistas": 1.06,
+    "vistas": 1.05,
     "interaccion": 0.71
    },
    "misterio": {
@@ -451,7 +451,7 @@
    "sí": {
     "n": 48,
     "videos": 12,
-    "vistas": 1.24,
+    "vistas": 1.23,
     "interaccion": 0.93
    },
    "no": {
@@ -541,7 +541,7 @@
    "burbuja": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.78,
+    "vistas": 0.77,
     "interaccion": 1.07
    },
    "tum": {
@@ -628,7 +628,7 @@
    "detalle": {
     "mejor": {
      "v": "corto (≤12)",
-     "vistas": 1.44,
+     "vistas": 1.43,
      "interaccion": 1.34,
      "n": 28
     },
@@ -640,7 +640,7 @@
      }
     ]
    },
-   "texto": "gancho largo: «corto (≤12)» consigue 1.44× el alcance medio (7 vídeos) e interacción 1.34×; frente a largo (>12) 0.96× (6 vídeos)."
+   "texto": "gancho largo: «corto (≤12)» consigue 1.43× el alcance medio (7 vídeos) e interacción 1.34×; frente a largo (>12) 0.96× (6 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -706,12 +706,12 @@
      },
      {
       "v": "contradicción",
-      "vistas": 1.06,
+      "vistas": 1.05,
       "n": 24
      }
     ]
    },
-   "texto": "tipo de gancho: «pregunta» consigue 1.78× el alcance medio (3 vídeos) e interacción 1.12×; frente a cifra chocante 1.30× (2 vídeos), contradicción 1.06× (6 vídeos)."
+   "texto": "tipo de gancho: «pregunta» consigue 1.78× el alcance medio (3 vídeos) e interacción 1.12×; frente a cifra chocante 1.30× (2 vídeos), contradicción 1.05× (6 vídeos)."
   },
   {
    "tipo": "regla",
@@ -788,7 +788,7 @@
  "pesos": {
   "familia": {
    "pop": 0.106,
-   "gota": 0.073,
+   "gota": 0.074,
    "madera": 0.128,
    "marimba": 0.106,
    "kalimba": 0.106,
@@ -859,7 +859,7 @@
   {
    "id": "2026-11-16-1345",
    "titulo": "Te enseñaron que tienes 10 veces más bacterias que células. Es falso",
-   "indice": 1.31,
+   "indice": 1.29,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
