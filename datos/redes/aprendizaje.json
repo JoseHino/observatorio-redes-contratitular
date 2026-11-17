@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T09:18:54.510Z",
+ "actualizado": "2026-11-17T10:18:54.664Z",
  "publicaciones": 68,
  "videos": 20,
  "factores": {
@@ -71,13 +71,13 @@
    "20-22 h": {
     "n": 24,
     "videos": 8,
-    "vistas": 1.16,
+    "vistas": 1.15,
     "interaccion": 0.69
    },
    "12-14 h": {
     "n": 24,
     "videos": 7,
-    "vistas": 1.17,
+    "vistas": 1.16,
     "interaccion": 0.93
    },
    "14-16 h": {
@@ -121,7 +121,7 @@
    "facebook": {
     "n": 17,
     "videos": 17,
-    "vistas": 1.37,
+    "vistas": 1.36,
     "interaccion": 0.65
    }
   },
@@ -129,7 +129,7 @@
    "pop": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.04,
+    "vistas": 1.03,
     "interaccion": 0.89
    },
    "pizarra": {
@@ -173,7 +173,7 @@
    "Cuerpo humano": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.16,
+    "vistas": 1.15,
     "interaccion": 0.56
    },
    "Animales": {
@@ -210,7 +210,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.51,
-    "interaccion": 1.23
+    "interaccion": 1.24
    },
    "Espacio": {
     "n": 4,
@@ -241,7 +241,7 @@
    "<33 s": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.17,
+    "vistas": 1.16,
     "interaccion": 1.18
    }
   },
@@ -255,7 +255,7 @@
    "afirmación": {
     "n": 32,
     "videos": 8,
-    "vistas": 1.09,
+    "vistas": 1.08,
     "interaccion": 0.9
    },
    "pregunta": {
@@ -289,7 +289,7 @@
    "sí": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.72,
+    "vistas": 0.71,
     "interaccion": 0.65
    }
   },
@@ -303,7 +303,7 @@
    "rápido (>2,9 pal/s)": {
     "n": 40,
     "videos": 10,
-    "vistas": 1.11,
+    "vistas": 1.1,
     "interaccion": 0.83
    }
   },
@@ -317,7 +317,7 @@
    "medios": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.6,
+    "vistas": 1.59,
     "interaccion": 1.1
    }
   },
@@ -325,7 +325,7 @@
    "sí": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.12,
+    "vistas": 1.11,
     "interaccion": 1.29
    },
    "no": {
@@ -351,7 +351,7 @@
    "cuerpo humano": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.16,
+    "vistas": 1.15,
     "interaccion": 0.56
    },
    "naturaleza": {
@@ -429,7 +429,7 @@
    "universal": {
     "n": 36,
     "videos": 9,
-    "vistas": 1.34,
+    "vistas": 1.33,
     "interaccion": 0.92
    }
   },
@@ -443,7 +443,7 @@
    "sí": {
     "n": 36,
     "videos": 9,
-    "vistas": 1.13,
+    "vistas": 1.12,
     "interaccion": 1.1
    }
   },
@@ -471,7 +471,7 @@
    "dato final": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.01,
+    "vistas": 1,
     "interaccion": 0.99
    },
    "bucle": {
@@ -498,7 +498,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.51,
-    "interaccion": 1.23
+    "interaccion": 1.24
    }
   },
   "movimiento 1s": {
@@ -581,13 +581,13 @@
    "cifra chocante": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.35,
+    "vistas": 1.34,
     "interaccion": 1.09
    },
    "contradicción": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.23,
+    "vistas": 1.22,
     "interaccion": 1.26
    },
    "pregunta": {
@@ -614,7 +614,7 @@
     "resto": [
      {
       "v": "afirmación",
-      "vistas": 1.09,
+      "vistas": 1.08,
       "n": 32
      },
      {
@@ -624,7 +624,7 @@
      }
     ]
    },
-   "texto": "gancho: «pregunta» consigue 1.78× el alcance medio (3 vídeos) e interacción 1.12×; frente a afirmación 1.09× (8 vídeos), con cifra 0.89× (3 vídeos)."
+   "texto": "gancho: «pregunta» consigue 1.78× el alcance medio (3 vídeos) e interacción 1.12×; frente a afirmación 1.08× (8 vídeos), con cifra 0.89× (3 vídeos)."
   },
   {
    "tipo": "regla",
@@ -663,12 +663,34 @@
     "resto": [
      {
       "v": "sí",
-      "vistas": 0.72,
+      "vistas": 0.71,
       "n": 8
      }
     ]
    },
-   "texto": "escenas de datos: «no» consigue 1.28× el alcance medio (12 vídeos) e interacción 0.96×; frente a sí 0.72× (2 vídeos)."
+   "texto": "escenas de datos: «no» consigue 1.28× el alcance medio (12 vídeos) e interacción 0.96×; frente a sí 0.71× (2 vídeos)."
+  },
+  {
+   "tipo": "hipotesis",
+   "factor": "ritmo",
+   "mejor": "medio",
+   "n": 14,
+   "detalle": {
+    "mejor": {
+     "v": "medio",
+     "vistas": 1.32,
+     "interaccion": 1.09,
+     "n": 16
+    },
+    "resto": [
+     {
+      "v": "rápido (>2,9 pal/s)",
+      "vistas": 1.1,
+      "n": 40
+     }
+    ]
+   },
+   "texto": "ritmo: «medio» consigue 1.32× el alcance medio (4 vídeos) e interacción 1.09×; frente a rápido (>2,9 pal/s) 1.10× (10 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -678,7 +700,7 @@
    "detalle": {
     "mejor": {
      "v": "medios",
-     "vistas": 1.6,
+     "vistas": 1.59,
      "interaccion": 1.1,
      "n": 16
     },
@@ -690,7 +712,7 @@
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.60× el alcance medio (4 vídeos) e interacción 1.10×; frente a pocos (<12/min) 1.02× (10 vídeos)."
+   "texto": "cortes: «medios» consigue 1.59× el alcance medio (4 vídeos) e interacción 1.10×; frente a pocos (<12/min) 1.02× (10 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -727,7 +749,7 @@
    "detalle": {
     "mejor": {
      "v": "universal",
-     "vistas": 1.34,
+     "vistas": 1.33,
      "interaccion": 0.92,
      "n": 36
     },
@@ -739,7 +761,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.34× el alcance medio (9 vídeos) e interacción 0.92×; frente a mundo 0.92× (5 vídeos)."
+   "texto": "cercania: «universal» consigue 1.33× el alcance medio (9 vídeos) e interacción 0.92×; frente a mundo 0.92× (5 vídeos)."
   },
   {
    "tipo": "regla",
@@ -778,17 +800,17 @@
     "resto": [
      {
       "v": "cifra chocante",
-      "vistas": 1.35,
+      "vistas": 1.34,
       "n": 12
      },
      {
       "v": "contradicción",
-      "vistas": 1.23,
+      "vistas": 1.22,
       "n": 12
      }
     ]
    },
-   "texto": "exp: gancho_tipo: «pregunta» consigue 1.78× el alcance medio (3 vídeos) e interacción 1.12×; frente a cifra chocante 1.35× (3 vídeos), contradicción 1.23× (3 vídeos)."
+   "texto": "exp: gancho_tipo: «pregunta» consigue 1.78× el alcance medio (3 vídeos) e interacción 1.12×; frente a cifra chocante 1.34× (3 vídeos), contradicción 1.22× (3 vídeos)."
   }
  ],
  "pesos": {
@@ -804,8 +826,8 @@
    "tum": 0.123
   },
   "estilo": {
-   "papel": 0.261,
-   "neon": 0.162,
+   "papel": 0.262,
+   "neon": 0.163,
    "pop": 0.188,
    "pizarra": 0.189,
    "limpio": 0.199
@@ -872,7 +894,7 @@
   {
    "id": "2026-11-16-1345",
    "titulo": "Te enseñaron que tienes 10 veces más bacterias que células. Es falso",
-   "indice": 1.27,
+   "indice": 1.25,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
@@ -903,7 +925,7 @@
   {
    "id": "2026-11-16-2000",
    "titulo": "Te enseñaron que los murciélagos son ciegos. Es falso",
-   "indice": 0.9,
+   "indice": 0.89,
    "variable": "gancho_tipo",
    "variante": "contradicción"
   },
