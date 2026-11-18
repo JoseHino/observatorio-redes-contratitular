@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T22:18:56.943Z",
+ "actualizado": "2026-11-18T23:19:22.821Z",
  "publicaciones": 76,
  "videos": 22,
  "factores": {
@@ -20,7 +20,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 0.66,
-    "interaccion": 0.77
+    "interaccion": 0.76
    },
    "miércoles": {
     "n": 8,
@@ -390,7 +390,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.62,
-    "interaccion": 0.98
+    "interaccion": 0.97
    }
   },
   "tipo de gancho": {
