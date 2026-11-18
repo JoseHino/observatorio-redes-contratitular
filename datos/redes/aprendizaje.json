@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T18:20:11.559Z",
+ "actualizado": "2026-11-18T19:20:02.388Z",
  "publicaciones": 76,
  "videos": 22,
  "factores": {
@@ -19,7 +19,7 @@
    "martes": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.69,
+    "vistas": 0.67,
     "interaccion": 0.77
    },
    "miércoles": {
@@ -51,7 +51,7 @@
    "noche": {
     "n": 36,
     "videos": 11,
-    "vistas": 0.98,
+    "vistas": 0.97,
     "interaccion": 0.87
    },
    "mediodía": {
@@ -71,7 +71,7 @@
    "20-22 h": {
     "n": 28,
     "videos": 9,
-    "vistas": 0.99,
+    "vistas": 0.98,
     "interaccion": 0.71
    },
    "12-14 h": {
@@ -121,7 +121,7 @@
    "facebook": {
     "n": 19,
     "videos": 19,
-    "vistas": 1.14,
+    "vistas": 1.13,
     "interaccion": 0.67
    }
   },
@@ -141,7 +141,7 @@
    "limpio": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.14,
+    "vistas": 1.12,
     "interaccion": 0.8
    },
    "papel": {
@@ -191,7 +191,7 @@
    "Palabras": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.87,
+    "vistas": 0.84,
     "interaccion": 0.88
    },
    "Geografía": {
@@ -261,7 +261,7 @@
    "pregunta": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.38,
+    "vistas": 1.36,
     "interaccion": 1.07
    }
   },
@@ -275,7 +275,7 @@
    "corto (≤12)": {
     "n": 40,
     "videos": 10,
-    "vistas": 1.09,
+    "vistas": 1.08,
     "interaccion": 1.2
    }
   },
@@ -283,7 +283,7 @@
    "no": {
     "n": 52,
     "videos": 13,
-    "vistas": 1.17,
+    "vistas": 1.16,
     "interaccion": 0.94
    },
    "sí": {
@@ -303,7 +303,7 @@
    "rápido (>2,9 pal/s)": {
     "n": 44,
     "videos": 11,
-    "vistas": 1.01,
+    "vistas": 1,
     "interaccion": 0.82
    }
   },
@@ -369,7 +369,7 @@
    "cultura": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.87,
+    "vistas": 0.84,
     "interaccion": 0.88
    },
    "geografía": {
@@ -389,7 +389,7 @@
    "intriga": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.69,
+    "vistas": 0.66,
     "interaccion": 0.98
    }
   },
@@ -421,7 +421,7 @@
    "pregunta": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.38,
+    "vistas": 1.36,
     "interaccion": 1.07
    }
   },
@@ -435,7 +435,7 @@
    "universal": {
     "n": 40,
     "videos": 10,
-    "vistas": 1.18,
+    "vistas": 1.17,
     "interaccion": 0.91
    }
   },
@@ -449,7 +449,7 @@
    "sí": {
     "n": 40,
     "videos": 10,
-    "vistas": 1.03,
+    "vistas": 1.02,
     "interaccion": 1.07
    }
   },
@@ -471,7 +471,7 @@
    "pregunta": {
     "n": 32,
     "videos": 8,
-    "vistas": 1.05,
+    "vistas": 1.04,
     "interaccion": 0.93
    },
    "dato final": {
@@ -497,7 +497,7 @@
    "sí": {
     "n": 60,
     "videos": 15,
-    "vistas": 0.98,
+    "vistas": 0.97,
     "interaccion": 0.86
    },
    "no": {
@@ -511,7 +511,7 @@
    "sí": {
     "n": 64,
     "videos": 16,
-    "vistas": 1.02,
+    "vistas": 1.01,
     "interaccion": 0.88
    }
   },
@@ -519,7 +519,7 @@
    "sí": {
     "n": 64,
     "videos": 16,
-    "vistas": 1.02,
+    "vistas": 1.01,
     "interaccion": 0.88
    }
   },
@@ -559,7 +559,7 @@
    "madera": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.08,
+    "vistas": 1.05,
     "interaccion": 1.08
    },
    "campanita": {
@@ -579,7 +579,7 @@
    "Tristan HD": {
     "n": 60,
     "videos": 15,
-    "vistas": 1.03,
+    "vistas": 1.02,
     "interaccion": 0.88
    }
   },
@@ -599,7 +599,7 @@
    "pregunta": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.38,
+    "vistas": 1.36,
     "interaccion": 1.07
    }
   }
@@ -620,7 +620,7 @@
     "resto": [
      {
       "v": "limpio",
-      "vistas": 1.14,
+      "vistas": 1.12,
       "n": 16
      },
      {
@@ -630,7 +630,7 @@
      }
     ]
    },
-   "texto": "estilo: «papel» consigue 1.51× el alcance medio (3 vídeos) e interacción 1.35×; frente a limpio 1.14× (4 vídeos), pop 0.94× (3 vídeos)."
+   "texto": "estilo: «papel» consigue 1.51× el alcance medio (3 vídeos) e interacción 1.35×; frente a limpio 1.12× (4 vídeos), pop 0.94× (3 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -640,7 +640,7 @@
    "detalle": {
     "mejor": {
      "v": "pregunta",
-     "vistas": 1.38,
+     "vistas": 1.36,
      "interaccion": 1.07,
      "n": 16
     },
@@ -657,7 +657,7 @@
      }
     ]
    },
-   "texto": "gancho: «pregunta» consigue 1.38× el alcance medio (4 vídeos) e interacción 1.07×; frente a afirmación 1.03× (8 vídeos), con cifra 0.72× (4 vídeos)."
+   "texto": "gancho: «pregunta» consigue 1.36× el alcance medio (4 vídeos) e interacción 1.07×; frente a afirmación 1.03× (8 vídeos), con cifra 0.72× (4 vídeos)."
   },
   {
    "tipo": "regla",
@@ -667,7 +667,7 @@
    "detalle": {
     "mejor": {
      "v": "no",
-     "vistas": 1.17,
+     "vistas": 1.16,
      "interaccion": 0.94,
      "n": 52
     },
@@ -679,7 +679,7 @@
      }
     ]
    },
-   "texto": "escenas de datos: «no» consigue 1.17× el alcance medio (13 vídeos) e interacción 0.94×; frente a sí 0.60× (3 vídeos)."
+   "texto": "escenas de datos: «no» consigue 1.16× el alcance medio (13 vídeos) e interacción 0.94×; frente a sí 0.60× (3 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -733,7 +733,7 @@
    "detalle": {
     "mejor": {
      "v": "pregunta",
-     "vistas": 1.38,
+     "vistas": 1.36,
      "interaccion": 1.07,
      "n": 16
     },
@@ -750,7 +750,7 @@
      }
     ]
    },
-   "texto": "tipo de gancho: «pregunta» consigue 1.38× el alcance medio (4 vídeos) e interacción 1.07×; frente a contradicción 0.99× (7 vídeos), cifra chocante 0.89× (3 vídeos)."
+   "texto": "tipo de gancho: «pregunta» consigue 1.36× el alcance medio (4 vídeos) e interacción 1.07×; frente a contradicción 0.99× (7 vídeos), cifra chocante 0.89× (3 vídeos)."
   },
   {
    "tipo": "regla",
@@ -760,7 +760,7 @@
    "detalle": {
     "mejor": {
      "v": "universal",
-     "vistas": 1.18,
+     "vistas": 1.17,
      "interaccion": 0.91,
      "n": 40
     },
@@ -772,7 +772,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.18× el alcance medio (10 vídeos) e interacción 0.91×; frente a mundo 0.80× (6 vídeos)."
+   "texto": "cercania: «universal» consigue 1.17× el alcance medio (10 vídeos) e interacción 0.91×; frente a mundo 0.80× (6 vídeos)."
   },
   {
    "tipo": "regla",
@@ -801,7 +801,7 @@
   "familia": {
    "pop": 0.105,
    "gota": 0.075,
-   "madera": 0.12,
+   "madera": 0.119,
    "marimba": 0.113,
    "kalimba": 0.113,
    "campanita": 0.129,
@@ -811,10 +811,10 @@
   },
   "estilo": {
    "papel": 0.274,
-   "neon": 0.166,
+   "neon": 0.167,
    "pop": 0.189,
    "pizarra": 0.174,
-   "limpio": 0.197
+   "limpio": 0.195
   }
  },
  "horas_recomendadas": [
@@ -926,7 +926,7 @@
   {
    "id": "2026-11-17-2145",
    "titulo": "¿Qué significa «OK»? Nació como una falta de ortografía hecha a propósito",
-   "indice": 0.57,
+   "indice": 0.53,
    "variable": "gancho_tipo",
    "variante": "pregunta"
   },
