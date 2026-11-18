@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T10:18:49.991Z",
+ "actualizado": "2026-11-18T11:19:11.761Z",
  "publicaciones": 76,
  "videos": 22,
  "factores": {
@@ -19,7 +19,7 @@
    "martes": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.72,
+    "vistas": 0.71,
     "interaccion": 0.76
    },
    "miércoles": {
@@ -51,13 +51,13 @@
    "noche": {
     "n": 36,
     "videos": 11,
-    "vistas": 1.03,
+    "vistas": 1.02,
     "interaccion": 0.86
    },
    "mediodía": {
     "n": 36,
     "videos": 10,
-    "vistas": 1.1,
+    "vistas": 1.09,
     "interaccion": 0.78
    },
    "tarde": {
@@ -83,7 +83,7 @@
    "14-16 h": {
     "n": 12,
     "videos": 3,
-    "vistas": 1,
+    "vistas": 0.98,
     "interaccion": 0.64
    },
    "22-24 h": {
@@ -103,7 +103,7 @@
    "instagram": {
     "n": 19,
     "videos": 19,
-    "vistas": 1.49,
+    "vistas": 1.48,
     "interaccion": 0.65
    },
    "tiktok": {
@@ -121,7 +121,7 @@
    "facebook": {
     "n": 19,
     "videos": 19,
-    "vistas": 1.18,
+    "vistas": 1.17,
     "interaccion": 0.67
    }
   },
@@ -135,7 +135,7 @@
    "pizarra": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.77,
+    "vistas": 0.76,
     "interaccion": 0.93
    },
    "limpio": {
@@ -185,13 +185,13 @@
    "Dinero": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.48,
+    "vistas": 0.47,
     "interaccion": 0.55
    },
    "Palabras": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.9,
+    "vistas": 0.89,
     "interaccion": 0.88
    },
    "Geografía": {
@@ -275,7 +275,7 @@
    "corto (≤12)": {
     "n": 40,
     "videos": 10,
-    "vistas": 1.11,
+    "vistas": 1.1,
     "interaccion": 1.18
    }
   },
@@ -289,7 +289,7 @@
    "sí": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.62,
+    "vistas": 0.61,
     "interaccion": 0.69
    }
   },
@@ -325,7 +325,7 @@
    "sí": {
     "n": 20,
     "videos": 5,
-    "vistas": 0.94,
+    "vistas": 0.93,
     "interaccion": 1.16
    },
    "no": {
@@ -363,13 +363,13 @@
    "economía": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.48,
+    "vistas": 0.47,
     "interaccion": 0.55
    },
    "cultura": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.9,
+    "vistas": 0.89,
     "interaccion": 0.88
    },
    "geografía": {
@@ -383,7 +383,7 @@
    "asombro": {
     "n": 60,
     "videos": 15,
-    "vistas": 1.09,
+    "vistas": 1.08,
     "interaccion": 0.86
    },
    "intriga": {
@@ -397,7 +397,7 @@
    "cifra chocante": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.97,
+    "vistas": 0.96,
     "interaccion": 0.99
    },
    "otro": {
@@ -443,7 +443,7 @@
    "no": {
     "n": 24,
     "videos": 6,
-    "vistas": 1.07,
+    "vistas": 1.06,
     "interaccion": 0.65
    },
    "sí": {
@@ -457,7 +457,7 @@
    "sí": {
     "n": 60,
     "videos": 15,
-    "vistas": 1.07,
+    "vistas": 1.06,
     "interaccion": 0.91
    },
    "no": {
@@ -471,7 +471,7 @@
    "pregunta": {
     "n": 32,
     "videos": 8,
-    "vistas": 1.12,
+    "vistas": 1.11,
     "interaccion": 0.92
    },
    "dato final": {
@@ -527,7 +527,7 @@
    "no": {
     "n": 36,
     "videos": 9,
-    "vistas": 0.89,
+    "vistas": 0.88,
     "interaccion": 0.78
    },
    "sí": {
@@ -565,7 +565,7 @@
    "campanita": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.35,
+    "vistas": 1.33,
     "interaccion": 1.04
    },
    "pop": {
@@ -587,7 +587,7 @@
    "cifra chocante": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.04,
+    "vistas": 1.03,
     "interaccion": 1.01
    },
    "contradicción": {
@@ -674,12 +674,12 @@
     "resto": [
      {
       "v": "sí",
-      "vistas": 0.62,
+      "vistas": 0.61,
       "n": 12
      }
     ]
    },
-   "texto": "escenas de datos: «no» consigue 1.20× el alcance medio (13 vídeos) e interacción 0.93×; frente a sí 0.62× (3 vídeos)."
+   "texto": "escenas de datos: «no» consigue 1.20× el alcance medio (13 vídeos) e interacción 0.93×; frente a sí 0.61× (3 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -723,12 +723,12 @@
      },
      {
       "v": "cifra chocante",
-      "vistas": 0.97,
+      "vistas": 0.96,
       "n": 12
      }
     ]
    },
-   "texto": "tipo de gancho: «pregunta» consigue 1.41× el alcance medio (4 vídeos) e interacción 1.06×; frente a contradicción 0.99× (7 vídeos), cifra chocante 0.97× (3 vídeos)."
+   "texto": "tipo de gancho: «pregunta» consigue 1.41× el alcance medio (4 vídeos) e interacción 1.06×; frente a contradicción 0.99× (7 vídeos), cifra chocante 0.96× (3 vídeos)."
   },
   {
    "tipo": "regla",
@@ -767,12 +767,12 @@
     "resto": [
      {
       "v": "no",
-      "vistas": 0.89,
+      "vistas": 0.88,
       "n": 36
      }
     ]
    },
-   "texto": "personaje: «sí» consigue 1.30× el alcance medio (7 vídeos) e interacción 1.01×; frente a no 0.89× (9 vídeos)."
+   "texto": "personaje: «sí» consigue 1.30× el alcance medio (7 vídeos) e interacción 1.01×; frente a no 0.88× (9 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -794,31 +794,31 @@
      },
      {
       "v": "cifra chocante",
-      "vistas": 1.04,
+      "vistas": 1.03,
       "n": 16
      }
     ]
    },
-   "texto": "exp: gancho_tipo: «pregunta» consigue 1.41× el alcance medio (4 vídeos) e interacción 1.06×; frente a contradicción 1.17× (3 vídeos), cifra chocante 1.04× (4 vídeos)."
+   "texto": "exp: gancho_tipo: «pregunta» consigue 1.41× el alcance medio (4 vídeos) e interacción 1.06×; frente a contradicción 1.17× (3 vídeos), cifra chocante 1.03× (4 vídeos)."
   }
  ],
  "pesos": {
   "familia": {
    "pop": 0.105,
    "gota": 0.077,
-   "madera": 0.12,
+   "madera": 0.121,
    "marimba": 0.113,
    "kalimba": 0.113,
    "campanita": 0.129,
    "cuerda": 0.113,
    "burbuja": 0.102,
-   "tum": 0.128
+   "tum": 0.129
   },
   "estilo": {
    "papel": 0.27,
-   "neon": 0.165,
+   "neon": 0.166,
    "pop": 0.191,
-   "pizarra": 0.178,
+   "pizarra": 0.177,
    "limpio": 0.196
   }
  },
@@ -938,7 +938,7 @@
   {
    "id": "2026-11-17-1415",
    "titulo": "3,69 céntimos: lo que costaba fabricar una moneda de un céntimo",
-   "indice": 0.46,
+   "indice": 0.44,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
