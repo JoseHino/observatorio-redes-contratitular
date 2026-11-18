@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T06:20:12.246Z",
+ "actualizado": "2026-11-18T07:20:14.491Z",
  "publicaciones": 72,
  "videos": 21,
  "factores": {
@@ -19,7 +19,7 @@
    "martes": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.76,
+    "vistas": 0.75,
     "interaccion": 0.73
    },
    "miércoles": {
@@ -83,7 +83,7 @@
    "14-16 h": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.01,
+    "vistas": 1,
     "interaccion": 0.65
    },
    "22-24 h": {
@@ -229,7 +229,7 @@
    "33-43 s": {
     "n": 48,
     "videos": 12,
-    "vistas": 1.24,
+    "vistas": 1.23,
     "interaccion": 0.89
    },
    ">43 s": {
@@ -325,7 +325,7 @@
    "sí": {
     "n": 20,
     "videos": 5,
-    "vistas": 0.95,
+    "vistas": 0.94,
     "interaccion": 1.2
    },
    "no": {
@@ -437,7 +437,7 @@
    "no": {
     "n": 24,
     "videos": 6,
-    "vistas": 1.08,
+    "vistas": 1.07,
     "interaccion": 0.66
    },
    "sí": {
@@ -465,7 +465,7 @@
    "pregunta": {
     "n": 28,
     "videos": 7,
-    "vistas": 1.22,
+    "vistas": 1.21,
     "interaccion": 0.94
    },
    "dato final": {
@@ -522,7 +522,7 @@
     "n": 32,
     "videos": 8,
     "vistas": 0.93,
-    "interaccion": 0.79
+    "interaccion": 0.78
    },
    "sí": {
     "n": 28,
@@ -559,7 +559,7 @@
    "campanita": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.37,
+    "vistas": 1.36,
     "interaccion": 1.08
    },
    "pop": {
@@ -707,12 +707,12 @@
     "resto": [
      {
       "v": "sí",
-      "vistas": 0.95,
+      "vistas": 0.94,
       "n": 20
      }
     ]
    },
-   "texto": "cifra en 5 primeras palabras: «no» consigue 1.17× el alcance medio (10 vídeos) e interacción 0.77×; frente a sí 0.95× (5 vídeos)."
+   "texto": "cifra en 5 primeras palabras: «no» consigue 1.17× el alcance medio (10 vídeos) e interacción 0.77×; frente a sí 0.94× (5 vídeos)."
   },
   {
    "tipo": "hipotesis",
