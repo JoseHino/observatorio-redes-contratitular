@@ -1797,5 +1797,691 @@
     "por_que": "La pregunta sobre una palabra cotidiana engancha con un texto grande desde el 0,1 s, pero el ritmo visual es bastante plano y los personajes genéricos aportan poca emoción."
    }
   }
+ },
+ {
+  "carpeta": "2026-11-18-2030",
+  "titulo": "Más de 140 horas distintas en un país: los trenes inventaron la tuya",
+  "fecha": "2026-11-17",
+  "duracion": 38.6,
+  "estilo": "neon",
+  "serie": "Inventos",
+  "gancho": "Más de 140 horas distintas convivían en Norteamérica, y los trenes tenían que elegir una.",
+  "palabras": 115,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 5.22,
+    "frase": "Más de 140 horas distintas convivían en Norteamérica, y los trenes tenían que elegir una.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 5.22,
+    "fin": 10.42,
+    "frase": "Cada pueblo ponía su reloj según el sol, y los ferrocarriles acabaron con decenas de horarios propios,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 10.42,
+    "fin": 18.14,
+    "frase": "hasta que el domingo 18 de noviembre de 1883, a mediodía, el telégrafo mandó una misma señal a las estaciones:",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 18.14,
+    "fin": 23.36,
+    "frase": "cuatro zonas horarias para todos. Y en varias ciudades el reloj dio las doce dos veces,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 23.36,
+    "fin": 25.42,
+    "frase": "una con la hora del sol y otra con la nueva.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 25.42,
+    "fin": 32.98,
+    "frase": "Lo curioso: ninguna ley lo mandó. Lo decidieron las empresas, y el Congreso no lo hizo oficial hasta 1918.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 32.98,
+    "fin": 38.64,
+    "frase": "Así que la hora de tu móvil nació en un horario de trenes. ¿Qué hora usarías tú?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-18-2030",
+  "texto": "Más de 140 horas distintas en un país: los trenes inventaron la tuya El domingo 18 de noviembre de 1883, los ferrocarriles de Norteamérica pusieron en hora todos los relojes a la vez: era «el día de los dos mediodías», porque en varias ciudades el reloj marcó las doce dos veces. Hasta entonces cada pueblo tenía su hora según el sol, y las zonas horarias las impusieron las empresas de tren; el Congreso no las hizo oficiales hasta 1918. ¿Qué hora usarías tú? Cuéntamelo y envíaselo a quien siempre llega tarde 🚂 Más de 140 horas distintas convivían en Norteamérica, y los trenes tenían que elegir una. Cada pueblo ponía su reloj según el sol, y los ferrocarriles acabaron con decenas de horarios propios, hasta que el domingo 18 de noviembre de 1883, a mediodía, el telégrafo mandó una misma señal a las estaciones: cuatro zonas horarias para todos. Y en varias ciudades el reloj dio las doce dos veces, una con la hora del sol y otra con la nueva. Lo curioso: ninguna ley lo mandó. Lo decidieron las empresas, y el Congreso no lo hizo oficial hasta 1918. Así que la hora de tu móvil nació en un horario de trenes. ¿Qué hora usarías tú?",
+  "familia": "campanita",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "cifra chocante"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-18",
+   "medido": {
+    "palabras_s": 2.98,
+    "escenas_min": 10.9,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 15,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "historia",
+    "emocion": "asombro",
+    "gancho_tipo": "cifra chocante",
+    "cercania": "mundo",
+    "promesa": "no",
+    "giro": "sí",
+    "cierre": "pregunta",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "no",
+    "por_que": "Abre con una cifra enorme (140+) y un giro claro (lo impusieron las empresas, no una ley), pero sin personaje ni promesa concreta, y la ilustración repetida hasta el segundo 3 puede cansar."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-19-1215",
+  "titulo": "Te enseñaron que la lengua tiene zonas de sabores. Es falso",
+  "fecha": "2026-11-17",
+  "duracion": 38.9,
+  "estilo": "pop",
+  "serie": "Comida y bebida",
+  "gancho": "Te enseñaron que la lengua tiene zonas de sabores. Es falso.",
+  "palabras": 101,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 3.56,
+    "frase": "Te enseñaron que la lengua tiene zonas de sabores. Es falso.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 3.56,
+    "fin": 6.92,
+    "frase": "Y vas a ver cómo un gráfico mal leído se coló en las aulas:",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 6.92,
+    "fin": 14.12,
+    "frase": "En 1901, el alemán David Hänig midió pequeñas diferencias: una zona notaba un sabor un pelín antes.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 14.12,
+    "fin": 21.08,
+    "frase": "Pero en 1942 Edwin Boring redibujó esos datos, y «un pelín antes» pareció «solo aquí».",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 21.08,
+    "fin": 26.22,
+    "frase": "Así nació el mapa: dulce en la punta, amargo al fondo, salado a los lados.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 26.22,
+    "fin": 33.36,
+    "frase": "Hasta que en 1974 Virginia Collings lo comprobó: cada zona con papilas nota todos los sabores.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 33.36,
+    "fin": 38.94,
+    "frase": "Pruébalo: sal al fondo, limón en la punta. ¿A quién se lo cuentas?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-19-1215",
+  "texto": "Te enseñaron que la lengua tiene zonas de sabores. Es falso El mapa de sabores de la lengua (dulce en la punta, amargo al fondo…) nació de leer mal un gráfico: Hänig midió diferencias pequeñas y su sensibilidad relativa acabó pareciendo zonas exclusivas. Hoy sabemos que cada zona con papilas gustativas nota todos los sabores, aunque unas con algo más de sensibilidad que otras. ¿A quién se lo vas a contar? 👅 Te enseñaron que la lengua tiene zonas de sabores. Es falso. Y vas a ver cómo un gráfico mal leído se coló en las aulas: En 1901, el alemán David Hänig midió pequeñas diferencias: una zona notaba un sabor un pelín antes. Pero en 1942 Edwin Boring redibujó esos datos, y «un pelín antes» pareció «solo aquí». Así nació el mapa: dulce en la punta, amargo al fondo, salado a los lados. Hasta que en 1974 Virginia Collings lo comprobó: cada zona con papilas nota todos los sabores. Pruébalo: sal al fondo, limón en la punta. ¿A quién se lo cuentas?",
+  "familia": "marimba",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "contradicción"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-18",
+   "medido": {
+    "palabras_s": 2.6,
+    "escenas_min": 10.8,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 11,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "cuerpo humano",
+    "emocion": "asombro",
+    "gancho_tipo": "segunda persona",
+    "cercania": "universal",
+    "promesa": "no",
+    "giro": "sí",
+    "cierre": "pregunta",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Abre con un mito conocido y un personaje-lengua simpático con texto grande, pero la promesa es débil y la sección de fechas y nombres puede cansar antes del reto final."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-19-2015",
+  "titulo": "¿Qué pasa si un rayo cae sobre un cohete lunar? Le pasó al Apolo 12",
+  "fecha": "2026-11-17",
+  "duracion": 39.1,
+  "estilo": "pizarra",
+  "serie": "Espacio",
+  "gancho": "¿Qué pasa si un rayo cae sobre un cohete lunar?",
+  "palabras": 107,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 2.64,
+    "frase": "¿Qué pasa si un rayo cae sobre un cohete lunar?",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 2.64,
+    "fin": 6.22,
+    "frase": "Pasó en 1969 con el Apolo 12, bajo la lluvia de Florida,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 6.22,
+    "fin": 11.74,
+    "frase": "y a los 36 segundos de despegar, un rayo. A los 52, otro.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 11.74,
+    "fin": 17.24,
+    "frase": "De golpe, las pilas de combustible se desconectaron y los datos llegaban a Houston hechos un lío.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 17.24,
+    "fin": 24.06,
+    "frase": "Nadie en el control entendía nada, hasta que un joven controlador, John Aaron, pidió pasar un interruptor a «auxiliar».",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 24.06,
+    "fin": 28.6,
+    "frase": "Ni el comandante sabía cuál era. Alan Bean sí: lo encontró y lo accionó.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 28.6,
+    "fin": 39.08,
+    "frase": "Y todo volvió a funcionar. Cinco días después, el 19 de noviembre de 1969, pisaron la Luna. ¿Tú habrías sabido qué tocar?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-19-2015",
+  "texto": "¿Qué pasa si un rayo cae sobre un cohete lunar? Le pasó al Apolo 12 Hoy hace 57 años, el 19 de noviembre de 1969, el Apolo 12 alunizó en el Océano de las Tormentas, cerca de la sonda Surveyor 3. Cinco días antes, un rayo había alcanzado el cohete dos veces durante el despegue, y la nave se salvó gracias a un interruptor que un controlador de vuelo recordaba de un ensayo. Cuéntanos: ¿habrías sabido qué tocar? Compártelo con quien crea que todo en el espacio sale según lo previsto. ⚡🚀 ¿Qué pasa si un rayo cae sobre un cohete lunar? Pasó en 1969 con el Apolo 12, bajo la lluvia de Florida, y a los 36 segundos de despegar, un rayo. A los 52, otro. De golpe, las pilas de combustible se desconectaron y los datos llegaban a Houston hechos un lío. Nadie en el control entendía nada, hasta que un joven controlador, John Aaron, pidió pasar un interruptor a «auxiliar». Ni el comandante sabía cuál era. Alan Bean sí: lo encontró y lo accionó. Y todo volvió a funcionar. Cinco días después, el 19 de noviembre de 1969, pisaron la Luna. ¿Tú habrías sabido qué tocar?",
+  "familia": "gota",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "pregunta"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-18",
+   "medido": {
+    "palabras_s": 2.74,
+    "escenas_min": 10.7,
+    "cifra_al_inicio": true,
+    "gancho_palabras": 10,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "historia",
+    "emocion": "intriga",
+    "gancho_tipo": "pregunta",
+    "cercania": "mundo",
+    "promesa": "sí",
+    "giro": "sí",
+    "cierre": "pregunta",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "no",
+    "por_que": "Pregunta directa con cohete y rayo ilustrados y subtítulos animados, y un giro con John Aaron y el interruptor. Pero la ilustración es genérica, sin personas, y el subtítulo del inicio es tenue."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-20-2145",
+  "titulo": "Un billón de segundos son casi 32.000 años: la escala que nadie imagina",
+  "fecha": "2026-11-17",
+  "duracion": 38.1,
+  "estilo": "papel",
+  "serie": "Récords",
+  "gancho": "Un millón de segundos son 12 días. Mil millones, casi 32 años.",
+  "palabras": 107,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 4.66,
+    "frase": "Un millón de segundos son 12 días. Mil millones, casi 32 años.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 4.66,
+    "fin": 9.92,
+    "frase": "Y es solo el calentamiento: hace mil millones de segundos aún estábamos en 1995,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 9.92,
+    "fin": 14.64,
+    "frase": "así que si tienes menos de 32 años, ni habías nacido.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 14.64,
+    "fin": 17.36,
+    "frase": "Pero la cifra que de verdad marea es la siguiente:",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 17.36,
+    "fin": 20.74,
+    "frase": "un billón de segundos, que son casi 32.000 años.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 20.74,
+    "fin": 24.16,
+    "frase": "Aún faltaban casi 20.000 años para que alguien sembrara un campo,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 24.16,
+    "fin": 27.76,
+    "frase": "y más de 25.000 para que alguien escribiera una sola palabra.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 8,
+    "inicio": 27.76,
+    "fin": 38.06,
+    "frase": "Y por eso un millón y un billón no se parecen: entre uno y otro van 12 días y 32.000 años. ¿Qué hacías tú hace mil millones de segundos?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-20-2145",
+  "texto": "Un billón de segundos son casi 32.000 años: la escala que nadie imagina Un millón de segundos son unos 12 días; mil millones, casi 32 años; y un billón (un 1 seguido de doce ceros), casi 32.000 años. Cálculo con el año de 365,25 días. Por eso entre «millón» y «billón» no hay un salto pequeño: hay 12 días frente a 32.000 años. ¿Qué hacías tú hace mil millones de segundos? Cuéntanoslo y compártelo con quien use estas palabras como si fueran sinónimos. 🕰️ Un millón de segundos son 12 días. Mil millones, casi 32 años. Y es solo el calentamiento: hace mil millones de segundos aún estábamos en 1995, así que si tienes menos de 32 años, ni habías nacido. Pero la cifra que de verdad marea es la siguiente: un billón de segundos, que son casi 32.000 años. Aún faltaban casi 20.000 años para que alguien sembrara un campo, y más de 25.000 para que alguien escribiera una sola palabra. Y por eso un millón y un billón no se parecen: entre uno y otro van 12 días y 32.000 años. ¿Qué hacías tú hace mil millones de segundos?",
+  "familia": "madera",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "cifra chocante"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-18",
+   "medido": {
+    "palabras_s": 2.81,
+    "escenas_min": 12.6,
+    "cifra_al_inicio": true,
+    "gancho_palabras": 12,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "ciencia",
+    "emocion": "asombro",
+    "gancho_tipo": "cifra chocante",
+    "cercania": "universal",
+    "promesa": "no",
+    "giro": "sí",
+    "cierre": "pregunta",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "no",
+    "por_que": "Abre con una cifra clara y el salto de 12 días a 32.000 años sorprende, y los hitos históricos lo hacen tangible; pero no promete una recompensa concreta y el ritmo es muy didáctico."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-21-1430",
+  "titulo": "El primer pasajero de un globo no fue una persona",
+  "fecha": "2026-11-17",
+  "duracion": 40.7,
+  "estilo": "neon",
+  "serie": "Historia",
+  "gancho": "¿Quién fue el primer pasajero de un globo?",
+  "palabras": 111,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 2.18,
+    "frase": "¿Quién fue el primer pasajero de un globo?",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 2.18,
+    "fin": 8.48,
+    "frase": "Nadie sabía si una persona aguantaría allá arriba, así que los Montgolfier probaron antes con otros pasajeros:",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 8.48,
+    "fin": 17.3,
+    "frase": "una oveja, un pato y un gallo, el 19 de septiembre de 1783, en Versalles y delante del rey Luis XVI.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 17.3,
+    "fin": 22.3,
+    "frase": "Y el globo voló unos ocho minutos y aterrizó a 3 kilómetros, con los tres sanos y salvos.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 22.3,
+    "fin": 28.56,
+    "frase": "Así que dos meses después, el 21 de noviembre de 1783, dos hombres despegaron en París",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 28.56,
+    "fin": 34.68,
+    "frase": "y volaron 25 minutos sobre la ciudad: los primeros humanos en volar libres en globo, sin cuerdas.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 34.68,
+    "fin": 40.68,
+    "frase": "Pero antes, una oveja llamada Montauciel ya lo había hecho. ¿Tú te habrías subido?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-21-1430",
+  "texto": "El primer pasajero de un globo no fue una persona El 19 de septiembre de 1783, en Versalles, una oveja, un pato y un gallo se convirtieron en los primeros pasajeros de un globo. Aguantaron unos ocho minutos en el aire y aterrizaron sanos, así que dos meses después, el 21 de noviembre, dos hombres se animaron a volar libres sobre París. Mándaselo a quien se habría subido primero a ese globo. 🎈 ¿Tú te habrías subido? ¿Quién fue el primer pasajero de un globo? Nadie sabía si una persona aguantaría allá arriba, así que los Montgolfier probaron antes con otros pasajeros: una oveja, un pato y un gallo, el 19 de septiembre de 1783, en Versalles y delante del rey Luis XVI. Y el globo voló unos ocho minutos y aterrizó a 3 kilómetros, con los tres sanos y salvos. Así que dos meses después, el 21 de noviembre de 1783, dos hombres despegaron en París y volaron 25 minutos sobre la ciudad: los primeros humanos en volar libres en globo, sin cuerdas. Pero antes, una oveja llamada Montauciel ya lo había hecho. ¿Tú te habrías subido?",
+  "familia": "cuerda",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "pregunta"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-18",
+   "medido": {
+    "palabras_s": 2.73,
+    "escenas_min": 10.3,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 8,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "historia",
+    "emocion": "asombro",
+    "gancho_tipo": "pregunta",
+    "cercania": "mundo",
+    "promesa": "sí",
+    "giro": "sí",
+    "cierre": "pregunta",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "La pregunta inicial y el giro de los animales pasajeros enganchan, pero el texto aparece palabra a palabra y las escenas son estáticas durante 40 s, lo que puede cansar."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-21-2000",
+  "titulo": "Tus dedos no se arrugan por hincharse: los arruga tu cerebro",
+  "fecha": "2026-11-17",
+  "duracion": 36.4,
+  "estilo": "pop",
+  "serie": "Ciencia",
+  "gancho": "Cinco minutos en agua caliente y tus dedos se arrugan, pero no porque se hinchen como te contaron,",
+  "palabras": 118,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 5.5,
+    "frase": "Cinco minutos en agua caliente y tus dedos se arrugan, pero no porque se hinchen como te contaron,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 5.5,
+    "fin": 10.28,
+    "frase": "porque en los años 30 vieron que un dedo con el nervio dañado se queda liso aunque lo mojes.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 10.28,
+    "fin": 16.38,
+    "frase": "Los arruga tu sistema nervioso: cierra los vasos de los dedos, la yema se encoge y la piel se frunce.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 16.38,
+    "fin": 22.4,
+    "frase": "Pero ¿por qué haría eso a propósito? Una hipótesis dice que son como el dibujo de un neumático,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 22.4,
+    "fin": 25.78,
+    "frase": "canales para que el agua escurra y agarres mejor lo mojado.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 25.78,
+    "fin": 31.04,
+    "frase": "Aunque un estudio de 2013 sí vio ventaja y otro de 2014 no encontró ninguna.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 31.04,
+    "fin": 36.4,
+    "frase": "Así que tus dedos se arrugan por orden de tu cerebro, y aún no sabemos para qué.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-21-2000",
+  "texto": "Tus dedos no se arrugan por hincharse: los arruga tu cerebro Durante décadas se explicó que los dedos se arrugan porque la piel absorbe agua y se hincha, pero la pista clave es que los dedos con el nervio dañado no se arrugan: lo controla el sistema nervioso. Tampoco está claro para qué sirve: los estudios sobre si mejora el agarre en mojado no coinciden. 💧 Envíaselo a quien se pasa una hora en la bañera. Y tú, ¿crees que las arrugas sirven para agarrar mejor? Cinco minutos en agua caliente y tus dedos se arrugan, pero no porque se hinchen como te contaron, porque en los años 30 vieron que un dedo con el nervio dañado se queda liso aunque lo mojes. Los arruga tu sistema nervioso: cierra los vasos de los dedos, la yema se encoge y la piel se frunce. Pero ¿por qué haría eso a propósito? Una hipótesis dice que son como el dibujo de un neumático, canales para que el agua escurra y agarres mejor lo mojado. Aunque un estudio de 2013 sí vio ventaja y otro de 2014 no encontró ninguna. Así que tus dedos se arrugan por orden de tu cerebro, y aún no sabemos para qué.",
+  "familia": "campanita",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "cifra chocante"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-18",
+   "medido": {
+    "palabras_s": 3.24,
+    "escenas_min": 11.5,
+    "cifra_al_inicio": true,
+    "gancho_palabras": 18,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "cuerpo humano",
+    "emocion": "asombro",
+    "gancho_tipo": "segunda persona",
+    "cercania": "universal",
+    "promesa": "no",
+    "giro": "sí",
+    "cierre": "dato final",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "no",
+    "por_que": "Abre con una experiencia que todos reconocen y desmonta un mito enseguida, pero el final sin respuesta clara y el ritmo de ilustración sencilla pueden hacer que algunos abandonen."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-22-1230",
+  "titulo": "Naciste con casi 100 huesos más de los que tienes ahora",
+  "fecha": "2026-11-17",
+  "duracion": 34.7,
+  "estilo": "pizarra",
+  "serie": "Cuerpo humano",
+  "gancho": "¿Cuántos huesos tenías al nacer?",
+  "palabras": 111,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 2,
+    "frase": "¿Cuántos huesos tenías al nacer?",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 2,
+    "fin": 7.82,
+    "frase": "Cerca de 300, casi cien más que ahora, y nadie te quitó ninguno: vas a ver adónde se fueron.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 7.82,
+    "fin": 13.36,
+    "frase": "Porque al nacer tu esqueleto era blando y estaba en piezas pequeñas, para que tu cabeza pudiera apretarse al salir.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 13.36,
+    "fin": 18.1,
+    "frase": "Pero esas piezas se fueron soldando con los años, en el cráneo, en la cadera y en la columna,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 18.1,
+    "fin": 25,
+    "frase": "hasta que, en la base de la columna, cinco vértebras acabaron siendo un solo hueso. No perdiste ninguno: se juntaron.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 25,
+    "fin": 29,
+    "frase": "Y tu rótula tampoco era hueso: era cartílago, y tardó años en endurecerse.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 29,
+    "fin": 34.7,
+    "frase": "Por eso tu esqueleto no terminó de montarse hasta pasados los veinte. ¿Tú lo sabías?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-22-1230",
+  "texto": "Naciste con casi 100 huesos más de los que tienes ahora Al nacer tienes cerca de 300 piezas óseas; de adulto, 206. No se pierden: se sueldan, como las cinco vértebras del sacro o las placas del cráneo. Y algunas, como la clavícula, no terminan hasta los 20 y pico. ¿Se lo contarías a alguien con un bebé en casa? ¿Cuántos huesos tenías al nacer? Cerca de 300, casi cien más que ahora, y nadie te quitó ninguno: vas a ver adónde se fueron. Porque al nacer tu esqueleto era blando y estaba en piezas pequeñas, para que tu cabeza pudiera apretarse al salir. Pero esas piezas se fueron soldando con los años, en el cráneo, en la cadera y en la columna, hasta que, en la base de la columna, cinco vértebras acabaron siendo un solo hueso. No perdiste ninguno: se juntaron. Y tu rótula tampoco era hueso: era cartílago, y tardó años en endurecerse. Por eso tu esqueleto no terminó de montarse hasta pasados los veinte. ¿Tú lo sabías?",
+  "familia": "tum",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "pregunta"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-18",
+   "medido": {
+    "palabras_s": 3.2,
+    "escenas_min": 12.1,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 5,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "cuerpo humano",
+    "emocion": "asombro",
+    "gancho_tipo": "pregunta",
+    "cercania": "universal",
+    "promesa": "sí",
+    "giro": "sí",
+    "cierre": "pregunta",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "La pregunta con el bebé animado y la cifra de 300 huesos enganchan, y la promesa de saber adónde fueron retiene. El cierre es plano y la ilustración es simple, lo que puede restar fuerza."
+   }
+  }
  }
 ]
