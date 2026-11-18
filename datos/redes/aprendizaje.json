@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T02:19:26.467Z",
+ "actualizado": "2026-11-18T03:18:48.821Z",
  "publicaciones": 72,
  "videos": 21,
  "factores": {
@@ -19,7 +19,7 @@
    "martes": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.77,
+    "vistas": 0.76,
     "interaccion": 0.73
    },
    "miércoles": {
@@ -275,7 +275,7 @@
    "corto (≤12)": {
     "n": 36,
     "videos": 9,
-    "vistas": 1.19,
+    "vistas": 1.18,
     "interaccion": 1.24
    }
   },
@@ -391,7 +391,7 @@
    "cifra chocante": {
     "n": 12,
     "videos": 3,
-    "vistas": 1,
+    "vistas": 0.99,
     "interaccion": 1.02
    },
    "otro": {
@@ -521,7 +521,7 @@
    "no": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.94,
+    "vistas": 0.93,
     "interaccion": 0.79
    },
    "sí": {
@@ -559,7 +559,7 @@
    "campanita": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.39,
+    "vistas": 1.38,
     "interaccion": 1.08
    },
    "pop": {
@@ -573,7 +573,7 @@
    "Tristan HD": {
     "n": 56,
     "videos": 14,
-    "vistas": 1.1,
+    "vistas": 1.09,
     "interaccion": 0.89
    }
   },
@@ -634,7 +634,7 @@
    "detalle": {
     "mejor": {
      "v": "corto (≤12)",
-     "vistas": 1.19,
+     "vistas": 1.18,
      "interaccion": 1.24,
      "n": 36
     },
@@ -646,7 +646,7 @@
      }
     ]
    },
-   "texto": "gancho largo: «corto (≤12)» consigue 1.19× el alcance medio (9 vídeos) e interacción 1.24×; frente a largo (>12) 0.96× (6 vídeos)."
+   "texto": "gancho largo: «corto (≤12)» consigue 1.18× el alcance medio (9 vídeos) e interacción 1.24×; frente a largo (>12) 0.96× (6 vídeos)."
   },
   {
    "tipo": "regla",
@@ -729,7 +729,7 @@
     "resto": [
      {
       "v": "cifra chocante",
-      "vistas": 1,
+      "vistas": 0.99,
       "n": 12
      },
      {
@@ -739,7 +739,7 @@
      }
     ]
    },
-   "texto": "tipo de gancho: «pregunta» consigue 1.78× el alcance medio (3 vídeos) e interacción 1.12×; frente a cifra chocante 1.00× (3 vídeos), contradicción 0.99× (7 vídeos)."
+   "texto": "tipo de gancho: «pregunta» consigue 1.78× el alcance medio (3 vídeos) e interacción 1.12×; frente a cifra chocante 0.99× (3 vídeos), contradicción 0.99× (7 vídeos)."
   },
   {
    "tipo": "regla",
@@ -778,12 +778,12 @@
     "resto": [
      {
       "v": "no",
-      "vistas": 0.94,
+      "vistas": 0.93,
       "n": 32
      }
     ]
    },
-   "texto": "personaje: «sí» consigue 1.30× el alcance medio (7 vídeos) e interacción 1.04×; frente a no 0.94× (8 vídeos)."
+   "texto": "personaje: «sí» consigue 1.30× el alcance medio (7 vídeos) e interacción 1.04×; frente a no 0.93× (8 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -942,7 +942,7 @@
   {
    "id": "2026-11-17-1415",
    "titulo": "3,69 céntimos: lo que costaba fabricar una moneda de un céntimo",
-   "indice": 0.51,
+   "indice": 0.5,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
