@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T07:20:14.491Z",
+ "actualizado": "2026-11-18T08:19:26.758Z",
  "publicaciones": 72,
  "videos": 21,
  "factores": {
@@ -115,13 +115,13 @@
    "youtube": {
     "n": 18,
     "videos": 18,
-    "vistas": 0.92,
+    "vistas": 0.93,
     "interaccion": 1.15
    },
    "facebook": {
     "n": 18,
     "videos": 18,
-    "vistas": 1.22,
+    "vistas": 1.21,
     "interaccion": 0.66
    }
   },
@@ -185,7 +185,7 @@
    "Dinero": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.49,
+    "vistas": 0.48,
     "interaccion": 0.56
    },
    "Palabras": {
@@ -363,7 +363,7 @@
    "economía": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.49,
+    "vistas": 0.48,
     "interaccion": 0.56
    },
    "cultura": {
@@ -392,7 +392,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.98,
-    "interaccion": 1.02
+    "interaccion": 1.01
    },
    "otro": {
     "n": 4,
@@ -423,7 +423,7 @@
    "mundo": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.84,
+    "vistas": 0.83,
     "interaccion": 0.86
    },
    "universal": {
@@ -560,7 +560,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 1.36,
-    "interaccion": 1.08
+    "interaccion": 1.07
    },
    "pop": {
     "n": 4,
@@ -756,12 +756,12 @@
     "resto": [
      {
       "v": "mundo",
-      "vistas": 0.84,
+      "vistas": 0.83,
       "n": 24
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.30× el alcance medio (9 vídeos) e interacción 0.92×; frente a mundo 0.84× (6 vídeos)."
+   "texto": "cercania: «universal» consigue 1.30× el alcance medio (9 vídeos) e interacción 0.92×; frente a mundo 0.83× (6 vídeos)."
   },
   {
    "tipo": "regla",
@@ -942,7 +942,7 @@
   {
    "id": "2026-11-17-1415",
    "titulo": "3,69 céntimos: lo que costaba fabricar una moneda de un céntimo",
-   "indice": 0.48,
+   "indice": 0.47,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
