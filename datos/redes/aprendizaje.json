@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T03:18:48.821Z",
+ "actualizado": "2026-11-18T04:18:48.112Z",
  "publicaciones": 72,
  "videos": 21,
  "factores": {
@@ -83,7 +83,7 @@
    "14-16 h": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.02,
+    "vistas": 1.01,
     "interaccion": 0.66
    },
    "22-24 h": {
@@ -103,7 +103,7 @@
    "instagram": {
     "n": 18,
     "videos": 18,
-    "vistas": 1.63,
+    "vistas": 1.62,
     "interaccion": 0.67
    },
    "tiktok": {
@@ -121,7 +121,7 @@
    "facebook": {
     "n": 18,
     "videos": 18,
-    "vistas": 1.23,
+    "vistas": 1.22,
     "interaccion": 0.66
    }
   },
@@ -135,7 +135,7 @@
    "pizarra": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.79,
+    "vistas": 0.78,
     "interaccion": 0.96
    },
    "limpio": {
@@ -185,7 +185,7 @@
    "Dinero": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.5,
+    "vistas": 0.49,
     "interaccion": 0.57
    },
    "Palabras": {
@@ -249,7 +249,7 @@
    "con cifra": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.79,
+    "vistas": 0.78,
     "interaccion": 0.76
    },
    "afirmación": {
@@ -363,7 +363,7 @@
    "economía": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.5,
+    "vistas": 0.49,
     "interaccion": 0.57
    },
    "cultura": {
@@ -559,7 +559,7 @@
    "campanita": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.38,
+    "vistas": 1.37,
     "interaccion": 1.08
    },
    "pop": {
@@ -581,7 +581,7 @@
    "cifra chocante": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.06,
+    "vistas": 1.05,
     "interaccion": 1.05
    },
    "contradicción": {
@@ -619,12 +619,12 @@
      },
      {
       "v": "con cifra",
-      "vistas": 0.79,
+      "vistas": 0.78,
       "n": 16
      }
     ]
    },
-   "texto": "gancho: «pregunta» consigue 1.78× el alcance medio (3 vídeos) e interacción 1.12×; frente a afirmación 1.05× (8 vídeos), con cifra 0.79× (4 vídeos)."
+   "texto": "gancho: «pregunta» consigue 1.78× el alcance medio (3 vídeos) e interacción 1.12×; frente a afirmación 1.05× (8 vídeos), con cifra 0.78× (4 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -805,12 +805,12 @@
      },
      {
       "v": "cifra chocante",
-      "vistas": 1.06,
+      "vistas": 1.05,
       "n": 16
      }
     ]
    },
-   "texto": "exp: gancho_tipo: «pregunta» consigue 1.78× el alcance medio (3 vídeos) e interacción 1.12×; frente a contradicción 1.17× (3 vídeos), cifra chocante 1.06× (4 vídeos)."
+   "texto": "exp: gancho_tipo: «pregunta» consigue 1.78× el alcance medio (3 vídeos) e interacción 1.12×; frente a contradicción 1.17× (3 vídeos), cifra chocante 1.05× (4 vídeos)."
   }
  ],
  "pesos": {
@@ -820,7 +820,7 @@
    "madera": 0.133,
    "marimba": 0.11,
    "kalimba": 0.11,
-   "campanita": 0.13,
+   "campanita": 0.129,
    "cuerda": 0.11,
    "burbuja": 0.101,
    "tum": 0.127
@@ -829,7 +829,7 @@
    "papel": 0.267,
    "neon": 0.164,
    "pop": 0.189,
-   "pizarra": 0.178,
+   "pizarra": 0.177,
    "limpio": 0.203
   }
  },
@@ -942,7 +942,7 @@
   {
    "id": "2026-11-17-1415",
    "titulo": "3,69 céntimos: lo que costaba fabricar una moneda de un céntimo",
-   "indice": 0.5,
+   "indice": 0.49,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
