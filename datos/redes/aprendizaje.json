@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T12:20:01.305Z",
+ "actualizado": "2026-11-18T13:20:19.189Z",
  "publicaciones": 76,
  "videos": 22,
  "factores": {
@@ -83,8 +83,8 @@
    "14-16 h": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.97,
-    "interaccion": 0.64
+    "vistas": 0.96,
+    "interaccion": 0.63
    },
    "22-24 h": {
     "n": 8,
@@ -121,7 +121,7 @@
    "facebook": {
     "n": 19,
     "videos": 19,
-    "vistas": 1.17,
+    "vistas": 1.16,
     "interaccion": 0.67
    }
   },
@@ -135,7 +135,7 @@
    "pizarra": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.75,
+    "vistas": 0.74,
     "interaccion": 0.93
    },
    "limpio": {
@@ -249,7 +249,7 @@
    "con cifra": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.76,
+    "vistas": 0.75,
     "interaccion": 0.73
    },
    "afirmación": {
@@ -275,7 +275,7 @@
    "corto (≤12)": {
     "n": 40,
     "videos": 10,
-    "vistas": 1.1,
+    "vistas": 1.09,
     "interaccion": 1.18
    }
   },
@@ -297,7 +297,7 @@
    "medio": {
     "n": 20,
     "videos": 5,
-    "vistas": 1.08,
+    "vistas": 1.07,
     "interaccion": 1.01
    },
    "rápido (>2,9 pal/s)": {
@@ -390,14 +390,14 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.72,
-    "interaccion": 0.99
+    "interaccion": 0.98
    }
   },
   "tipo de gancho": {
    "cifra chocante": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.95,
+    "vistas": 0.94,
     "interaccion": 0.98
    },
    "otro": {
@@ -471,7 +471,7 @@
    "pregunta": {
     "n": 32,
     "videos": 8,
-    "vistas": 1.11,
+    "vistas": 1.1,
     "interaccion": 0.92
    },
    "dato final": {
@@ -497,7 +497,7 @@
    "sí": {
     "n": 60,
     "videos": 15,
-    "vistas": 1.01,
+    "vistas": 1,
     "interaccion": 0.85
    },
    "no": {
@@ -565,7 +565,7 @@
    "campanita": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.32,
+    "vistas": 1.31,
     "interaccion": 1.04
    },
    "pop": {
@@ -587,7 +587,7 @@
    "cifra chocante": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.02,
+    "vistas": 1.01,
     "interaccion": 1.01
    },
    "contradicción": {
@@ -652,12 +652,12 @@
      },
      {
       "v": "con cifra",
-      "vistas": 0.76,
+      "vistas": 0.75,
       "n": 16
      }
     ]
    },
-   "texto": "gancho: «pregunta» consigue 1.41× el alcance medio (4 vídeos) e interacción 1.06×; frente a afirmación 1.05× (8 vídeos), con cifra 0.76× (4 vídeos)."
+   "texto": "gancho: «pregunta» consigue 1.41× el alcance medio (4 vídeos) e interacción 1.06×; frente a afirmación 1.05× (8 vídeos), con cifra 0.75× (4 vídeos)."
   },
   {
    "tipo": "regla",
@@ -745,12 +745,12 @@
      },
      {
       "v": "cifra chocante",
-      "vistas": 0.95,
+      "vistas": 0.94,
       "n": 12
      }
     ]
    },
-   "texto": "tipo de gancho: «pregunta» consigue 1.41× el alcance medio (4 vídeos) e interacción 1.06×; frente a contradicción 0.99× (7 vídeos), cifra chocante 0.95× (3 vídeos)."
+   "texto": "tipo de gancho: «pregunta» consigue 1.41× el alcance medio (4 vídeos) e interacción 1.06×; frente a contradicción 0.99× (7 vídeos), cifra chocante 0.94× (3 vídeos)."
   },
   {
    "tipo": "regla",
@@ -816,12 +816,12 @@
      },
      {
       "v": "cifra chocante",
-      "vistas": 1.02,
+      "vistas": 1.01,
       "n": 16
      }
     ]
    },
-   "texto": "exp: gancho_tipo: «pregunta» consigue 1.41× el alcance medio (4 vídeos) e interacción 1.06×; frente a contradicción 1.17× (3 vídeos), cifra chocante 1.02× (4 vídeos)."
+   "texto": "exp: gancho_tipo: «pregunta» consigue 1.41× el alcance medio (4 vídeos) e interacción 1.06×; frente a contradicción 1.17× (3 vídeos), cifra chocante 1.01× (4 vídeos)."
   }
  ],
  "pesos": {
@@ -837,9 +837,9 @@
    "tum": 0.129
   },
   "estilo": {
-   "papel": 0.27,
+   "papel": 0.271,
    "neon": 0.166,
-   "pop": 0.191,
+   "pop": 0.192,
    "pizarra": 0.176,
    "limpio": 0.196
   }
@@ -953,14 +953,14 @@
   {
    "id": "2026-11-17-2145",
    "titulo": "¿Qué significa «OK»? Nació como una falta de ortografía hecha a propósito",
-   "indice": 0.62,
+   "indice": 0.61,
    "variable": "gancho_tipo",
    "variante": "pregunta"
   },
   {
    "id": "2026-11-17-1415",
    "titulo": "3,69 céntimos: lo que costaba fabricar una moneda de un céntimo",
-   "indice": 0.42,
+   "indice": 0.41,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
