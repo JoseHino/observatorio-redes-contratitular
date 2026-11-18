@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T19:20:02.388Z",
+ "actualizado": "2026-11-18T20:19:25.302Z",
  "publicaciones": 76,
  "videos": 22,
  "factores": {
@@ -19,7 +19,7 @@
    "martes": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.67,
+    "vistas": 0.66,
     "interaccion": 0.77
    },
    "miércoles": {
@@ -51,7 +51,7 @@
    "noche": {
     "n": 36,
     "videos": 11,
-    "vistas": 0.97,
+    "vistas": 0.96,
     "interaccion": 0.87
    },
    "mediodía": {
@@ -71,7 +71,7 @@
    "20-22 h": {
     "n": 28,
     "videos": 9,
-    "vistas": 0.98,
+    "vistas": 0.97,
     "interaccion": 0.71
    },
    "12-14 h": {
@@ -121,7 +121,7 @@
    "facebook": {
     "n": 19,
     "videos": 19,
-    "vistas": 1.13,
+    "vistas": 1.11,
     "interaccion": 0.67
    }
   },
@@ -136,12 +136,12 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.71,
-    "interaccion": 0.94
+    "interaccion": 0.93
    },
    "limpio": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.12,
+    "vistas": 1.11,
     "interaccion": 0.8
    },
    "papel": {
@@ -191,7 +191,7 @@
    "Palabras": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.84,
+    "vistas": 0.82,
     "interaccion": 0.88
    },
    "Geografía": {
@@ -229,7 +229,7 @@
    "33-43 s": {
     "n": 52,
     "videos": 13,
-    "vistas": 1.12,
+    "vistas": 1.11,
     "interaccion": 0.89
    },
    ">43 s": {
@@ -261,7 +261,7 @@
    "pregunta": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.36,
+    "vistas": 1.34,
     "interaccion": 1.07
    }
   },
@@ -275,7 +275,7 @@
    "corto (≤12)": {
     "n": 40,
     "videos": 10,
-    "vistas": 1.08,
+    "vistas": 1.07,
     "interaccion": 1.2
    }
   },
@@ -283,7 +283,7 @@
    "no": {
     "n": 52,
     "videos": 13,
-    "vistas": 1.16,
+    "vistas": 1.15,
     "interaccion": 0.94
    },
    "sí": {
@@ -303,7 +303,7 @@
    "rápido (>2,9 pal/s)": {
     "n": 44,
     "videos": 11,
-    "vistas": 1,
+    "vistas": 0.99,
     "interaccion": 0.82
    }
   },
@@ -311,7 +311,7 @@
    "pocos (<12/min)": {
     "n": 48,
     "videos": 12,
-    "vistas": 0.88,
+    "vistas": 0.87,
     "interaccion": 0.82
    },
    "medios": {
@@ -331,7 +331,7 @@
    "no": {
     "n": 44,
     "videos": 11,
-    "vistas": 1.08,
+    "vistas": 1.07,
     "interaccion": 0.77
    }
   },
@@ -369,7 +369,7 @@
    "cultura": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.84,
+    "vistas": 0.82,
     "interaccion": 0.88
    },
    "geografía": {
@@ -389,7 +389,7 @@
    "intriga": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.66,
+    "vistas": 0.63,
     "interaccion": 0.98
    }
   },
@@ -421,7 +421,7 @@
    "pregunta": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.36,
+    "vistas": 1.34,
     "interaccion": 1.07
    }
   },
@@ -457,7 +457,7 @@
    "sí": {
     "n": 60,
     "videos": 15,
-    "vistas": 1.04,
+    "vistas": 1.03,
     "interaccion": 0.92
    },
    "no": {
@@ -471,7 +471,7 @@
    "pregunta": {
     "n": 32,
     "videos": 8,
-    "vistas": 1.04,
+    "vistas": 1.03,
     "interaccion": 0.93
    },
    "dato final": {
@@ -527,7 +527,7 @@
    "no": {
     "n": 36,
     "videos": 9,
-    "vistas": 0.85,
+    "vistas": 0.84,
     "interaccion": 0.79
    },
    "sí": {
@@ -559,7 +559,7 @@
    "madera": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.05,
+    "vistas": 1.03,
     "interaccion": 1.08
    },
    "campanita": {
@@ -599,7 +599,7 @@
    "pregunta": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.36,
+    "vistas": 1.34,
     "interaccion": 1.07
    }
   }
@@ -620,7 +620,7 @@
     "resto": [
      {
       "v": "limpio",
-      "vistas": 1.12,
+      "vistas": 1.11,
       "n": 16
      },
      {
@@ -630,7 +630,7 @@
      }
     ]
    },
-   "texto": "estilo: «papel» consigue 1.51× el alcance medio (3 vídeos) e interacción 1.35×; frente a limpio 1.12× (4 vídeos), pop 0.94× (3 vídeos)."
+   "texto": "estilo: «papel» consigue 1.51× el alcance medio (3 vídeos) e interacción 1.35×; frente a limpio 1.11× (4 vídeos), pop 0.94× (3 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -640,7 +640,7 @@
    "detalle": {
     "mejor": {
      "v": "pregunta",
-     "vistas": 1.36,
+     "vistas": 1.34,
      "interaccion": 1.07,
      "n": 16
     },
@@ -657,7 +657,7 @@
      }
     ]
    },
-   "texto": "gancho: «pregunta» consigue 1.36× el alcance medio (4 vídeos) e interacción 1.07×; frente a afirmación 1.03× (8 vídeos), con cifra 0.72× (4 vídeos)."
+   "texto": "gancho: «pregunta» consigue 1.34× el alcance medio (4 vídeos) e interacción 1.07×; frente a afirmación 1.03× (8 vídeos), con cifra 0.72× (4 vídeos)."
   },
   {
    "tipo": "regla",
@@ -667,7 +667,7 @@
    "detalle": {
     "mejor": {
      "v": "no",
-     "vistas": 1.16,
+     "vistas": 1.15,
      "interaccion": 0.94,
      "n": 52
     },
@@ -679,7 +679,7 @@
      }
     ]
    },
-   "texto": "escenas de datos: «no» consigue 1.16× el alcance medio (13 vídeos) e interacción 0.94×; frente a sí 0.60× (3 vídeos)."
+   "texto": "escenas de datos: «no» consigue 1.15× el alcance medio (13 vídeos) e interacción 0.94×; frente a sí 0.60× (3 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -696,12 +696,12 @@
     "resto": [
      {
       "v": "pocos (<12/min)",
-      "vistas": 0.88,
+      "vistas": 0.87,
       "n": 48
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.51× el alcance medio (4 vídeos) e interacción 1.09×; frente a pocos (<12/min) 0.88× (12 vídeos)."
+   "texto": "cortes: «medios» consigue 1.51× el alcance medio (4 vídeos) e interacción 1.09×; frente a pocos (<12/min) 0.87× (12 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -711,7 +711,7 @@
    "detalle": {
     "mejor": {
      "v": "no",
-     "vistas": 1.08,
+     "vistas": 1.07,
      "interaccion": 0.77,
      "n": 44
     },
@@ -723,7 +723,7 @@
      }
     ]
    },
-   "texto": "cifra en 5 primeras palabras: «no» consigue 1.08× el alcance medio (11 vídeos) e interacción 0.77×; frente a sí 0.89× (5 vídeos)."
+   "texto": "cifra en 5 primeras palabras: «no» consigue 1.07× el alcance medio (11 vídeos) e interacción 0.77×; frente a sí 0.89× (5 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -733,7 +733,7 @@
    "detalle": {
     "mejor": {
      "v": "pregunta",
-     "vistas": 1.36,
+     "vistas": 1.34,
      "interaccion": 1.07,
      "n": 16
     },
@@ -750,7 +750,7 @@
      }
     ]
    },
-   "texto": "tipo de gancho: «pregunta» consigue 1.36× el alcance medio (4 vídeos) e interacción 1.07×; frente a contradicción 0.99× (7 vídeos), cifra chocante 0.89× (3 vídeos)."
+   "texto": "tipo de gancho: «pregunta» consigue 1.34× el alcance medio (4 vídeos) e interacción 1.07×; frente a contradicción 0.99× (7 vídeos), cifra chocante 0.89× (3 vídeos)."
   },
   {
    "tipo": "regla",
@@ -789,19 +789,19 @@
     "resto": [
      {
       "v": "no",
-      "vistas": 0.85,
+      "vistas": 0.84,
       "n": 36
      }
     ]
    },
-   "texto": "personaje: «sí» consigue 1.27× el alcance medio (7 vídeos) e interacción 1.02×; frente a no 0.85× (9 vídeos)."
+   "texto": "personaje: «sí» consigue 1.27× el alcance medio (7 vídeos) e interacción 1.02×; frente a no 0.84× (9 vídeos)."
   }
  ],
  "pesos": {
   "familia": {
    "pop": 0.105,
    "gota": 0.075,
-   "madera": 0.119,
+   "madera": 0.118,
    "marimba": 0.113,
    "kalimba": 0.113,
    "campanita": 0.129,
@@ -810,9 +810,9 @@
    "tum": 0.129
   },
   "estilo": {
-   "papel": 0.274,
+   "papel": 0.275,
    "neon": 0.167,
-   "pop": 0.189,
+   "pop": 0.19,
    "pizarra": 0.174,
    "limpio": 0.195
   }
@@ -926,7 +926,7 @@
   {
    "id": "2026-11-17-2145",
    "titulo": "¿Qué significa «OK»? Nació como una falta de ortografía hecha a propósito",
-   "indice": 0.53,
+   "indice": 0.49,
    "variable": "gancho_tipo",
    "variante": "pregunta"
   },
