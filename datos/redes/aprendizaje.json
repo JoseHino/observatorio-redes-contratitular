@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T11:19:11.761Z",
+ "actualizado": "2026-11-18T12:20:01.305Z",
  "publicaciones": 76,
  "videos": 22,
  "factores": {
@@ -19,7 +19,7 @@
    "martes": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.71,
+    "vistas": 0.7,
     "interaccion": 0.76
    },
    "miércoles": {
@@ -83,7 +83,7 @@
    "14-16 h": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.98,
+    "vistas": 0.97,
     "interaccion": 0.64
    },
    "22-24 h": {
@@ -135,7 +135,7 @@
    "pizarra": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.76,
+    "vistas": 0.75,
     "interaccion": 0.93
    },
    "limpio": {
@@ -185,7 +185,7 @@
    "Dinero": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.47,
+    "vistas": 0.46,
     "interaccion": 0.55
    },
    "Palabras": {
@@ -229,7 +229,7 @@
    "33-43 s": {
     "n": 52,
     "videos": 13,
-    "vistas": 1.17,
+    "vistas": 1.16,
     "interaccion": 0.87
    },
    ">43 s": {
@@ -249,7 +249,7 @@
    "con cifra": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.77,
+    "vistas": 0.76,
     "interaccion": 0.73
    },
    "afirmación": {
@@ -289,7 +289,7 @@
    "sí": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.61,
+    "vistas": 0.6,
     "interaccion": 0.69
    }
   },
@@ -297,7 +297,7 @@
    "medio": {
     "n": 20,
     "videos": 5,
-    "vistas": 1.09,
+    "vistas": 1.08,
     "interaccion": 1.01
    },
    "rápido (>2,9 pal/s)": {
@@ -311,7 +311,7 @@
    "pocos (<12/min)": {
     "n": 48,
     "videos": 12,
-    "vistas": 0.92,
+    "vistas": 0.91,
     "interaccion": 0.81
    },
    "medios": {
@@ -325,7 +325,7 @@
    "sí": {
     "n": 20,
     "videos": 5,
-    "vistas": 0.93,
+    "vistas": 0.92,
     "interaccion": 1.16
    },
    "no": {
@@ -363,7 +363,7 @@
    "economía": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.47,
+    "vistas": 0.46,
     "interaccion": 0.55
    },
    "cultura": {
@@ -389,7 +389,7 @@
    "intriga": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.73,
+    "vistas": 0.72,
     "interaccion": 0.99
    }
   },
@@ -397,8 +397,8 @@
    "cifra chocante": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.96,
-    "interaccion": 0.99
+    "vistas": 0.95,
+    "interaccion": 0.98
    },
    "otro": {
     "n": 4,
@@ -429,7 +429,7 @@
    "mundo": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.83,
+    "vistas": 0.82,
     "interaccion": 0.83
    },
    "universal": {
@@ -443,7 +443,7 @@
    "no": {
     "n": 24,
     "videos": 6,
-    "vistas": 1.06,
+    "vistas": 1.05,
     "interaccion": 0.65
    },
    "sí": {
@@ -511,7 +511,7 @@
    "sí": {
     "n": 64,
     "videos": 16,
-    "vistas": 1.05,
+    "vistas": 1.04,
     "interaccion": 0.87
    }
   },
@@ -519,7 +519,7 @@
    "sí": {
     "n": 64,
     "videos": 16,
-    "vistas": 1.05,
+    "vistas": 1.04,
     "interaccion": 0.87
    }
   },
@@ -565,7 +565,7 @@
    "campanita": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.33,
+    "vistas": 1.32,
     "interaccion": 1.04
    },
    "pop": {
@@ -579,7 +579,7 @@
    "Tristan HD": {
     "n": 60,
     "videos": 15,
-    "vistas": 1.05,
+    "vistas": 1.04,
     "interaccion": 0.87
    }
   },
@@ -587,7 +587,7 @@
    "cifra chocante": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.03,
+    "vistas": 1.02,
     "interaccion": 1.01
    },
    "contradicción": {
@@ -652,12 +652,12 @@
      },
      {
       "v": "con cifra",
-      "vistas": 0.77,
+      "vistas": 0.76,
       "n": 16
      }
     ]
    },
-   "texto": "gancho: «pregunta» consigue 1.41× el alcance medio (4 vídeos) e interacción 1.06×; frente a afirmación 1.05× (8 vídeos), con cifra 0.77× (4 vídeos)."
+   "texto": "gancho: «pregunta» consigue 1.41× el alcance medio (4 vídeos) e interacción 1.06×; frente a afirmación 1.05× (8 vídeos), con cifra 0.76× (4 vídeos)."
   },
   {
    "tipo": "regla",
@@ -674,12 +674,12 @@
     "resto": [
      {
       "v": "sí",
-      "vistas": 0.61,
+      "vistas": 0.6,
       "n": 12
      }
     ]
    },
-   "texto": "escenas de datos: «no» consigue 1.20× el alcance medio (13 vídeos) e interacción 0.93×; frente a sí 0.61× (3 vídeos)."
+   "texto": "escenas de datos: «no» consigue 1.20× el alcance medio (13 vídeos) e interacción 0.93×; frente a sí 0.60× (3 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -696,12 +696,34 @@
     "resto": [
      {
       "v": "pocos (<12/min)",
-      "vistas": 0.92,
+      "vistas": 0.91,
       "n": 48
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.51× el alcance medio (4 vídeos) e interacción 1.07×; frente a pocos (<12/min) 0.92× (12 vídeos)."
+   "texto": "cortes: «medios» consigue 1.51× el alcance medio (4 vídeos) e interacción 1.07×; frente a pocos (<12/min) 0.91× (12 vídeos)."
+  },
+  {
+   "tipo": "hipotesis",
+   "factor": "cifra en 5 primeras palabras",
+   "mejor": "no",
+   "n": 16,
+   "detalle": {
+    "mejor": {
+     "v": "no",
+     "vistas": 1.11,
+     "interaccion": 0.76,
+     "n": 44
+    },
+    "resto": [
+     {
+      "v": "sí",
+      "vistas": 0.92,
+      "n": 20
+     }
+    ]
+   },
+   "texto": "cifra en 5 primeras palabras: «no» consigue 1.11× el alcance medio (11 vídeos) e interacción 0.76×; frente a sí 0.92× (5 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -723,12 +745,12 @@
      },
      {
       "v": "cifra chocante",
-      "vistas": 0.96,
+      "vistas": 0.95,
       "n": 12
      }
     ]
    },
-   "texto": "tipo de gancho: «pregunta» consigue 1.41× el alcance medio (4 vídeos) e interacción 1.06×; frente a contradicción 0.99× (7 vídeos), cifra chocante 0.96× (3 vídeos)."
+   "texto": "tipo de gancho: «pregunta» consigue 1.41× el alcance medio (4 vídeos) e interacción 1.06×; frente a contradicción 0.99× (7 vídeos), cifra chocante 0.95× (3 vídeos)."
   },
   {
    "tipo": "regla",
@@ -745,12 +767,12 @@
     "resto": [
      {
       "v": "mundo",
-      "vistas": 0.83,
+      "vistas": 0.82,
       "n": 24
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.21× el alcance medio (10 vídeos) e interacción 0.90×; frente a mundo 0.83× (6 vídeos)."
+   "texto": "cercania: «universal» consigue 1.21× el alcance medio (10 vídeos) e interacción 0.90×; frente a mundo 0.82× (6 vídeos)."
   },
   {
    "tipo": "regla",
@@ -794,12 +816,12 @@
      },
      {
       "v": "cifra chocante",
-      "vistas": 1.03,
+      "vistas": 1.02,
       "n": 16
      }
     ]
    },
-   "texto": "exp: gancho_tipo: «pregunta» consigue 1.41× el alcance medio (4 vídeos) e interacción 1.06×; frente a contradicción 1.17× (3 vídeos), cifra chocante 1.03× (4 vídeos)."
+   "texto": "exp: gancho_tipo: «pregunta» consigue 1.41× el alcance medio (4 vídeos) e interacción 1.06×; frente a contradicción 1.17× (3 vídeos), cifra chocante 1.02× (4 vídeos)."
   }
  ],
  "pesos": {
@@ -809,7 +831,7 @@
    "madera": 0.121,
    "marimba": 0.113,
    "kalimba": 0.113,
-   "campanita": 0.129,
+   "campanita": 0.128,
    "cuerda": 0.113,
    "burbuja": 0.102,
    "tum": 0.129
@@ -818,7 +840,7 @@
    "papel": 0.27,
    "neon": 0.166,
    "pop": 0.191,
-   "pizarra": 0.177,
+   "pizarra": 0.176,
    "limpio": 0.196
   }
  },
@@ -938,7 +960,7 @@
   {
    "id": "2026-11-17-1415",
    "titulo": "3,69 céntimos: lo que costaba fabricar una moneda de un céntimo",
-   "indice": 0.44,
+   "indice": 0.42,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
