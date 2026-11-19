@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T05:19:20.577Z",
+ "actualizado": "2026-11-19T06:20:42.888Z",
  "publicaciones": 80,
  "videos": 24,
  "factores": {
@@ -26,7 +26,7 @@
     "n": 12,
     "videos": 4,
     "vistas": 0.53,
-    "interaccion": 0.86
+    "interaccion": 0.82
    },
    "jueves": {
     "n": 8,
@@ -58,7 +58,7 @@
     "n": 40,
     "videos": 12,
     "vistas": 0.92,
-    "interaccion": 0.91
+    "interaccion": 0.89
    },
    "tarde": {
     "n": 4,
@@ -78,13 +78,13 @@
     "n": 28,
     "videos": 9,
     "vistas": 0.91,
-    "interaccion": 1.08
+    "interaccion": 1.05
    },
    "14-16 h": {
     "n": 12,
     "videos": 3,
     "vistas": 0.96,
-    "interaccion": 0.65
+    "interaccion": 0.64
    },
    "22-24 h": {
     "n": 8,
@@ -122,7 +122,7 @@
     "n": 20,
     "videos": 20,
     "vistas": 0.96,
-    "interaccion": 0.86
+    "interaccion": 0.83
    }
   },
   "estilo": {
@@ -186,7 +186,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.46,
-    "interaccion": 0.55
+    "interaccion": 0.54
    },
    "Palabras": {
     "n": 8,
@@ -290,7 +290,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.6,
-    "interaccion": 0.7
+    "interaccion": 0.69
    }
   },
   "ritmo": {
@@ -298,7 +298,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 1.02,
-    "interaccion": 1.04
+    "interaccion": 1.03
    },
    "rápido (>2,9 pal/s)": {
     "n": 44,
@@ -364,7 +364,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.46,
-    "interaccion": 0.55
+    "interaccion": 0.54
    },
    "cultura": {
     "n": 8,
