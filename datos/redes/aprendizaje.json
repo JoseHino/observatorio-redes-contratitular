@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T01:20:19.778Z",
+ "actualizado": "2026-11-19T02:19:21.801Z",
  "publicaciones": 80,
  "videos": 24,
  "factores": {
@@ -78,7 +78,7 @@
     "n": 28,
     "videos": 9,
     "vistas": 0.9,
-    "interaccion": 1.08
+    "interaccion": 1.09
    },
    "14-16 h": {
     "n": 12,
@@ -90,7 +90,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.94,
-    "interaccion": 1.71
+    "interaccion": 1.7
    },
    "18-20 h": {
     "n": 4,
@@ -148,7 +148,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 1.49,
-    "interaccion": 1.37
+    "interaccion": 1.36
    },
    "neon": {
     "n": 12,
@@ -472,7 +472,7 @@
     "n": 32,
     "videos": 8,
     "vistas": 1,
-    "interaccion": 0.94
+    "interaccion": 0.95
    },
    "dato final": {
     "n": 16,
@@ -614,7 +614,7 @@
     "mejor": {
      "v": "papel",
      "vistas": 1.49,
-     "interaccion": 1.37,
+     "interaccion": 1.36,
      "n": 12
     },
     "resto": [
@@ -630,7 +630,7 @@
      }
     ]
    },
-   "texto": "estilo: «papel» consigue 1.49× el alcance medio (3 vídeos) e interacción 1.37×; frente a limpio 1.10× (4 vídeos), pop 0.92× (3 vídeos)."
+   "texto": "estilo: «papel» consigue 1.49× el alcance medio (3 vídeos) e interacción 1.36×; frente a limpio 1.10× (4 vídeos), pop 0.92× (3 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -832,7 +832,7 @@
    "tum": 0.13
   },
   "estilo": {
-   "papel": 0.275,
+   "papel": 0.274,
    "neon": 0.168,
    "pop": 0.19,
    "pizarra": 0.173,
