@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T03:18:49.788Z",
+ "actualizado": "2026-11-19T04:18:53.400Z",
  "publicaciones": 80,
  "videos": 24,
  "factores": {
@@ -20,7 +20,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 0.66,
-    "interaccion": 0.78
+    "interaccion": 0.77
    },
    "miércoles": {
     "n": 12,
@@ -32,7 +32,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.12,
-    "interaccion": 1.67
+    "interaccion": 1.68
    },
    "viernes": {
     "n": 8,
@@ -58,7 +58,7 @@
     "n": 40,
     "videos": 12,
     "vistas": 0.92,
-    "interaccion": 0.92
+    "interaccion": 0.91
    },
    "tarde": {
     "n": 4,
@@ -90,7 +90,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.94,
-    "interaccion": 1.7
+    "interaccion": 1.71
    },
    "18-20 h": {
     "n": 4,
@@ -136,7 +136,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.69,
-    "interaccion": 0.95
+    "interaccion": 0.94
    },
    "limpio": {
     "n": 16,
@@ -162,7 +162,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.87,
-    "interaccion": 0.9
+    "interaccion": 0.91
    },
    "Ciencia": {
     "n": 8,
@@ -250,7 +250,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 0.71,
-    "interaccion": 0.75
+    "interaccion": 0.74
    },
    "afirmación": {
     "n": 32,
@@ -326,7 +326,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.87,
-    "interaccion": 1.2
+    "interaccion": 1.19
    },
    "no": {
     "n": 44,
@@ -398,7 +398,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.87,
-    "interaccion": 1.01
+    "interaccion": 1
    },
    "otro": {
     "n": 4,
@@ -472,7 +472,7 @@
     "n": 32,
     "videos": 8,
     "vistas": 1,
-    "interaccion": 0.95
+    "interaccion": 0.94
    },
    "dato final": {
     "n": 16,
@@ -512,7 +512,7 @@
     "n": 64,
     "videos": 16,
     "vistas": 0.99,
-    "interaccion": 0.9
+    "interaccion": 0.89
    }
   },
   "texto 0s": {
@@ -520,7 +520,7 @@
     "n": 64,
     "videos": 16,
     "vistas": 0.99,
-    "interaccion": 0.9
+    "interaccion": 0.89
    }
   },
   "personaje": {
@@ -566,7 +566,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 1.29,
-    "interaccion": 1.07
+    "interaccion": 1.06
    },
    "pop": {
     "n": 4,
@@ -588,7 +588,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.01,
-    "interaccion": 1.04
+    "interaccion": 1.03
    },
    "contradicción": {
     "n": 12,
@@ -826,7 +826,7 @@
    "madera": 0.119,
    "marimba": 0.113,
    "kalimba": 0.113,
-   "campanita": 0.129,
+   "campanita": 0.128,
    "cuerda": 0.113,
    "burbuja": 0.103,
    "tum": 0.13
@@ -835,7 +835,7 @@
    "papel": 0.275,
    "neon": 0.168,
    "pop": 0.19,
-   "pizarra": 0.173,
+   "pizarra": 0.172,
    "limpio": 0.195
   }
  },
