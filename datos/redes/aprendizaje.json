@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T20:19:22.168Z",
+ "actualizado": "2026-11-19T21:18:51.117Z",
  "publicaciones": 84,
  "videos": 26,
  "factores": {
@@ -32,7 +32,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.12,
-    "interaccion": 1.69
+    "interaccion": 1.7
    },
    "viernes": {
     "n": 8,
@@ -90,7 +90,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.94,
-    "interaccion": 1.72
+    "interaccion": 1.73
    },
    "18-20 h": {
     "n": 4,
@@ -130,7 +130,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.92,
-    "interaccion": 0.91
+    "interaccion": 0.92
    },
    "pizarra": {
     "n": 12,
@@ -168,7 +168,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.33,
-    "interaccion": 0.76
+    "interaccion": 0.77
    },
    "Cuerpo humano": {
     "n": 8,
@@ -204,7 +204,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.17,
-    "interaccion": 1.52
+    "interaccion": 1.53
    },
    "Comida": {
     "n": 4,
@@ -484,7 +484,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.72,
-    "interaccion": 0.75
+    "interaccion": 0.76
    },
    "moraleja": {
     "n": 8,
@@ -548,7 +548,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 0.75,
-    "interaccion": 1.07
+    "interaccion": 1.08
    },
    "tum": {
     "n": 8,
@@ -806,8 +806,8 @@
    "kalimba": 0.113,
    "campanita": 0.128,
    "cuerda": 0.113,
-   "burbuja": 0.103,
-   "tum": 0.131
+   "burbuja": 0.104,
+   "tum": 0.13
   },
   "estilo": {
    "papel": 0.275,
