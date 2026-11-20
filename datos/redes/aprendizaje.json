@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T13:20:26.096Z",
+ "actualizado": "2026-11-20T14:19:27.755Z",
  "publicaciones": 92,
  "videos": 27,
  "factores": {
@@ -26,7 +26,7 @@
     "n": 16,
     "videos": 5,
     "vistas": 0.59,
-    "interaccion": 0.8
+    "interaccion": 0.81
    },
    "jueves": {
     "n": 16,
@@ -204,7 +204,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.04,
-    "interaccion": 1.28
+    "interaccion": 1.29
    },
    "Comida": {
     "n": 4,
@@ -228,7 +228,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.44,
-    "interaccion": 1.13
+    "interaccion": 1.14
    }
   },
   "duración": {
@@ -338,7 +338,7 @@
     "n": 52,
     "videos": 13,
     "vistas": 1.08,
-    "interaccion": 0.82
+    "interaccion": 0.83
    }
   },
   "tema": {
@@ -404,7 +404,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 0.87,
-    "interaccion": 1
+    "interaccion": 1.01
    },
    "otro": {
     "n": 4,
@@ -434,14 +434,14 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.44,
-    "interaccion": 1.13
+    "interaccion": 1.14
    }
   },
   "cercania": {
    "mundo": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.84,
+    "vistas": 0.83,
     "interaccion": 0.89
    },
    "universal": {
@@ -590,7 +590,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.44,
-    "interaccion": 1.13
+    "interaccion": 1.14
    }
   },
   "voz": {
@@ -780,12 +780,12 @@
     "resto": [
      {
       "v": "mundo",
-      "vistas": 0.84,
+      "vistas": 0.83,
       "n": 32
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.18× el alcance medio (11 vídeos) e interacción 0.95×; frente a mundo 0.84× (8 vídeos)."
+   "texto": "cercania: «universal» consigue 1.18× el alcance medio (11 vídeos) e interacción 0.95×; frente a mundo 0.83× (8 vídeos)."
   },
   {
    "tipo": "regla",
@@ -816,9 +816,9 @@
    "gota": 0.083,
    "madera": 0.116,
    "marimba": 0.134,
-   "kalimba": 0.11,
+   "kalimba": 0.109,
    "campanita": 0.119,
-   "cuerda": 0.11,
+   "cuerda": 0.109,
    "burbuja": 0.1,
    "tum": 0.127
   },
