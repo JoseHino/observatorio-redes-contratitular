@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T10:18:57.097Z",
+ "actualizado": "2026-11-20T11:19:23.924Z",
  "publicaciones": 92,
  "videos": 27,
  "factores": {
@@ -227,7 +227,7 @@
    "Comida y bebida": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.45,
+    "vistas": 1.44,
     "interaccion": 1.12
    }
   },
@@ -433,7 +433,7 @@
    "segunda persona": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.45,
+    "vistas": 1.44,
     "interaccion": 1.12
    }
   },
@@ -447,7 +447,7 @@
    "universal": {
     "n": 44,
     "videos": 11,
-    "vistas": 1.19,
+    "vistas": 1.18,
     "interaccion": 0.94
    }
   },
@@ -589,7 +589,7 @@
    "marimba": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.45,
+    "vistas": 1.44,
     "interaccion": 1.12
    }
   },
@@ -773,7 +773,7 @@
    "detalle": {
     "mejor": {
      "v": "universal",
-     "vistas": 1.19,
+     "vistas": 1.18,
      "interaccion": 0.94,
      "n": 44
     },
@@ -785,7 +785,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.19× el alcance medio (11 vídeos) e interacción 0.94×; frente a mundo 0.84× (8 vídeos)."
+   "texto": "cercania: «universal» consigue 1.18× el alcance medio (11 vídeos) e interacción 0.94×; frente a mundo 0.84× (8 vídeos)."
   },
   {
    "tipo": "regla",
@@ -884,7 +884,7 @@
   {
    "id": "2026-11-19-1215",
    "titulo": "Te enseñaron que la lengua tiene zonas de sabores. Es falso",
-   "indice": 1.74,
+   "indice": 1.73,
    "variable": "gancho_tipo",
    "variante": "contradicción"
   },
