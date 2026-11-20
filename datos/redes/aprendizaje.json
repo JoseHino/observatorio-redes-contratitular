@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T17:19:34.389Z",
+ "actualizado": "2026-11-20T18:21:22.233Z",
  "publicaciones": 92,
  "videos": 27,
  "factores": {
@@ -7,7 +7,7 @@
    "domingo": {
     "n": 12,
     "videos": 4,
-    "vistas": 1.57,
+    "vistas": 1.58,
     "interaccion": 0.75
    },
    "lunes": {
@@ -19,7 +19,7 @@
    "martes": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.66,
+    "vistas": 0.67,
     "interaccion": 0.77
    },
    "miércoles": {
@@ -31,7 +31,7 @@
    "jueves": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.25,
+    "vistas": 1.24,
     "interaccion": 1.4
    },
    "viernes": {
@@ -83,7 +83,7 @@
    "14-16 h": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.96,
+    "vistas": 0.97,
     "interaccion": 0.64
    },
    "22-24 h": {
@@ -103,7 +103,7 @@
    "instagram": {
     "n": 23,
     "videos": 23,
-    "vistas": 1.24,
+    "vistas": 1.23,
     "interaccion": 0.75
    },
    "tiktok": {
@@ -121,7 +121,7 @@
    "facebook": {
     "n": 23,
     "videos": 23,
-    "vistas": 0.98,
+    "vistas": 0.99,
     "interaccion": 0.88
    }
   },
@@ -129,13 +129,13 @@
    "pop": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.05,
+    "vistas": 1.06,
     "interaccion": 0.97
    },
    "pizarra": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.78,
+    "vistas": 0.79,
     "interaccion": 0.95
    },
    "limpio": {
@@ -161,13 +161,13 @@
    "Tal día como hoy": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.87,
+    "vistas": 0.88,
     "interaccion": 0.91
    },
    "Ciencia": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.34,
+    "vistas": 1.35,
     "interaccion": 0.76
    },
    "Cuerpo humano": {
@@ -228,14 +228,14 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.44,
-    "interaccion": 1.14
+    "interaccion": 1.13
    }
   },
   "duración": {
    "33-43 s": {
     "n": 64,
     "videos": 16,
-    "vistas": 1.11,
+    "vistas": 1.12,
     "interaccion": 0.94
    },
    ">43 s": {
@@ -248,7 +248,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.07,
-    "interaccion": 1.18
+    "interaccion": 1.17
    }
   },
   "gancho": {
@@ -331,7 +331,7 @@
    "sí": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.91,
+    "vistas": 0.92,
     "interaccion": 1.17
    },
    "no": {
@@ -345,13 +345,13 @@
    "historia": {
     "n": 24,
     "videos": 6,
-    "vistas": 1.25,
+    "vistas": 1.26,
     "interaccion": 1.18
    },
    "ciencia": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.45,
+    "vistas": 1.46,
     "interaccion": 0.75
    },
    "cuerpo humano": {
@@ -403,13 +403,13 @@
    "cifra chocante": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.87,
+    "vistas": 0.88,
     "interaccion": 1.02
    },
    "otro": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.74,
+    "vistas": 0.75,
     "interaccion": 0.61
    },
    "contradicción": {
@@ -434,20 +434,20 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.44,
-    "interaccion": 1.14
+    "interaccion": 1.13
    }
   },
   "cercania": {
    "mundo": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.83,
+    "vistas": 0.84,
     "interaccion": 0.9
    },
    "universal": {
     "n": 44,
     "videos": 11,
-    "vistas": 1.18,
+    "vistas": 1.19,
     "interaccion": 0.95
    }
   },
@@ -455,7 +455,7 @@
    "no": {
     "n": 32,
     "videos": 8,
-    "vistas": 1.02,
+    "vistas": 1.03,
     "interaccion": 0.75
    },
    "sí": {
@@ -475,7 +475,7 @@
    "no": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.74,
+    "vistas": 0.75,
     "interaccion": 0.61
    }
   },
@@ -483,7 +483,7 @@
    "pregunta": {
     "n": 44,
     "videos": 11,
-    "vistas": 1.05,
+    "vistas": 1.06,
     "interaccion": 0.99
    },
    "dato final": {
@@ -577,7 +577,7 @@
    "campanita": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.18,
+    "vistas": 1.19,
     "interaccion": 1.07
    },
    "pop": {
@@ -590,14 +590,14 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.44,
-    "interaccion": 1.14
+    "interaccion": 1.13
    }
   },
   "voz": {
    "Tristan HD": {
     "n": 72,
     "videos": 18,
-    "vistas": 1.03,
+    "vistas": 1.04,
     "interaccion": 0.93
    }
   },
@@ -605,7 +605,7 @@
    "cifra chocante": {
     "n": 20,
     "videos": 5,
-    "vistas": 0.98,
+    "vistas": 0.99,
     "interaccion": 1.04
    },
    "contradicción": {
@@ -643,12 +643,12 @@
      },
      {
       "v": "pop",
-      "vistas": 1.05,
+      "vistas": 1.06,
       "n": 16
      }
     ]
    },
-   "texto": "estilo: «papel» consigue 1.49× el alcance medio (3 vídeos) e interacción 1.38×; frente a limpio 1.10× (4 vídeos), pop 1.05× (4 vídeos)."
+   "texto": "estilo: «papel» consigue 1.49× el alcance medio (3 vídeos) e interacción 1.38×; frente a limpio 1.10× (4 vídeos), pop 1.06× (4 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -773,19 +773,19 @@
    "detalle": {
     "mejor": {
      "v": "universal",
-     "vistas": 1.18,
+     "vistas": 1.19,
      "interaccion": 0.95,
      "n": 44
     },
     "resto": [
      {
       "v": "mundo",
-      "vistas": 0.83,
+      "vistas": 0.84,
       "n": 32
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.18× el alcance medio (11 vídeos) e interacción 0.95×; frente a mundo 0.83× (8 vídeos)."
+   "texto": "cercania: «universal» consigue 1.19× el alcance medio (11 vídeos) e interacción 0.95×; frente a mundo 0.84× (8 vídeos)."
   },
   {
    "tipo": "regla",
@@ -815,9 +815,9 @@
    "pop": 0.102,
    "gota": 0.082,
    "madera": 0.115,
-   "marimba": 0.134,
+   "marimba": 0.133,
    "kalimba": 0.109,
-   "campanita": 0.12,
+   "campanita": 0.121,
    "cuerda": 0.109,
    "burbuja": 0.1,
    "tum": 0.127
@@ -825,8 +825,8 @@
   "estilo": {
    "papel": 0.266,
    "neon": 0.168,
-   "pop": 0.199,
-   "pizarra": 0.176,
+   "pop": 0.2,
+   "pizarra": 0.177,
    "limpio": 0.19
   }
  },
@@ -905,7 +905,7 @@
   {
    "id": "2026-11-19-2015",
    "titulo": "¿Qué pasa si un rayo cae sobre un cohete lunar? Le pasó al Apolo 12",
-   "indice": 1.18,
+   "indice": 1.17,
    "variable": "gancho_tipo",
    "variante": "pregunta"
   },
@@ -938,7 +938,7 @@
   {
    "id": "2026-11-09-1330",
    "titulo": "El ajuste mal hecho que apagó a 25 millones de personas en 1965",
-   "indice": 0.81
+   "indice": 0.83
   },
   {
    "id": "2026-11-16-2000",
@@ -955,7 +955,7 @@
   {
    "id": "2026-11-09-2100-v2",
    "titulo": "Por qué huele tan bien la lluvia: el olor que fabrican las bacterias",
-   "indice": 0.64
+   "indice": 0.65
   },
   {
    "id": "2026-11-17-2145",
@@ -967,7 +967,7 @@
   {
    "id": "2026-11-17-1415",
    "titulo": "3,69 céntimos: lo que costaba fabricar una moneda de un céntimo",
-   "indice": 0.41,
+   "indice": 0.42,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
