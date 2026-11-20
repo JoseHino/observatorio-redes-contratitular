@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T01:20:30.601Z",
+ "actualizado": "2026-11-20T02:19:37.569Z",
  "publicaciones": 88,
  "videos": 28,
  "factores": {
@@ -31,7 +31,7 @@
    "jueves": {
     "n": 12,
     "videos": 4,
-    "vistas": 1.28,
+    "vistas": 1.27,
     "interaccion": 1.5
    },
    "viernes": {
@@ -136,7 +136,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.69,
-    "interaccion": 0.91
+    "interaccion": 0.92
    },
    "limpio": {
     "n": 16,
@@ -490,7 +490,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.36,
-    "interaccion": 0.79
+    "interaccion": 0.8
    }
   },
   "primer fotograma claro": {
@@ -812,7 +812,7 @@
   "estilo": {
    "papel": 0.275,
    "neon": 0.168,
-   "pop": 0.19,
+   "pop": 0.189,
    "pizarra": 0.172,
    "limpio": 0.196
   }
