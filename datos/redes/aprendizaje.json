@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T22:18:51.395Z",
+ "actualizado": "2026-11-20T23:19:40.666Z",
  "publicaciones": 92,
  "videos": 27,
  "factores": {
@@ -26,7 +26,7 @@
     "n": 16,
     "videos": 5,
     "vistas": 0.59,
-    "interaccion": 0.79
+    "interaccion": 0.8
    },
    "jueves": {
     "n": 16,
@@ -90,7 +90,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.94,
-    "interaccion": 1.72
+    "interaccion": 1.73
    },
    "18-20 h": {
     "n": 4,
@@ -116,7 +116,7 @@
     "n": 23,
     "videos": 23,
     "vistas": 0.88,
-    "interaccion": 0.99
+    "interaccion": 1
    },
    "facebook": {
     "n": 23,
@@ -136,7 +136,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 0.79,
-    "interaccion": 0.95
+    "interaccion": 0.96
    },
    "limpio": {
     "n": 16,
@@ -162,7 +162,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.88,
-    "interaccion": 0.91
+    "interaccion": 0.92
    },
    "Ciencia": {
     "n": 8,
@@ -180,7 +180,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.76,
-    "interaccion": 1.37
+    "interaccion": 1.38
    },
    "Dinero": {
     "n": 8,
@@ -210,7 +210,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.51,
-    "interaccion": 1.24
+    "interaccion": 1.25
    },
    "Espacio": {
     "n": 8,
@@ -222,7 +222,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.69,
-    "interaccion": 1.11
+    "interaccion": 1.12
    },
    "Comida y bebida": {
     "n": 4,
@@ -236,7 +236,7 @@
     "n": 64,
     "videos": 16,
     "vistas": 1.12,
-    "interaccion": 0.93
+    "interaccion": 0.94
    },
    ">43 s": {
     "n": 8,
@@ -262,7 +262,7 @@
     "n": 36,
     "videos": 9,
     "vistas": 1.07,
-    "interaccion": 0.93
+    "interaccion": 0.94
    },
    "pregunta": {
     "n": 20,
@@ -296,7 +296,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.59,
-    "interaccion": 0.69
+    "interaccion": 0.7
    }
   },
   "ritmo": {
@@ -364,7 +364,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.76,
-    "interaccion": 1.37
+    "interaccion": 1.38
    },
    "economía": {
     "n": 8,
@@ -448,7 +448,7 @@
     "n": 44,
     "videos": 11,
     "vistas": 1.19,
-    "interaccion": 0.95
+    "interaccion": 0.96
    }
   },
   "promesa": {
@@ -462,7 +462,7 @@
     "n": 44,
     "videos": 11,
     "vistas": 1.02,
-    "interaccion": 1.09
+    "interaccion": 1.1
    }
   },
   "giro": {
@@ -490,7 +490,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 0.98,
-    "interaccion": 0.98
+    "interaccion": 0.99
    },
    "bucle": {
     "n": 8,
@@ -516,7 +516,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.51,
-    "interaccion": 1.24
+    "interaccion": 1.25
    }
   },
   "movimiento 1s": {
@@ -554,7 +554,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.96,
-    "interaccion": 0.49
+    "interaccion": 0.5
    },
    "burbuja": {
     "n": 16,
@@ -584,7 +584,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.81,
-    "interaccion": 1.04
+    "interaccion": 1.05
    },
    "marimba": {
     "n": 4,
@@ -774,7 +774,7 @@
     "mejor": {
      "v": "universal",
      "vistas": 1.19,
-     "interaccion": 0.95,
+     "interaccion": 0.96,
      "n": 44
     },
     "resto": [
@@ -785,7 +785,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.19× el alcance medio (11 vídeos) e interacción 0.95×; frente a mundo 0.84× (8 vídeos)."
+   "texto": "cercania: «universal» consigue 1.19× el alcance medio (11 vídeos) e interacción 0.96×; frente a mundo 0.84× (8 vídeos)."
   },
   {
    "tipo": "regla",
@@ -812,13 +812,13 @@
  ],
  "pesos": {
   "familia": {
-   "pop": 0.102,
-   "gota": 0.082,
-   "madera": 0.116,
-   "marimba": 0.134,
-   "kalimba": 0.11,
+   "pop": 0.103,
+   "gota": 0.083,
+   "madera": 0.115,
+   "marimba": 0.133,
+   "kalimba": 0.109,
    "campanita": 0.12,
-   "cuerda": 0.11,
+   "cuerda": 0.109,
    "burbuja": 0.1,
    "tum": 0.127
   },
