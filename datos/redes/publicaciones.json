@@ -533078,6 +533078,29 @@
      "avg_watch_seconds": 15.575,
      "watch_time_seconds": 1713.253
     }
+   },
+   {
+    "t": "2026-11-20T09:17:11.730Z",
+    "horas": 68,
+    "m": {
+     "likes": 0,
+     "comments": 1,
+     "media_product_type": "REELS",
+     "views": 130,
+     "impressions": 130,
+     "reach": 111,
+     "saves": 0,
+     "shares": 0,
+     "likes_insight": 0,
+     "comments_insight": 1,
+     "total_interactions": 1,
+     "ig_reels_avg_watch_time": 15575,
+     "ig_reels_video_view_total_time": 1713253,
+     "crossposted_views": null,
+     "facebook_views": null,
+     "avg_watch_seconds": 15.575,
+     "watch_time_seconds": 1713.253
+    }
    }
   ]
  },
@@ -551156,6 +551179,321 @@
      "watch_time_seconds": 2496,
      "completion_rate": 11.42
     }
+   },
+   {
+    "t": "2026-11-20T09:17:37.181Z",
+    "horas": 68,
+    "m": {
+     "views": 252,
+     "likes": 6,
+     "comments": 1,
+     "shares": 0,
+     "reach": 224,
+     "favorites": 0,
+     "new_followers": 0,
+     "profile_views": 0,
+     "full_video_watched_rate": 0.1142,
+     "average_time_watched": 9.83,
+     "total_time_watched": 2496,
+     "is_ai_generated": true,
+     "retention": [
+      {
+       "percentage": 1,
+       "second": "0"
+      },
+      {
+       "percentage": 0.54,
+       "second": "1"
+      },
+      {
+       "percentage": 0.44,
+       "second": "2"
+      },
+      {
+       "percentage": 0.39,
+       "second": "3"
+      },
+      {
+       "percentage": 0.36,
+       "second": "4"
+      },
+      {
+       "percentage": 0.35,
+       "second": "5"
+      },
+      {
+       "percentage": 0.33,
+       "second": "6"
+      },
+      {
+       "percentage": 0.28,
+       "second": "7"
+      },
+      {
+       "percentage": 0.28,
+       "second": "8"
+      },
+      {
+       "percentage": 0.27,
+       "second": "9"
+      },
+      {
+       "percentage": 0.27,
+       "second": "10"
+      },
+      {
+       "percentage": 0.26,
+       "second": "11"
+      },
+      {
+       "percentage": 0.26,
+       "second": "12"
+      },
+      {
+       "percentage": 0.26,
+       "second": "13"
+      },
+      {
+       "percentage": 0.26,
+       "second": "14"
+      },
+      {
+       "percentage": 0.25,
+       "second": "15"
+      },
+      {
+       "percentage": 0.24,
+       "second": "16"
+      },
+      {
+       "percentage": 0.22,
+       "second": "17"
+      },
+      {
+       "percentage": 0.22,
+       "second": "18"
+      },
+      {
+       "percentage": 0.21,
+       "second": "19"
+      },
+      {
+       "percentage": 0.2,
+       "second": "20"
+      },
+      {
+       "percentage": 0.2,
+       "second": "21"
+      },
+      {
+       "percentage": 0.19,
+       "second": "22"
+      },
+      {
+       "percentage": 0.19,
+       "second": "23"
+      },
+      {
+       "percentage": 0.18,
+       "second": "24"
+      },
+      {
+       "percentage": 0.18,
+       "second": "25"
+      },
+      {
+       "percentage": 0.17,
+       "second": "26"
+      },
+      {
+       "percentage": 0.17,
+       "second": "27"
+      },
+      {
+       "percentage": 0.16,
+       "second": "28"
+      },
+      {
+       "percentage": 0.16,
+       "second": "29"
+      },
+      {
+       "percentage": 0.16,
+       "second": "30"
+      },
+      {
+       "percentage": 0.15,
+       "second": "31"
+      },
+      {
+       "percentage": 0.15,
+       "second": "32"
+      },
+      {
+       "percentage": 0.14,
+       "second": "33"
+      },
+      {
+       "percentage": 0.14,
+       "second": "34"
+      },
+      {
+       "percentage": 0.14,
+       "second": "35"
+      },
+      {
+       "percentage": 0.12,
+       "second": "36"
+      },
+      {
+       "percentage": 0.1,
+       "second": "37"
+      }
+     ],
+     "impression_sources": [
+      {
+       "impression_source": "Direct Message",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Follow",
+       "percentage": 0
+      },
+      {
+       "impression_source": "For You",
+       "percentage": 0.996
+      },
+      {
+       "impression_source": "Others",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Personal Profile",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Search",
+       "percentage": 0.004
+      },
+      {
+       "impression_source": "Sound",
+       "percentage": 0
+      }
+     ],
+     "audience_types": [
+      {
+       "percentage": 0,
+       "type": "FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0.89,
+       "type": "NEW_VIEWER"
+      },
+      {
+       "percentage": 1,
+       "type": "NON_FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0.11,
+       "type": "RETURN_VIEWER"
+      }
+     ],
+     "audience": {
+      "countries": [
+       {
+        "country": "DK",
+        "percentage": 0.004
+       },
+       {
+        "country": "NL",
+        "percentage": 0.012
+       },
+       {
+        "country": "RO",
+        "percentage": 0.024
+       },
+       {
+        "country": "DE",
+        "percentage": 0.008
+       },
+       {
+        "country": "IT",
+        "percentage": 0.004
+       },
+       {
+        "country": "CA",
+        "percentage": 0.008
+       },
+       {
+        "country": "EC",
+        "percentage": 0.004
+       },
+       {
+        "country": "SE",
+        "percentage": 0.004
+       },
+       {
+        "country": "ES",
+        "percentage": 0.928
+       },
+       {
+        "country": "KZ",
+        "percentage": 0.004
+       }
+      ],
+      "cities": [
+       {
+        "city_name": "CA Toronto",
+        "percentage": 0.004
+       },
+       {
+        "city_name": "ES Madrid",
+        "percentage": 0.2793
+       },
+       {
+        "city_name": "ES Seville",
+        "percentage": 0.0631
+       },
+       {
+        "city_name": "ES Valencia",
+        "percentage": 0.0473
+       },
+       {
+        "city_name": "CA Fraser Valley",
+        "percentage": 0.004
+       },
+       {
+        "city_name": "ES Barcelona",
+        "percentage": 0.0947
+       },
+       {
+        "city_name": "ES Malaga",
+        "percentage": 0.0436
+       },
+       {
+        "city_name": "ES Other",
+        "percentage": 0.4
+       }
+      ],
+      "genders": [
+       {
+        "gender": "female_vv",
+        "percentage": 0.31
+       },
+       {
+        "gender": "male_vv",
+        "percentage": 0.69
+       },
+       {
+        "gender": "other_vv",
+        "percentage": 0
+       }
+      ]
+     },
+     "avg_watch_seconds": 9.83,
+     "watch_time_seconds": 2496,
+     "completion_rate": 11.42
+    }
    }
   ]
  },
@@ -552381,6 +552719,24 @@
      "watch_time_seconds": 0,
      "avg_watch_seconds": 0
     }
+   },
+   {
+    "t": "2026-11-20T09:17:59.499Z",
+    "horas": 68,
+    "m": {
+     "views": 311,
+     "likes": 4,
+     "comments": 1,
+     "favorites": 0,
+     "watch_time_minutes": 0,
+     "average_view_duration_seconds": 0,
+     "average_view_percentage": 0,
+     "engaged_views": 0,
+     "subscribers_gained": 0,
+     "shares": 0,
+     "watch_time_seconds": 0,
+     "avg_watch_seconds": 0
+    }
    }
   ]
  },
@@ -553267,6 +553623,19 @@
    {
     "t": "2026-11-20T08:18:56.121Z",
     "horas": 67.1,
+    "m": {
+     "reactions": 0,
+     "likes": 0,
+     "comments": 1,
+     "shares": 0,
+     "views": 249,
+     "reach": 0,
+     "impressions": 249
+    }
+   },
+   {
+    "t": "2026-11-20T09:18:21.797Z",
+    "horas": 68,
     "m": {
      "reactions": 0,
      "likes": 0,
@@ -554648,6 +555017,29 @@
    {
     "t": "2026-11-20T08:17:24.447Z",
     "horas": 59.5,
+    "m": {
+     "likes": 0,
+     "comments": 1,
+     "media_product_type": "REELS",
+     "views": 50,
+     "impressions": 50,
+     "reach": 47,
+     "saves": 0,
+     "shares": 0,
+     "likes_insight": 0,
+     "comments_insight": 1,
+     "total_interactions": 1,
+     "ig_reels_avg_watch_time": 6936,
+     "ig_reels_video_view_total_time": 332949,
+     "crossposted_views": null,
+     "facebook_views": null,
+     "avg_watch_seconds": 6.936,
+     "watch_time_seconds": 332.949
+    }
+   },
+   {
+    "t": "2026-11-20T09:17:16.061Z",
+    "horas": 60.5,
     "m": {
      "likes": 0,
      "comments": 1,
@@ -570806,6 +571198,309 @@
      "watch_time_seconds": 1330,
      "completion_rate": 3.17
     }
+   },
+   {
+    "t": "2026-11-20T09:17:41.005Z",
+    "horas": 60.5,
+    "m": {
+     "views": 247,
+     "likes": 5,
+     "comments": 1,
+     "shares": 0,
+     "reach": 229,
+     "favorites": 0,
+     "new_followers": 0,
+     "profile_views": 0,
+     "full_video_watched_rate": 0.0317,
+     "average_time_watched": 5.28,
+     "total_time_watched": 1330,
+     "is_ai_generated": true,
+     "retention": [
+      {
+       "percentage": 1,
+       "second": "0"
+      },
+      {
+       "percentage": 0.47,
+       "second": "1"
+      },
+      {
+       "percentage": 0.3,
+       "second": "2"
+      },
+      {
+       "percentage": 0.2,
+       "second": "3"
+      },
+      {
+       "percentage": 0.18,
+       "second": "4"
+      },
+      {
+       "percentage": 0.16,
+       "second": "5"
+      },
+      {
+       "percentage": 0.16,
+       "second": "6"
+      },
+      {
+       "percentage": 0.15,
+       "second": "7"
+      },
+      {
+       "percentage": 0.13,
+       "second": "8"
+      },
+      {
+       "percentage": 0.13,
+       "second": "9"
+      },
+      {
+       "percentage": 0.12,
+       "second": "10"
+      },
+      {
+       "percentage": 0.11,
+       "second": "11"
+      },
+      {
+       "percentage": 0.11,
+       "second": "12"
+      },
+      {
+       "percentage": 0.11,
+       "second": "13"
+      },
+      {
+       "percentage": 0.11,
+       "second": "14"
+      },
+      {
+       "percentage": 0.11,
+       "second": "15"
+      },
+      {
+       "percentage": 0.1,
+       "second": "16"
+      },
+      {
+       "percentage": 0.1,
+       "second": "17"
+      },
+      {
+       "percentage": 0.1,
+       "second": "18"
+      },
+      {
+       "percentage": 0.1,
+       "second": "19"
+      },
+      {
+       "percentage": 0.1,
+       "second": "20"
+      },
+      {
+       "percentage": 0.09,
+       "second": "21"
+      },
+      {
+       "percentage": 0.09,
+       "second": "22"
+      },
+      {
+       "percentage": 0.09,
+       "second": "23"
+      },
+      {
+       "percentage": 0.09,
+       "second": "24"
+      },
+      {
+       "percentage": 0.09,
+       "second": "25"
+      },
+      {
+       "percentage": 0.08,
+       "second": "26"
+      },
+      {
+       "percentage": 0.08,
+       "second": "27"
+      },
+      {
+       "percentage": 0.08,
+       "second": "28"
+      },
+      {
+       "percentage": 0.07,
+       "second": "29"
+      },
+      {
+       "percentage": 0.07,
+       "second": "30"
+      },
+      {
+       "percentage": 0.06,
+       "second": "31"
+      },
+      {
+       "percentage": 0.05,
+       "second": "32"
+      },
+      {
+       "percentage": 0.05,
+       "second": "33"
+      },
+      {
+       "percentage": 0.05,
+       "second": "34"
+      },
+      {
+       "percentage": 0.04,
+       "second": "35"
+      },
+      {
+       "percentage": 0.04,
+       "second": "36"
+      },
+      {
+       "percentage": 0.03,
+       "second": "37"
+      },
+      {
+       "percentage": 0.03,
+       "second": "38"
+      }
+     ],
+     "impression_sources": [
+      {
+       "impression_source": "Follow",
+       "percentage": 0
+      },
+      {
+       "impression_source": "For You",
+       "percentage": 1
+      },
+      {
+       "impression_source": "Others",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Personal Profile",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Search",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Sound",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Direct Message",
+       "percentage": 0
+      }
+     ],
+     "audience_types": [
+      {
+       "percentage": 1,
+       "type": "NON_FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0.14,
+       "type": "RETURN_VIEWER"
+      },
+      {
+       "percentage": 0,
+       "type": "FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0.86,
+       "type": "NEW_VIEWER"
+      }
+     ],
+     "audience": {
+      "countries": [
+       {
+        "country": "ES",
+        "percentage": 0.96
+       },
+       {
+        "country": "IT",
+        "percentage": 0.012
+       },
+       {
+        "country": "PL",
+        "percentage": 0.004
+       },
+       {
+        "country": "AR",
+        "percentage": 0.004
+       },
+       {
+        "country": "CZ",
+        "percentage": 0.004
+       },
+       {
+        "country": "FR",
+        "percentage": 0.008
+       },
+       {
+        "country": "GB",
+        "percentage": 0.004
+       },
+       {
+        "country": "CH",
+        "percentage": 0.004
+       }
+      ],
+      "cities": [
+       {
+        "city_name": "ES Valencia",
+        "percentage": 0.0518
+       },
+       {
+        "city_name": "ES Barcelona",
+        "percentage": 0.119
+       },
+       {
+        "city_name": "ES Biscay",
+        "percentage": 0.0432
+       },
+       {
+        "city_name": "ES Madrid",
+        "percentage": 0.2266
+       },
+       {
+        "city_name": "ES Other",
+        "percentage": 0.4762
+       },
+       {
+        "city_name": "ES Seville",
+        "percentage": 0.0432
+       }
+      ],
+      "genders": [
+       {
+        "gender": "female_vv",
+        "percentage": 0.37
+       },
+       {
+        "gender": "male_vv",
+        "percentage": 0.63
+       },
+       {
+        "gender": "other_vv",
+        "percentage": 0
+       }
+      ]
+     },
+     "avg_watch_seconds": 5.28,
+     "watch_time_seconds": 1330,
+     "completion_rate": 3.17
+    }
    }
   ]
  },
@@ -571809,6 +572504,24 @@
      "watch_time_seconds": 0,
      "avg_watch_seconds": 0
     }
+   },
+   {
+    "t": "2026-11-20T09:18:02.760Z",
+    "horas": 60.5,
+    "m": {
+     "views": 1032,
+     "likes": 12,
+     "comments": 2,
+     "favorites": 0,
+     "watch_time_minutes": 0,
+     "average_view_duration_seconds": 0,
+     "average_view_percentage": 0,
+     "engaged_views": 0,
+     "subscribers_gained": 0,
+     "shares": 0,
+     "watch_time_seconds": 0,
+     "avg_watch_seconds": 0
+    }
    }
   ]
  },
@@ -572591,6 +573304,19 @@
    {
     "t": "2026-11-20T08:19:00.588Z",
     "horas": 59.6,
+    "m": {
+     "reactions": 0,
+     "likes": 0,
+     "comments": 1,
+     "shares": 0,
+     "views": 225,
+     "reach": 0,
+     "impressions": 225
+    }
+   },
+   {
+    "t": "2026-11-20T09:18:26.110Z",
+    "horas": 60.5,
     "m": {
      "reactions": 0,
      "likes": 0,
@@ -573604,6 +574330,29 @@
    {
     "t": "2026-11-20T08:17:29.120Z",
     "horas": 43.8,
+    "m": {
+     "likes": 0,
+     "comments": 1,
+     "media_product_type": "REELS",
+     "views": 76,
+     "impressions": 76,
+     "reach": 70,
+     "saves": 0,
+     "shares": 0,
+     "likes_insight": 0,
+     "comments_insight": 1,
+     "total_interactions": 1,
+     "ig_reels_avg_watch_time": 7900,
+     "ig_reels_video_view_total_time": 560943,
+     "crossposted_views": null,
+     "facebook_views": null,
+     "avg_watch_seconds": 7.9,
+     "watch_time_seconds": 560.943
+    }
+   },
+   {
+    "t": "2026-11-20T09:17:20.111Z",
+    "horas": 44.8,
     "m": {
      "likes": 0,
      "comments": 1,
@@ -587766,6 +588515,389 @@
      "watch_time_seconds": 1446,
      "completion_rate": 3.73
     }
+   },
+   {
+    "t": "2026-11-20T09:17:44.700Z",
+    "horas": 44.8,
+    "m": {
+     "views": 238,
+     "likes": 1,
+     "comments": 1,
+     "shares": 0,
+     "reach": 222,
+     "favorites": 0,
+     "new_followers": 0,
+     "profile_views": 0,
+     "full_video_watched_rate": 0.0373,
+     "average_time_watched": 6,
+     "total_time_watched": 1446,
+     "is_ai_generated": true,
+     "retention": [
+      {
+       "percentage": 1,
+       "second": "0"
+      },
+      {
+       "percentage": 0.56,
+       "second": "1"
+      },
+      {
+       "percentage": 0.31,
+       "second": "2"
+      },
+      {
+       "percentage": 0.26,
+       "second": "3"
+      },
+      {
+       "percentage": 0.22,
+       "second": "4"
+      },
+      {
+       "percentage": 0.2,
+       "second": "5"
+      },
+      {
+       "percentage": 0.17,
+       "second": "6"
+      },
+      {
+       "percentage": 0.16,
+       "second": "7"
+      },
+      {
+       "percentage": 0.15,
+       "second": "8"
+      },
+      {
+       "percentage": 0.13,
+       "second": "9"
+      },
+      {
+       "percentage": 0.11,
+       "second": "10"
+      },
+      {
+       "percentage": 0.09,
+       "second": "11"
+      },
+      {
+       "percentage": 0.08,
+       "second": "12"
+      },
+      {
+       "percentage": 0.08,
+       "second": "13"
+      },
+      {
+       "percentage": 0.07,
+       "second": "14"
+      },
+      {
+       "percentage": 0.06,
+       "second": "15"
+      },
+      {
+       "percentage": 0.06,
+       "second": "16"
+      },
+      {
+       "percentage": 0.06,
+       "second": "17"
+      },
+      {
+       "percentage": 0.06,
+       "second": "18"
+      },
+      {
+       "percentage": 0.06,
+       "second": "19"
+      },
+      {
+       "percentage": 0.06,
+       "second": "20"
+      },
+      {
+       "percentage": 0.06,
+       "second": "21"
+      },
+      {
+       "percentage": 0.06,
+       "second": "22"
+      },
+      {
+       "percentage": 0.06,
+       "second": "23"
+      },
+      {
+       "percentage": 0.06,
+       "second": "24"
+      },
+      {
+       "percentage": 0.06,
+       "second": "25"
+      },
+      {
+       "percentage": 0.06,
+       "second": "26"
+      },
+      {
+       "percentage": 0.05,
+       "second": "27"
+      },
+      {
+       "percentage": 0.05,
+       "second": "28"
+      },
+      {
+       "percentage": 0.05,
+       "second": "29"
+      },
+      {
+       "percentage": 0.04,
+       "second": "30"
+      },
+      {
+       "percentage": 0.04,
+       "second": "31"
+      },
+      {
+       "percentage": 0.04,
+       "second": "32"
+      },
+      {
+       "percentage": 0.04,
+       "second": "33"
+      },
+      {
+       "percentage": 0.04,
+       "second": "34"
+      },
+      {
+       "percentage": 0.04,
+       "second": "35"
+      },
+      {
+       "percentage": 0.04,
+       "second": "36"
+      },
+      {
+       "percentage": 0.04,
+       "second": "37"
+      },
+      {
+       "percentage": 0.04,
+       "second": "38"
+      },
+      {
+       "percentage": 0.04,
+       "second": "39"
+      },
+      {
+       "percentage": 0.04,
+       "second": "40"
+      },
+      {
+       "percentage": 0.04,
+       "second": "41"
+      },
+      {
+       "percentage": 0.04,
+       "second": "42"
+      },
+      {
+       "percentage": 0.04,
+       "second": "43"
+      },
+      {
+       "percentage": 0.04,
+       "second": "44"
+      },
+      {
+       "percentage": 0.04,
+       "second": "45"
+      },
+      {
+       "percentage": 0.04,
+       "second": "46"
+      },
+      {
+       "percentage": 0.04,
+       "second": "47"
+      },
+      {
+       "percentage": 0.04,
+       "second": "48"
+      },
+      {
+       "percentage": 0.04,
+       "second": "49"
+      },
+      {
+       "percentage": 0.04,
+       "second": "50"
+      },
+      {
+       "percentage": 0.04,
+       "second": "51"
+      },
+      {
+       "percentage": 0.04,
+       "second": "52"
+      },
+      {
+       "percentage": 0.04,
+       "second": "53"
+      },
+      {
+       "percentage": 0.04,
+       "second": "54"
+      },
+      {
+       "percentage": 0.04,
+       "second": "55"
+      },
+      {
+       "percentage": 0.04,
+       "second": "56"
+      },
+      {
+       "percentage": 0.04,
+       "second": "57"
+      }
+     ],
+     "impression_sources": [
+      {
+       "impression_source": "Personal Profile",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Search",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Sound",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Direct Message",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Follow",
+       "percentage": 0
+      },
+      {
+       "impression_source": "For You",
+       "percentage": 0.996
+      },
+      {
+       "impression_source": "Others",
+       "percentage": 0.004
+      }
+     ],
+     "audience_types": [
+      {
+       "percentage": 0,
+       "type": "FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0.89,
+       "type": "NEW_VIEWER"
+      },
+      {
+       "percentage": 1,
+       "type": "NON_FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0.11,
+       "type": "RETURN_VIEWER"
+      }
+     ],
+     "audience": {
+      "countries": [
+       {
+        "country": "IT",
+        "percentage": 0.008
+       },
+       {
+        "country": "PL",
+        "percentage": 0.008
+       },
+       {
+        "country": "RO",
+        "percentage": 0.004
+       },
+       {
+        "country": "US",
+        "percentage": 0.004
+       },
+       {
+        "country": "CA",
+        "percentage": 0.004
+       },
+       {
+        "country": "ES",
+        "percentage": 0.968
+       },
+       {
+        "country": "FR",
+        "percentage": 0.004
+       }
+      ],
+      "cities": [
+       {
+        "city_name": "ES Other",
+        "percentage": 0.5401
+       },
+       {
+        "city_name": "US Harris",
+        "percentage": 0.004
+       },
+       {
+        "city_name": "CA Edmonton",
+        "percentage": 0.004
+       },
+       {
+        "city_name": "ES Madrid",
+        "percentage": 0.2159
+       },
+       {
+        "city_name": "ES Seville",
+        "percentage": 0.0378
+       },
+       {
+        "city_name": "ES Valencia",
+        "percentage": 0.0455
+       },
+       {
+        "city_name": "ES Alicante",
+        "percentage": 0.0378
+       },
+       {
+        "city_name": "ES Barcelona",
+        "percentage": 0.091
+       }
+      ],
+      "genders": [
+       {
+        "gender": "female_vv",
+        "percentage": 0.44
+       },
+       {
+        "gender": "male_vv",
+        "percentage": 0.56
+       },
+       {
+        "gender": "other_vv",
+        "percentage": 0
+       }
+      ]
+     },
+     "avg_watch_seconds": 6,
+     "watch_time_seconds": 1446,
+     "completion_rate": 3.73
+    }
    }
   ]
  },
@@ -588569,6 +589701,24 @@
      "watch_time_seconds": 0,
      "avg_watch_seconds": 0
     }
+   },
+   {
+    "t": "2026-11-20T09:18:06.023Z",
+    "horas": 44.8,
+    "m": {
+     "views": 304,
+     "likes": 3,
+     "comments": 1,
+     "favorites": 0,
+     "watch_time_minutes": 0,
+     "average_view_duration_seconds": 0,
+     "average_view_percentage": 0,
+     "engaged_views": 0,
+     "subscribers_gained": 0,
+     "shares": 0,
+     "watch_time_seconds": 0,
+     "avg_watch_seconds": 0
+    }
    }
   ]
  },
@@ -589152,6 +590302,19 @@
      "reach": 0,
      "impressions": 4
     }
+   },
+   {
+    "t": "2026-11-20T09:18:30.971Z",
+    "horas": 44.8,
+    "m": {
+     "reactions": 0,
+     "likes": 0,
+     "comments": 1,
+     "shares": 0,
+     "views": 4,
+     "reach": 0,
+     "impressions": 4
+    }
    }
   ]
  },
@@ -589161,8 +590324,8 @@
   "url": "https://www.instagram.com/reel/Df5QwUmoE_R/",
   "texto": "El domingo 18 de noviembre de 1883, los ferrocarriles de Norteamérica pusieron en hora todos los relojes a la vez: era «el día de los dos mediodías», porque en varias ciudades el reloj marcó las doce dos veces. Hasta entonces cada pueblo tenía su hora según el sol, y las zonas horarias las impusieron las empresas de tren; el Congreso no las hizo oficiales hasta 1918. ¿Qué hora usarías tú? Cuéntamelo y envíaselo a quien siempre llega tarde 🚂\r\n\r\n👉 ¿Quieres crear vídeos como este gratis, solo con Claude? Entra en contratitular.es (enlace en el perfil)\r\n\r\nFuentes:\r\n· Library of Congress: Whose Time Is It Anyway? A Brief History of Standardized Time Zones in the United States\r\n· Union Pacific Railroad Museum: Standard Time\r\n· ABA Journal: U.S. railroads enact standard time zones\r\n\r\n🤖 Vídeo creado con IA a partir de fuentes verificadas.\r\n\r\n#curiosidades #inventos #historia #tecnologia #zonashorarias",
   "publicado": "2026-11-18T19:31:25.000Z",
-  "video": null,
-  "titulo": null,
+  "video": "2026-11-18-2030",
+  "titulo": "Más de 140 horas distintas en un país: los trenes inventaron la tuya",
   "fotos": [
    {
     "t": "2026-11-18T20:17:41.900Z",
@@ -590014,6 +591177,29 @@
      "avg_watch_seconds": 11.153,
      "watch_time_seconds": 1137.673
     }
+   },
+   {
+    "t": "2026-11-20T09:17:24.249Z",
+    "horas": 37.8,
+    "m": {
+     "likes": 1,
+     "comments": 1,
+     "media_product_type": "REELS",
+     "views": 124,
+     "impressions": 124,
+     "reach": 103,
+     "saves": 0,
+     "shares": 0,
+     "likes_insight": 1,
+     "comments_insight": 1,
+     "total_interactions": 2,
+     "ig_reels_avg_watch_time": 11153,
+     "ig_reels_video_view_total_time": 1137673,
+     "crossposted_views": null,
+     "facebook_views": null,
+     "avg_watch_seconds": 11.153,
+     "watch_time_seconds": 1137.673
+    }
    }
   ]
  },
@@ -590023,8 +591209,8 @@
   "url": "https://www.tiktok.com/@contratitular/video/7709596113648536865?utm_campaign=tt4d_open_api&utm_source=7529407175366705169",
   "texto": "El domingo 18 de noviembre de 1883, los ferrocarriles de Norteamérica pusieron en hora todos los relojes a la vez: era «el día de los dos mediodías», porque en varias ciudades el reloj marcó las doce dos veces. Hasta entonces cada pueblo tenía su hora según el sol, y las zonas horarias las impusieron las empresas de tren; el Congreso no las hizo oficiales hasta 1918. ¿Qué hora usarías tú? Cuéntamelo y envíaselo a quien siempre llega tarde 🚂 👉 ¿Quieres crear vídeos como este gratis, solo con Claude? Entra en contratitular.es (enlace en el perfil) Fuentes: · Library of Congress: Whose Time Is It Anyway? A Brief History of Standardized Time Zones in the United States · Union Pacific Railroad Museum: Standard Time · ABA Journal: U.S. railroads enact standard time zones 🤖 Vídeo creado con IA a partir de fuentes verificadas. #curiosidades #inventos #historia #tecnologia #zonashorarias",
   "publicado": "2026-11-18T19:30:10.000Z",
-  "video": null,
-  "titulo": null,
+  "video": "2026-11-18-2030",
+  "titulo": "Más de 140 horas distintas en un país: los trenes inventaron la tuya",
   "fotos": [
    {
     "t": "2026-11-18T20:18:13.714Z",
@@ -599304,6 +600490,321 @@
      "watch_time_seconds": 1860,
      "completion_rate": 3.38
     }
+   },
+   {
+    "t": "2026-11-20T09:17:48.381Z",
+    "horas": 37.8,
+    "m": {
+     "views": 253,
+     "likes": 4,
+     "comments": 1,
+     "shares": 0,
+     "reach": 227,
+     "favorites": 0,
+     "new_followers": 0,
+     "profile_views": 0,
+     "full_video_watched_rate": 0.0338,
+     "average_time_watched": 7,
+     "total_time_watched": 1860,
+     "is_ai_generated": true,
+     "retention": [
+      {
+       "percentage": 1,
+       "second": "0"
+      },
+      {
+       "percentage": 0.62,
+       "second": "1"
+      },
+      {
+       "percentage": 0.49,
+       "second": "2"
+      },
+      {
+       "percentage": 0.4,
+       "second": "3"
+      },
+      {
+       "percentage": 0.3,
+       "second": "4"
+      },
+      {
+       "percentage": 0.27,
+       "second": "5"
+      },
+      {
+       "percentage": 0.24,
+       "second": "6"
+      },
+      {
+       "percentage": 0.2,
+       "second": "7"
+      },
+      {
+       "percentage": 0.19,
+       "second": "8"
+      },
+      {
+       "percentage": 0.18,
+       "second": "9"
+      },
+      {
+       "percentage": 0.15,
+       "second": "10"
+      },
+      {
+       "percentage": 0.15,
+       "second": "11"
+      },
+      {
+       "percentage": 0.15,
+       "second": "12"
+      },
+      {
+       "percentage": 0.14,
+       "second": "13"
+      },
+      {
+       "percentage": 0.13,
+       "second": "14"
+      },
+      {
+       "percentage": 0.13,
+       "second": "15"
+      },
+      {
+       "percentage": 0.12,
+       "second": "16"
+      },
+      {
+       "percentage": 0.12,
+       "second": "17"
+      },
+      {
+       "percentage": 0.12,
+       "second": "18"
+      },
+      {
+       "percentage": 0.12,
+       "second": "19"
+      },
+      {
+       "percentage": 0.12,
+       "second": "20"
+      },
+      {
+       "percentage": 0.12,
+       "second": "21"
+      },
+      {
+       "percentage": 0.11,
+       "second": "22"
+      },
+      {
+       "percentage": 0.11,
+       "second": "23"
+      },
+      {
+       "percentage": 0.11,
+       "second": "24"
+      },
+      {
+       "percentage": 0.1,
+       "second": "25"
+      },
+      {
+       "percentage": 0.1,
+       "second": "26"
+      },
+      {
+       "percentage": 0.09,
+       "second": "27"
+      },
+      {
+       "percentage": 0.09,
+       "second": "28"
+      },
+      {
+       "percentage": 0.09,
+       "second": "29"
+      },
+      {
+       "percentage": 0.08,
+       "second": "30"
+      },
+      {
+       "percentage": 0.08,
+       "second": "31"
+      },
+      {
+       "percentage": 0.08,
+       "second": "32"
+      },
+      {
+       "percentage": 0.07,
+       "second": "33"
+      },
+      {
+       "percentage": 0.07,
+       "second": "34"
+      },
+      {
+       "percentage": 0.07,
+       "second": "35"
+      },
+      {
+       "percentage": 0.06,
+       "second": "36"
+      },
+      {
+       "percentage": 0.04,
+       "second": "37"
+      },
+      {
+       "percentage": 0.04,
+       "second": "38"
+      }
+     ],
+     "impression_sources": [
+      {
+       "impression_source": "Personal Profile",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Search",
+       "percentage": 0.008
+      },
+      {
+       "impression_source": "Sound",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Direct Message",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Follow",
+       "percentage": 0
+      },
+      {
+       "impression_source": "For You",
+       "percentage": 0.992
+      },
+      {
+       "impression_source": "Others",
+       "percentage": 0
+      }
+     ],
+     "audience_types": [
+      {
+       "percentage": 0.77,
+       "type": "NEW_VIEWER"
+      },
+      {
+       "percentage": 1,
+       "type": "NON_FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0.23,
+       "type": "RETURN_VIEWER"
+      },
+      {
+       "percentage": 0,
+       "type": "FOLLOWER_PERCENT"
+      }
+     ],
+     "audience": {
+      "countries": [
+       {
+        "country": "MA",
+        "percentage": 0.004
+       },
+       {
+        "country": "GT",
+        "percentage": 0.008
+       },
+       {
+        "country": "HN",
+        "percentage": 0.008
+       },
+       {
+        "country": "Others",
+        "percentage": 0.011
+       },
+       {
+        "country": "CH",
+        "percentage": 0.004
+       },
+       {
+        "country": "NL",
+        "percentage": 0.008
+       },
+       {
+        "country": "AR",
+        "percentage": 0.004
+       },
+       {
+        "country": "ES",
+        "percentage": 0.941
+       },
+       {
+        "country": "GB",
+        "percentage": 0.004
+       },
+       {
+        "country": "HR",
+        "percentage": 0.004
+       },
+       {
+        "country": "DE",
+        "percentage": 0.004
+       }
+      ],
+      "cities": [
+       {
+        "city_name": "ES Seville",
+        "percentage": 0.0376
+       },
+       {
+        "city_name": "ES Valencia",
+        "percentage": 0.0414
+       },
+       {
+        "city_name": "ES Alicante",
+        "percentage": 0.0301
+       },
+       {
+        "city_name": "ES Barcelona",
+        "percentage": 0.1383
+       },
+       {
+        "city_name": "ES Madrid",
+        "percentage": 0.2701
+       },
+       {
+        "city_name": "ES Other",
+        "percentage": 0.4235
+       }
+      ],
+      "genders": [
+       {
+        "gender": "male_vv",
+        "percentage": 0.67
+       },
+       {
+        "gender": "other_vv",
+        "percentage": 0
+       },
+       {
+        "gender": "female_vv",
+        "percentage": 0.33
+       }
+      ]
+     },
+     "avg_watch_seconds": 7,
+     "watch_time_seconds": 1860,
+     "completion_rate": 3.38
+    }
    }
   ]
  },
@@ -599313,8 +600814,8 @@
   "url": "https://www.youtube.com/watch?v=2nPL3H2sLpA",
   "texto": "Más de 140 horas distintas en un país: los trenes inventaron la tuya",
   "publicado": "2026-11-18T19:30:37.000Z",
-  "video": null,
-  "titulo": null,
+  "video": "2026-11-18-2030",
+  "titulo": "Más de 140 horas distintas en un país: los trenes inventaron la tuya",
   "fotos": [
    {
     "t": "2026-11-18T20:18:40.948Z",
@@ -599885,6 +601386,24 @@
      "watch_time_seconds": 0,
      "avg_watch_seconds": 0
     }
+   },
+   {
+    "t": "2026-11-20T09:18:09.449Z",
+    "horas": 37.8,
+    "m": {
+     "views": 809,
+     "likes": 14,
+     "comments": 1,
+     "favorites": 0,
+     "watch_time_minutes": 0,
+     "average_view_duration_seconds": 0,
+     "average_view_percentage": 0,
+     "engaged_views": 0,
+     "subscribers_gained": 0,
+     "shares": 0,
+     "watch_time_seconds": 0,
+     "avg_watch_seconds": 0
+    }
    }
   ]
  },
@@ -599894,8 +601413,8 @@
   "url": "https://www.facebook.com/reel/1130162259632887/",
   "texto": "El domingo 18 de noviembre de 1883, los ferrocarriles de Norteamérica pusieron en hora todos los relojes a la vez: era «el día de los dos mediodías», porque en varias ciudades el reloj marcó las doce dos veces. Hasta entonces cada pueblo tenía su hora según el sol, y las zonas horarias las impusieron las empresas de tren; el Congreso no las hizo oficiales hasta 1918. ¿Qué hora usarías tú? Cuéntamelo y envíaselo a quien siempre llega tarde 🚂\n\n👉 ¿Quieres crear vídeos como este gratis, solo con Claude? Entra en contratitular.es (enlace en el perfil)\n\nFuentes:\n· Library of Congress: Whose Time Is It Anyway? A Brief History of Standardized Time Zones in the United States\n· Union Pacific Railroad Museum: Standard Time\n· ABA Journal: U.S. railroads enact standard time zones\n\n🤖 Vídeo creado con IA a partir de fuentes verificadas.\n\n#curiosidades #inventos #historia #tecnologia #zonashorarias",
   "publicado": "2026-11-18T19:30:44.000Z",
-  "video": null,
-  "titulo": null,
+  "video": "2026-11-18-2030",
+  "titulo": "Más de 140 horas distintas en un país: los trenes inventaron la tuya",
   "fotos": [
    {
     "t": "2026-11-18T20:19:21.969Z",
@@ -600377,6 +601896,19 @@
      "reach": 0,
      "impressions": 229
     }
+   },
+   {
+    "t": "2026-11-20T09:18:35.670Z",
+    "horas": 37.8,
+    "m": {
+     "reactions": 0,
+     "likes": 0,
+     "comments": 1,
+     "shares": 0,
+     "views": 229,
+     "reach": 0,
+     "impressions": 229
+    }
    }
   ]
  },
@@ -600386,8 +601918,8 @@
   "url": "https://www.instagram.com/reel/Df684-WnMlP/",
   "texto": "El mapa de sabores de la lengua (dulce en la punta, amargo al fondo…) nació de leer mal un gráfico: Hänig midió diferencias pequeñas y su sensibilidad relativa acabó pareciendo zonas exclusivas. Hoy sabemos que cada zona con papilas gustativas nota todos los sabores, aunque unas con algo más de sensibilidad que otras. ¿A quién se lo vas a contar? 👅\r\n\r\n👉 ¿Quieres crear vídeos como este gratis, solo con Claude? Entra en contratitular.es (enlace en el perfil)\r\n\r\nFuentes:\r\n· Maldita Ciencia: el mapa gustativo de la lengua es un mito\r\n· Chequeado: ¿existe el mapa de la lengua?\r\n· Live Science: The Tongue Map, Tasteless Myth Debunked\r\n· Wikipedia: Tongue map\r\n\r\n🤖 Vídeo creado con IA a partir de fuentes verificadas.\r\n\r\n#curiosidades #comida #mitos #ciencia #sabor",
   "publicado": "2026-11-19T11:16:40.000Z",
-  "video": null,
-  "titulo": null,
+  "video": "2026-11-19-1215",
+  "titulo": "Te enseñaron que la lengua tiene zonas de sabores. Es falso",
   "fotos": [
    {
     "t": "2026-11-19T11:17:51.101Z",
@@ -600894,6 +602426,29 @@
      "avg_watch_seconds": 16.103,
      "watch_time_seconds": 16892.864
     }
+   },
+   {
+    "t": "2026-11-20T09:17:28.556Z",
+    "horas": 22,
+    "m": {
+     "likes": 21,
+     "comments": 1,
+     "media_product_type": "REELS",
+     "views": 1345,
+     "impressions": 1345,
+     "reach": 1056,
+     "saves": 3,
+     "shares": 1,
+     "likes_insight": 21,
+     "comments_insight": 1,
+     "total_interactions": 27,
+     "ig_reels_avg_watch_time": 16103,
+     "ig_reels_video_view_total_time": 16892864,
+     "crossposted_views": null,
+     "facebook_views": null,
+     "avg_watch_seconds": 16.103,
+     "watch_time_seconds": 16892.864
+    }
    }
   ]
  },
@@ -600903,8 +602458,8 @@
   "url": "https://www.tiktok.com/@contratitular/video/7709839620439067936?utm_campaign=tt4d_open_api&utm_source=7529407175366705169",
   "texto": "El mapa de sabores de la lengua (dulce en la punta, amargo al fondo…) nació de leer mal un gráfico: Hänig midió diferencias pequeñas y su sensibilidad relativa acabó pareciendo zonas exclusivas. Hoy sabemos que cada zona con papilas gustativas nota todos los sabores, aunque unas con algo más de sensibilidad que otras. ¿A quién se lo vas a contar? 👅 👉 ¿Quieres crear vídeos como este gratis, solo con Claude? Entra en contratitular.es (enlace en el perfil) Fuentes: · Maldita Ciencia: el mapa gustativo de la lengua es un mito · Chequeado: ¿existe el mapa de la lengua? · Live Science: The Tongue Map, Tasteless Myth Debunked · Wikipedia: Tongue map 🤖 Vídeo creado con IA a partir de fuentes verificadas. #curiosidades #comida #mitos #ciencia #sabor",
   "publicado": "2026-11-19T11:15:10.000Z",
-  "video": null,
-  "titulo": null,
+  "video": "2026-11-19-1215",
+  "titulo": "Te enseñaron que la lengua tiene zonas de sabores. Es falso",
   "fotos": [
    {
     "t": "2026-11-19T11:18:26.120Z",
@@ -605825,6 +607380,237 @@
      "watch_time_seconds": 3463,
      "completion_rate": 20.07
     }
+   },
+   {
+    "t": "2026-11-20T09:17:52.126Z",
+    "horas": 22,
+    "m": {
+     "views": 248,
+     "likes": 10,
+     "comments": 1,
+     "shares": 0,
+     "reach": 0,
+     "favorites": 0,
+     "new_followers": 0,
+     "profile_views": 0,
+     "full_video_watched_rate": 0.2007,
+     "average_time_watched": 12.64,
+     "total_time_watched": 3463,
+     "is_ai_generated": true,
+     "retention": [
+      {
+       "percentage": 1,
+       "second": "0"
+      },
+      {
+       "percentage": 0.72,
+       "second": "1"
+      },
+      {
+       "percentage": 0.61,
+       "second": "2"
+      },
+      {
+       "percentage": 0.55,
+       "second": "3"
+      },
+      {
+       "percentage": 0.51,
+       "second": "4"
+      },
+      {
+       "percentage": 0.46,
+       "second": "5"
+      },
+      {
+       "percentage": 0.41,
+       "second": "6"
+      },
+      {
+       "percentage": 0.38,
+       "second": "7"
+      },
+      {
+       "percentage": 0.35,
+       "second": "8"
+      },
+      {
+       "percentage": 0.32,
+       "second": "9"
+      },
+      {
+       "percentage": 0.31,
+       "second": "10"
+      },
+      {
+       "percentage": 0.31,
+       "second": "11"
+      },
+      {
+       "percentage": 0.3,
+       "second": "12"
+      },
+      {
+       "percentage": 0.28,
+       "second": "13"
+      },
+      {
+       "percentage": 0.28,
+       "second": "14"
+      },
+      {
+       "percentage": 0.28,
+       "second": "15"
+      },
+      {
+       "percentage": 0.28,
+       "second": "16"
+      },
+      {
+       "percentage": 0.27,
+       "second": "17"
+      },
+      {
+       "percentage": 0.27,
+       "second": "18"
+      },
+      {
+       "percentage": 0.25,
+       "second": "19"
+      },
+      {
+       "percentage": 0.25,
+       "second": "20"
+      },
+      {
+       "percentage": 0.22,
+       "second": "21"
+      },
+      {
+       "percentage": 0.2,
+       "second": "22"
+      },
+      {
+       "percentage": 0.18,
+       "second": "23"
+      },
+      {
+       "percentage": 0.18,
+       "second": "24"
+      },
+      {
+       "percentage": 0.17,
+       "second": "25"
+      },
+      {
+       "percentage": 0.17,
+       "second": "26"
+      },
+      {
+       "percentage": 0.17,
+       "second": "27"
+      },
+      {
+       "percentage": 0.16,
+       "second": "28"
+      },
+      {
+       "percentage": 0.16,
+       "second": "29"
+      },
+      {
+       "percentage": 0.16,
+       "second": "30"
+      },
+      {
+       "percentage": 0.16,
+       "second": "31"
+      },
+      {
+       "percentage": 0.16,
+       "second": "32"
+      },
+      {
+       "percentage": 0.16,
+       "second": "33"
+      },
+      {
+       "percentage": 0.16,
+       "second": "34"
+      },
+      {
+       "percentage": 0.14,
+       "second": "35"
+      },
+      {
+       "percentage": 0.13,
+       "second": "36"
+      },
+      {
+       "percentage": 0.13,
+       "second": "37"
+      },
+      {
+       "percentage": 0.13,
+       "second": "38"
+      },
+      {
+       "percentage": 0.09,
+       "second": "39"
+      }
+     ],
+     "impression_sources": [
+      {
+       "impression_source": "Follow",
+       "percentage": 0
+      },
+      {
+       "impression_source": "For You",
+       "percentage": 1
+      },
+      {
+       "impression_source": "Others",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Personal Profile",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Search",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Sound",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Direct Message",
+       "percentage": 0
+      }
+     ],
+     "audience_types": [
+      {
+       "percentage": 0,
+       "type": "NEW_VIEWER"
+      },
+      {
+       "percentage": 1,
+       "type": "NON_FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0,
+       "type": "RETURN_VIEWER"
+      },
+      {
+       "percentage": 0,
+       "type": "FOLLOWER_PERCENT"
+      }
+     ],
+     "avg_watch_seconds": 12.64,
+     "watch_time_seconds": 3463,
+     "completion_rate": 20.07
+    }
    }
   ]
  },
@@ -605834,8 +607620,8 @@
   "url": "https://www.youtube.com/watch?v=uycesaWvoyQ",
   "texto": "Te enseñaron que la lengua tiene zonas de sabores. Es falso",
   "publicado": "2026-11-19T11:15:27.000Z",
-  "video": null,
-  "titulo": null,
+  "video": "2026-11-19-1215",
+  "titulo": "Te enseñaron que la lengua tiene zonas de sabores. Es falso",
   "fotos": [
    {
     "t": "2026-11-19T11:18:57.231Z",
@@ -606232,6 +608018,24 @@
      "watch_time_seconds": 0,
      "avg_watch_seconds": 0
     }
+   },
+   {
+    "t": "2026-11-20T09:18:12.713Z",
+    "horas": 22,
+    "m": {
+     "views": 1028,
+     "likes": 14,
+     "comments": 1,
+     "favorites": 0,
+     "watch_time_minutes": 0,
+     "average_view_duration_seconds": 0,
+     "average_view_percentage": 0,
+     "engaged_views": 0,
+     "subscribers_gained": 0,
+     "shares": 0,
+     "watch_time_seconds": 0,
+     "avg_watch_seconds": 0
+    }
    }
   ]
  },
@@ -606241,8 +608045,8 @@
   "url": "https://www.facebook.com/reel/2324900621601459/",
   "texto": "El mapa de sabores de la lengua (dulce en la punta, amargo al fondo…) nació de leer mal un gráfico: Hänig midió diferencias pequeñas y su sensibilidad relativa acabó pareciendo zonas exclusivas. Hoy sabemos que cada zona con papilas gustativas nota todos los sabores, aunque unas con algo más de sensibilidad que otras. ¿A quién se lo vas a contar? 👅\n\n👉 ¿Quieres crear vídeos como este gratis, solo con Claude? Entra en contratitular.es (enlace en el perfil)\n\nFuentes:\n· Maldita Ciencia: el mapa gustativo de la lengua es un mito\n· Chequeado: ¿existe el mapa de la lengua?\n· Live Science: The Tongue Map, Tasteless Myth Debunked\n· Wikipedia: Tongue map\n\n🤖 Vídeo creado con IA a partir de fuentes verificadas.\n\n#curiosidades #comida #mitos #ciencia #sabor",
   "publicado": "2026-11-19T11:15:45.000Z",
-  "video": null,
-  "titulo": null,
+  "video": "2026-11-19-1215",
+  "titulo": "Te enseñaron que la lengua tiene zonas de sabores. Es falso",
   "fotos": [
    {
     "t": "2026-11-19T11:19:45.817Z",
@@ -606529,6 +608333,19 @@
      "reach": 0,
      "impressions": 213
     }
+   },
+   {
+    "t": "2026-11-20T09:18:39.949Z",
+    "horas": 22,
+    "m": {
+     "reactions": 0,
+     "likes": 0,
+     "comments": 1,
+     "shares": 0,
+     "views": 213,
+     "reach": 0,
+     "impressions": 213
+    }
    }
   ]
  },
@@ -606538,8 +608355,8 @@
   "url": "https://www.instagram.com/reel/Df7zvgvkstI/",
   "texto": "Hoy hace 57 años, el 19 de noviembre de 1969, el Apolo 12 alunizó en el Océano de las Tormentas, cerca de la sonda Surveyor 3. Cinco días antes, un rayo había alcanzado el cohete dos veces durante el despegue, y la nave se salvó gracias a un interruptor que un controlador de vuelo recordaba de un ensayo. Cuéntanos: ¿habrías sabido qué tocar? Compártelo con quien crea que todo en el espacio sale según lo previsto. ⚡🚀\r\n\r\n👉 ¿Quieres crear vídeos como este gratis, solo con Claude? Entra en contratitular.es (enlace en el perfil)\r\n\r\nFuentes:\r\n· Wikipedia: Apollo 12 (rayos en el despegue, aterrizaje del Intrepid)\r\n· Live Science: Apollo 12 y el rayo en el lanzamiento\r\n· Universe Today: Apollo 12 y «SCE to AUX»\r\n\r\n🤖 Vídeo creado con IA a partir de fuentes verificadas.\r\n\r\n#espacio #apolo12 #curiosidades #nasa #historia",
   "publicado": "2026-11-19T19:15:37.000Z",
-  "video": null,
-  "titulo": null,
+  "video": "2026-11-19-2015",
+  "titulo": "¿Qué pasa si un rayo cae sobre un cohete lunar? Le pasó al Apolo 12",
   "fotos": [
    {
     "t": "2026-11-19T19:18:00.641Z",
@@ -606862,6 +608679,29 @@
      "avg_watch_seconds": 12.223,
      "watch_time_seconds": 1381.297
     }
+   },
+   {
+    "t": "2026-11-20T09:17:33.045Z",
+    "horas": 14,
+    "m": {
+     "likes": 0,
+     "comments": 1,
+     "media_product_type": "REELS",
+     "views": 135,
+     "impressions": 135,
+     "reach": 116,
+     "saves": 0,
+     "shares": 0,
+     "likes_insight": 0,
+     "comments_insight": 1,
+     "total_interactions": 1,
+     "ig_reels_avg_watch_time": 12223,
+     "ig_reels_video_view_total_time": 1381297,
+     "crossposted_views": null,
+     "facebook_views": null,
+     "avg_watch_seconds": 12.223,
+     "watch_time_seconds": 1381.297
+    }
    }
   ]
  },
@@ -606871,8 +608711,8 @@
   "url": "https://www.tiktok.com/@contratitular/video/7709963322405244192?utm_campaign=tt4d_open_api&utm_source=7529407175366705169",
   "texto": "Hoy hace 57 años, el 19 de noviembre de 1969, el Apolo 12 alunizó en el Océano de las Tormentas, cerca de la sonda Surveyor 3. Cinco días antes, un rayo había alcanzado el cohete dos veces durante el despegue, y la nave se salvó gracias a un interruptor que un controlador de vuelo recordaba de un ensayo. Cuéntanos: ¿habrías sabido qué tocar? Compártelo con quien crea que todo en el espacio sale según lo previsto. ⚡🚀 👉 ¿Quieres crear vídeos como este gratis, solo con Claude? Entra en contratitular.es (enlace en el perfil) Fuentes: · Wikipedia: Apollo 12 (rayos en el despegue, aterrizaje del Intrepid) · Live Science: Apollo 12 y el rayo en el lanzamiento · Universe Today: Apollo 12 y «SCE to AUX» 🤖 Vídeo creado con IA a partir de fuentes verificadas. #espacio #apolo12 #curiosidades #nasa #historia",
   "publicado": "2026-11-19T19:15:09.000Z",
-  "video": null,
-  "titulo": null,
+  "video": "2026-11-19-2015",
+  "titulo": "¿Qué pasa si un rayo cae sobre un cohete lunar? Le pasó al Apolo 12",
   "fotos": [
    {
     "t": "2026-11-19T19:18:44.409Z",
@@ -609945,6 +611785,237 @@
      "watch_time_seconds": 1682,
      "completion_rate": 4.42
     }
+   },
+   {
+    "t": "2026-11-20T09:17:55.840Z",
+    "horas": 14,
+    "m": {
+     "views": 233,
+     "likes": 4,
+     "comments": 1,
+     "shares": 0,
+     "reach": 0,
+     "favorites": 0,
+     "new_followers": 0,
+     "profile_views": 0,
+     "full_video_watched_rate": 0.0442,
+     "average_time_watched": 6.76,
+     "total_time_watched": 1682,
+     "is_ai_generated": true,
+     "retention": [
+      {
+       "percentage": 1,
+       "second": "0"
+      },
+      {
+       "percentage": 0.61,
+       "second": "1"
+      },
+      {
+       "percentage": 0.44,
+       "second": "2"
+      },
+      {
+       "percentage": 0.34,
+       "second": "3"
+      },
+      {
+       "percentage": 0.24,
+       "second": "4"
+      },
+      {
+       "percentage": 0.21,
+       "second": "5"
+      },
+      {
+       "percentage": 0.18,
+       "second": "6"
+      },
+      {
+       "percentage": 0.16,
+       "second": "7"
+      },
+      {
+       "percentage": 0.16,
+       "second": "8"
+      },
+      {
+       "percentage": 0.15,
+       "second": "9"
+      },
+      {
+       "percentage": 0.14,
+       "second": "10"
+      },
+      {
+       "percentage": 0.14,
+       "second": "11"
+      },
+      {
+       "percentage": 0.13,
+       "second": "12"
+      },
+      {
+       "percentage": 0.13,
+       "second": "13"
+      },
+      {
+       "percentage": 0.12,
+       "second": "14"
+      },
+      {
+       "percentage": 0.12,
+       "second": "15"
+      },
+      {
+       "percentage": 0.12,
+       "second": "16"
+      },
+      {
+       "percentage": 0.11,
+       "second": "17"
+      },
+      {
+       "percentage": 0.11,
+       "second": "18"
+      },
+      {
+       "percentage": 0.11,
+       "second": "19"
+      },
+      {
+       "percentage": 0.1,
+       "second": "20"
+      },
+      {
+       "percentage": 0.08,
+       "second": "21"
+      },
+      {
+       "percentage": 0.08,
+       "second": "22"
+      },
+      {
+       "percentage": 0.08,
+       "second": "23"
+      },
+      {
+       "percentage": 0.08,
+       "second": "24"
+      },
+      {
+       "percentage": 0.08,
+       "second": "25"
+      },
+      {
+       "percentage": 0.08,
+       "second": "26"
+      },
+      {
+       "percentage": 0.08,
+       "second": "27"
+      },
+      {
+       "percentage": 0.08,
+       "second": "28"
+      },
+      {
+       "percentage": 0.08,
+       "second": "29"
+      },
+      {
+       "percentage": 0.08,
+       "second": "30"
+      },
+      {
+       "percentage": 0.08,
+       "second": "31"
+      },
+      {
+       "percentage": 0.08,
+       "second": "32"
+      },
+      {
+       "percentage": 0.08,
+       "second": "33"
+      },
+      {
+       "percentage": 0.08,
+       "second": "34"
+      },
+      {
+       "percentage": 0.08,
+       "second": "35"
+      },
+      {
+       "percentage": 0.07,
+       "second": "36"
+      },
+      {
+       "percentage": 0.07,
+       "second": "37"
+      },
+      {
+       "percentage": 0.05,
+       "second": "38"
+      },
+      {
+       "percentage": 0.04,
+       "second": "39"
+      }
+     ],
+     "impression_sources": [
+      {
+       "impression_source": "For You",
+       "percentage": 0.988
+      },
+      {
+       "impression_source": "Others",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Personal Profile",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Search",
+       "percentage": 0.012
+      },
+      {
+       "impression_source": "Sound",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Direct Message",
+       "percentage": 0
+      },
+      {
+       "impression_source": "Follow",
+       "percentage": 0
+      }
+     ],
+     "audience_types": [
+      {
+       "percentage": 0,
+       "type": "FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0,
+       "type": "NEW_VIEWER"
+      },
+      {
+       "percentage": 1,
+       "type": "NON_FOLLOWER_PERCENT"
+      },
+      {
+       "percentage": 0,
+       "type": "RETURN_VIEWER"
+      }
+     ],
+     "avg_watch_seconds": 6.76,
+     "watch_time_seconds": 1682,
+     "completion_rate": 4.42
+    }
    }
   ]
  },
@@ -609954,8 +612025,8 @@
   "url": "https://www.youtube.com/watch?v=gtN-tiQ_vmY",
   "texto": "¿Qué pasa si un rayo cae sobre un cohete lunar? Le pasó al Apolo 12",
   "publicado": "2026-11-19T19:15:31.000Z",
-  "video": null,
-  "titulo": null,
+  "video": "2026-11-19-2015",
+  "titulo": "¿Qué pasa si un rayo cae sobre un cohete lunar? Le pasó al Apolo 12",
   "fotos": [
    {
     "t": "2026-11-19T19:19:22.256Z",
@@ -610128,6 +612199,24 @@
      "watch_time_seconds": 0,
      "avg_watch_seconds": 0
     }
+   },
+   {
+    "t": "2026-11-20T09:18:15.997Z",
+    "horas": 14,
+    "m": {
+     "views": 1156,
+     "likes": 17,
+     "comments": 2,
+     "favorites": 0,
+     "watch_time_minutes": 0,
+     "average_view_duration_seconds": 0,
+     "average_view_percentage": 0,
+     "engaged_views": 0,
+     "subscribers_gained": 0,
+     "shares": 0,
+     "watch_time_seconds": 0,
+     "avg_watch_seconds": 0
+    }
    }
   ]
  },
@@ -610137,8 +612226,8 @@
   "url": "https://www.facebook.com/reel/1686325799823674/",
   "texto": "Hoy hace 57 años, el 19 de noviembre de 1969, el Apolo 12 alunizó en el Océano de las Tormentas, cerca de la sonda Surveyor 3. Cinco días antes, un rayo había alcanzado el cohete dos veces durante el despegue, y la nave se salvó gracias a un interruptor que un controlador de vuelo recordaba de un ensayo. Cuéntanos: ¿habrías sabido qué tocar? Compártelo con quien crea que todo en el espacio sale según lo previsto. ⚡🚀\n\n👉 ¿Quieres crear vídeos como este gratis, solo con Claude? Entra en contratitular.es (enlace en el perfil)\n\nFuentes:\n· Wikipedia: Apollo 12 (rayos en el despegue, aterrizaje del Intrepid)\n· Live Science: Apollo 12 y el rayo en el lanzamiento\n· Universe Today: Apollo 12 y «SCE to AUX»\n\n🤖 Vídeo creado con IA a partir de fuentes verificadas.\n\n#espacio #apolo12 #curiosidades #nasa #historia",
   "publicado": "2026-11-19T19:15:35.000Z",
-  "video": null,
-  "titulo": null,
+  "video": "2026-11-19-2015",
+  "titulo": "¿Qué pasa si un rayo cae sobre un cohete lunar? Le pasó al Apolo 12",
   "fotos": [
    {
     "t": "2026-11-19T19:20:16.465Z",
@@ -610320,6 +612409,19 @@
      "views": 460,
      "reach": 0,
      "impressions": 460
+    }
+   },
+   {
+    "t": "2026-11-20T09:18:44.261Z",
+    "horas": 14.1,
+    "m": {
+     "reactions": 5,
+     "likes": 5,
+     "comments": 1,
+     "shares": 0,
+     "views": 462,
+     "reach": 0,
+     "impressions": 462
     }
    }
   ]
