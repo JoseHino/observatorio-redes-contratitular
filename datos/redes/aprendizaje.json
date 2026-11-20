@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T07:20:15.104Z",
+ "actualizado": "2026-11-20T08:19:22.193Z",
  "publicaciones": 92,
  "videos": 30,
  "factores": {
@@ -26,7 +26,7 @@
     "n": 16,
     "videos": 6,
     "vistas": 0.59,
-    "interaccion": 0.82
+    "interaccion": 0.81
    },
    "jueves": {
     "n": 16,
@@ -58,7 +58,7 @@
     "n": 44,
     "videos": 14,
     "vistas": 0.97,
-    "interaccion": 0.91
+    "interaccion": 0.9
    },
    "tarde": {
     "n": 4,
@@ -78,7 +78,7 @@
     "n": 32,
     "videos": 11,
     "vistas": 0.98,
-    "interaccion": 1.05
+    "interaccion": 1.04
    },
    "14-16 h": {
     "n": 12,
@@ -122,7 +122,7 @@
     "n": 23,
     "videos": 23,
     "vistas": 0.98,
-    "interaccion": 0.86
+    "interaccion": 0.85
    }
   },
   "estilo": {
