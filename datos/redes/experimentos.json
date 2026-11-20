@@ -97,6 +97,40 @@
     }
    ],
    "origen": "revisión 2026-11-13"
+  },
+  {
+   "variable": "personaje_escena1",
+   "pregunta": "¿Retiene más en el primer segundo y medio una primera escena con un personaje con cara reaccionando que una con solo el objeto o el texto?",
+   "variantes": [
+    {
+     "id": "con_cara",
+     "instruccion": "En la escena 1 aparece desde el fotograma 0 un personaje con cara visible y una expresión de sorpresa o duda, que mira o toca el objeto del gancho."
+    },
+    {
+     "id": "solo_objeto",
+     "instruccion": "En la escena 1 no aparece ninguna cara ni ningún personaje: solo el objeto del gancho, grande y centrado, con el texto en pantalla."
+    }
+   ],
+   "origen": "revisión 2026-11-20"
+  },
+  {
+   "variable": "segunda_frase",
+   "pregunta": "¿Qué segunda frase pierde menos espectadores en el resto de la primera escena: una promesa explícita, entrar directamente en la historia o interpelar al espectador?",
+   "variantes": [
+    {
+     "id": "promesa",
+     "instruccion": "La segunda frase anuncia lo que se va a revelar, sin contarlo («y te adelanto que…, y ahora sabrás…»)."
+    },
+    {
+     "id": "directa",
+     "instruccion": "La segunda frase entra ya en el primer hecho concreto de la historia (quién, dónde o cuándo), sin anunciar nada."
+    },
+    {
+     "id": "interpela",
+     "instruccion": "La segunda frase es una pregunta al espectador sobre su propia experiencia («¿a que tú también lo has…?»), de 10 palabras como máximo."
+    }
+   ],
+   "origen": "revisión 2026-11-20"
   }
  ],
  "cerrados": []
