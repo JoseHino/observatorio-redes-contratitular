@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T04:18:53.659Z",
+ "actualizado": "2026-11-21T05:19:20.342Z",
  "publicaciones": 96,
  "videos": 29,
  "factores": {
@@ -90,7 +90,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.94,
-    "interaccion": 1.74
+    "interaccion": 1.75
    },
    "18-20 h": {
     "n": 4,
@@ -116,7 +116,7 @@
     "n": 24,
     "videos": 24,
     "vistas": 0.83,
-    "interaccion": 0.99
+    "interaccion": 1
    },
    "facebook": {
     "n": 24,
@@ -130,7 +130,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.07,
-    "interaccion": 0.98
+    "interaccion": 0.99
    },
    "pizarra": {
     "n": 16,
@@ -198,7 +198,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.03,
-    "interaccion": 1.59
+    "interaccion": 1.6
    },
    "Inventos": {
     "n": 8,
@@ -310,7 +310,7 @@
     "n": 48,
     "videos": 12,
     "vistas": 0.97,
-    "interaccion": 0.86
+    "interaccion": 0.87
    }
   },
   "cortes": {
@@ -382,7 +382,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.03,
-    "interaccion": 1.59
+    "interaccion": 1.6
    }
   },
   "emocion": {
@@ -404,7 +404,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 0.89,
-    "interaccion": 1.02
+    "interaccion": 1.03
    },
    "otro": {
     "n": 4,
@@ -490,19 +490,19 @@
     "n": 16,
     "videos": 4,
     "vistas": 0.98,
-    "interaccion": 0.99
+    "interaccion": 1
    },
    "bucle": {
     "n": 8,
     "videos": 2,
     "vistas": 0.72,
-    "interaccion": 0.75
+    "interaccion": 0.76
    },
    "moraleja": {
     "n": 8,
     "videos": 2,
     "vistas": 1.36,
-    "interaccion": 0.81
+    "interaccion": 0.82
    }
   },
   "primer fotograma claro": {
@@ -825,7 +825,7 @@
   "estilo": {
    "papel": 0.266,
    "neon": 0.167,
-   "pop": 0.2,
+   "pop": 0.201,
    "pizarra": 0.176,
    "limpio": 0.19
   }
