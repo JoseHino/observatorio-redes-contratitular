@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T18:21:42.312Z",
+ "actualizado": "2026-11-21T19:20:41.618Z",
  "publicaciones": 100,
  "videos": 30,
  "factores": {
@@ -14,7 +14,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 0.86,
-    "interaccion": 0.9
+    "interaccion": 0.91
    },
    "martes": {
     "n": 16,
@@ -32,7 +32,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.24,
-    "interaccion": 1.45
+    "interaccion": 1.46
    },
    "viernes": {
     "n": 16,
@@ -44,7 +44,7 @@
     "n": 8,
     "videos": 4,
     "vistas": 1.5,
-    "interaccion": 0.88
+    "interaccion": 0.89
    }
   },
   "franja": {
@@ -64,14 +64,14 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.47,
-    "interaccion": 0.84
+    "interaccion": 0.85
    }
   },
   "hora": {
    "20-22 h": {
     "n": 40,
     "videos": 12,
-    "vistas": 0.98,
+    "vistas": 0.99,
     "interaccion": 0.84
    },
    "12-14 h": {
@@ -96,7 +96,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.47,
-    "interaccion": 0.84
+    "interaccion": 0.85
    }
   },
   "red": {
@@ -174,13 +174,13 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.1,
-    "interaccion": 0.56
+    "interaccion": 0.57
    },
    "Animales": {
     "n": 8,
     "videos": 2,
     "vistas": 0.76,
-    "interaccion": 1.41
+    "interaccion": 1.42
    },
    "Dinero": {
     "n": 8,
@@ -233,8 +233,8 @@
    "Récords": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.05,
-    "interaccion": 1.09
+    "vistas": 1.06,
+    "interaccion": 1.08
    }
   },
   "duración": {
@@ -254,7 +254,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.07,
-    "interaccion": 1.21
+    "interaccion": 1.22
    }
   },
   "gancho": {
@@ -268,7 +268,7 @@
     "n": 36,
     "videos": 9,
     "vistas": 1.08,
-    "interaccion": 0.96
+    "interaccion": 0.97
    },
    "pregunta": {
     "n": 20,
@@ -329,7 +329,7 @@
    "medios": {
     "n": 20,
     "videos": 5,
-    "vistas": 1.39,
+    "vistas": 1.4,
     "interaccion": 1.16
    }
   },
@@ -357,7 +357,7 @@
    "ciencia": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.38,
+    "vistas": 1.39,
     "interaccion": 0.84
    },
    "cuerpo humano": {
@@ -370,7 +370,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.76,
-    "interaccion": 1.41
+    "interaccion": 1.42
    },
    "economía": {
     "n": 8,
@@ -468,7 +468,7 @@
     "n": 44,
     "videos": 11,
     "vistas": 1.02,
-    "interaccion": 1.13
+    "interaccion": 1.14
    }
   },
   "giro": {
@@ -515,7 +515,7 @@
    "sí": {
     "n": 76,
     "videos": 19,
-    "vistas": 1,
+    "vistas": 1.01,
     "interaccion": 0.95
    },
    "no": {
@@ -529,7 +529,7 @@
    "sí": {
     "n": 80,
     "videos": 20,
-    "vistas": 1.03,
+    "vistas": 1.04,
     "interaccion": 0.97
    }
   },
@@ -537,7 +537,7 @@
    "sí": {
     "n": 80,
     "videos": 20,
-    "vistas": 1.03,
+    "vistas": 1.04,
     "interaccion": 0.97
    }
   },
@@ -546,13 +546,13 @@
     "n": 48,
     "videos": 12,
     "vistas": 0.88,
-    "interaccion": 0.88
+    "interaccion": 0.89
    },
    "sí": {
     "n": 32,
     "videos": 8,
     "vistas": 1.3,
-    "interaccion": 1.1
+    "interaccion": 1.11
    }
   },
   "sonido": {
@@ -735,7 +735,7 @@
    "detalle": {
     "mejor": {
      "v": "medios",
-     "vistas": 1.39,
+     "vistas": 1.4,
      "interaccion": 1.16,
      "n": 20
     },
@@ -747,7 +747,7 @@
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.39× el alcance medio (5 vídeos) e interacción 1.16×; frente a pocos (<12/min) 0.93× (15 vídeos)."
+   "texto": "cortes: «medios» consigue 1.40× el alcance medio (5 vídeos) e interacción 1.16×; frente a pocos (<12/min) 0.93× (15 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -802,7 +802,7 @@
     "mejor": {
      "v": "sí",
      "vistas": 1.3,
-     "interaccion": 1.1,
+     "interaccion": 1.11,
      "n": 32
     },
     "resto": [
@@ -813,7 +813,7 @@
      }
     ]
    },
-   "texto": "personaje: «sí» consigue 1.30× el alcance medio (8 vídeos) e interacción 1.10×; frente a no 0.88× (12 vídeos)."
+   "texto": "personaje: «sí» consigue 1.30× el alcance medio (8 vídeos) e interacción 1.11×; frente a no 0.88× (12 vídeos)."
   }
  ],
  "pesos": {
@@ -930,7 +930,7 @@
   {
    "id": "2026-11-20-2145",
    "titulo": "Un billón de segundos son casi 32.000 años: la escala que nadie imagina",
-   "indice": 1.08,
+   "indice": 1.09,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
