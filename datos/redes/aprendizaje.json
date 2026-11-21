@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T00:21:20.065Z",
+ "actualizado": "2026-11-21T01:20:33.450Z",
  "publicaciones": 96,
  "videos": 29,
  "factores": {
@@ -304,7 +304,7 @@
     "n": 28,
     "videos": 7,
     "vistas": 1.12,
-    "interaccion": 1.08
+    "interaccion": 1.07
    },
    "rápido (>2,9 pal/s)": {
     "n": 48,
@@ -318,7 +318,7 @@
     "n": 60,
     "videos": 15,
     "vistas": 0.92,
-    "interaccion": 0.89
+    "interaccion": 0.88
    },
    "medios": {
     "n": 16,
@@ -346,7 +346,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 1.26,
-    "interaccion": 1.19
+    "interaccion": 1.18
    },
    "ciencia": {
     "n": 12,
