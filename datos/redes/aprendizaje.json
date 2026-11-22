@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T08:19:45.275Z",
+ "actualizado": "2026-11-22T09:19:03.447Z",
  "publicaciones": 108,
  "videos": 32,
  "factores": {
@@ -129,7 +129,7 @@
    "pop": {
     "n": 20,
     "videos": 5,
-    "vistas": 1.08,
+    "vistas": 1.09,
     "interaccion": 1.07
    },
    "pizarra": {
@@ -324,7 +324,7 @@
     "n": 68,
     "videos": 17,
     "vistas": 0.95,
-    "interaccion": 0.92
+    "interaccion": 0.91
    },
    "medios": {
     "n": 20,
@@ -395,7 +395,7 @@
    "asombro": {
     "n": 80,
     "videos": 20,
-    "vistas": 1.07,
+    "vistas": 1.08,
     "interaccion": 0.95
    },
    "intriga": {
@@ -682,12 +682,12 @@
      },
      {
       "v": "pop",
-      "vistas": 1.08,
+      "vistas": 1.09,
       "n": 20
      }
     ]
    },
-   "texto": "estilo: «papel» consigue 1.39× el alcance medio (4 vídeos) e interacción 1.30×; frente a limpio 1.10× (4 vídeos), pop 1.08× (5 vídeos)."
+   "texto": "estilo: «papel» consigue 1.39× el alcance medio (4 vídeos) e interacción 1.30×; frente a limpio 1.10× (4 vídeos), pop 1.09× (5 vídeos)."
   },
   {
    "tipo": "regla",
@@ -741,7 +741,7 @@
    "detalle": {
     "mejor": {
      "v": "asombro",
-     "vistas": 1.07,
+     "vistas": 1.08,
      "interaccion": 0.95,
      "n": 80
     },
@@ -753,7 +753,7 @@
      }
     ]
    },
-   "texto": "emocion: «asombro» consigue 1.07× el alcance medio (20 vídeos) e interacción 0.95×; frente a intriga 0.80× (2 vídeos)."
+   "texto": "emocion: «asombro» consigue 1.08× el alcance medio (20 vídeos) e interacción 0.95×; frente a intriga 0.80× (2 vídeos)."
   },
   {
    "tipo": "regla",
@@ -813,11 +813,11 @@
    "tum": 0.126
   },
   "estilo": {
-   "papel": 0.252,
+   "papel": 0.251,
    "neon": 0.173,
-   "pop": 0.209,
+   "pop": 0.21,
    "pizarra": 0.177,
-   "limpio": 0.189
+   "limpio": 0.188
   }
  },
  "horas_recomendadas": [
@@ -935,7 +935,7 @@
   {
    "id": "2026-11-21-1430",
    "titulo": "El primer pasajero de un globo no fue una persona",
-   "indice": 1.02,
+   "indice": 1.01,
    "variable": "gancho_tipo",
    "variante": "pregunta"
   },
