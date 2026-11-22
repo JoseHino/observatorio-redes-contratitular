@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T22:19:18.113Z",
+ "actualizado": "2026-11-22T23:19:24.155Z",
  "publicaciones": 108,
  "videos": 32,
  "factores": {
@@ -234,7 +234,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.06,
-    "interaccion": 1.04
+    "interaccion": 1.03
    }
   },
   "duración": {
@@ -338,7 +338,7 @@
     "n": 32,
     "videos": 8,
     "vistas": 0.98,
-    "interaccion": 1.2
+    "interaccion": 1.19
    },
    "no": {
     "n": 56,
@@ -530,7 +530,7 @@
     "n": 88,
     "videos": 22,
     "vistas": 1.04,
-    "interaccion": 0.96
+    "interaccion": 0.95
    }
   },
   "texto 0s": {
@@ -538,7 +538,7 @@
     "n": 88,
     "videos": 22,
     "vistas": 1.04,
-    "interaccion": 0.96
+    "interaccion": 0.95
    }
   },
   "personaje": {
