@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T18:21:43.876Z",
+ "actualizado": "2026-11-22T19:20:52.418Z",
  "publicaciones": 108,
  "videos": 32,
  "factores": {
@@ -167,7 +167,7 @@
    "Ciencia": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.33,
+    "vistas": 1.34,
     "interaccion": 0.92
    },
    "Cuerpo humano": {
@@ -330,7 +330,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 1.4,
-    "interaccion": 1.12
+    "interaccion": 1.11
    }
   },
   "cifra en 5 primeras palabras": {
@@ -584,7 +584,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 1.2,
-    "interaccion": 1.14
+    "interaccion": 1.13
    },
    "pop": {
     "n": 4,
@@ -720,7 +720,7 @@
     "mejor": {
      "v": "medios",
      "vistas": 1.4,
-     "interaccion": 1.12,
+     "interaccion": 1.11,
      "n": 20
     },
     "resto": [
@@ -731,7 +731,7 @@
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.40× el alcance medio (5 vídeos) e interacción 1.12×; frente a pocos (<12/min) 0.95× (17 vídeos)."
+   "texto": "cortes: «medios» consigue 1.40× el alcance medio (5 vídeos) e interacción 1.11×; frente a pocos (<12/min) 0.95× (17 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -807,7 +807,7 @@
    "madera": 0.115,
    "marimba": 0.132,
    "kalimba": 0.109,
-   "campanita": 0.124,
+   "campanita": 0.123,
    "cuerda": 0.111,
    "burbuja": 0.1,
    "tum": 0.126
