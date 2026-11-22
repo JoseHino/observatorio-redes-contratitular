@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T23:19:30.115Z",
+ "actualizado": "2026-11-22T00:21:29.472Z",
  "publicaciones": 100,
  "videos": 30,
  "factores": {
@@ -122,7 +122,7 @@
     "n": 25,
     "videos": 25,
     "vistas": 0.96,
-    "interaccion": 0.89
+    "interaccion": 0.88
    }
   },
   "estilo": {
@@ -402,7 +402,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.8,
-    "interaccion": 1.05
+    "interaccion": 1.06
    }
   },
   "tipo de gancho": {
@@ -560,7 +560,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.98,
-    "interaccion": 0.5
+    "interaccion": 0.51
    },
    "burbuja": {
     "n": 16,
@@ -578,7 +578,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.04,
-    "interaccion": 1.15
+    "interaccion": 1.14
    },
    "campanita": {
     "n": 16,
