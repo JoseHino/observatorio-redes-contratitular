@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T14:19:58.834Z",
+ "actualizado": "2026-11-22T15:18:54.367Z",
  "publicaciones": 108,
  "videos": 32,
  "factores": {
@@ -241,7 +241,7 @@
    "33-43 s": {
     "n": 76,
     "videos": 19,
-    "vistas": 1.12,
+    "vistas": 1.13,
     "interaccion": 0.97
    },
    ">43 s": {
@@ -453,8 +453,8 @@
    "universal": {
     "n": 52,
     "videos": 13,
-    "vistas": 1.18,
-    "interaccion": 1
+    "vistas": 1.19,
+    "interaccion": 0.99
    }
   },
   "promesa": {
@@ -495,7 +495,7 @@
    "dato final": {
     "n": 20,
     "videos": 5,
-    "vistas": 1,
+    "vistas": 1.01,
     "interaccion": 1.08
    },
    "bucle": {
@@ -545,7 +545,7 @@
    "no": {
     "n": 52,
     "videos": 13,
-    "vistas": 0.9,
+    "vistas": 0.91,
     "interaccion": 0.89
    },
    "sí": {
@@ -584,7 +584,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 1.19,
-    "interaccion": 1.15
+    "interaccion": 1.14
    },
    "pop": {
     "n": 4,
@@ -617,8 +617,8 @@
    "cifra chocante": {
     "n": 28,
     "videos": 7,
-    "vistas": 1.02,
-    "interaccion": 1.11
+    "vistas": 1.03,
+    "interaccion": 1.1
    },
    "contradicción": {
     "n": 16,
@@ -763,8 +763,8 @@
    "detalle": {
     "mejor": {
      "v": "universal",
-     "vistas": 1.18,
-     "interaccion": 1,
+     "vistas": 1.19,
+     "interaccion": 0.99,
      "n": 52
     },
     "resto": [
@@ -775,7 +775,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.18× el alcance medio (13 vídeos) e interacción 1.00×; frente a mundo 0.87× (9 vídeos)."
+   "texto": "cercania: «universal» consigue 1.19× el alcance medio (13 vídeos) e interacción 0.99×; frente a mundo 0.87× (9 vídeos)."
   },
   {
    "tipo": "regla",
@@ -792,12 +792,12 @@
     "resto": [
      {
       "v": "no",
-      "vistas": 0.9,
+      "vistas": 0.91,
       "n": 52
      }
     ]
    },
-   "texto": "personaje: «sí» consigue 1.27× el alcance medio (9 vídeos) e interacción 1.06×; frente a no 0.90× (13 vídeos)."
+   "texto": "personaje: «sí» consigue 1.27× el alcance medio (9 vídeos) e interacción 1.06×; frente a no 0.91× (13 vídeos)."
   }
  ],
  "pesos": {
@@ -807,7 +807,7 @@
    "madera": 0.115,
    "marimba": 0.133,
    "kalimba": 0.109,
-   "campanita": 0.124,
+   "campanita": 0.123,
    "cuerda": 0.111,
    "burbuja": 0.099,
    "tum": 0.126
@@ -907,7 +907,7 @@
   {
    "id": "2026-11-21-2000",
    "titulo": "Tus dedos no se arrugan por hincharse: los arruga tu cerebro",
-   "indice": 1.14,
+   "indice": 1.15,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
