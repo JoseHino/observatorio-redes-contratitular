@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T07:21:19.770Z",
+ "actualizado": "2026-11-23T08:19:38.024Z",
  "publicaciones": 116,
  "videos": 35,
  "factores": {
@@ -906,15 +906,15 @@
    "variante": "contradicción"
   },
   {
-   "id": "2026-11-22-1230",
-   "titulo": "Naciste con casi 100 huesos más de los que tienes ahora",
-   "indice": 1.28,
+   "id": "2026-11-12-2200",
+   "titulo": "El plástico de burbujas nació como papel pintado y fracasó dos veces",
+   "indice": 1.27,
    "variable": "gancho_tipo",
    "variante": "pregunta"
   },
   {
-   "id": "2026-11-12-2200",
-   "titulo": "El plástico de burbujas nació como papel pintado y fracasó dos veces",
+   "id": "2026-11-22-1230",
+   "titulo": "Naciste con casi 100 huesos más de los que tienes ahora",
    "indice": 1.27,
    "variable": "gancho_tipo",
    "variante": "pregunta"
