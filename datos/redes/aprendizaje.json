@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T12:21:45.698Z",
+ "actualizado": "2026-11-23T13:20:29.299Z",
  "publicaciones": 116,
  "videos": 35,
  "factores": {
@@ -1027,7 +1027,7 @@
    "variable": "gancho_tipo",
    "pregunta": "¿Qué primera frase retiene más: cifra chocante, pregunta o contradicción?",
    "asignados": {
-    "cifra chocante": 9,
+    "cifra chocante": 10,
     "contradicción": 9,
     "pregunta": 10
    }
