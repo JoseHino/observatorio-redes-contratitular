@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T00:21:47.265Z",
+ "actualizado": "2026-11-23T01:20:32.117Z",
  "publicaciones": 112,
  "videos": 33,
  "factores": {
@@ -77,7 +77,7 @@
    "12-14 h": {
     "n": 40,
     "videos": 13,
-    "vistas": 0.92,
+    "vistas": 0.93,
     "interaccion": 1.01
    },
    "14-16 h": {
@@ -135,7 +135,7 @@
    "pizarra": {
     "n": 20,
     "videos": 5,
-    "vistas": 0.86,
+    "vistas": 0.87,
     "interaccion": 0.94
    },
    "limpio": {
@@ -173,7 +173,7 @@
    "Cuerpo humano": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.14,
+    "vistas": 1.15,
     "interaccion": 0.65
    },
    "Animales": {
@@ -274,7 +274,7 @@
     "n": 28,
     "videos": 7,
     "vistas": 1.25,
-    "interaccion": 1.04
+    "interaccion": 1.05
    }
   },
   "gancho largo": {
@@ -329,7 +329,7 @@
    "medios": {
     "n": 24,
     "videos": 6,
-    "vistas": 1.37,
+    "vistas": 1.38,
     "interaccion": 1.07
    }
   },
@@ -434,7 +434,7 @@
     "n": 28,
     "videos": 7,
     "vistas": 1.25,
-    "interaccion": 1.04
+    "interaccion": 1.05
    },
    "segunda persona": {
     "n": 8,
@@ -490,7 +490,7 @@
     "n": 56,
     "videos": 14,
     "vistas": 1.08,
-    "interaccion": 0.96
+    "interaccion": 0.97
    },
    "dato final": {
     "n": 20,
@@ -516,7 +516,7 @@
     "n": 88,
     "videos": 22,
     "vistas": 1.02,
-    "interaccion": 0.91
+    "interaccion": 0.92
    },
    "no": {
     "n": 4,
@@ -571,7 +571,7 @@
    "tum": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.41,
+    "vistas": 1.42,
     "interaccion": 0.97
    },
    "madera": {
@@ -630,7 +630,7 @@
     "n": 28,
     "videos": 7,
     "vistas": 1.25,
-    "interaccion": 1.04
+    "interaccion": 1.05
    }
   }
  },
@@ -692,7 +692,7 @@
    "detalle": {
     "mejor": {
      "v": "medios",
-     "vistas": 1.37,
+     "vistas": 1.38,
      "interaccion": 1.07,
      "n": 24
     },
@@ -704,7 +704,7 @@
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.37× el alcance medio (6 vídeos) e interacción 1.07×; frente a pocos (<12/min) 0.95× (17 vídeos)."
+   "texto": "cortes: «medios» consigue 1.38× el alcance medio (6 vídeos) e interacción 1.07×; frente a pocos (<12/min) 0.95× (17 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -787,7 +787,7 @@
   },
   "estilo": {
    "papel": 0.25,
-   "neon": 0.173,
+   "neon": 0.172,
    "pop": 0.207,
    "pizarra": 0.183,
    "limpio": 0.188
@@ -861,7 +861,7 @@
   {
    "id": "2026-11-22-1230",
    "titulo": "Naciste con casi 100 huesos más de los que tienes ahora",
-   "indice": 1.26,
+   "indice": 1.27,
    "variable": "gancho_tipo",
    "variante": "pregunta"
   },
