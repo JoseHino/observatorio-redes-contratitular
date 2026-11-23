@@ -2483,5 +2483,109 @@
     "por_que": "La pregunta con el bebé animado y la cifra de 300 huesos enganchan, y la promesa de saber adónde fueron retiene. El cierre es plano y la ilustración es simple, lo que puede restar fuerza."
    }
   }
+ },
+ {
+  "carpeta": "2026-11-23-2015",
+  "titulo": "Serendipia: la palabra que nació del antiguo nombre de Sri Lanka",
+  "fecha": "2026-11-23",
+  "duracion": 36.5,
+  "estilo": "neon",
+  "serie": "Palabras",
+  "gancho": "Serendipia viene de una isla real: la que hoy se llama Sri Lanka,",
+  "palabras": 110,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 3.8,
+    "frase": "Serendipia viene de una isla real: la que hoy se llama Sri Lanka,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 3.8,
+    "fin": 10.3,
+    "frase": "y la inventó un escritor inglés, Horace Walpole, en una carta de 1754 para explicar un hallazgo inesperado,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 10.3,
+    "fin": 14.32,
+    "frase": "porque había leído un cuento persa, Los tres príncipes de Serendip,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 14.32,
+    "fin": 17.58,
+    "frase": "cuyos héroes encontraban sin parar cosas que no buscaban.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 17.58,
+    "fin": 20.44,
+    "frase": "Y Serendip era el nombre antiguo de Sri Lanka.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 20.44,
+    "fin": 27.24,
+    "frase": "De ahí sacó la palabra para una sagacidad accidental: dar con algo valioso por casualidad y darte cuenta de lo que tienes.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 27.24,
+    "fin": 29.08,
+    "frase": "Pero casi nadie la usó hasta el siglo XX,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 8,
+    "inicio": 29.08,
+    "fin": 36.46,
+    "frase": "y hoy está en tu vocabulario: cada vez que la dices, nombras una isla. ¿Cuál fue tu mayor serendipia?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-23-2015",
+  "texto": "Serendipia: la palabra que nació del antiguo nombre de Sri Lanka Walpole escribió esa carta a Horace Mann, un diplomático británico que vivía en Florencia. Y Serendip viene del árabe Sarandib, que a su vez viene del sánscrito Simhaladvipa: «isla de los leones». ¿Se lo mandas a alguien que presume de tener suerte? 🏝️ ¿Cuál ha sido tu mayor serendipia? Serendipia viene de una isla real: la que hoy se llama Sri Lanka, y la inventó un escritor inglés, Horace Walpole, en una carta de 1754 para explicar un hallazgo inesperado, porque había leído un cuento persa, Los tres príncipes de Serendip, cuyos héroes encontraban sin parar cosas que no buscaban. Y Serendip era el nombre antiguo de Sri Lanka. De ahí sacó la palabra para una sagacidad accidental: dar con algo valioso por casualidad y darte cuenta de lo que tienes. Pero casi nadie la usó hasta el siglo XX, y hoy está en tu vocabulario: cada vez que la dices, nombras una isla. ¿Cuál fue tu mayor serendipia?",
+  "familia": "cuerda",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "cifra chocante"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-23",
+   "medido": {
+    "palabras_s": 3.01,
+    "escenas_min": 13.2,
+    "cifra_al_inicio": true,
+    "gancho_palabras": 13,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "historia",
+    "emocion": "asombro",
+    "gancho_tipo": "misterio",
+    "cercania": "universal",
+    "promesa": "no",
+    "giro": "sí",
+    "cierre": "pregunta",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Abre con el origen insólito de una palabra conocida y el giro de la isla engancha, pero la primera frase no promete nada concreto y el ritmo de datos históricos puede cansar."
+   }
+  }
  }
 ]
