@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T21:18:36.671Z",
+ "actualizado": "2026-11-23T22:18:52.705Z",
  "publicaciones": 116,
  "videos": 35,
  "factores": {
@@ -228,7 +228,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.42,
-    "interaccion": 1.13
+    "interaccion": 1.12
    },
    "Récords": {
     "n": 4,
@@ -596,7 +596,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.42,
-    "interaccion": 1.13
+    "interaccion": 1.12
    },
    "cuerda": {
     "n": 4,
@@ -835,9 +835,9 @@
    "marimba": 0.132,
    "kalimba": 0.109,
    "campanita": 0.124,
-   "cuerda": 0.111,
+   "cuerda": 0.112,
    "burbuja": 0.1,
-   "tum": 0.125
+   "tum": 0.126
   },
   "estilo": {
    "papel": 0.249,
