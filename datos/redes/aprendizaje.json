@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T10:19:16.164Z",
+ "actualizado": "2026-11-23T11:19:31.050Z",
  "publicaciones": 116,
  "videos": 35,
  "factores": {
@@ -44,7 +44,7 @@
     "n": 16,
     "videos": 6,
     "vistas": 1.31,
-    "interaccion": 1.02
+    "interaccion": 1.03
    }
   },
   "franja": {
@@ -63,7 +63,7 @@
    "tarde": {
     "n": 8,
     "videos": 3,
-    "vistas": 1.29,
+    "vistas": 1.28,
     "interaccion": 0.78
    }
   },
@@ -95,7 +95,7 @@
    "18-20 h": {
     "n": 8,
     "videos": 3,
-    "vistas": 1.29,
+    "vistas": 1.28,
     "interaccion": 0.78
    }
   },
@@ -116,7 +116,7 @@
     "n": 29,
     "videos": 29,
     "vistas": 0.89,
-    "interaccion": 1.04
+    "interaccion": 1.05
    },
    "facebook": {
     "n": 29,
@@ -610,7 +610,7 @@
     "n": 88,
     "videos": 22,
     "vistas": 1.06,
-    "interaccion": 0.97
+    "interaccion": 0.96
    }
   },
   "exp: gancho_tipo": {
@@ -643,7 +643,7 @@
    "detalle": {
     "mejor": {
      "v": "tarde",
-     "vistas": 1.29,
+     "vistas": 1.28,
      "interaccion": 0.78,
      "n": 8
     },
@@ -660,7 +660,7 @@
      }
     ]
    },
-   "texto": "franja: «tarde» consigue 1.29× el alcance medio (3 vídeos) e interacción 0.78×; frente a noche 0.99× (15 vídeos), mediodía 0.94× (17 vídeos)."
+   "texto": "franja: «tarde» consigue 1.28× el alcance medio (3 vídeos) e interacción 0.78×; frente a noche 0.99× (15 vídeos), mediodía 0.94× (17 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -670,7 +670,7 @@
    "detalle": {
     "mejor": {
      "v": "18-20 h",
-     "vistas": 1.29,
+     "vistas": 1.28,
      "interaccion": 0.78,
      "n": 8
     },
@@ -687,7 +687,7 @@
      }
     ]
    },
-   "texto": "hora: «18-20 h» consigue 1.29× el alcance medio (3 vídeos) e interacción 0.78×; frente a 20-22 h 1.01× (13 vídeos), 14-16 h 0.98× (4 vídeos)."
+   "texto": "hora: «18-20 h» consigue 1.28× el alcance medio (3 vídeos) e interacción 0.78×; frente a 20-22 h 1.01× (13 vídeos), 14-16 h 0.98× (4 vídeos)."
   },
   {
    "tipo": "hipotesis",
