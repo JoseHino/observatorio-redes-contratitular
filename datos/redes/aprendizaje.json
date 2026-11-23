@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T16:19:03.404Z",
+ "actualizado": "2026-11-23T17:19:30.339Z",
  "publicaciones": 116,
  "videos": 35,
  "factores": {
@@ -13,7 +13,7 @@
    "lunes": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.86,
+    "vistas": 0.87,
     "interaccion": 0.87
    },
    "martes": {
@@ -51,7 +51,7 @@
    "noche": {
     "n": 52,
     "videos": 15,
-    "vistas": 0.99,
+    "vistas": 1,
     "interaccion": 0.97
    },
    "mediodía": {
@@ -121,7 +121,7 @@
    "facebook": {
     "n": 29,
     "videos": 29,
-    "vistas": 0.97,
+    "vistas": 0.98,
     "interaccion": 0.91
    }
   },
@@ -161,13 +161,13 @@
    "Tal día como hoy": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.93,
+    "vistas": 0.94,
     "interaccion": 0.92
    },
    "Ciencia": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.33,
+    "vistas": 1.34,
     "interaccion": 0.92
    },
    "Cuerpo humano": {
@@ -261,14 +261,14 @@
    "con cifra": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.8,
+    "vistas": 0.81,
     "interaccion": 0.82
    },
    "afirmación": {
     "n": 40,
     "videos": 10,
     "vistas": 1.09,
-    "interaccion": 0.98
+    "interaccion": 0.97
    },
    "pregunta": {
     "n": 28,
@@ -281,7 +281,7 @@
    "largo (>12)": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.94,
+    "vistas": 0.95,
     "interaccion": 0.66
    },
    "corto (≤12)": {
@@ -309,7 +309,7 @@
    "medio": {
     "n": 36,
     "videos": 9,
-    "vistas": 1.11,
+    "vistas": 1.12,
     "interaccion": 1.06
    },
    "rápido (>2,9 pal/s)": {
@@ -343,7 +343,7 @@
    "no": {
     "n": 60,
     "videos": 15,
-    "vistas": 1.09,
+    "vistas": 1.1,
     "interaccion": 0.85
    }
   },
@@ -395,7 +395,7 @@
    "asombro": {
     "n": 84,
     "videos": 21,
-    "vistas": 1.08,
+    "vistas": 1.09,
     "interaccion": 0.96
    },
    "intriga": {
@@ -415,7 +415,7 @@
    "otro": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.79,
+    "vistas": 0.8,
     "interaccion": 0.59
    },
    "contradicción": {
@@ -481,7 +481,7 @@
    "no": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.79,
+    "vistas": 0.8,
     "interaccion": 0.59
    }
   },
@@ -515,7 +515,7 @@
    "sí": {
     "n": 88,
     "videos": 22,
-    "vistas": 1.02,
+    "vistas": 1.03,
     "interaccion": 0.95
    },
    "no": {
@@ -559,7 +559,7 @@
    "gota": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.98,
+    "vistas": 0.99,
     "interaccion": 0.49
    },
    "burbuja": {
@@ -650,7 +650,7 @@
     "resto": [
      {
       "v": "noche",
-      "vistas": 0.99,
+      "vistas": 1,
       "n": 52
      },
      {
@@ -660,7 +660,7 @@
      }
     ]
    },
-   "texto": "franja: «tarde» consigue 1.28× el alcance medio (3 vídeos) e interacción 0.78×; frente a noche 0.99× (15 vídeos), mediodía 0.94× (17 vídeos)."
+   "texto": "franja: «tarde» consigue 1.28× el alcance medio (3 vídeos) e interacción 0.78×; frente a noche 1.00× (15 vídeos), mediodía 0.94× (17 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -768,7 +768,7 @@
    "detalle": {
     "mejor": {
      "v": "asombro",
-     "vistas": 1.08,
+     "vistas": 1.09,
      "interaccion": 0.96,
      "n": 84
     },
@@ -780,7 +780,7 @@
      }
     ]
    },
-   "texto": "emocion: «asombro» consigue 1.08× el alcance medio (21 vídeos) e interacción 0.96×; frente a intriga 0.80× (2 vídeos)."
+   "texto": "emocion: «asombro» consigue 1.09× el alcance medio (21 vídeos) e interacción 0.96×; frente a intriga 0.80× (2 vídeos)."
   },
   {
    "tipo": "regla",
@@ -830,14 +830,14 @@
  "pesos": {
   "familia": {
    "pop": 0.101,
-   "gota": 0.082,
+   "gota": 0.083,
    "madera": 0.115,
    "marimba": 0.132,
    "kalimba": 0.109,
    "campanita": 0.124,
    "cuerda": 0.111,
    "burbuja": 0.1,
-   "tum": 0.126
+   "tum": 0.125
   },
   "estilo": {
    "papel": 0.249,
@@ -974,16 +974,16 @@
    "variante": "pregunta"
   },
   {
+   "id": "2026-11-09-1330",
+   "titulo": "El ajuste mal hecho que apagó a 25 millones de personas en 1965",
+   "indice": 0.91
+  },
+  {
    "id": "2026-11-18-2030",
    "titulo": "Más de 140 horas distintas en un país: los trenes inventaron la tuya",
    "indice": 0.91,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
-  },
-  {
-   "id": "2026-11-09-1330",
-   "titulo": "El ajuste mal hecho que apagó a 25 millones de personas en 1965",
-   "indice": 0.89
   },
   {
    "id": "2026-11-16-2000",
@@ -995,7 +995,7 @@
   {
    "id": "2026-11-09-2100-v2",
    "titulo": "Por qué huele tan bien la lluvia: el olor que fabrican las bacterias",
-   "indice": 0.71
+   "indice": 0.72
   },
   {
    "id": "2026-11-10-2200",
