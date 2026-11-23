@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T03:18:48.741Z",
+ "actualizado": "2026-11-23T04:19:09.618Z",
  "publicaciones": 112,
  "videos": 33,
  "factores": {
@@ -72,7 +72,7 @@
     "n": 44,
     "videos": 13,
     "vistas": 1.01,
-    "interaccion": 0.82
+    "interaccion": 0.83
    },
    "12-14 h": {
     "n": 40,
@@ -142,7 +142,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.1,
-    "interaccion": 0.79
+    "interaccion": 0.8
    },
    "papel": {
     "n": 16,
@@ -440,7 +440,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.33,
-    "interaccion": 1.24
+    "interaccion": 1.23
    }
   },
   "cercania": {
@@ -786,7 +786,7 @@
    "tum": 0.125
   },
   "estilo": {
-   "papel": 0.25,
+   "papel": 0.249,
    "neon": 0.172,
    "pop": 0.207,
    "pizarra": 0.183,
