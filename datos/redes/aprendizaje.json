@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T07:19:53.408Z",
+ "actualizado": "2026-11-24T08:19:48.423Z",
  "publicaciones": 120,
  "videos": 36,
  "factores": {
@@ -52,7 +52,7 @@
     "n": 56,
     "videos": 16,
     "vistas": 0.95,
-    "interaccion": 0.97
+    "interaccion": 0.98
    },
    "mediodía": {
     "n": 56,
@@ -234,7 +234,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.06,
-    "interaccion": 1.01
+    "interaccion": 1.02
    }
   },
   "duración": {
@@ -330,7 +330,7 @@
     "n": 28,
     "videos": 7,
     "vistas": 1.2,
-    "interaccion": 1.12
+    "interaccion": 1.13
    }
   },
   "cifra en 5 primeras palabras": {
@@ -351,7 +351,7 @@
    "historia": {
     "n": 32,
     "videos": 8,
-    "vistas": 1.11,
+    "vistas": 1.12,
     "interaccion": 1.17
    },
    "ciencia": {
@@ -796,7 +796,7 @@
     "mejor": {
      "v": "medios",
      "vistas": 1.2,
-     "interaccion": 1.12,
+     "interaccion": 1.13,
      "n": 28
     },
     "resto": [
@@ -807,7 +807,7 @@
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.20× el alcance medio (7 vídeos) e interacción 1.12×; frente a pocos (<12/min) 0.95× (17 vídeos)."
+   "texto": "cortes: «medios» consigue 1.20× el alcance medio (7 vídeos) e interacción 1.13×; frente a pocos (<12/min) 0.95× (17 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -1076,7 +1076,7 @@
   {
    "id": "2026-11-23-2015",
    "titulo": "Serendipia: la palabra que nació del antiguo nombre de Sri Lanka",
-   "indice": 0.5,
+   "indice": 0.51,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
