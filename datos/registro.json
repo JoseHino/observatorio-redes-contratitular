@@ -2587,5 +2587,206 @@
     "por_que": "Abre con el origen insólito de una palabra conocida y el giro de la isla engancha, pero la primera frase no promete nada concreto y el ritmo de datos históricos puede cansar."
    }
   }
+ },
+ {
+  "carpeta": "2026-11-24-1330",
+  "titulo": "Te enseñaron que el Sáhara es el mayor desierto. Es falso",
+  "fecha": "2026-11-24",
+  "duracion": 37.6,
+  "estilo": "pop",
+  "serie": "Geografía",
+  "gancho": "Te enseñaron que el Sáhara es el mayor desierto. Es falso.",
+  "palabras": 114,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 4.06,
+    "frase": "Te enseñaron que el Sáhara es el mayor desierto. Es falso.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 4.06,
+    "fin": 9.34,
+    "frase": "Mide unos 9 millones de kilómetros cuadrados, pero hay otro más grande, y está helado:",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 9.34,
+    "fin": 13.72,
+    "frase": "porque un desierto no se define por el calor ni por la arena, sino por la lluvia,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 13.72,
+    "fin": 18.38,
+    "frase": "y cualquier lugar donde caen menos de 250 milímetros al año cuenta como desierto.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 18.38,
+    "fin": 22.88,
+    "frase": "Así que el campeón es la Antártida, con casi 14 millones de kilómetros cuadrados,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 22.88,
+    "fin": 27.72,
+    "frase": "donde en el interior caen menos de 50 milímetros al año, una sequía hecha de hielo.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 27.72,
+    "fin": 30.44,
+    "frase": "Y el segundo tampoco es el Sáhara: es el Ártico.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 8,
+    "inicio": 30.44,
+    "fin": 37.56,
+    "frase": "Al Sáhara solo le queda el título de mayor desierto caliente. ¿Quién de tus amigos seguía creyéndolo?",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-24-1330",
+  "texto": "Te enseñaron que el Sáhara es el mayor desierto. Es falso Un desierto no se define por el calor ni por la arena, sino por lo poco que llueve: menos de unos 250 mm al año. Con esa regla, el mayor del mundo es la Antártida (casi 14 millones de km²), seguida del Ártico. El Sáhara, con unos 9 millones, es «solo» el mayor desierto caliente. ¿A quién se lo vas a contar primero? Las ilustraciones son recreaciones hechas con IA. Te enseñaron que el Sáhara es el mayor desierto. Es falso. Mide unos 9 millones de kilómetros cuadrados, pero hay otro más grande, y está helado: porque un desierto no se define por el calor ni por la arena, sino por la lluvia, y cualquier lugar donde caen menos de 250 milímetros al año cuenta como desierto. Así que el campeón es la Antártida, con casi 14 millones de kilómetros cuadrados, donde en el interior caen menos de 50 milímetros al año, una sequía hecha de hielo. Y el segundo tampoco es el Sáhara: es el Ártico. Al Sáhara solo le queda el título de mayor desierto caliente. ¿Quién de tus amigos seguía creyéndolo?",
+  "familia": "tum",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "contradicción"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-24",
+   "medido": {
+    "palabras_s": 3.03,
+    "escenas_min": 12.8,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 11,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "geografía",
+    "emocion": "asombro",
+    "gancho_tipo": "contradicción",
+    "cercania": "universal",
+    "promesa": "sí",
+    "giro": "sí",
+    "cierre": "pregunta",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Abre con una contradicción directa (\"Es falso\") y un personaje simpático, y el giro del desierto helado mantiene la intriga; el texto a medio escribir en 0,1 s resta algo de claridad."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-24-2215",
+  "titulo": "Te enseñaron que Edison inventó la bombilla. Es falso",
+  "fecha": "2026-11-24",
+  "duracion": 41.8,
+  "estilo": "pizarra",
+  "serie": "Inventos",
+  "gancho": "Te enseñaron que Edison inventó la bombilla. Es falso.",
+  "palabras": 112,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 3.92,
+    "frase": "Te enseñaron que Edison inventó la bombilla. Es falso.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 3.92,
+    "fin": 10.7,
+    "frase": "Y te cuento qué hizo de verdad: ya en 1841 se patentó una bombilla con filamentos de platino,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 10.7,
+    "fin": 14.02,
+    "frase": "pero el platino era tan caro que nadie podía usarla en casa.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 14.02,
+    "fin": 21.86,
+    "frase": "Y en Newcastle, entre 1878 y 1879, Joseph Swan enseñó una con filamento de carbono.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 21.86,
+    "fin": 27.3,
+    "frase": "Entonces, ¿qué hizo Edison? Lo que importó: hacer de la bombilla algo práctico y comercial,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 27.3,
+    "fin": 33.44,
+    "frase": "tanto que, tras pelearse en los tribunales, él y Swan acabaron uniendo sus empresas en 1883.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 33.44,
+    "fin": 41.76,
+    "frase": "Así que la bombilla no tuvo un solo inventor: fue una carrera de relevos, y a Edison le tocó el tramo que la llevó a las casas.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-24-2215",
+  "texto": "Te enseñaron que Edison inventó la bombilla. Es falso La bombilla fue una carrera de relevos: ya en 1841 había una patente con filamentos de platino, Swan enseñó su lámpara de carbono en Newcastle en 1878-79 y Edison la hizo práctica y comercial. En 1883 sus empresas se fusionaron. ¿Qué otro invento creías que era de otra persona? Cuéntamelo y compártelo con quien siga diciendo que fue Edison 💡 Te enseñaron que Edison inventó la bombilla. Es falso. Y te cuento qué hizo de verdad: ya en 1841 se patentó una bombilla con filamentos de platino, pero el platino era tan caro que nadie podía usarla en casa. Y en Newcastle, entre 1878 y 1879, Joseph Swan enseñó una con filamento de carbono. Entonces, ¿qué hizo Edison? Lo que importó: hacer de la bombilla algo práctico y comercial, tanto que, tras pelearse en los tribunales, él y Swan acabaron uniendo sus empresas en 1883. Así que la bombilla no tuvo un solo inventor: fue una carrera de relevos, y a Edison le tocó el tramo que la llevó a las casas.",
+  "familia": "marimba",
+  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "contradicción"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-24",
+   "medido": {
+    "palabras_s": 2.68,
+    "escenas_min": 10,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 9,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "historia",
+    "emocion": "asombro",
+    "gancho_tipo": "segunda persona",
+    "cercania": "universal",
+    "promesa": "no",
+    "giro": "sí",
+    "cierre": "moraleja",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "no",
+    "por_que": "Abre con una contradicción directa sobre un mito conocido y con texto grande desde el segundo 0. Puede decaer en la parte central, llena de fechas y nombres, y no hay cara humana."
+   }
+  }
  }
 ]
