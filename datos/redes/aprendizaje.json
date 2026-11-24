@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T12:21:42.713Z",
+ "actualizado": "2026-11-24T13:20:29.408Z",
  "publicaciones": 120,
  "videos": 36,
  "factores": {
@@ -14,7 +14,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.8,
-    "interaccion": 0.94
+    "interaccion": 0.95
    },
    "martes": {
     "n": 16,
@@ -51,7 +51,7 @@
    "noche": {
     "n": 56,
     "videos": 16,
-    "vistas": 0.95,
+    "vistas": 0.96,
     "interaccion": 0.97
    },
    "mediodía": {
@@ -103,7 +103,7 @@
    "instagram": {
     "n": 30,
     "videos": 30,
-    "vistas": 1.17,
+    "vistas": 1.18,
     "interaccion": 0.8
    },
    "tiktok": {
@@ -191,8 +191,8 @@
    "Palabras": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.72,
-    "interaccion": 1.02
+    "vistas": 0.73,
+    "interaccion": 1.03
    },
    "Geografía": {
     "n": 4,
@@ -329,7 +329,7 @@
    "medios": {
     "n": 28,
     "videos": 7,
-    "vistas": 1.21,
+    "vistas": 1.22,
     "interaccion": 1.12
    }
   },
@@ -337,8 +337,8 @@
    "sí": {
     "n": 36,
     "videos": 9,
-    "vistas": 0.91,
-    "interaccion": 1.19
+    "vistas": 0.92,
+    "interaccion": 1.2
    },
    "no": {
     "n": 60,
@@ -351,8 +351,8 @@
    "historia": {
     "n": 32,
     "videos": 8,
-    "vistas": 1.12,
-    "interaccion": 1.16
+    "vistas": 1.13,
+    "interaccion": 1.17
    },
    "ciencia": {
     "n": 16,
@@ -428,7 +428,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.67,
-    "interaccion": 1.52
+    "interaccion": 1.55
    },
    "pregunta": {
     "n": 28,
@@ -462,7 +462,7 @@
     "n": 44,
     "videos": 11,
     "vistas": 1.01,
-    "interaccion": 0.84
+    "interaccion": 0.85
    },
    "sí": {
     "n": 52,
@@ -530,7 +530,7 @@
     "n": 96,
     "videos": 24,
     "vistas": 1.02,
-    "interaccion": 0.95
+    "interaccion": 0.96
    }
   },
   "texto 0s": {
@@ -538,7 +538,7 @@
     "n": 96,
     "videos": 24,
     "vistas": 1.02,
-    "interaccion": 0.95
+    "interaccion": 0.96
    }
   },
   "personaje": {
@@ -552,7 +552,7 @@
     "n": 44,
     "videos": 11,
     "vistas": 1.18,
-    "interaccion": 1.06
+    "interaccion": 1.07
    }
   },
   "sonido": {
@@ -601,8 +601,8 @@
    "cuerda": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.78,
-    "interaccion": 1.16
+    "vistas": 0.79,
+    "interaccion": 1.18
    }
   },
   "voz": {
@@ -617,7 +617,7 @@
    "cifra chocante": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.95,
+    "vistas": 0.96,
     "interaccion": 1.11
    },
    "contradicción": {
@@ -650,7 +650,7 @@
     "resto": [
      {
       "v": "noche",
-      "vistas": 0.95,
+      "vistas": 0.96,
       "n": 56
      },
      {
@@ -660,7 +660,7 @@
      }
     ]
    },
-   "texto": "franja: «tarde» consigue 1.28× el alcance medio (3 vídeos) e interacción 0.76×; frente a noche 0.95× (16 vídeos), mediodía 0.94× (17 vídeos)."
+   "texto": "franja: «tarde» consigue 1.28× el alcance medio (3 vídeos) e interacción 0.76×; frente a noche 0.96× (16 vídeos), mediodía 0.94× (17 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -795,7 +795,7 @@
    "detalle": {
     "mejor": {
      "v": "medios",
-     "vistas": 1.21,
+     "vistas": 1.22,
      "interaccion": 1.12,
      "n": 28
     },
@@ -807,29 +807,7 @@
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.21× el alcance medio (7 vídeos) e interacción 1.12×; frente a pocos (<12/min) 0.95× (17 vídeos)."
-  },
-  {
-   "tipo": "hipotesis",
-   "factor": "cifra en 5 primeras palabras",
-   "mejor": "no",
-   "n": 24,
-   "detalle": {
-    "mejor": {
-     "v": "no",
-     "vistas": 1.1,
-     "interaccion": 0.84,
-     "n": 60
-    },
-    "resto": [
-     {
-      "v": "sí",
-      "vistas": 0.91,
-      "n": 36
-     }
-    ]
-   },
-   "texto": "cifra en 5 primeras palabras: «no» consigue 1.10× el alcance medio (15 vídeos) e interacción 0.84×; frente a sí 0.91× (9 vídeos)."
+   "texto": "cortes: «medios» consigue 1.22× el alcance medio (7 vídeos) e interacción 1.12×; frente a pocos (<12/min) 0.95× (17 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -884,7 +862,7 @@
     "mejor": {
      "v": "sí",
      "vistas": 1.18,
-     "interaccion": 1.06,
+     "interaccion": 1.07,
      "n": 44
     },
     "resto": [
@@ -895,7 +873,7 @@
      }
     ]
    },
-   "texto": "personaje: «sí» consigue 1.18× el alcance medio (11 vídeos) e interacción 1.06×; frente a no 0.91× (13 vídeos)."
+   "texto": "personaje: «sí» consigue 1.18× el alcance medio (11 vídeos) e interacción 1.07×; frente a no 0.91× (13 vídeos)."
   }
  ],
  "pesos": {
@@ -906,7 +884,7 @@
    "marimba": 0.132,
    "kalimba": 0.11,
    "campanita": 0.124,
-   "cuerda": 0.106,
+   "cuerda": 0.107,
    "burbuja": 0.1,
    "tum": 0.126
   },
@@ -1076,7 +1054,7 @@
   {
    "id": "2026-11-23-2015",
    "titulo": "Serendipia: la palabra que nació del antiguo nombre de Sri Lanka",
-   "indice": 0.54,
+   "indice": 0.55,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
