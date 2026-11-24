@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T15:19:23.790Z",
+ "actualizado": "2026-11-24T16:19:11.141Z",
  "publicaciones": 120,
  "videos": 36,
  "factores": {
@@ -13,7 +13,7 @@
    "lunes": {
     "n": 20,
     "videos": 5,
-    "vistas": 0.81,
+    "vistas": 0.82,
     "interaccion": 0.95
    },
    "martes": {
@@ -72,7 +72,7 @@
     "n": 48,
     "videos": 14,
     "vistas": 0.97,
-    "interaccion": 0.87
+    "interaccion": 0.88
    },
    "12-14 h": {
     "n": 40,
@@ -153,8 +153,8 @@
    "neon": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.86,
-    "interaccion": 0.85
+    "vistas": 0.87,
+    "interaccion": 0.86
    }
   },
   "serie": {
@@ -192,7 +192,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.75,
-    "interaccion": 1.04
+    "interaccion": 1.05
    },
    "Geografía": {
     "n": 4,
@@ -268,7 +268,7 @@
     "n": 44,
     "videos": 11,
     "vistas": 1.04,
-    "interaccion": 0.99
+    "interaccion": 1
    },
    "pregunta": {
     "n": 28,
@@ -281,8 +281,8 @@
    "largo (>12)": {
     "n": 36,
     "videos": 9,
-    "vistas": 0.9,
-    "interaccion": 0.71
+    "vistas": 0.91,
+    "interaccion": 0.72
    },
    "corto (≤12)": {
     "n": 60,
@@ -329,7 +329,7 @@
    "medios": {
     "n": 28,
     "videos": 7,
-    "vistas": 1.23,
+    "vistas": 1.24,
     "interaccion": 1.13
    }
   },
@@ -352,7 +352,7 @@
     "n": 32,
     "videos": 8,
     "vistas": 1.14,
-    "interaccion": 1.17
+    "interaccion": 1.18
    },
    "ciencia": {
     "n": 16,
@@ -396,7 +396,7 @@
     "n": 88,
     "videos": 22,
     "vistas": 1.06,
-    "interaccion": 0.95
+    "interaccion": 0.96
    },
    "intriga": {
     "n": 8,
@@ -427,8 +427,8 @@
    "misterio": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.7,
-    "interaccion": 1.56
+    "vistas": 0.71,
+    "interaccion": 1.58
    },
    "pregunta": {
     "n": 28,
@@ -475,7 +475,7 @@
    "sí": {
     "n": 92,
     "videos": 23,
-    "vistas": 1.04,
+    "vistas": 1.05,
     "interaccion": 0.99
    },
    "no": {
@@ -489,7 +489,7 @@
    "pregunta": {
     "n": 60,
     "videos": 15,
-    "vistas": 1.04,
+    "vistas": 1.05,
     "interaccion": 1
    },
    "dato final": {
@@ -601,15 +601,15 @@
    "cuerda": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.82,
-    "interaccion": 1.19
+    "vistas": 0.83,
+    "interaccion": 1.21
    }
   },
   "voz": {
    "Tristan HD": {
     "n": 92,
     "videos": 23,
-    "vistas": 1.03,
+    "vistas": 1.04,
     "interaccion": 0.96
    }
   },
@@ -618,7 +618,7 @@
     "n": 32,
     "videos": 8,
     "vistas": 0.97,
-    "interaccion": 1.11
+    "interaccion": 1.12
    },
    "contradicción": {
     "n": 16,
@@ -758,12 +758,12 @@
     "resto": [
      {
       "v": "largo (>12)",
-      "vistas": 0.9,
+      "vistas": 0.91,
       "n": 36
      }
     ]
    },
-   "texto": "gancho largo: «corto (≤12)» consigue 1.11× el alcance medio (15 vídeos) e interacción 1.15×; frente a largo (>12) 0.90× (9 vídeos)."
+   "texto": "gancho largo: «corto (≤12)» consigue 1.11× el alcance medio (15 vídeos) e interacción 1.15×; frente a largo (>12) 0.91× (9 vídeos)."
   },
   {
    "tipo": "regla",
@@ -795,7 +795,7 @@
    "detalle": {
     "mejor": {
      "v": "medios",
-     "vistas": 1.23,
+     "vistas": 1.24,
      "interaccion": 1.13,
      "n": 28
     },
@@ -807,7 +807,7 @@
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.23× el alcance medio (7 vídeos) e interacción 1.13×; frente a pocos (<12/min) 0.95× (17 vídeos)."
+   "texto": "cortes: «medios» consigue 1.24× el alcance medio (7 vídeos) e interacción 1.13×; frente a pocos (<12/min) 0.95× (17 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -818,7 +818,7 @@
     "mejor": {
      "v": "asombro",
      "vistas": 1.06,
-     "interaccion": 0.95,
+     "interaccion": 0.96,
      "n": 88
     },
     "resto": [
@@ -829,7 +829,7 @@
      }
     ]
    },
-   "texto": "emocion: «asombro» consigue 1.06× el alcance medio (22 vídeos) e interacción 0.95×; frente a intriga 0.80× (2 vídeos)."
+   "texto": "emocion: «asombro» consigue 1.06× el alcance medio (22 vídeos) e interacción 0.96×; frente a intriga 0.80× (2 vídeos)."
   },
   {
    "tipo": "regla",
@@ -883,15 +883,15 @@
    "madera": 0.115,
    "marimba": 0.132,
    "kalimba": 0.11,
-   "campanita": 0.124,
-   "cuerda": 0.109,
+   "campanita": 0.123,
+   "cuerda": 0.11,
    "burbuja": 0.1,
    "tum": 0.125
   },
   "estilo": {
-   "papel": 0.249,
-   "neon": 0.174,
-   "pop": 0.207,
+   "papel": 0.248,
+   "neon": 0.176,
+   "pop": 0.206,
    "pizarra": 0.183,
    "limpio": 0.187
   }
@@ -1054,7 +1054,7 @@
   {
    "id": "2026-11-23-2015",
    "titulo": "Serendipia: la palabra que nació del antiguo nombre de Sri Lanka",
-   "indice": 0.6,
+   "indice": 0.62,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
