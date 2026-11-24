@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T14:20:01.598Z",
+ "actualizado": "2026-11-24T15:19:23.790Z",
  "publicaciones": 120,
  "videos": 36,
  "factores": {
@@ -52,7 +52,7 @@
     "n": 56,
     "videos": 16,
     "vistas": 0.96,
-    "interaccion": 0.97
+    "interaccion": 0.98
    },
    "mediodía": {
     "n": 56,
@@ -71,7 +71,7 @@
    "20-22 h": {
     "n": 48,
     "videos": 14,
-    "vistas": 0.96,
+    "vistas": 0.97,
     "interaccion": 0.87
    },
    "12-14 h": {
@@ -191,8 +191,8 @@
    "Palabras": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.74,
-    "interaccion": 1.03
+    "vistas": 0.75,
+    "interaccion": 1.04
    },
    "Geografía": {
     "n": 4,
@@ -267,7 +267,7 @@
    "afirmación": {
     "n": 44,
     "videos": 11,
-    "vistas": 1.03,
+    "vistas": 1.04,
     "interaccion": 0.99
    },
    "pregunta": {
@@ -330,14 +330,14 @@
     "n": 28,
     "videos": 7,
     "vistas": 1.23,
-    "interaccion": 1.12
+    "interaccion": 1.13
    }
   },
   "cifra en 5 primeras palabras": {
    "sí": {
     "n": 36,
     "videos": 9,
-    "vistas": 0.92,
+    "vistas": 0.93,
     "interaccion": 1.2
    },
    "no": {
@@ -351,7 +351,7 @@
    "historia": {
     "n": 32,
     "videos": 8,
-    "vistas": 1.13,
+    "vistas": 1.14,
     "interaccion": 1.17
    },
    "ciencia": {
@@ -427,8 +427,8 @@
    "misterio": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.69,
-    "interaccion": 1.55
+    "vistas": 0.7,
+    "interaccion": 1.56
    },
    "pregunta": {
     "n": 28,
@@ -601,7 +601,7 @@
    "cuerda": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.81,
+    "vistas": 0.82,
     "interaccion": 1.19
    }
   },
@@ -617,7 +617,7 @@
    "cifra chocante": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.96,
+    "vistas": 0.97,
     "interaccion": 1.11
    },
    "contradicción": {
@@ -682,12 +682,12 @@
      },
      {
       "v": "20-22 h",
-      "vistas": 0.96,
+      "vistas": 0.97,
       "n": 48
      }
     ]
    },
-   "texto": "hora: «18-20 h» consigue 1.28× el alcance medio (3 vídeos) e interacción 0.76×; frente a 14-16 h 0.98× (4 vídeos), 20-22 h 0.96× (14 vídeos)."
+   "texto": "hora: «18-20 h» consigue 1.28× el alcance medio (3 vídeos) e interacción 0.76×; frente a 14-16 h 0.98× (4 vídeos), 20-22 h 0.97× (14 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -731,7 +731,7 @@
     "resto": [
      {
       "v": "afirmación",
-      "vistas": 1.03,
+      "vistas": 1.04,
       "n": 44
      },
      {
@@ -741,7 +741,7 @@
      }
     ]
    },
-   "texto": "gancho: «pregunta» consigue 1.25× el alcance medio (7 vídeos) e interacción 1.05×; frente a afirmación 1.03× (11 vídeos), con cifra 0.80× (6 vídeos)."
+   "texto": "gancho: «pregunta» consigue 1.25× el alcance medio (7 vídeos) e interacción 1.05×; frente a afirmación 1.04× (11 vídeos), con cifra 0.80× (6 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -796,7 +796,7 @@
     "mejor": {
      "v": "medios",
      "vistas": 1.23,
-     "interaccion": 1.12,
+     "interaccion": 1.13,
      "n": 28
     },
     "resto": [
@@ -807,7 +807,7 @@
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.23× el alcance medio (7 vídeos) e interacción 1.12×; frente a pocos (<12/min) 0.95× (17 vídeos)."
+   "texto": "cortes: «medios» consigue 1.23× el alcance medio (7 vídeos) e interacción 1.13×; frente a pocos (<12/min) 0.95× (17 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -884,7 +884,7 @@
    "marimba": 0.132,
    "kalimba": 0.11,
    "campanita": 0.124,
-   "cuerda": 0.108,
+   "cuerda": 0.109,
    "burbuja": 0.1,
    "tum": 0.125
   },
@@ -1054,7 +1054,7 @@
   {
    "id": "2026-11-23-2015",
    "titulo": "Serendipia: la palabra que nació del antiguo nombre de Sri Lanka",
-   "indice": 0.58,
+   "indice": 0.6,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
