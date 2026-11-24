@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T10:18:54.701Z",
+ "actualizado": "2026-11-24T11:19:45.111Z",
  "publicaciones": 120,
  "videos": 36,
  "factores": {
@@ -191,7 +191,7 @@
    "Palabras": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.71,
+    "vistas": 0.72,
     "interaccion": 1.03
    },
    "Geografía": {
@@ -267,7 +267,7 @@
    "afirmación": {
     "n": 44,
     "videos": 11,
-    "vistas": 1.02,
+    "vistas": 1.03,
     "interaccion": 0.99
    },
    "pregunta": {
@@ -601,7 +601,7 @@
    "cuerda": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.77,
+    "vistas": 0.78,
     "interaccion": 1.18
    }
   },
@@ -731,7 +731,7 @@
     "resto": [
      {
       "v": "afirmación",
-      "vistas": 1.02,
+      "vistas": 1.03,
       "n": 44
      },
      {
@@ -741,7 +741,7 @@
      }
     ]
    },
-   "texto": "gancho: «pregunta» consigue 1.25× el alcance medio (7 vídeos) e interacción 1.05×; frente a afirmación 1.02× (11 vídeos), con cifra 0.80× (6 vídeos)."
+   "texto": "gancho: «pregunta» consigue 1.25× el alcance medio (7 vídeos) e interacción 1.05×; frente a afirmación 1.03× (11 vídeos), con cifra 0.80× (6 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -906,7 +906,7 @@
    "marimba": 0.132,
    "kalimba": 0.11,
    "campanita": 0.124,
-   "cuerda": 0.106,
+   "cuerda": 0.107,
    "burbuja": 0.1,
    "tum": 0.126
   },
