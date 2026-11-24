@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T19:20:57.020Z",
+ "actualizado": "2026-11-24T20:19:27.223Z",
  "publicaciones": 120,
  "videos": 36,
  "factores": {
@@ -242,7 +242,7 @@
     "n": 84,
     "videos": 21,
     "vistas": 1.11,
-    "interaccion": 0.97
+    "interaccion": 0.96
    },
    ">43 s": {
     "n": 8,
@@ -602,7 +602,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.87,
-    "interaccion": 1.14
+    "interaccion": 1.13
    }
   },
   "voz": {
@@ -857,7 +857,7 @@
    "marimba": 0.132,
    "kalimba": 0.11,
    "campanita": 0.123,
-   "cuerda": 0.11,
+   "cuerda": 0.109,
    "burbuja": 0.1,
    "tum": 0.125
   },
