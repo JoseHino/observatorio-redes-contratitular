@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T09:18:49.072Z",
+ "actualizado": "2026-11-24T10:18:54.701Z",
  "publicaciones": 120,
  "videos": 36,
  "factores": {
@@ -14,7 +14,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.79,
-    "interaccion": 0.95
+    "interaccion": 0.94
    },
    "martes": {
     "n": 16,
@@ -71,7 +71,7 @@
    "20-22 h": {
     "n": 48,
     "videos": 14,
-    "vistas": 0.95,
+    "vistas": 0.96,
     "interaccion": 0.87
    },
    "12-14 h": {
@@ -338,7 +338,7 @@
     "n": 36,
     "videos": 9,
     "vistas": 0.91,
-    "interaccion": 1.2
+    "interaccion": 1.19
    },
    "no": {
     "n": 60,
@@ -428,7 +428,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.66,
-    "interaccion": 1.55
+    "interaccion": 1.54
    },
    "pregunta": {
     "n": 28,
@@ -551,7 +551,7 @@
    "sí": {
     "n": 44,
     "videos": 11,
-    "vistas": 1.17,
+    "vistas": 1.18,
     "interaccion": 1.07
    }
   },
@@ -602,7 +602,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.77,
-    "interaccion": 1.19
+    "interaccion": 1.18
    }
   },
   "voz": {
@@ -682,12 +682,12 @@
      },
      {
       "v": "20-22 h",
-      "vistas": 0.95,
+      "vistas": 0.96,
       "n": 48
      }
     ]
    },
-   "texto": "hora: «18-20 h» consigue 1.28× el alcance medio (3 vídeos) e interacción 0.76×; frente a 14-16 h 0.98× (4 vídeos), 20-22 h 0.95× (14 vídeos)."
+   "texto": "hora: «18-20 h» consigue 1.28× el alcance medio (3 vídeos) e interacción 0.76×; frente a 14-16 h 0.98× (4 vídeos), 20-22 h 0.96× (14 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -883,7 +883,7 @@
    "detalle": {
     "mejor": {
      "v": "sí",
-     "vistas": 1.17,
+     "vistas": 1.18,
      "interaccion": 1.07,
      "n": 44
     },
@@ -895,7 +895,7 @@
      }
     ]
    },
-   "texto": "personaje: «sí» consigue 1.17× el alcance medio (11 vídeos) e interacción 1.07×; frente a no 0.91× (13 vídeos)."
+   "texto": "personaje: «sí» consigue 1.18× el alcance medio (11 vídeos) e interacción 1.07×; frente a no 0.91× (13 vídeos)."
   }
  ],
  "pesos": {
@@ -906,7 +906,7 @@
    "marimba": 0.132,
    "kalimba": 0.11,
    "campanita": 0.124,
-   "cuerda": 0.107,
+   "cuerda": 0.106,
    "burbuja": 0.1,
    "tum": 0.126
   },
@@ -1076,7 +1076,7 @@
   {
    "id": "2026-11-23-2015",
    "titulo": "Serendipia: la palabra que nació del antiguo nombre de Sri Lanka",
-   "indice": 0.51,
+   "indice": 0.52,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
