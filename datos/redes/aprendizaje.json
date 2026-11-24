@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T05:19:23.278Z",
+ "actualizado": "2026-11-24T06:21:20.202Z",
  "publicaciones": 116,
  "videos": 35,
  "factores": {
@@ -590,7 +590,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.81,
-    "interaccion": 1.04
+    "interaccion": 1.03
    },
    "marimba": {
     "n": 4,
@@ -829,7 +829,7 @@
  ],
  "pesos": {
   "familia": {
-   "pop": 0.102,
+   "pop": 0.101,
    "gota": 0.082,
    "madera": 0.115,
    "marimba": 0.132,
