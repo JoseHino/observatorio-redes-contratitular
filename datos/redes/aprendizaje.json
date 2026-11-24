@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T01:19:53.567Z",
+ "actualizado": "2026-11-24T02:19:47.987Z",
  "publicaciones": 116,
  "videos": 35,
  "factores": {
@@ -44,7 +44,7 @@
     "n": 16,
     "videos": 6,
     "vistas": 1.31,
-    "interaccion": 1.03
+    "interaccion": 1.04
    }
   },
   "franja": {
@@ -198,7 +198,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.03,
-    "interaccion": 1.58
+    "interaccion": 1.59
    },
    "Inventos": {
     "n": 8,
@@ -261,14 +261,14 @@
    "con cifra": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.81,
+    "vistas": 0.8,
     "interaccion": 0.82
    },
    "afirmación": {
     "n": 40,
     "videos": 10,
     "vistas": 1.09,
-    "interaccion": 0.97
+    "interaccion": 0.98
    },
    "pregunta": {
     "n": 28,
@@ -309,7 +309,7 @@
    "medio": {
     "n": 36,
     "videos": 9,
-    "vistas": 1.12,
+    "vistas": 1.11,
     "interaccion": 1.06
    },
    "rápido (>2,9 pal/s)": {
@@ -330,7 +330,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 1.38,
-    "interaccion": 1.1
+    "interaccion": 1.11
    }
   },
   "cifra en 5 primeras palabras": {
@@ -338,7 +338,7 @@
     "n": 32,
     "videos": 8,
     "vistas": 0.97,
-    "interaccion": 1.19
+    "interaccion": 1.2
    },
    "no": {
     "n": 60,
@@ -388,7 +388,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.03,
-    "interaccion": 1.58
+    "interaccion": 1.59
    }
   },
   "emocion": {
@@ -396,7 +396,7 @@
     "n": 84,
     "videos": 21,
     "vistas": 1.09,
-    "interaccion": 0.95
+    "interaccion": 0.96
    },
    "intriga": {
     "n": 8,
@@ -559,7 +559,7 @@
    "gota": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.99,
+    "vistas": 0.98,
     "interaccion": 0.49
    },
    "burbuja": {
@@ -590,7 +590,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.81,
-    "interaccion": 1.03
+    "interaccion": 1.04
    },
    "marimba": {
     "n": 4,
@@ -747,7 +747,7 @@
     "mejor": {
      "v": "medios",
      "vistas": 1.38,
-     "interaccion": 1.1,
+     "interaccion": 1.11,
      "n": 24
     },
     "resto": [
@@ -758,7 +758,7 @@
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.38× el alcance medio (6 vídeos) e interacción 1.10×; frente a pocos (<12/min) 0.95× (17 vídeos)."
+   "texto": "cortes: «medios» consigue 1.38× el alcance medio (6 vídeos) e interacción 1.11×; frente a pocos (<12/min) 0.95× (17 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -769,7 +769,7 @@
     "mejor": {
      "v": "asombro",
      "vistas": 1.09,
-     "interaccion": 0.95,
+     "interaccion": 0.96,
      "n": 84
     },
     "resto": [
@@ -780,7 +780,7 @@
      }
     ]
    },
-   "texto": "emocion: «asombro» consigue 1.09× el alcance medio (21 vídeos) e interacción 0.95×; frente a intriga 0.80× (2 vídeos)."
+   "texto": "emocion: «asombro» consigue 1.09× el alcance medio (21 vídeos) e interacción 0.96×; frente a intriga 0.80× (2 vídeos)."
   },
   {
    "tipo": "regla",
@@ -829,13 +829,13 @@
  ],
  "pesos": {
   "familia": {
-   "pop": 0.101,
-   "gota": 0.083,
+   "pop": 0.102,
+   "gota": 0.082,
    "madera": 0.115,
    "marimba": 0.132,
    "kalimba": 0.109,
    "campanita": 0.124,
-   "cuerda": 0.112,
+   "cuerda": 0.111,
    "burbuja": 0.1,
    "tum": 0.126
   },
