@@ -2696,7 +2696,7 @@
   "carpeta": "2026-11-24-2215",
   "titulo": "Te enseñaron que Edison inventó la bombilla. Es falso",
   "fecha": "2026-11-24",
-  "duracion": 41.8,
+  "duracion": 40.7,
   "estilo": "pizarra",
   "serie": "Inventos",
   "gancho": "Te enseñaron que Edison inventó la bombilla. Es falso.",
@@ -2705,49 +2705,49 @@
    {
     "n": 1,
     "inicio": 0,
-    "fin": 3.92,
+    "fin": 3.14,
     "frase": "Te enseñaron que Edison inventó la bombilla. Es falso.",
     "tipo": "dibujo"
    },
    {
     "n": 2,
-    "inicio": 3.92,
-    "fin": 10.7,
+    "inicio": 3.14,
+    "fin": 9.26,
     "frase": "Y te cuento qué hizo de verdad: ya en 1841 se patentó una bombilla con filamentos de platino,",
     "tipo": "dibujo"
    },
    {
     "n": 3,
-    "inicio": 10.7,
-    "fin": 14.02,
+    "inicio": 9.26,
+    "fin": 12.6,
     "frase": "pero el platino era tan caro que nadie podía usarla en casa.",
     "tipo": "dibujo"
    },
    {
     "n": 4,
-    "inicio": 14.02,
-    "fin": 21.86,
+    "inicio": 12.6,
+    "fin": 20.3,
     "frase": "Y en Newcastle, entre 1878 y 1879, Joseph Swan enseñó una con filamento de carbono.",
     "tipo": "dibujo"
    },
    {
     "n": 5,
-    "inicio": 21.86,
-    "fin": 27.3,
+    "inicio": 20.3,
+    "fin": 26.18,
     "frase": "Entonces, ¿qué hizo Edison? Lo que importó: hacer de la bombilla algo práctico y comercial,",
     "tipo": "dibujo"
    },
    {
     "n": 6,
-    "inicio": 27.3,
-    "fin": 33.44,
+    "inicio": 26.18,
+    "fin": 33.08,
     "frase": "tanto que, tras pelearse en los tribunales, él y Swan acabaron uniendo sus empresas en 1883.",
     "tipo": "dibujo"
    },
    {
     "n": 7,
-    "inicio": 33.44,
-    "fin": 41.76,
+    "inicio": 33.08,
+    "fin": 40.74,
     "frase": "Así que la bombilla no tuvo un solo inventor: fue una carrera de relevos, y a Edison le tocó el tramo que la llevó a las casas.",
     "tipo": "dibujo"
    }
@@ -2756,8 +2756,8 @@
   "metricas": [],
   "id": "2026-11-24-2215",
   "texto": "Te enseñaron que Edison inventó la bombilla. Es falso La bombilla fue una carrera de relevos: ya en 1841 había una patente con filamentos de platino, Swan enseñó su lámpara de carbono en Newcastle en 1878-79 y Edison la hizo práctica y comercial. En 1883 sus empresas se fusionaron. ¿Qué otro invento creías que era de otra persona? Cuéntamelo y compártelo con quien siga diciendo que fue Edison 💡 Te enseñaron que Edison inventó la bombilla. Es falso. Y te cuento qué hizo de verdad: ya en 1841 se patentó una bombilla con filamentos de platino, pero el platino era tan caro que nadie podía usarla en casa. Y en Newcastle, entre 1878 y 1879, Joseph Swan enseñó una con filamento de carbono. Entonces, ¿qué hizo Edison? Lo que importó: hacer de la bombilla algo práctico y comercial, tanto que, tras pelearse en los tribunales, él y Swan acabaron uniendo sus empresas en 1883. Así que la bombilla no tuvo un solo inventor: fue una carrera de relevos, y a Edison le tocó el tramo que la llevó a las casas.",
-  "familia": "marimba",
-  "voz": "es-ES-Tristan:DragonHDLatestNeural",
+  "familia": "cuerda",
+  "voz": "RgXx32WYOGrd7gFNifSf",
   "experimento": {
    "variable": "gancho_tipo",
    "variante": "contradicción"
@@ -2786,6 +2786,805 @@
     "texto_0s": "sí",
     "personaje": "no",
     "por_que": "Abre con una contradicción directa sobre un mito conocido y con texto grande desde el segundo 0. Puede decaer en la parte central, llena de fechas y nombres, y no hay cara humana."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-25-1230",
+  "titulo": "Te enseñaron que las zanahorias te hacen ver de noche. Es falso.",
+  "fecha": "2026-11-24",
+  "duracion": 42.6,
+  "estilo": "limpio",
+  "serie": "Mito #8",
+  "gancho": "Te enseñaron que las zanahorias te hacen ver de noche. Es falso.",
+  "palabras": 106,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 4.8,
+    "frase": "Te enseñaron que las zanahorias te hacen ver de noche. Es falso.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 4.8,
+    "fin": 10.22,
+    "frase": "Y lo crees por culpa de un secreto de guerra que Gran Bretaña quería tapar:",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 10.22,
+    "fin": 15.68,
+    "frase": "en 1940 sus pilotos empezaron a derribar bombarderos en plena oscuridad.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 15.68,
+    "fin": 21.36,
+    "frase": "Pero no veían mejor que nadie. Llevaban un radar nuevo, y eso tenía que seguir en secreto.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 21.36,
+    "fin": 26.04,
+    "frase": "Así que la prensa dio otra explicación: tanta zanahoria.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 26.04,
+    "fin": 32.54,
+    "frase": "Hasta inventaron al Doctor Zanahoria, y la idea se extendió tanto que todavía la repites.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 32.54,
+    "fin": 36.46,
+    "frase": "Pero la vitamina A cuida tu vista; no te da ojos de gato.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 8,
+    "inicio": 36.46,
+    "fin": 42.62,
+    "frase": "Y mándaselo a quien aún se come las zanahorias para ver en la oscuridad.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-25-1230",
+  "texto": "Te enseñaron que las zanahorias te hacen ver de noche. Es falso. Mito #8 · Las zanahorias no te dan visión nocturna. En 1940 los cazas británicos usaban un radar secreto y la prensa habló de las zanahorias; el Doctor Zanahoria hizo el resto. La vitamina A cuida la vista, pero no da ojos de gato. Mándaselo a quien aún se las come para ver en la oscuridad 🥕 Te enseñaron que las zanahorias te hacen ver de noche. Es falso. Y lo crees por culpa de un secreto de guerra que Gran Bretaña quería tapar: en 1940 sus pilotos empezaron a derribar bombarderos en plena oscuridad. Pero no veían mejor que nadie. Llevaban un radar nuevo, y eso tenía que seguir en secreto. Así que la prensa dio otra explicación: tanta zanahoria. Hasta inventaron al Doctor Zanahoria, y la idea se extendió tanto que todavía la repites. Pero la vitamina A cuida tu vista; no te da ojos de gato. Y mándaselo a quien aún se come las zanahorias para ver en la oscuridad.",
+  "familia": "pop",
+  "voz": "W5JElH3dK1UYYAiHH7uh",
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-25",
+   "medido": {
+    "palabras_s": 2.49,
+    "escenas_min": 11.3,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 12,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "historia",
+    "emocion": "asombro",
+    "gancho_tipo": "segunda persona",
+    "cercania": "universal",
+    "promesa": "no",
+    "giro": "sí",
+    "cierre": "llamada a la acción",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Abre con un mito cotidiano y lo desmonta con un secreto de guerra (el radar). Los dibujos animados y el texto en pantalla ayudan, pero el gancho no promete una recompensa concreta."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-25-1945",
+  "titulo": "En Venus, un día dura más que un año (y el Sol sale por el oeste)",
+  "fecha": "2026-11-24",
+  "duracion": 36.5,
+  "estilo": "papel",
+  "serie": "Espacio",
+  "gancho": "¿Qué dura más en Venus: un día o un año?",
+  "palabras": 107,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 2.9,
+    "frase": "¿Qué dura más en Venus: un día o un año?",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 2.9,
+    "fin": 7.72,
+    "frase": "Te lo respondo, y de paso verás por qué allí el Sol sale por el oeste.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 7.72,
+    "fin": 12.9,
+    "frase": "Empecemos por el año: Venus tarda 225 días terrestres en dar una vuelta al Sol,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 12.9,
+    "fin": 18.52,
+    "frase": "y ahora el día, lo que tarda en girar sobre sí mismo: 243 días terrestres.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 18.52,
+    "fin": 22.76,
+    "frase": "Así que sí: en Venus, un día dura más que un año.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 22.76,
+    "fin": 26.7,
+    "frase": "Y gira al revés que casi todos los planetas, por eso el Sol sale por el oeste",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 26.7,
+    "fin": 30.94,
+    "frase": "y tarda unos 117 días terrestres en volver a salir.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 8,
+    "inicio": 30.94,
+    "fin": 36.52,
+    "frase": "Mándaselo a quien todavía crea que un día siempre dura 24 horas.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-25-1945",
+  "texto": "En Venus, un día dura más que un año (y el Sol sale por el oeste) Venus tarda 225 días terrestres en dar una vuelta al Sol, pero 243 en girar sobre sí mismo, y además lo hace al revés que casi todos los planetas: por eso el Sol sale por el oeste. Entre un amanecer y el siguiente pasan unos 117 días terrestres. 🪐 ¿A quién se lo mandas para dejarle sin palabras? ¿Qué dura más en Venus: un día o un año? Te lo respondo, y de paso verás por qué allí el Sol sale por el oeste. Empecemos por el año: Venus tarda 225 días terrestres en dar una vuelta al Sol, y ahora el día, lo que tarda en girar sobre sí mismo: 243 días terrestres. Así que sí: en Venus, un día dura más que un año. Y gira al revés que casi todos los planetas, por eso el Sol sale por el oeste y tarda unos 117 días terrestres en volver a salir. Mándaselo a quien todavía crea que un día siempre dura 24 horas.",
+  "familia": "campanita",
+  "voz": "Qvbf0AoA7UZSgJUp8Ba5",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "pregunta"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-25",
+   "medido": {
+    "palabras_s": 2.93,
+    "escenas_min": 13.2,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 10,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "ciencia",
+    "emocion": "asombro",
+    "gancho_tipo": "pregunta",
+    "cercania": "universal",
+    "promesa": "sí",
+    "giro": "sí",
+    "cierre": "llamada a la acción",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Abre con una pregunta directa y un Venus con cara que la refuerza, y la paradoja se resuelve pronto. Después puede decaer, porque las cifras de 225, 243 y 117 días se acumulan."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-26-1430",
+  "titulo": "Te enseñaron que usamos el 10 % del cerebro. Es falso.",
+  "fecha": "2026-11-24",
+  "duracion": 47,
+  "estilo": "neon",
+  "serie": "Mito #9",
+  "gancho": "Te enseñaron que usamos el 10 % del cerebro. Es falso.",
+  "palabras": 112,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 4.52,
+    "frase": "Te enseñaron que usamos el 10 % del cerebro. Es falso.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 4.52,
+    "fin": 10.04,
+    "frase": "En las películas, un cerebro medio apagado. Mira qué encuentra un escáner de verdad:",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 10.04,
+    "fin": 16.36,
+    "frase": "ninguna zona dormida. Ni siquiera mientras duermes: todo el cerebro sigue trabajando.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 16.36,
+    "fin": 21.96,
+    "frase": "Y es que pesa un 2 % de tu cuerpo, pero gasta el 20 % de tus calorías.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 21.96,
+    "fin": 29.02,
+    "frase": "Mantener un 90 % de adorno saldría carísimo, y la evolución casi nunca permite ese lujo.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 29.02,
+    "fin": 36.6,
+    "frase": "¿De dónde sale ese 10 %? Se cree que de una frase sobre nuestro potencial que alguien convirtió en cifra.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 36.6,
+    "fin": 46.98,
+    "frase": "Así que ahora mismo usas todo el cerebro. Mándaselo a quien todavía cree que le queda un 90 % por estrenar.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-26-1430",
+  "texto": "Te enseñaron que usamos el 10 % del cerebro. Es falso. Mito #9 · Usamos solo el 10 % del cerebro: falso. Los escáneres no encuentran zonas apagadas, ni siquiera durmiendo, y el cerebro, con un 2 % del peso, gasta un 20 % de tus calorías. 🧠 La cifra parece venir de frases sobre potencial humano que acabaron convertidas en porcentaje. Mándaselo a quien todavía cree que le queda un 90 % por estrenar. Te enseñaron que usamos el 10 % del cerebro. Es falso. En las películas, un cerebro medio apagado. Mira qué encuentra un escáner de verdad: ninguna zona dormida. Ni siquiera mientras duermes: todo el cerebro sigue trabajando. Y es que pesa un 2 % de tu cuerpo, pero gasta el 20 % de tus calorías. Mantener un 90 % de adorno saldría carísimo, y la evolución casi nunca permite ese lujo. ¿De dónde sale ese 10 %? Se cree que de una frase sobre nuestro potencial que alguien convirtió en cifra. Así que ahora mismo usas todo el cerebro. Mándaselo a quien todavía cree que le queda un 90 % por estrenar.",
+  "familia": "kalimba",
+  "voz": "5egO01tkUjEzu7xSSE8M",
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-25",
+   "medido": {
+    "palabras_s": 2.38,
+    "escenas_min": 8.9,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 11,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "cuerpo humano",
+    "emocion": "asombro",
+    "gancho_tipo": "segunda persona",
+    "cercania": "universal",
+    "promesa": "no",
+    "giro": "sí",
+    "cierre": "llamada a la acción",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Cerebro neón claro, título que se escribe palabra a palabra y barra del 10 % que da gancho visual; pero la primera frase ya revela que es falso, así que no hay una promesa que obligue a ver hasta el final."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-26-2030",
+  "titulo": "Un terrón de azúcar que pesa más que 15 pirámides",
+  "fecha": "2026-11-24",
+  "duracion": 39.2,
+  "estilo": "pop",
+  "serie": "Espacio",
+  "gancho": "100 millones de toneladas pesaría un terrón de estrella de neutrones,",
+  "palabras": 112,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 3.8,
+    "frase": "100 millones de toneladas pesaría un terrón de estrella de neutrones,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 3.8,
+    "fin": 6.54,
+    "frase": "y para que lo veas, lo medimos en pirámides:",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 6.54,
+    "fin": 10.32,
+    "frase": "una gran pirámide de Guiza pesa unos 6 millones de toneladas,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 10.32,
+    "fin": 17.26,
+    "frase": "así que ese terrón equivaldría a más de 15 pirámides, y hay fuentes que hablan de hasta 1.000 millones de toneladas.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 17.26,
+    "fin": 24.58,
+    "frase": "Porque es una estrella con más masa que el Sol, aplastada hasta medir unos 20 kilómetros: como una ciudad.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 24.58,
+    "fin": 30.22,
+    "frase": "Ahí la gravedad machaca los átomos hasta dejarlos casi solo en neutrones, pegados y sin huecos,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 30.22,
+    "fin": 33.98,
+    "frase": "y por eso ese terrón pesaría más que 15 pirámides juntas.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 8,
+    "inicio": 33.98,
+    "fin": 39.2,
+    "frase": "Así que mándaselo a quien crea que un terrón de azúcar no pesa nada.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-26-2030",
+  "texto": "Un terrón de azúcar que pesa más que 15 pirámides Un terrón de azúcar de materia de estrella de neutrones pesaría, como mínimo, 100 millones de toneladas: más de 15 grandes pirámides de Guiza. La NASA incluso habla de 1.000 millones. Pasa porque una estrella con más masa que el Sol queda comprimida en unos 20 km. Mándaselo a quien crea que un terrón de azúcar no pesa nada. 🍬 100 millones de toneladas pesaría un terrón de estrella de neutrones, y para que lo veas, lo medimos en pirámides: una gran pirámide de Guiza pesa unos 6 millones de toneladas, así que ese terrón equivaldría a más de 15 pirámides, y hay fuentes que hablan de hasta 1.000 millones de toneladas. Porque es una estrella con más masa que el Sol, aplastada hasta medir unos 20 kilómetros: como una ciudad. Ahí la gravedad machaca los átomos hasta dejarlos casi solo en neutrones, pegados y sin huecos, y por eso ese terrón pesaría más que 15 pirámides juntas. Así que mándaselo a quien crea que un terrón de azúcar no pesa nada.",
+  "familia": "burbuja",
+  "voz": "43h7ymOnaaYdWr3dRbsS",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "cifra chocante"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-25",
+   "medido": {
+    "palabras_s": 2.86,
+    "escenas_min": 12.2,
+    "cifra_al_inicio": true,
+    "gancho_palabras": 11,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "ciencia",
+    "emocion": "asombro",
+    "gancho_tipo": "cifra chocante",
+    "cercania": "universal",
+    "promesa": "no",
+    "giro": "sí",
+    "cierre": "llamada a la acción",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Abre con una cifra enorme y un terrón con cara que lo hacen visual e inmediato, pero la comparación con pirámides y las cifras dispares (15 vs 1.000 millones) pueden confundir."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-27-1200",
+  "titulo": "Te enseñaron que Napoleón era bajito. Es falso",
+  "fecha": "2026-11-24",
+  "duracion": 43.3,
+  "estilo": "pizarra",
+  "serie": "Mito #10",
+  "gancho": "Te enseñaron que Napoleón era bajito. Es falso.",
+  "palabras": 108,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 3.14,
+    "frase": "Te enseñaron que Napoleón era bajito. Es falso.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 3.14,
+    "fin": 10.2,
+    "frase": "Medía cerca de 1,68 metros, más que la media de su época. La culpa: una confusión de pulgadas.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 10.2,
+    "fin": 15.72,
+    "frase": "Al morir, en 1821, anotaron su altura: 5 pies y 2 pulgadas,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 15.72,
+    "fin": 18.94,
+    "frase": "pero eran pies franceses, más largos que los ingleses,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 18.94,
+    "fin": 23.72,
+    "frase": "así que, leído a la inglesa, salía un emperador de apenas 1,57.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 23.72,
+    "fin": 30.62,
+    "frase": "Y los británicos remataron la faena: el caricaturista Gillray lo dibujaba como un enano furioso.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 30.62,
+    "fin": 35.72,
+    "frase": "Hasta su apodo, el pequeño cabo, era un cariño de sus soldados, no una medida.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 8,
+    "inicio": 35.72,
+    "fin": 43.32,
+    "frase": "Un error de unidades lo hizo diminuto dos siglos. Mándaselo a quien aún crea que Napoleón era un enano.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-27-1200",
+  "texto": "Te enseñaron que Napoleón era bajito. Es falso Mito #10 · Napoleón no era bajito. Medía cerca de 1,68 m, algo más que la media de su época: su altura, anotada como 5 pies 2 pulgadas, se leyó fuera de Francia con pies ingleses, más cortos, y salió un emperador diminuto. Las caricaturas británicas hicieron el resto. 📏 Reenvíaselo a quien todavía crea que era un enano. Te enseñaron que Napoleón era bajito. Es falso. Medía cerca de 1,68 metros, más que la media de su época. La culpa: una confusión de pulgadas. Al morir, en 1821, anotaron su altura: 5 pies y 2 pulgadas, pero eran pies franceses, más largos que los ingleses, así que, leído a la inglesa, salía un emperador de apenas 1,57. Y los británicos remataron la faena: el caricaturista Gillray lo dibujaba como un enano furioso. Hasta su apodo, el pequeño cabo, era un cariño de sus soldados, no una medida. Un error de unidades lo hizo diminuto dos siglos. Mándaselo a quien aún crea que Napoleón era un enano.",
+  "familia": "marimba",
+  "voz": "Nh2zY9kknu6z4pZy6FhD",
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-25",
+   "medido": {
+    "palabras_s": 2.49,
+    "escenas_min": 11.1,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 8,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "historia",
+    "emocion": "asombro",
+    "gancho_tipo": "segunda persona",
+    "cercania": "Europa",
+    "promesa": "sí",
+    "giro": "sí",
+    "cierre": "llamada a la acción",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Gancho directo en segunda persona sobre un mito conocido, con personaje y texto claros desde el inicio; el giro de las pulgadas francesas retiene, aunque la explicación de unidades puede ser densa."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-27-2145",
+  "titulo": "El cielo debería ser violeta. Esta es la razón por la que no lo es",
+  "fecha": "2026-11-24",
+  "duracion": 34.8,
+  "estilo": "limpio",
+  "serie": "Ciencia",
+  "gancho": "¿Por qué el cielo es azul y no violeta?",
+  "palabras": 103,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 2.52,
+    "frase": "¿Por qué el cielo es azul y no violeta?",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 2.52,
+    "fin": 8.42,
+    "frase": "Sobre el papel debería ser violeta, porque el aire dispersa ese color más que el azul.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 8.42,
+    "fin": 14.12,
+    "frase": "Pero el Sol envía menos violeta que azul, y la atmósfera se queda con parte del que hay,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 14.12,
+    "fin": 18.74,
+    "frase": "y el poco que baja se topa con tu ojo, que lo capta peor que el azul.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 18.74,
+    "fin": 22.62,
+    "frase": "Total, que el cielo no es azul porque el violeta no exista,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 22.62,
+    "fin": 28.52,
+    "frase": "sino porque tres cosas lo dejan en segundo plano: el Sol, la atmósfera y tu ojo.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 28.52,
+    "fin": 34.78,
+    "frase": "Y si conoces a alguien que cree que es azul porque refleja el mar, mándaselo.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-27-2145",
+  "texto": "El cielo debería ser violeta. Esta es la razón por la que no lo es La física dice que el cielo debería ser violeta, pero el Sol manda menos violeta, la atmósfera absorbe parte y tu ojo lo capta peor. Además, el poco violeta que llega también activa un poco los conos rojos del ojo, y por eso se ve más azulado. Y no, el cielo no es azul por reflejar el mar. Mándaselo a quien todavía lo crea 💙 ¿Por qué el cielo es azul y no violeta? Sobre el papel debería ser violeta, porque el aire dispersa ese color más que el azul. Pero el Sol envía menos violeta que azul, y la atmósfera se queda con parte del que hay, y el poco que baja se topa con tu ojo, que lo capta peor que el azul. Total, que el cielo no es azul porque el violeta no exista, sino porque tres cosas lo dejan en segundo plano: el Sol, la atmósfera y tu ojo. Y si conoces a alguien que cree que es azul porque refleja el mar, mándaselo.",
+  "familia": "gota",
+  "voz": "RgXx32WYOGrd7gFNifSf",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "pregunta"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-25",
+   "medido": {
+    "palabras_s": 2.96,
+    "escenas_min": 12.1,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 9,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "ciencia",
+    "emocion": "intriga",
+    "gancho_tipo": "pregunta",
+    "cercania": "universal",
+    "promesa": "sí",
+    "giro": "sí",
+    "cierre": "llamada a la acción",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Pregunta cotidiana con paradoja clara y personaje simpático que sostienen el interés; el texto a medio aparecer en 0,1 s y el ritmo explicativo de 35 s pueden provocar abandono."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-28-2215",
+  "titulo": "Te enseñaron que los peces olvidan en 3 segundos. Es falso",
+  "fecha": "2026-11-24",
+  "duracion": 42,
+  "estilo": "neon",
+  "serie": "Animales",
+  "gancho": "Te enseñaron que los peces olvidan en tres segundos. Es falso.",
+  "palabras": 109,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 4.4,
+    "frase": "Te enseñaron que los peces olvidan en tres segundos. Es falso.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 4.4,
+    "fin": 8.3,
+    "frase": "Lo desmontó un experimento con una palanca y una hora al día:",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 8.3,
+    "fin": 14.62,
+    "frase": "unos científicos de la Universidad de Plymouth enseñaron a unos peces de colores a apretarla para conseguir comida,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 14.62,
+    "fin": 19.48,
+    "frase": "Luego cambiaron las reglas: la palanca solo daba comida durante una hora al día,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 19.48,
+    "fin": 23.5,
+    "frase": "y los peces acabaron apretándola sobre todo a esa hora.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 23.5,
+    "fin": 27.86,
+    "frase": "O sea, no olvidaban: se acordaban de cuándo tocaba comer.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 27.86,
+    "fin": 34.78,
+    "frase": "Y no fue el único: peces entrenados con un sonido volvieron a acudir a él meses después.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 8,
+    "inicio": 34.78,
+    "fin": 41.96,
+    "frase": "Así que «memoria de pez» casi es un halago. Mándaselo a quien todavía lo usa como burla.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-28-2215",
+  "texto": "Te enseñaron que los peces olvidan en 3 segundos. Es falso No es que el pez olvide en tres segundos: en un experimento de la Universidad de Plymouth, unos peces de colores aprendieron a apretar una palanca por comida y acabaron haciéndolo sobre todo a la única hora del día en que funcionaba. Otros investigadores han visto que peces entrenados con un sonido volvían a acudir a él meses después. Mándaselo a quien todavía diga «memoria de pez» como burla 🐟 Te enseñaron que los peces olvidan en tres segundos. Es falso. Lo desmontó un experimento con una palanca y una hora al día: unos científicos de la Universidad de Plymouth enseñaron a unos peces de colores a apretarla para conseguir comida, Luego cambiaron las reglas: la palanca solo daba comida durante una hora al día, y los peces acabaron apretándola sobre todo a esa hora. O sea, no olvidaban: se acordaban de cuándo tocaba comer. Y no fue el único: peces entrenados con un sonido volvieron a acudir a él meses después. Así que «memoria de pez» casi es un halago. Mándaselo a quien todavía lo usa como burla.",
+  "familia": "pop",
+  "voz": "Qvbf0AoA7UZSgJUp8Ba5",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "contradicción"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-25",
+   "medido": {
+    "palabras_s": 2.6,
+    "escenas_min": 11.4,
+    "cifra_al_inicio": false,
+    "gancho_palabras": 11,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "naturaleza",
+    "emocion": "asombro",
+    "gancho_tipo": "segunda persona",
+    "cercania": "universal",
+    "promesa": "no",
+    "giro": "sí",
+    "cierre": "llamada a la acción",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Gancho directo que desmonta un mito conocido y un pez animado simpático que da cara al vídeo, pero el título aparece palabra a palabra y no hay promesa concreta que sostenga hasta el final."
+   }
+  }
+ },
+ {
+  "carpeta": "2026-11-29-2045",
+  "titulo": "«Ojalá» es una oración disfrazada de palabra",
+  "fecha": "2026-11-24",
+  "duracion": 42,
+  "estilo": "pizarra",
+  "serie": "Idiomas",
+  "gancho": "«Ojalá» es una oración disfrazada de palabra: cada vez que la dices, rezas sin darte cuenta,",
+  "palabras": 108,
+  "escenas": [
+   {
+    "n": 1,
+    "inicio": 0,
+    "fin": 6.36,
+    "frase": "«Ojalá» es una oración disfrazada de palabra: cada vez que la dices, rezas sin darte cuenta,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 2,
+    "inicio": 6.36,
+    "fin": 14.16,
+    "frase": "y viene de una frase árabe que significaba algo como «quiera Dios», y se quedó en el castellano tras siglos de convivencia,",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 3,
+    "inicio": 14.16,
+    "fin": 20.98,
+    "frase": "pero no vino sola: según quién las cuente, entre 2.000 y 4.000 palabras del español son árabes.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 4,
+    "inicio": 20.98,
+    "fin": 25.8,
+    "frase": "Hasta «hasta» lo es. Y «barrio». Y «tarea».",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 5,
+    "inicio": 25.8,
+    "fin": 32.12,
+    "frase": "Pero la más rara es «cifra»: en árabe significaba «vacío», el nombre que daban al cero.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 6,
+    "inicio": 32.12,
+    "fin": 37.4,
+    "frase": "Así que cada vez que dices un número, usas una palabra que nació para nombrar la nada.",
+    "tipo": "dibujo"
+   },
+   {
+    "n": 7,
+    "inicio": 37.4,
+    "fin": 41.98,
+    "frase": "Mándaselo a quien crea que no sabe ni una palabra de árabe.",
+    "tipo": "dibujo"
+   }
+  ],
+  "datos": [],
+  "metricas": [],
+  "id": "2026-11-29-2045",
+  "texto": "«Ojalá» es una oración disfrazada de palabra «Ojalá» viene de una expresión árabe que invocaba a Dios, y se quedó en el castellano durante los siglos de convivencia en la península. Los expertos calculan entre 2.000 y 4.000 arabismos, y «cifra» nació como el nombre del cero. ¿Cuál es tu palabra favorita de origen árabe? 📚 Mándaselo a quien crea que no sabe ni una palabra de árabe. «Ojalá» es una oración disfrazada de palabra: cada vez que la dices, rezas sin darte cuenta, y viene de una frase árabe que significaba algo como «quiera Dios», y se quedó en el castellano tras siglos de convivencia, pero no vino sola: según quién las cuente, entre 2.000 y 4.000 palabras del español son árabes. Hasta «hasta» lo es. Y «barrio». Y «tarea». Pero la más rara es «cifra»: en árabe significaba «vacío», el nombre que daban al cero. Así que cada vez que dices un número, usas una palabra que nació para nombrar la nada. Mándaselo a quien crea que no sabe ni una palabra de árabe.",
+  "familia": "tum",
+  "voz": "43h7ymOnaaYdWr3dRbsS",
+  "experimento": {
+   "variable": "gancho_tipo",
+   "variante": "cifra chocante"
+  },
+  "huella": {
+   "version": 1,
+   "fecha": "2026-11-25",
+   "medido": {
+    "palabras_s": 2.57,
+    "escenas_min": 10,
+    "cifra_al_inicio": true,
+    "gancho_palabras": 16,
+    "portada_texto": true,
+    "giro_en_guion": true
+   },
+   "visto": {
+    "tema": "cultura",
+    "emocion": "asombro",
+    "gancho_tipo": "contradicción",
+    "cercania": "España",
+    "promesa": "no",
+    "giro": "sí",
+    "cierre": "llamada a la acción",
+    "primer_fotograma_claro": "sí",
+    "movimiento_1s": "sí",
+    "texto_0s": "sí",
+    "personaje": "sí",
+    "por_que": "Abre con una paradoja clara y texto grande desde el segundo 0, y los reenganches (cifra, 2.000-4.000 palabras) aguantan; pero no promete una recompensa concreta y el ritmo es didáctico."
    }
   }
  }
