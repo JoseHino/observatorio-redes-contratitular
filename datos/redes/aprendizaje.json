@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T10:18:48.698Z",
+ "actualizado": "2026-11-25T11:19:22.655Z",
  "publicaciones": 128,
  "videos": 38,
  "factores": {
@@ -20,7 +20,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 0.79,
-    "interaccion": 0.91
+    "interaccion": 0.9
    },
    "miércoles": {
     "n": 16,
@@ -90,7 +90,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.83,
-    "interaccion": 1.46
+    "interaccion": 1.45
    },
    "18-20 h": {
     "n": 8,
@@ -103,7 +103,7 @@
    "instagram": {
     "n": 32,
     "videos": 32,
-    "vistas": 1.1,
+    "vistas": 1.11,
     "interaccion": 0.76
    },
    "tiktok": {
@@ -203,8 +203,8 @@
    "Inventos": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.9,
-    "interaccion": 1.2
+    "vistas": 0.91,
+    "interaccion": 1.19
    },
    "Comida": {
     "n": 4,
@@ -287,7 +287,7 @@
    "corto (≤12)": {
     "n": 68,
     "videos": 17,
-    "vistas": 1.11,
+    "vistas": 1.12,
     "interaccion": 1.15
    }
   },
@@ -323,7 +323,7 @@
    "pocos (<12/min)": {
     "n": 72,
     "videos": 18,
-    "vistas": 0.92,
+    "vistas": 0.93,
     "interaccion": 0.89
    },
    "medios": {
@@ -352,7 +352,7 @@
     "n": 36,
     "videos": 9,
     "vistas": 1.08,
-    "interaccion": 1.12
+    "interaccion": 1.11
    },
    "ciencia": {
     "n": 16,
@@ -439,7 +439,7 @@
    "segunda persona": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.05,
+    "vistas": 1.06,
     "interaccion": 1.17
    }
   },
@@ -453,7 +453,7 @@
    "universal": {
     "n": 68,
     "videos": 17,
-    "vistas": 1.15,
+    "vistas": 1.16,
     "interaccion": 1.01
    }
   },
@@ -507,8 +507,8 @@
    "moraleja": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.08,
-    "interaccion": 0.85
+    "vistas": 1.09,
+    "interaccion": 0.84
    }
   },
   "primer fotograma claro": {
@@ -601,7 +601,7 @@
    "cuerda": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.78,
+    "vistas": 0.79,
     "interaccion": 1.08
    }
   },
@@ -615,8 +615,8 @@
    "RgXx32WYOGrd7gFNifSf": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.71,
-    "interaccion": 1.04
+    "vistas": 0.72,
+    "interaccion": 1.02
    }
   },
   "exp: gancho_tipo": {
@@ -703,7 +703,7 @@
    "detalle": {
     "mejor": {
      "v": "corto (≤12)",
-     "vistas": 1.11,
+     "vistas": 1.12,
      "interaccion": 1.15,
      "n": 68
     },
@@ -715,7 +715,7 @@
      }
     ]
    },
-   "texto": "gancho largo: «corto (≤12)» consigue 1.11× el alcance medio (17 vídeos) e interacción 1.15×; frente a largo (>12) 0.92× (9 vídeos)."
+   "texto": "gancho largo: «corto (≤12)» consigue 1.12× el alcance medio (17 vídeos) e interacción 1.15×; frente a largo (>12) 0.92× (9 vídeos)."
   },
   {
    "tipo": "regla",
@@ -754,12 +754,12 @@
     "resto": [
      {
       "v": "pocos (<12/min)",
-      "vistas": 0.92,
+      "vistas": 0.93,
       "n": 72
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.35× el alcance medio (8 vídeos) e interacción 1.14×; frente a pocos (<12/min) 0.92× (18 vídeos)."
+   "texto": "cortes: «medios» consigue 1.35× el alcance medio (8 vídeos) e interacción 1.14×; frente a pocos (<12/min) 0.93× (18 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -791,7 +791,7 @@
    "detalle": {
     "mejor": {
      "v": "universal",
-     "vistas": 1.15,
+     "vistas": 1.16,
      "interaccion": 1.01,
      "n": 68
     },
@@ -803,7 +803,7 @@
      }
     ]
    },
-   "texto": "cercania: «universal» consigue 1.15× el alcance medio (17 vídeos) e interacción 1.01×; frente a mundo 0.86× (9 vídeos)."
+   "texto": "cercania: «universal» consigue 1.16× el alcance medio (17 vídeos) e interacción 1.01×; frente a mundo 0.86× (9 vídeos)."
   },
   {
    "tipo": "regla",
@@ -1020,7 +1020,7 @@
   {
    "id": "2026-11-24-2215",
    "titulo": "Te enseñaron que Edison inventó la bombilla. Es falso",
-   "indice": 0.6,
+   "indice": 0.62,
    "variable": "gancho_tipo",
    "variante": "contradicción"
   },
