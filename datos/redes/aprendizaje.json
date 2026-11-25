@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T09:18:56.389Z",
+ "actualizado": "2026-11-25T10:18:48.698Z",
  "publicaciones": 128,
  "videos": 38,
  "factores": {
@@ -14,7 +14,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.84,
-    "interaccion": 0.91
+    "interaccion": 0.9
    },
    "martes": {
     "n": 24,
@@ -316,7 +316,7 @@
     "n": 64,
     "videos": 16,
     "vistas": 1.04,
-    "interaccion": 0.93
+    "interaccion": 0.92
    }
   },
   "cortes": {
@@ -602,7 +602,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.78,
-    "interaccion": 1.09
+    "interaccion": 1.08
    }
   },
   "voz": {
