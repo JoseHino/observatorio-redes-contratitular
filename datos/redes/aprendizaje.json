@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T18:21:19.920Z",
+ "actualizado": "2026-11-25T19:20:26.500Z",
  "publicaciones": 128,
  "videos": 38,
  "factores": {
@@ -428,7 +428,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.75,
-    "interaccion": 1.43
+    "interaccion": 1.42
    },
    "pregunta": {
     "n": 28,
@@ -490,7 +490,7 @@
     "n": 64,
     "videos": 16,
     "vistas": 1.1,
-    "interaccion": 1.01
+    "interaccion": 1
    },
    "dato final": {
     "n": 20,
@@ -529,7 +529,7 @@
    "sí": {
     "n": 104,
     "videos": 26,
-    "vistas": 1.05,
+    "vistas": 1.04,
     "interaccion": 0.96
    }
   },
@@ -537,7 +537,7 @@
    "sí": {
     "n": 104,
     "videos": 26,
-    "vistas": 1.05,
+    "vistas": 1.04,
     "interaccion": 0.96
    }
   },
