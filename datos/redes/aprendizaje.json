@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T07:19:52.187Z",
+ "actualizado": "2026-11-25T08:19:25.261Z",
  "publicaciones": 124,
  "videos": 37,
  "factores": {
@@ -58,7 +58,7 @@
     "n": 60,
     "videos": 18,
     "vistas": 0.99,
-    "interaccion": 0.93
+    "interaccion": 0.92
    },
    "tarde": {
     "n": 8,
@@ -130,7 +130,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 1.22,
-    "interaccion": 1.09
+    "interaccion": 1.08
    },
    "pizarra": {
     "n": 20,
@@ -142,13 +142,13 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.1,
-    "interaccion": 0.78
+    "interaccion": 0.79
    },
    "papel": {
     "n": 16,
     "videos": 4,
     "vistas": 1.39,
-    "interaccion": 1.24
+    "interaccion": 1.23
    },
    "neon": {
     "n": 24,
@@ -186,7 +186,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.46,
-    "interaccion": 0.53
+    "interaccion": 0.52
    },
    "Palabras": {
     "n": 12,
@@ -310,7 +310,7 @@
     "n": 36,
     "videos": 9,
     "vistas": 1.11,
-    "interaccion": 1.01
+    "interaccion": 1
    },
    "rápido (>2,9 pal/s)": {
     "n": 64,
@@ -376,13 +376,13 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.46,
-    "interaccion": 0.53
+    "interaccion": 0.52
    },
    "cultura": {
     "n": 8,
     "videos": 2,
     "vistas": 0.81,
-    "interaccion": 0.87
+    "interaccion": 0.88
    },
    "geografía": {
     "n": 8,
@@ -422,7 +422,7 @@
     "n": 32,
     "videos": 8,
     "vistas": 1.08,
-    "interaccion": 0.8
+    "interaccion": 0.79
    },
    "misterio": {
     "n": 8,
@@ -530,7 +530,7 @@
     "n": 100,
     "videos": 25,
     "vistas": 1.07,
-    "interaccion": 0.95
+    "interaccion": 0.94
    }
   },
   "texto 0s": {
@@ -538,7 +538,7 @@
     "n": 100,
     "videos": 25,
     "vistas": 1.07,
-    "interaccion": 0.95
+    "interaccion": 0.94
    }
   },
   "personaje": {
@@ -584,7 +584,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 1.2,
-    "interaccion": 1.08
+    "interaccion": 1.07
    },
    "pop": {
     "n": 4,
@@ -602,7 +602,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.87,
-    "interaccion": 1.09
+    "interaccion": 1.08
    }
   },
   "voz": {
@@ -851,17 +851,17 @@
    "madera": 0.113,
    "marimba": 0.131,
    "kalimba": 0.11,
-   "campanita": 0.122,
+   "campanita": 0.121,
    "cuerda": 0.107,
    "burbuja": 0.099,
    "tum": 0.136
   },
   "estilo": {
-   "papel": 0.245,
+   "papel": 0.244,
    "neon": 0.172,
-   "pop": 0.22,
-   "pizarra": 0.179,
-   "limpio": 0.184
+   "pop": 0.219,
+   "pizarra": 0.18,
+   "limpio": 0.185
   }
  },
  "horas_recomendadas": [
@@ -897,7 +897,7 @@
   {
    "id": "2026-11-24-1330",
    "titulo": "Te enseñaron que el Sáhara es el mayor desierto. Es falso",
-   "indice": 2.21,
+   "indice": 2.22,
    "variable": "gancho_tipo",
    "variante": "contradicción"
   },
