@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T15:18:47.693Z",
+ "actualizado": "2026-11-25T16:18:57.506Z",
  "publicaciones": 128,
  "videos": 38,
  "factores": {
@@ -90,7 +90,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.84,
-    "interaccion": 1.45
+    "interaccion": 1.44
    },
    "18-20 h": {
     "n": 8,
@@ -204,7 +204,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.91,
-    "interaccion": 1.19
+    "interaccion": 1.18
    },
    "Comida": {
     "n": 4,
@@ -288,7 +288,7 @@
     "n": 68,
     "videos": 17,
     "vistas": 1.12,
-    "interaccion": 1.15
+    "interaccion": 1.14
    }
   },
   "escenas de datos": {
@@ -310,7 +310,7 @@
     "n": 40,
     "videos": 10,
     "vistas": 1.05,
-    "interaccion": 1.02
+    "interaccion": 1.01
    },
    "rápido (>2,9 pal/s)": {
     "n": 64,
@@ -351,7 +351,7 @@
    "historia": {
     "n": 36,
     "videos": 9,
-    "vistas": 1.08,
+    "vistas": 1.09,
     "interaccion": 1.11
    },
    "ciencia": {
@@ -439,7 +439,7 @@
    "segunda persona": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.06,
+    "vistas": 1.07,
     "interaccion": 1.16
    }
   },
@@ -462,7 +462,7 @@
     "n": 48,
     "videos": 12,
     "vistas": 0.99,
-    "interaccion": 0.84
+    "interaccion": 0.83
    },
    "sí": {
     "n": 56,
@@ -616,7 +616,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.73,
-    "interaccion": 1.02
+    "interaccion": 1.01
    }
   },
   "exp: gancho_tipo": {
@@ -629,7 +629,7 @@
    "contradicción": {
     "n": 24,
     "videos": 6,
-    "vistas": 1.23,
+    "vistas": 1.24,
     "interaccion": 1.25
    },
    "pregunta": {
@@ -704,7 +704,7 @@
     "mejor": {
      "v": "corto (≤12)",
      "vistas": 1.12,
-     "interaccion": 1.15,
+     "interaccion": 1.14,
      "n": 68
     },
     "resto": [
@@ -715,7 +715,7 @@
      }
     ]
    },
-   "texto": "gancho largo: «corto (≤12)» consigue 1.12× el alcance medio (17 vídeos) e interacción 1.15×; frente a largo (>12) 0.92× (9 vídeos)."
+   "texto": "gancho largo: «corto (≤12)» consigue 1.12× el alcance medio (17 vídeos) e interacción 1.14×; frente a largo (>12) 0.92× (9 vídeos)."
   },
   {
    "tipo": "regla",
@@ -1020,7 +1020,7 @@
   {
    "id": "2026-11-24-2215",
    "titulo": "Te enseñaron que Edison inventó la bombilla. Es falso",
-   "indice": 0.62,
+   "indice": 0.63,
    "variable": "gancho_tipo",
    "variante": "contradicción"
   },
