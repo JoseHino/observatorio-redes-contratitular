@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T12:21:44.429Z",
+ "actualizado": "2026-11-25T13:20:36.674Z",
  "publicaciones": 128,
  "videos": 38,
  "factores": {
@@ -51,7 +51,7 @@
    "noche": {
     "n": 60,
     "videos": 17,
-    "vistas": 0.94,
+    "vistas": 0.95,
     "interaccion": 0.95
    },
    "mediodía": {
@@ -89,7 +89,7 @@
    "22-24 h": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.83,
+    "vistas": 0.84,
     "interaccion": 1.45
    },
    "18-20 h": {
@@ -135,8 +135,8 @@
    "pizarra": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.82,
-    "interaccion": 0.95
+    "vistas": 0.83,
+    "interaccion": 0.94
    },
    "limpio": {
     "n": 16,
@@ -440,7 +440,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 1.06,
-    "interaccion": 1.17
+    "interaccion": 1.16
    }
   },
   "cercania": {
@@ -602,7 +602,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.79,
-    "interaccion": 1.08
+    "interaccion": 1.07
    }
   },
   "voz": {
@@ -615,7 +615,7 @@
    "RgXx32WYOGrd7gFNifSf": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.72,
+    "vistas": 0.73,
     "interaccion": 1.02
    }
   },
@@ -630,7 +630,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 1.23,
-    "interaccion": 1.26
+    "interaccion": 1.25
    },
    "pregunta": {
     "n": 28,
@@ -661,12 +661,12 @@
      },
      {
       "v": "noche",
-      "vistas": 0.94,
+      "vistas": 0.95,
       "n": 60
      }
     ]
    },
-   "texto": "franja: «tarde» consigue 1.28× el alcance medio (3 vídeos) e interacción 0.74×; frente a mediodía 0.99× (18 vídeos), noche 0.94× (17 vídeos)."
+   "texto": "franja: «tarde» consigue 1.28× el alcance medio (3 vídeos) e interacción 0.74×; frente a mediodía 0.99× (18 vídeos), noche 0.95× (17 vídeos)."
   },
   {
    "tipo": "hipotesis",
