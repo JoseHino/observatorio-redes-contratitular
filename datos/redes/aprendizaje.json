@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T19:20:26.500Z",
+ "actualizado": "2026-11-25T20:19:32.421Z",
  "publicaciones": 128,
  "videos": 38,
  "factores": {
@@ -72,7 +72,7 @@
     "n": 48,
     "videos": 14,
     "vistas": 0.98,
-    "interaccion": 0.85
+    "interaccion": 0.84
    },
    "12-14 h": {
     "n": 44,
@@ -198,7 +198,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.4,
-    "interaccion": 1.62
+    "interaccion": 1.63
    },
    "Inventos": {
     "n": 12,
@@ -288,7 +288,7 @@
     "n": 68,
     "videos": 17,
     "vistas": 1.12,
-    "interaccion": 1.14
+    "interaccion": 1.15
    }
   },
   "escenas de datos": {
@@ -316,7 +316,7 @@
     "n": 64,
     "videos": 16,
     "vistas": 1.04,
-    "interaccion": 0.92
+    "interaccion": 0.93
    }
   },
   "cortes": {
@@ -388,7 +388,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.4,
-    "interaccion": 1.62
+    "interaccion": 1.63
    }
   },
   "emocion": {
@@ -422,7 +422,7 @@
     "n": 32,
     "videos": 8,
     "vistas": 1.08,
-    "interaccion": 0.8
+    "interaccion": 0.81
    },
    "misterio": {
     "n": 8,
@@ -490,7 +490,7 @@
     "n": 64,
     "videos": 16,
     "vistas": 1.1,
-    "interaccion": 1
+    "interaccion": 1.01
    },
    "dato final": {
     "n": 20,
@@ -602,7 +602,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.79,
-    "interaccion": 1.07
+    "interaccion": 1.06
    }
   },
   "voz": {
@@ -630,7 +630,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 1.24,
-    "interaccion": 1.25
+    "interaccion": 1.26
    },
    "pregunta": {
     "n": 28,
@@ -704,7 +704,7 @@
     "mejor": {
      "v": "corto (≤12)",
      "vistas": 1.12,
-     "interaccion": 1.14,
+     "interaccion": 1.15,
      "n": 68
     },
     "resto": [
@@ -715,7 +715,7 @@
      }
     ]
    },
-   "texto": "gancho largo: «corto (≤12)» consigue 1.12× el alcance medio (17 vídeos) e interacción 1.14×; frente a largo (>12) 0.92× (9 vídeos)."
+   "texto": "gancho largo: «corto (≤12)» consigue 1.12× el alcance medio (17 vídeos) e interacción 1.15×; frente a largo (>12) 0.92× (9 vídeos)."
   },
   {
    "tipo": "regla",
@@ -836,7 +836,7 @@
    "marimba": 0.131,
    "kalimba": 0.11,
    "campanita": 0.122,
-   "cuerda": 0.103,
+   "cuerda": 0.102,
    "burbuja": 0.1,
    "tum": 0.137
   },
