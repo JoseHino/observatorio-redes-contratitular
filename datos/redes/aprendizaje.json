@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T06:21:29.202Z",
+ "actualizado": "2026-11-25T07:19:52.187Z",
  "publicaciones": 124,
  "videos": 37,
  "factores": {
@@ -14,7 +14,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.84,
-    "interaccion": 0.9
+    "interaccion": 0.89
    },
    "martes": {
     "n": 20,
@@ -52,7 +52,7 @@
     "n": 56,
     "videos": 16,
     "vistas": 0.97,
-    "interaccion": 0.94
+    "interaccion": 0.93
    },
    "mediodía": {
     "n": 60,
@@ -116,7 +116,7 @@
     "n": 31,
     "videos": 31,
     "vistas": 0.84,
-    "interaccion": 1.06
+    "interaccion": 1.05
    },
    "facebook": {
     "n": 31,
@@ -192,7 +192,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.79,
-    "interaccion": 0.97
+    "interaccion": 0.96
    },
    "Geografía": {
     "n": 8,
@@ -282,7 +282,7 @@
     "n": 36,
     "videos": 9,
     "vistas": 0.92,
-    "interaccion": 0.69
+    "interaccion": 0.68
    },
    "corto (≤12)": {
     "n": 64,
@@ -316,7 +316,7 @@
     "n": 64,
     "videos": 16,
     "vistas": 1.04,
-    "interaccion": 0.92
+    "interaccion": 0.91
    }
   },
   "cortes": {
@@ -352,7 +352,7 @@
     "n": 32,
     "videos": 8,
     "vistas": 1.16,
-    "interaccion": 1.12
+    "interaccion": 1.11
    },
    "ciencia": {
     "n": 16,
@@ -396,7 +396,7 @@
     "n": 92,
     "videos": 23,
     "vistas": 1.1,
-    "interaccion": 0.95
+    "interaccion": 0.94
    },
    "intriga": {
     "n": 8,
@@ -428,7 +428,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.75,
-    "interaccion": 1.43
+    "interaccion": 1.42
    },
    "pregunta": {
     "n": 28,
@@ -476,7 +476,7 @@
     "n": 96,
     "videos": 24,
     "vistas": 1.08,
-    "interaccion": 0.98
+    "interaccion": 0.97
    },
    "no": {
     "n": 4,
@@ -490,7 +490,7 @@
     "n": 64,
     "videos": 16,
     "vistas": 1.1,
-    "interaccion": 1
+    "interaccion": 0.99
    },
    "dato final": {
     "n": 20,
@@ -602,7 +602,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.87,
-    "interaccion": 1.1
+    "interaccion": 1.09
    }
   },
   "voz": {
@@ -786,7 +786,7 @@
     "mejor": {
      "v": "asombro",
      "vistas": 1.1,
-     "interaccion": 0.95,
+     "interaccion": 0.94,
      "n": 92
     },
     "resto": [
@@ -797,7 +797,7 @@
      }
     ]
    },
-   "texto": "emocion: «asombro» consigue 1.10× el alcance medio (23 vídeos) e interacción 0.95×; frente a intriga 0.80× (2 vídeos)."
+   "texto": "emocion: «asombro» consigue 1.10× el alcance medio (23 vídeos) e interacción 0.94×; frente a intriga 0.80× (2 vídeos)."
   },
   {
    "tipo": "regla",
@@ -846,13 +846,13 @@
  ],
  "pesos": {
   "familia": {
-   "pop": 0.1,
+   "pop": 0.101,
    "gota": 0.082,
    "madera": 0.113,
-   "marimba": 0.13,
+   "marimba": 0.131,
    "kalimba": 0.11,
    "campanita": 0.122,
-   "cuerda": 0.108,
+   "cuerda": 0.107,
    "burbuja": 0.099,
    "tum": 0.136
   },
@@ -897,7 +897,7 @@
   {
    "id": "2026-11-24-1330",
    "titulo": "Te enseñaron que el Sáhara es el mayor desierto. Es falso",
-   "indice": 2.22,
+   "indice": 2.21,
    "variable": "gancho_tipo",
    "variante": "contradicción"
   },
