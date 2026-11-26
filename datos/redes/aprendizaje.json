@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T18:21:38.830Z",
+ "actualizado": "2026-11-26T19:21:10.970Z",
  "publicaciones": 136,
  "videos": 40,
  "factores": {
@@ -64,7 +64,7 @@
     "n": 12,
     "videos": 4,
     "vistas": 1.54,
-    "interaccion": 0.86
+    "interaccion": 0.87
    }
   },
   "hora": {
@@ -96,7 +96,7 @@
     "n": 12,
     "videos": 4,
     "vistas": 1.54,
-    "interaccion": 0.86
+    "interaccion": 0.87
    }
   },
   "red": {
@@ -422,7 +422,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.8,
-    "interaccion": 0.59
+    "interaccion": 0.58
    },
    "contradicción": {
     "n": 32,
@@ -488,7 +488,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.8,
-    "interaccion": 0.59
+    "interaccion": 0.58
    }
   },
   "cierre": {
@@ -519,7 +519,7 @@
    "llamada a la acción": {
     "n": 8,
     "videos": 2,
-    "vistas": 1.29,
+    "vistas": 1.3,
     "interaccion": 1.91
    }
   },
@@ -674,7 +674,7 @@
     "mejor": {
      "v": "tarde",
      "vistas": 1.54,
-     "interaccion": 0.86,
+     "interaccion": 0.87,
      "n": 12
     },
     "resto": [
@@ -690,7 +690,7 @@
      }
     ]
    },
-   "texto": "franja: «tarde» consigue 1.54× el alcance medio (4 vídeos) e interacción 0.86×; frente a mediodía 0.98× (19 vídeos), noche 0.95× (17 vídeos)."
+   "texto": "franja: «tarde» consigue 1.54× el alcance medio (4 vídeos) e interacción 0.87×; frente a mediodía 0.98× (19 vídeos), noche 0.95× (17 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -701,7 +701,7 @@
     "mejor": {
      "v": "18-20 h",
      "vistas": 1.54,
-     "interaccion": 0.86,
+     "interaccion": 0.87,
      "n": 12
     },
     "resto": [
@@ -717,7 +717,7 @@
      }
     ]
    },
-   "texto": "hora: «18-20 h» consigue 1.54× el alcance medio (4 vídeos) e interacción 0.86×; frente a 20-22 h 0.98× (14 vídeos), 12-14 h 0.98× (15 vídeos)."
+   "texto": "hora: «18-20 h» consigue 1.54× el alcance medio (4 vídeos) e interacción 0.87×; frente a 20-22 h 0.98× (14 vídeos), 12-14 h 0.98× (15 vídeos)."
   },
   {
    "tipo": "regla",
