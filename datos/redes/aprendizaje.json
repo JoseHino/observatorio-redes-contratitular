@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T09:19:01.542Z",
+ "actualizado": "2026-11-26T10:18:52.890Z",
  "publicaciones": 136,
  "videos": 40,
  "factores": {
@@ -64,7 +64,7 @@
     "n": 12,
     "videos": 4,
     "vistas": 1.5,
-    "interaccion": 0.88
+    "interaccion": 0.87
    }
   },
   "hora": {
@@ -96,7 +96,7 @@
     "n": 12,
     "videos": 4,
     "vistas": 1.5,
-    "interaccion": 0.88
+    "interaccion": 0.87
    }
   },
   "red": {
@@ -122,7 +122,7 @@
     "n": 34,
     "videos": 34,
     "vistas": 1.27,
-    "interaccion": 0.88
+    "interaccion": 0.87
    }
   },
   "estilo": {
@@ -215,7 +215,7 @@
    "Espacio": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.53,
+    "vistas": 1.54,
     "interaccion": 0.97
    },
    "Historia": {
@@ -248,7 +248,7 @@
     "n": 100,
     "videos": 25,
     "vistas": 1.13,
-    "interaccion": 1.02
+    "interaccion": 1.01
    },
    ">43 s": {
     "n": 8,
@@ -528,7 +528,7 @@
     "n": 108,
     "videos": 27,
     "vistas": 1.04,
-    "interaccion": 0.99
+    "interaccion": 0.98
    },
    "no": {
     "n": 4,
@@ -595,7 +595,7 @@
    "campanita": {
     "n": 24,
     "videos": 6,
-    "vistas": 1.31,
+    "vistas": 1.32,
     "interaccion": 1.1
    },
    "pop": {
@@ -639,7 +639,7 @@
    "Qvbf0AoA7UZSgJUp8Ba5": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.68,
+    "vistas": 1.69,
     "interaccion": 1.24
    }
   },
@@ -674,7 +674,7 @@
     "mejor": {
      "v": "tarde",
      "vistas": 1.5,
-     "interaccion": 0.88,
+     "interaccion": 0.87,
      "n": 12
     },
     "resto": [
@@ -690,7 +690,7 @@
      }
     ]
    },
-   "texto": "franja: «tarde» consigue 1.50× el alcance medio (4 vídeos) e interacción 0.88×; frente a mediodía 0.98× (19 vídeos), noche 0.95× (17 vídeos)."
+   "texto": "franja: «tarde» consigue 1.50× el alcance medio (4 vídeos) e interacción 0.87×; frente a mediodía 0.98× (19 vídeos), noche 0.95× (17 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -701,7 +701,7 @@
     "mejor": {
      "v": "18-20 h",
      "vistas": 1.5,
-     "interaccion": 0.88,
+     "interaccion": 0.87,
      "n": 12
     },
     "resto": [
@@ -717,7 +717,7 @@
      }
     ]
    },
-   "texto": "hora: «18-20 h» consigue 1.50× el alcance medio (4 vídeos) e interacción 0.88×; frente a 20-22 h 0.98× (14 vídeos), 12-14 h 0.98× (15 vídeos)."
+   "texto": "hora: «18-20 h» consigue 1.50× el alcance medio (4 vídeos) e interacción 0.87×; frente a 20-22 h 0.98× (14 vídeos), 12-14 h 0.98× (15 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -1000,7 +1000,7 @@
   {
    "id": "2026-11-25-1945",
    "titulo": "En Venus, un día dura más que un año (y el Sol sale por el oeste)",
-   "indice": 2.18,
+   "indice": 2.2,
    "variable": "gancho_tipo",
    "variante": "pregunta"
   },
