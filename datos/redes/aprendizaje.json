@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T04:18:56.372Z",
+ "actualizado": "2026-11-26T05:19:40.686Z",
  "publicaciones": 132,
  "videos": 39,
  "factores": {
@@ -26,7 +26,7 @@
     "n": 20,
     "videos": 6,
     "vistas": 0.63,
-    "interaccion": 0.96
+    "interaccion": 0.98
    },
    "jueves": {
     "n": 16,
@@ -58,7 +58,7 @@
     "n": 64,
     "videos": 19,
     "vistas": 0.98,
-    "interaccion": 0.98
+    "interaccion": 0.99
    },
    "tarde": {
     "n": 8,
@@ -78,7 +78,7 @@
     "n": 48,
     "videos": 15,
     "vistas": 0.98,
-    "interaccion": 1.12
+    "interaccion": 1.13
    },
    "14-16 h": {
     "n": 16,
@@ -116,7 +116,7 @@
     "n": 33,
     "videos": 33,
     "vistas": 0.78,
-    "interaccion": 1.11
+    "interaccion": 1.13
    },
    "facebook": {
     "n": 33,
@@ -142,7 +142,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 1.04,
-    "interaccion": 1.01
+    "interaccion": 1.03
    },
    "papel": {
     "n": 16,
@@ -240,7 +240,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.85,
-    "interaccion": 2.18
+    "interaccion": 2.35
    }
   },
   "duración": {
@@ -274,7 +274,7 @@
     "n": 56,
     "videos": 14,
     "vistas": 1.05,
-    "interaccion": 1.07
+    "interaccion": 1.08
    },
    "pregunta": {
     "n": 28,
@@ -294,7 +294,7 @@
     "n": 72,
     "videos": 18,
     "vistas": 1.1,
-    "interaccion": 1.18
+    "interaccion": 1.19
    }
   },
   "escenas de datos": {
@@ -302,7 +302,7 @@
     "n": 96,
     "videos": 24,
     "vistas": 1.12,
-    "interaccion": 1.03
+    "interaccion": 1.04
    },
    "sí": {
     "n": 12,
@@ -315,8 +315,8 @@
    "medio": {
     "n": 44,
     "videos": 11,
-    "vistas": 1.02,
-    "interaccion": 1.1
+    "vistas": 1.03,
+    "interaccion": 1.11
    },
    "rápido (>2,9 pal/s)": {
     "n": 64,
@@ -330,7 +330,7 @@
     "n": 76,
     "videos": 19,
     "vistas": 0.92,
-    "interaccion": 0.92
+    "interaccion": 0.93
    },
    "medios": {
     "n": 32,
@@ -350,7 +350,7 @@
     "n": 72,
     "videos": 18,
     "vistas": 1.08,
-    "interaccion": 0.91
+    "interaccion": 0.92
    }
   },
   "tema": {
@@ -358,7 +358,7 @@
     "n": 40,
     "videos": 10,
     "vistas": 1.05,
-    "interaccion": 1.2
+    "interaccion": 1.21
    },
    "ciencia": {
     "n": 16,
@@ -446,7 +446,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1,
-    "interaccion": 1.43
+    "interaccion": 1.46
    }
   },
   "cercania": {
@@ -468,7 +468,7 @@
     "n": 52,
     "videos": 13,
     "vistas": 0.98,
-    "interaccion": 0.9
+    "interaccion": 0.91
    },
    "sí": {
     "n": 56,
@@ -520,7 +520,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.85,
-    "interaccion": 2.18
+    "interaccion": 2.35
    }
   },
   "primer fotograma claro": {
@@ -564,7 +564,7 @@
     "n": 52,
     "videos": 13,
     "vistas": 1.22,
-    "interaccion": 1.14
+    "interaccion": 1.15
    }
   },
   "sonido": {
@@ -602,7 +602,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.8,
-    "interaccion": 1.58
+    "interaccion": 1.65
    },
    "marimba": {
     "n": 4,
@@ -634,7 +634,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.85,
-    "interaccion": 2.18
+    "interaccion": 2.35
    }
   },
   "exp: gancho_tipo": {
@@ -722,7 +722,7 @@
     "mejor": {
      "v": "no",
      "vistas": 1.12,
-     "interaccion": 1.03,
+     "interaccion": 1.04,
      "n": 96
     },
     "resto": [
@@ -733,7 +733,7 @@
      }
     ]
    },
-   "texto": "escenas de datos: «no» consigue 1.12× el alcance medio (24 vídeos) e interacción 1.03×; frente a sí 0.59× (3 vídeos)."
+   "texto": "escenas de datos: «no» consigue 1.12× el alcance medio (24 vídeos) e interacción 1.04×; frente a sí 0.59× (3 vídeos)."
   },
   {
    "tipo": "regla",
@@ -810,7 +810,7 @@
     "mejor": {
      "v": "sí",
      "vistas": 1.22,
-     "interaccion": 1.14,
+     "interaccion": 1.15,
      "n": 52
     },
     "resto": [
@@ -821,27 +821,27 @@
      }
     ]
    },
-   "texto": "personaje: «sí» consigue 1.22× el alcance medio (13 vídeos) e interacción 1.14×; frente a no 0.88× (14 vídeos)."
+   "texto": "personaje: «sí» consigue 1.22× el alcance medio (13 vídeos) e interacción 1.15×; frente a no 0.88× (14 vídeos)."
   }
  ],
  "pesos": {
   "familia": {
-   "pop": 0.119,
+   "pop": 0.121,
    "gota": 0.081,
-   "madera": 0.112,
-   "marimba": 0.129,
-   "kalimba": 0.109,
-   "campanita": 0.12,
+   "madera": 0.111,
+   "marimba": 0.128,
+   "kalimba": 0.108,
+   "campanita": 0.119,
    "cuerda": 0.1,
    "burbuja": 0.097,
    "tum": 0.134
   },
   "estilo": {
    "papel": 0.241,
-   "neon": 0.17,
+   "neon": 0.169,
    "pop": 0.216,
    "pizarra": 0.175,
-   "limpio": 0.198
+   "limpio": 0.199
   }
  },
  "horas_recomendadas": [
@@ -992,7 +992,7 @@
   {
    "id": "2026-11-25-1230",
    "titulo": "Te enseñaron que las zanahorias te hacen ver de noche. Es falso.",
-   "indice": 0.78
+   "indice": 0.79
   },
   {
    "id": "2026-11-16-2000",
