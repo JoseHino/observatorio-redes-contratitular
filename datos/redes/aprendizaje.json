@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T00:21:23.637Z",
+ "actualizado": "2026-11-26T01:19:39.744Z",
  "publicaciones": 132,
  "videos": 39,
  "factores": {
@@ -239,8 +239,8 @@
    "Mito #8": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.83,
-    "interaccion": 2.16
+    "vistas": 0.84,
+    "interaccion": 2.15
    }
   },
   "duración": {
@@ -482,7 +482,7 @@
     "n": 104,
     "videos": 26,
     "vistas": 1.05,
-    "interaccion": 1.01
+    "interaccion": 1
    },
    "no": {
     "n": 4,
@@ -519,8 +519,8 @@
    "llamada a la acción": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.83,
-    "interaccion": 2.16
+    "vistas": 0.84,
+    "interaccion": 2.15
    }
   },
   "primer fotograma claro": {
@@ -633,8 +633,8 @@
    "W5JElH3dK1UYYAiHH7uh": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.83,
-    "interaccion": 2.16
+    "vistas": 0.84,
+    "interaccion": 2.15
    }
   },
   "exp: gancho_tipo": {
