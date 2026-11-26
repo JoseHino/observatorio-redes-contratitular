@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T02:19:20.299Z",
+ "actualizado": "2026-11-26T03:18:49.086Z",
  "publicaciones": 132,
  "videos": 39,
  "factores": {
@@ -26,7 +26,7 @@
     "n": 20,
     "videos": 6,
     "vistas": 0.63,
-    "interaccion": 0.95
+    "interaccion": 0.96
    },
    "jueves": {
     "n": 16,
@@ -122,7 +122,7 @@
     "n": 33,
     "videos": 33,
     "vistas": 1.18,
-    "interaccion": 0.88
+    "interaccion": 0.89
    }
   },
   "estilo": {
@@ -141,7 +141,7 @@
    "limpio": {
     "n": 20,
     "videos": 5,
-    "vistas": 1.03,
+    "vistas": 1.04,
     "interaccion": 1
    },
    "papel": {
@@ -239,8 +239,8 @@
    "Mito #8": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.84,
-    "interaccion": 2.16
+    "vistas": 0.85,
+    "interaccion": 2.17
    }
   },
   "duración": {
@@ -519,8 +519,8 @@
    "llamada a la acción": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.84,
-    "interaccion": 2.16
+    "vistas": 0.85,
+    "interaccion": 2.17
    }
   },
   "primer fotograma claro": {
@@ -633,8 +633,8 @@
    "W5JElH3dK1UYYAiHH7uh": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.84,
-    "interaccion": 2.16
+    "vistas": 0.85,
+    "interaccion": 2.17
    }
   },
   "exp: gancho_tipo": {
@@ -841,7 +841,7 @@
    "neon": 0.17,
    "pop": 0.217,
    "pizarra": 0.175,
-   "limpio": 0.197
+   "limpio": 0.198
   }
  },
  "horas_recomendadas": [
@@ -992,7 +992,7 @@
   {
    "id": "2026-11-25-1230",
    "titulo": "Te enseñaron que las zanahorias te hacen ver de noche. Es falso.",
-   "indice": 0.77
+   "indice": 0.78
   },
   {
    "id": "2026-11-16-2000",
