@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T21:18:58.547Z",
+ "actualizado": "2026-11-26T22:19:13.040Z",
  "publicaciones": 136,
  "videos": 40,
  "factores": {
@@ -454,7 +454,7 @@
     "n": 36,
     "videos": 9,
     "vistas": 0.86,
-    "interaccion": 0.85
+    "interaccion": 0.86
    },
    "universal": {
     "n": 76,
@@ -520,7 +520,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.3,
-    "interaccion": 1.84
+    "interaccion": 1.83
    }
   },
   "primer fotograma claro": {
@@ -986,7 +986,7 @@
   },
   "resto de la 1.ª escena": {
    "n": 28,
-   "pierde_s": 10.6
+   "pierde_s": 10.7
   },
   "escenas centrales": {
    "n": 28,
