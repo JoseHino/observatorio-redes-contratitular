@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T15:19:07.003Z",
+ "actualizado": "2026-11-26T16:19:16.653Z",
  "publicaciones": 136,
  "videos": 40,
  "factores": {
@@ -26,7 +26,7 @@
     "n": 24,
     "videos": 7,
     "vistas": 0.78,
-    "interaccion": 1.03
+    "interaccion": 1.02
    },
    "jueves": {
     "n": 16,
@@ -63,7 +63,7 @@
    "tarde": {
     "n": 12,
     "videos": 4,
-    "vistas": 1.53,
+    "vistas": 1.54,
     "interaccion": 0.87
    }
   },
@@ -95,7 +95,7 @@
    "18-20 h": {
     "n": 12,
     "videos": 4,
-    "vistas": 1.53,
+    "vistas": 1.54,
     "interaccion": 0.87
    }
   },
@@ -215,7 +215,7 @@
    "Espacio": {
     "n": 12,
     "videos": 3,
-    "vistas": 1.57,
+    "vistas": 1.58,
     "interaccion": 0.96
    },
    "Historia": {
@@ -363,7 +363,7 @@
    "ciencia": {
     "n": 20,
     "videos": 5,
-    "vistas": 1.53,
+    "vistas": 1.54,
     "interaccion": 0.85
    },
    "cuerpo humano": {
@@ -520,7 +520,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.29,
-    "interaccion": 1.87
+    "interaccion": 1.86
    }
   },
   "primer fotograma claro": {
@@ -639,7 +639,7 @@
    "Qvbf0AoA7UZSgJUp8Ba5": {
     "n": 4,
     "videos": 1,
-    "vistas": 1.78,
+    "vistas": 1.79,
     "interaccion": 1.21
    }
   },
@@ -673,7 +673,7 @@
    "detalle": {
     "mejor": {
      "v": "tarde",
-     "vistas": 1.53,
+     "vistas": 1.54,
      "interaccion": 0.87,
      "n": 12
     },
@@ -690,7 +690,7 @@
      }
     ]
    },
-   "texto": "franja: «tarde» consigue 1.53× el alcance medio (4 vídeos) e interacción 0.87×; frente a mediodía 0.98× (19 vídeos), noche 0.95× (17 vídeos)."
+   "texto": "franja: «tarde» consigue 1.54× el alcance medio (4 vídeos) e interacción 0.87×; frente a mediodía 0.98× (19 vídeos), noche 0.95× (17 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -700,7 +700,7 @@
    "detalle": {
     "mejor": {
      "v": "18-20 h",
-     "vistas": 1.53,
+     "vistas": 1.54,
      "interaccion": 0.87,
      "n": 12
     },
@@ -717,7 +717,7 @@
      }
     ]
    },
-   "texto": "hora: «18-20 h» consigue 1.53× el alcance medio (4 vídeos) e interacción 0.87×; frente a 20-22 h 0.98× (14 vídeos), 12-14 h 0.98× (15 vídeos)."
+   "texto": "hora: «18-20 h» consigue 1.54× el alcance medio (4 vídeos) e interacción 0.87×; frente a 20-22 h 0.98× (14 vídeos), 12-14 h 0.98× (15 vídeos)."
   },
   {
    "tipo": "regla",
@@ -1008,7 +1008,7 @@
   {
    "id": "2026-11-25-1945",
    "titulo": "En Venus, un día dura más que un año (y el Sol sale por el oeste)",
-   "indice": 2.38,
+   "indice": 2.39,
    "variable": "gancho_tipo",
    "variante": "pregunta"
   },
