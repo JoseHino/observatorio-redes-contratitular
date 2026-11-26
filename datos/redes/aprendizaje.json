@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T01:19:39.744Z",
+ "actualizado": "2026-11-26T02:19:20.299Z",
  "publicaciones": 132,
  "videos": 39,
  "factores": {
@@ -240,7 +240,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.84,
-    "interaccion": 2.15
+    "interaccion": 2.16
    }
   },
   "duración": {
@@ -467,7 +467,7 @@
    "no": {
     "n": 52,
     "videos": 13,
-    "vistas": 0.97,
+    "vistas": 0.98,
     "interaccion": 0.9
    },
    "sí": {
@@ -482,7 +482,7 @@
     "n": 104,
     "videos": 26,
     "vistas": 1.05,
-    "interaccion": 1
+    "interaccion": 1.01
    },
    "no": {
     "n": 4,
@@ -520,7 +520,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.84,
-    "interaccion": 2.15
+    "interaccion": 2.16
    }
   },
   "primer fotograma claro": {
@@ -601,7 +601,7 @@
    "pop": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.79,
+    "vistas": 0.8,
     "interaccion": 1.57
    },
    "marimba": {
@@ -634,7 +634,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.84,
-    "interaccion": 2.15
+    "interaccion": 2.16
    }
   },
   "exp: gancho_tipo": {
@@ -826,13 +826,13 @@
  ],
  "pesos": {
   "familia": {
-   "pop": 0.118,
+   "pop": 0.119,
    "gota": 0.081,
    "madera": 0.112,
    "marimba": 0.129,
    "kalimba": 0.109,
    "campanita": 0.12,
-   "cuerda": 0.101,
+   "cuerda": 0.1,
    "burbuja": 0.097,
    "tum": 0.134
   },
@@ -992,7 +992,7 @@
   {
    "id": "2026-11-25-1230",
    "titulo": "Te enseñaron que las zanahorias te hacen ver de noche. Es falso.",
-   "indice": 0.76
+   "indice": 0.77
   },
   {
    "id": "2026-11-16-2000",
