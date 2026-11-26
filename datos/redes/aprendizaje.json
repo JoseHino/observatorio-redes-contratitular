@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T16:19:16.653Z",
+ "actualizado": "2026-11-26T17:20:05.547Z",
  "publicaciones": 136,
  "videos": 40,
  "factores": {
@@ -20,13 +20,13 @@
     "n": 24,
     "videos": 6,
     "vistas": 0.79,
-    "interaccion": 0.88
+    "interaccion": 0.89
    },
    "miércoles": {
     "n": 24,
     "videos": 7,
     "vistas": 0.78,
-    "interaccion": 1.02
+    "interaccion": 1.04
    },
    "jueves": {
     "n": 16,
@@ -58,7 +58,7 @@
     "n": 64,
     "videos": 19,
     "vistas": 0.98,
-    "interaccion": 0.99
+    "interaccion": 1
    },
    "tarde": {
     "n": 12,
@@ -90,7 +90,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.84,
-    "interaccion": 1.41
+    "interaccion": 1.42
    },
    "18-20 h": {
     "n": 12,
@@ -116,7 +116,7 @@
     "n": 34,
     "videos": 34,
     "vistas": 0.79,
-    "interaccion": 1.14
+    "interaccion": 1.15
    },
    "facebook": {
     "n": 34,
@@ -142,7 +142,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 1.04,
-    "interaccion": 1.03
+    "interaccion": 1.04
    },
    "papel": {
     "n": 20,
@@ -240,7 +240,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.86,
-    "interaccion": 2.33
+    "interaccion": 2.44
    }
   },
   "duración": {
@@ -248,7 +248,7 @@
     "n": 100,
     "videos": 25,
     "vistas": 1.13,
-    "interaccion": 1.01
+    "interaccion": 1.02
    },
    ">43 s": {
     "n": 8,
@@ -274,7 +274,7 @@
     "n": 56,
     "videos": 14,
     "vistas": 1.05,
-    "interaccion": 1.08
+    "interaccion": 1.09
    },
    "pregunta": {
     "n": 32,
@@ -316,7 +316,7 @@
     "n": 44,
     "videos": 11,
     "vistas": 1.03,
-    "interaccion": 1.11
+    "interaccion": 1.12
    },
    "rápido (>2,9 pal/s)": {
     "n": 68,
@@ -358,7 +358,7 @@
     "n": 40,
     "videos": 10,
     "vistas": 1.05,
-    "interaccion": 1.21
+    "interaccion": 1.22
    },
    "ciencia": {
     "n": 20,
@@ -446,7 +446,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1,
-    "interaccion": 1.46
+    "interaccion": 1.49
    }
   },
   "cercania": {
@@ -468,7 +468,7 @@
     "n": 52,
     "videos": 13,
     "vistas": 0.98,
-    "interaccion": 0.91
+    "interaccion": 0.92
    },
    "sí": {
     "n": 60,
@@ -482,7 +482,7 @@
     "n": 108,
     "videos": 27,
     "vistas": 1.08,
-    "interaccion": 1.02
+    "interaccion": 1.03
    },
    "no": {
     "n": 4,
@@ -520,7 +520,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 1.29,
-    "interaccion": 1.86
+    "interaccion": 1.92
    }
   },
   "primer fotograma claro": {
@@ -528,7 +528,7 @@
     "n": 108,
     "videos": 27,
     "vistas": 1.04,
-    "interaccion": 0.98
+    "interaccion": 0.99
    },
    "no": {
     "n": 4,
@@ -542,7 +542,7 @@
     "n": 112,
     "videos": 28,
     "vistas": 1.07,
-    "interaccion": 0.99
+    "interaccion": 1
    }
   },
   "texto 0s": {
@@ -550,7 +550,7 @@
     "n": 112,
     "videos": 28,
     "vistas": 1.07,
-    "interaccion": 0.99
+    "interaccion": 1
    }
   },
   "personaje": {
@@ -602,7 +602,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.81,
-    "interaccion": 1.65
+    "interaccion": 1.69
    },
    "marimba": {
     "n": 4,
@@ -614,7 +614,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.79,
-    "interaccion": 1.04
+    "interaccion": 1.05
    }
   },
   "voz": {
@@ -628,13 +628,13 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.73,
-    "interaccion": 0.99
+    "interaccion": 1
    },
    "W5JElH3dK1UYYAiHH7uh": {
     "n": 4,
     "videos": 1,
     "vistas": 0.86,
-    "interaccion": 2.33
+    "interaccion": 2.44
    },
    "Qvbf0AoA7UZSgJUp8Ba5": {
     "n": 4,
@@ -654,7 +654,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 1.24,
-    "interaccion": 1.23
+    "interaccion": 1.24
    },
    "pregunta": {
     "n": 32,
@@ -957,22 +957,22 @@
  ],
  "pesos": {
   "familia": {
-   "pop": 0.121,
-   "gota": 0.081,
+   "pop": 0.122,
+   "gota": 0.08,
    "madera": 0.11,
    "marimba": 0.127,
    "kalimba": 0.107,
    "campanita": 0.125,
-   "cuerda": 0.099,
-   "burbuja": 0.097,
+   "cuerda": 0.1,
+   "burbuja": 0.096,
    "tum": 0.133
   },
   "estilo": {
    "papel": 0.249,
    "neon": 0.167,
    "pop": 0.214,
-   "pizarra": 0.173,
-   "limpio": 0.197
+   "pizarra": 0.172,
+   "limpio": 0.198
   }
  },
  "horas_recomendadas": [
