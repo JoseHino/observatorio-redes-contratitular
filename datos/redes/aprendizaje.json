@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T02:19:28.716Z",
+ "actualizado": "2026-11-27T03:19:02.557Z",
  "publicaciones": 140,
  "videos": 41,
  "factores": {
@@ -240,7 +240,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.86,
-    "interaccion": 2.24
+    "interaccion": 2.23
    },
    "Mito #9": {
     "n": 4,
@@ -576,7 +576,7 @@
     "n": 60,
     "videos": 15,
     "vistas": 1.26,
-    "interaccion": 1.18
+    "interaccion": 1.17
    }
   },
   "sonido": {
@@ -652,7 +652,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.86,
-    "interaccion": 2.24
+    "interaccion": 2.23
    },
    "Qvbf0AoA7UZSgJUp8Ba5": {
     "n": 4,
@@ -943,7 +943,7 @@
     "mejor": {
      "v": "sí",
      "vistas": 1.26,
-     "interaccion": 1.18,
+     "interaccion": 1.17,
      "n": 60
     },
     "resto": [
@@ -954,7 +954,7 @@
      }
     ]
    },
-   "texto": "personaje: «sí» consigue 1.26× el alcance medio (15 vídeos) e interacción 1.18×; frente a no 0.88× (14 vídeos)."
+   "texto": "personaje: «sí» consigue 1.26× el alcance medio (15 vídeos) e interacción 1.17×; frente a no 0.88× (14 vídeos)."
   }
  ],
  "pesos": {
