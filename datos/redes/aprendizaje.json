@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T09:19:01.851Z",
+ "actualizado": "2026-11-27T10:19:14.268Z",
  "publicaciones": 144,
  "videos": 42,
  "factores": {
@@ -71,7 +71,7 @@
    "20-22 h": {
     "n": 52,
     "videos": 15,
-    "vistas": 0.97,
+    "vistas": 0.98,
     "interaccion": 0.85
    },
    "12-14 h": {
@@ -129,7 +129,7 @@
    "pop": {
     "n": 28,
     "videos": 7,
-    "vistas": 1.16,
+    "vistas": 1.17,
     "interaccion": 1.12
    },
    "pizarra": {
@@ -215,7 +215,7 @@
    "Espacio": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.37,
+    "vistas": 1.38,
     "interaccion": 1.05
    },
    "Historia": {
@@ -273,7 +273,7 @@
    "con cifra": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.82,
+    "vistas": 0.83,
     "interaccion": 0.89
    },
    "afirmación": {
@@ -347,7 +347,7 @@
    "medios": {
     "n": 40,
     "videos": 10,
-    "vistas": 1.37,
+    "vistas": 1.38,
     "interaccion": 1.16
    }
   },
@@ -375,7 +375,7 @@
    "ciencia": {
     "n": 24,
     "videos": 6,
-    "vistas": 1.4,
+    "vistas": 1.41,
     "interaccion": 0.92
    },
    "cuerpo humano": {
@@ -427,7 +427,7 @@
    "cifra chocante": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.92,
+    "vistas": 0.93,
     "interaccion": 1.02
    },
    "otro": {
@@ -531,7 +531,7 @@
    "llamada a la acción": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.09,
+    "vistas": 1.1,
     "interaccion": 1.6
    }
   },
@@ -553,7 +553,7 @@
    "sí": {
     "n": 120,
     "videos": 30,
-    "vistas": 1.05,
+    "vistas": 1.06,
     "interaccion": 1
    }
   },
@@ -561,7 +561,7 @@
    "sí": {
     "n": 120,
     "videos": 30,
-    "vistas": 1.05,
+    "vistas": 1.06,
     "interaccion": 1
    }
   },
@@ -669,7 +669,7 @@
    "43h7ymOnaaYdWr3dRbsS": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.9,
+    "vistas": 0.92,
     "interaccion": 1.31
    }
   },
@@ -736,18 +736,18 @@
     },
     "resto": [
      {
+      "v": "20-22 h",
+      "vistas": 0.98,
+      "n": 52
+     },
+     {
       "v": "12-14 h",
       "vistas": 0.98,
       "n": 48
-     },
-     {
-      "v": "20-22 h",
-      "vistas": 0.97,
-      "n": 52
      }
     ]
    },
-   "texto": "hora: «18-20 h» consigue 1.54× el alcance medio (4 vídeos) e interacción 0.86×; frente a 12-14 h 0.98× (15 vídeos), 20-22 h 0.97× (15 vídeos)."
+   "texto": "hora: «18-20 h» consigue 1.54× el alcance medio (4 vídeos) e interacción 0.86×; frente a 20-22 h 0.98× (15 vídeos), 12-14 h 0.98× (15 vídeos)."
   },
   {
    "tipo": "regla",
@@ -764,7 +764,7 @@
     "resto": [
      {
       "v": "pop",
-      "vistas": 1.16,
+      "vistas": 1.17,
       "n": 28
      },
      {
@@ -774,7 +774,7 @@
      }
     ]
    },
-   "texto": "estilo: «papel» consigue 1.53× el alcance medio (5 vídeos) e interacción 1.23×; frente a pop 1.16× (7 vídeos), limpio 1.04× (5 vídeos)."
+   "texto": "estilo: «papel» consigue 1.53× el alcance medio (5 vídeos) e interacción 1.23×; frente a pop 1.17× (7 vídeos), limpio 1.04× (5 vídeos)."
   },
   {
    "tipo": "regla",
@@ -796,12 +796,12 @@
      },
      {
       "v": "con cifra",
-      "vistas": 0.82,
+      "vistas": 0.83,
       "n": 32
      }
     ]
    },
-   "texto": "gancho: «pregunta» consigue 1.35× el alcance medio (8 vídeos) e interacción 1.03×; frente a afirmación 1.05× (14 vídeos), con cifra 0.82× (8 vídeos)."
+   "texto": "gancho: «pregunta» consigue 1.35× el alcance medio (8 vídeos) e interacción 1.03×; frente a afirmación 1.05× (14 vídeos), con cifra 0.83× (8 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -855,7 +855,7 @@
    "detalle": {
     "mejor": {
      "v": "medios",
-     "vistas": 1.37,
+     "vistas": 1.38,
      "interaccion": 1.16,
      "n": 40
     },
@@ -867,7 +867,7 @@
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.37× el alcance medio (10 vídeos) e interacción 1.16×; frente a pocos (<12/min) 0.92× (20 vídeos)."
+   "texto": "cortes: «medios» consigue 1.38× el alcance medio (10 vídeos) e interacción 1.16×; frente a pocos (<12/min) 0.92× (20 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -978,14 +978,14 @@
   "estilo": {
    "papel": 0.248,
    "neon": 0.172,
-   "pop": 0.213,
+   "pop": 0.214,
    "pizarra": 0.172,
    "limpio": 0.195
   }
  },
  "horas_recomendadas": [
   "18-20 h",
-  "12-14 h"
+  "20-22 h"
  ],
  "retencion": {
   "0-1,5 s (gancho)": {
@@ -1143,7 +1143,7 @@
   {
    "id": "2026-11-26-2030",
    "titulo": "Un terrón de azúcar que pesa más que 15 pirámides",
-   "indice": 0.85,
+   "indice": 0.88,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
