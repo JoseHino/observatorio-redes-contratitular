@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T13:20:17.214Z",
+ "actualizado": "2026-11-27T14:19:35.778Z",
  "publicaciones": 144,
  "videos": 42,
  "factores": {
@@ -31,7 +31,7 @@
    "jueves": {
     "n": 24,
     "videos": 6,
-    "vistas": 1.13,
+    "vistas": 1.14,
     "interaccion": 1.36
    },
    "viernes": {
@@ -148,7 +148,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 1.53,
-    "interaccion": 1.23
+    "interaccion": 1.22
    },
    "neon": {
     "n": 28,
@@ -215,8 +215,8 @@
    "Espacio": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.4,
-    "interaccion": 1.09
+    "vistas": 1.42,
+    "interaccion": 1.08
    },
    "Historia": {
     "n": 8,
@@ -246,7 +246,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.18
+    "interaccion": 1.21
    }
   },
   "duración": {
@@ -260,7 +260,7 @@
     "n": 12,
     "videos": 3,
     "vistas": 0.65,
-    "interaccion": 0.87
+    "interaccion": 0.88
    },
    "<33 s": {
     "n": 4,
@@ -273,7 +273,7 @@
    "con cifra": {
     "n": 32,
     "videos": 8,
-    "vistas": 0.83,
+    "vistas": 0.84,
     "interaccion": 0.9
    },
    "afirmación": {
@@ -334,7 +334,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.18
+    "interaccion": 1.21
    }
   },
   "cortes": {
@@ -348,7 +348,7 @@
     "n": 40,
     "videos": 10,
     "vistas": 1.39,
-    "interaccion": 1.18
+    "interaccion": 1.17
    }
   },
   "cifra en 5 primeras palabras": {
@@ -375,7 +375,7 @@
    "ciencia": {
     "n": 24,
     "videos": 6,
-    "vistas": 1.42,
+    "vistas": 1.44,
     "interaccion": 0.94
    },
    "cuerpo humano": {
@@ -413,8 +413,8 @@
    "asombro": {
     "n": 112,
     "videos": 28,
-    "vistas": 1.08,
-    "interaccion": 1.01
+    "vistas": 1.09,
+    "interaccion": 1.02
    },
    "intriga": {
     "n": 8,
@@ -427,7 +427,7 @@
    "cifra chocante": {
     "n": 24,
     "videos": 6,
-    "vistas": 0.94,
+    "vistas": 0.95,
     "interaccion": 1.04
    },
    "otro": {
@@ -458,7 +458,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.99,
-    "interaccion": 1.39
+    "interaccion": 1.4
    }
   },
   "cercania": {
@@ -531,8 +531,8 @@
    "llamada a la acción": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.12,
-    "interaccion": 1.65
+    "vistas": 1.13,
+    "interaccion": 1.66
    }
   },
   "primer fotograma claro": {
@@ -589,8 +589,8 @@
    "burbuja": {
     "n": 20,
     "videos": 5,
-    "vistas": 0.78,
-    "interaccion": 1.12
+    "vistas": 0.79,
+    "interaccion": 1.11
    },
    "tum": {
     "n": 16,
@@ -632,7 +632,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.18
+    "interaccion": 1.21
    }
   },
   "voz": {
@@ -658,19 +658,19 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.79,
-    "interaccion": 1.2
+    "interaccion": 1.19
    },
    "5egO01tkUjEzu7xSSE8M": {
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.18
+    "interaccion": 1.21
    },
    "43h7ymOnaaYdWr3dRbsS": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.95,
-    "interaccion": 1.45
+    "vistas": 0.99,
+    "interaccion": 1.44
    }
   },
   "exp: gancho_tipo": {
@@ -758,7 +758,7 @@
     "mejor": {
      "v": "papel",
      "vistas": 1.53,
-     "interaccion": 1.23,
+     "interaccion": 1.22,
      "n": 20
     },
     "resto": [
@@ -774,7 +774,7 @@
      }
     ]
    },
-   "texto": "estilo: «papel» consigue 1.53× el alcance medio (5 vídeos) e interacción 1.23×; frente a pop 1.18× (7 vídeos), limpio 1.04× (5 vídeos)."
+   "texto": "estilo: «papel» consigue 1.53× el alcance medio (5 vídeos) e interacción 1.22×; frente a pop 1.18× (7 vídeos), limpio 1.04× (5 vídeos)."
   },
   {
    "tipo": "regla",
@@ -796,12 +796,12 @@
      },
      {
       "v": "con cifra",
-      "vistas": 0.83,
+      "vistas": 0.84,
       "n": 32
      }
     ]
    },
-   "texto": "gancho: «pregunta» consigue 1.35× el alcance medio (8 vídeos) e interacción 1.03×; frente a afirmación 1.05× (14 vídeos), con cifra 0.83× (8 vídeos)."
+   "texto": "gancho: «pregunta» consigue 1.35× el alcance medio (8 vídeos) e interacción 1.03×; frente a afirmación 1.05× (14 vídeos), con cifra 0.84× (8 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -856,7 +856,7 @@
     "mejor": {
      "v": "medios",
      "vistas": 1.39,
-     "interaccion": 1.18,
+     "interaccion": 1.17,
      "n": 40
     },
     "resto": [
@@ -867,7 +867,7 @@
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.39× el alcance medio (10 vídeos) e interacción 1.18×; frente a pocos (<12/min) 0.92× (20 vídeos)."
+   "texto": "cortes: «medios» consigue 1.39× el alcance medio (10 vídeos) e interacción 1.17×; frente a pocos (<12/min) 0.92× (20 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -877,8 +877,8 @@
    "detalle": {
     "mejor": {
      "v": "asombro",
-     "vistas": 1.08,
-     "interaccion": 1.01,
+     "vistas": 1.09,
+     "interaccion": 1.02,
      "n": 112
     },
     "resto": [
@@ -889,7 +889,7 @@
      }
     ]
    },
-   "texto": "emocion: «asombro» consigue 1.08× el alcance medio (28 vídeos) e interacción 1.01×; frente a intriga 0.80× (2 vídeos)."
+   "texto": "emocion: «asombro» consigue 1.09× el alcance medio (28 vídeos) e interacción 1.02×; frente a intriga 0.80× (2 vídeos)."
   },
   {
    "tipo": "regla",
@@ -969,17 +969,17 @@
    "gota": 0.08,
    "madera": 0.109,
    "marimba": 0.126,
-   "kalimba": 0.112,
+   "kalimba": 0.113,
    "campanita": 0.124,
    "cuerda": 0.099,
    "burbuja": 0.101,
-   "tum": 0.132
+   "tum": 0.131
   },
   "estilo": {
    "papel": 0.247,
    "neon": 0.172,
-   "pop": 0.215,
-   "pizarra": 0.171,
+   "pop": 0.216,
+   "pizarra": 0.172,
    "limpio": 0.194
   }
  },
@@ -1124,16 +1124,16 @@
    "variante": "pregunta"
   },
   {
+   "id": "2026-11-26-2030",
+   "titulo": "Un terrón de azúcar que pesa más que 15 pirámides",
+   "indice": 0.98,
+   "variable": "gancho_tipo",
+   "variante": "cifra chocante"
+  },
+  {
    "id": "2026-11-26-1430",
    "titulo": "Te enseñaron que usamos el 10 % del cerebro. Es falso.",
    "indice": 0.93
-  },
-  {
-   "id": "2026-11-26-2030",
-   "titulo": "Un terrón de azúcar que pesa más que 15 pirámides",
-   "indice": 0.93,
-   "variable": "gancho_tipo",
-   "variante": "cifra chocante"
   },
   {
    "id": "2026-11-09-1330",
