@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T10:19:14.268Z",
+ "actualizado": "2026-11-27T11:20:26.255Z",
  "publicaciones": 144,
  "videos": 42,
  "factores": {
@@ -44,7 +44,7 @@
     "n": 16,
     "videos": 6,
     "vistas": 1.29,
-    "interaccion": 0.95
+    "interaccion": 0.96
    }
   },
   "franja": {
@@ -58,7 +58,7 @@
     "n": 68,
     "videos": 20,
     "vistas": 0.98,
-    "interaccion": 0.99
+    "interaccion": 1
    },
    "tarde": {
     "n": 12,
@@ -72,7 +72,7 @@
     "n": 52,
     "videos": 15,
     "vistas": 0.98,
-    "interaccion": 0.85
+    "interaccion": 0.86
    },
    "12-14 h": {
     "n": 48,
@@ -116,7 +116,7 @@
     "n": 36,
     "videos": 36,
     "vistas": 0.77,
-    "interaccion": 1.14
+    "interaccion": 1.15
    },
    "facebook": {
     "n": 36,
@@ -129,7 +129,7 @@
    "pop": {
     "n": 28,
     "videos": 7,
-    "vistas": 1.17,
+    "vistas": 1.16,
     "interaccion": 1.12
    },
    "pizarra": {
@@ -216,7 +216,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.38,
-    "interaccion": 1.05
+    "interaccion": 1.06
    },
    "Historia": {
     "n": 8,
@@ -246,7 +246,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.19
+    "interaccion": 1.18
    }
   },
   "duración": {
@@ -334,7 +334,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.19
+    "interaccion": 1.18
    }
   },
   "cortes": {
@@ -458,7 +458,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.99,
-    "interaccion": 1.4
+    "interaccion": 1.39
    }
   },
   "cercania": {
@@ -532,7 +532,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.1,
-    "interaccion": 1.6
+    "interaccion": 1.61
    }
   },
   "primer fotograma claro": {
@@ -554,7 +554,7 @@
     "n": 120,
     "videos": 30,
     "vistas": 1.06,
-    "interaccion": 1
+    "interaccion": 1.01
    }
   },
   "texto 0s": {
@@ -562,7 +562,7 @@
     "n": 120,
     "videos": 30,
     "vistas": 1.06,
-    "interaccion": 1
+    "interaccion": 1.01
    }
   },
   "personaje": {
@@ -632,7 +632,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.19
+    "interaccion": 1.18
    }
   },
   "voz": {
@@ -664,13 +664,13 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.19
+    "interaccion": 1.18
    },
    "43h7ymOnaaYdWr3dRbsS": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.92,
-    "interaccion": 1.31
+    "vistas": 0.91,
+    "interaccion": 1.33
    }
   },
   "exp: gancho_tipo": {
@@ -764,7 +764,7 @@
     "resto": [
      {
       "v": "pop",
-      "vistas": 1.17,
+      "vistas": 1.16,
       "n": 28
      },
      {
@@ -774,7 +774,7 @@
      }
     ]
    },
-   "texto": "estilo: «papel» consigue 1.53× el alcance medio (5 vídeos) e interacción 1.23×; frente a pop 1.17× (7 vídeos), limpio 1.04× (5 vídeos)."
+   "texto": "estilo: «papel» consigue 1.53× el alcance medio (5 vídeos) e interacción 1.23×; frente a pop 1.16× (7 vídeos), limpio 1.04× (5 vídeos)."
   },
   {
    "tipo": "regla",
@@ -978,7 +978,7 @@
   "estilo": {
    "papel": 0.248,
    "neon": 0.172,
-   "pop": 0.214,
+   "pop": 0.213,
    "pizarra": 0.172,
    "limpio": 0.195
   }
@@ -1143,7 +1143,7 @@
   {
    "id": "2026-11-26-2030",
    "titulo": "Un terrón de azúcar que pesa más que 15 pirámides",
-   "indice": 0.88,
+   "indice": 0.87,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
   },
