@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T03:19:02.557Z",
+ "actualizado": "2026-11-27T04:19:10.155Z",
  "publicaciones": 140,
  "videos": 41,
  "factores": {
@@ -115,7 +115,7 @@
    "youtube": {
     "n": 35,
     "videos": 35,
-    "vistas": 0.79,
+    "vistas": 0.8,
     "interaccion": 1.12
    },
    "facebook": {
@@ -246,7 +246,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.21
+    "interaccion": 1.2
    }
   },
   "duración": {
@@ -334,7 +334,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.21
+    "interaccion": 1.2
    }
   },
   "cortes": {
@@ -632,7 +632,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.21
+    "interaccion": 1.2
    }
   },
   "voz": {
@@ -664,7 +664,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.95,
-    "interaccion": 1.21
+    "interaccion": 1.2
    }
   },
   "exp: gancho_tipo": {
@@ -963,7 +963,7 @@
    "gota": 0.08,
    "madera": 0.11,
    "marimba": 0.126,
-   "kalimba": 0.113,
+   "kalimba": 0.112,
    "campanita": 0.124,
    "cuerda": 0.1,
    "burbuja": 0.096,
