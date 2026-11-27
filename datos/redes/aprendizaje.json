@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T20:19:42.902Z",
+ "actualizado": "2026-11-27T21:19:13.674Z",
  "publicaciones": 144,
  "videos": 42,
  "factores": {
@@ -116,7 +116,7 @@
     "n": 36,
     "videos": 36,
     "vistas": 0.8,
-    "interaccion": 1.16
+    "interaccion": 1.15
    },
    "facebook": {
     "n": 36,
@@ -240,7 +240,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.86,
-    "interaccion": 2.29
+    "interaccion": 2.24
    },
    "Mito #9": {
     "n": 4,
@@ -342,7 +342,7 @@
     "n": 80,
     "videos": 20,
     "vistas": 0.92,
-    "interaccion": 0.94
+    "interaccion": 0.93
    },
    "medios": {
     "n": 40,
@@ -370,7 +370,7 @@
     "n": 40,
     "videos": 10,
     "vistas": 1.06,
-    "interaccion": 1.2
+    "interaccion": 1.19
    },
    "ciencia": {
     "n": 24,
@@ -458,7 +458,7 @@
     "n": 20,
     "videos": 5,
     "vistas": 0.99,
-    "interaccion": 1.41
+    "interaccion": 1.4
    }
   },
   "cercania": {
@@ -494,7 +494,7 @@
     "n": 116,
     "videos": 29,
     "vistas": 1.08,
-    "interaccion": 1.04
+    "interaccion": 1.03
    },
    "no": {
     "n": 4,
@@ -532,7 +532,7 @@
     "n": 16,
     "videos": 4,
     "vistas": 1.2,
-    "interaccion": 1.63
+    "interaccion": 1.62
    }
   },
   "primer fotograma claro": {
@@ -614,7 +614,7 @@
     "n": 8,
     "videos": 2,
     "vistas": 0.81,
-    "interaccion": 1.62
+    "interaccion": 1.6
    },
    "marimba": {
     "n": 4,
@@ -652,7 +652,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 0.86,
-    "interaccion": 2.29
+    "interaccion": 2.24
    },
    "Qvbf0AoA7UZSgJUp8Ba5": {
     "n": 4,
@@ -965,10 +965,10 @@
  ],
  "pesos": {
   "familia": {
-   "pop": 0.119,
+   "pop": 0.118,
    "gota": 0.08,
    "madera": 0.109,
-   "marimba": 0.125,
+   "marimba": 0.126,
    "kalimba": 0.111,
    "campanita": 0.124,
    "cuerda": 0.099,
