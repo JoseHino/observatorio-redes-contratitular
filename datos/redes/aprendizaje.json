@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T12:22:14.123Z",
+ "actualizado": "2026-11-28T13:20:24.915Z",
  "publicaciones": 152,
  "videos": 44,
  "factores": {
@@ -353,7 +353,7 @@
    "medios": {
     "n": 44,
     "videos": 11,
-    "vistas": 1.37,
+    "vistas": 1.36,
     "interaccion": 1.11
    }
   },
@@ -846,7 +846,7 @@
    "detalle": {
     "mejor": {
      "v": "medios",
-     "vistas": 1.37,
+     "vistas": 1.36,
      "interaccion": 1.11,
      "n": 44
     },
@@ -858,7 +858,7 @@
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.37× el alcance medio (11 vídeos) e interacción 1.11×; frente a pocos (<12/min) 0.95× (21 vídeos)."
+   "texto": "cortes: «medios» consigue 1.36× el alcance medio (11 vídeos) e interacción 1.11×; frente a pocos (<12/min) 0.95× (21 vídeos)."
   },
   {
    "tipo": "regla",
