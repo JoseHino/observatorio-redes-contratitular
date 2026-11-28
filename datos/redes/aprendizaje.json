@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T18:22:14.247Z",
+ "actualizado": "2026-11-28T19:20:15.270Z",
  "publicaciones": 152,
  "videos": 44,
  "factores": {
@@ -37,7 +37,7 @@
    "viernes": {
     "n": 24,
     "videos": 7,
-    "vistas": 1.13,
+    "vistas": 1.12,
     "interaccion": 1.03
    },
    "sábado": {
@@ -51,7 +51,7 @@
    "noche": {
     "n": 68,
     "videos": 19,
-    "vistas": 0.96,
+    "vistas": 0.95,
     "interaccion": 0.93
    },
    "mediodía": {
@@ -71,7 +71,7 @@
    "20-22 h": {
     "n": 56,
     "videos": 16,
-    "vistas": 0.99,
+    "vistas": 0.98,
     "interaccion": 0.84
    },
    "12-14 h": {
@@ -141,7 +141,7 @@
    "limpio": {
     "n": 24,
     "videos": 6,
-    "vistas": 1,
+    "vistas": 0.99,
     "interaccion": 0.97
    },
    "papel": {
@@ -167,7 +167,7 @@
    "Ciencia": {
     "n": 16,
     "videos": 4,
-    "vistas": 1.19,
+    "vistas": 1.18,
     "interaccion": 0.86
    },
    "Cuerpo humano": {
@@ -333,7 +333,7 @@
    "rápido (>2,9 pal/s)": {
     "n": 72,
     "videos": 18,
-    "vistas": 1.08,
+    "vistas": 1.07,
     "interaccion": 0.9
    },
    "pausado (<2,4 pal/s)": {
@@ -353,7 +353,7 @@
    "medios": {
     "n": 44,
     "videos": 11,
-    "vistas": 1.36,
+    "vistas": 1.35,
     "interaccion": 1.11
    }
   },
@@ -381,7 +381,7 @@
    "ciencia": {
     "n": 28,
     "videos": 7,
-    "vistas": 1.37,
+    "vistas": 1.36,
     "interaccion": 0.9
    },
    "cuerpo humano": {
@@ -425,7 +425,7 @@
    "intriga": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.8,
+    "vistas": 0.79,
     "interaccion": 0.92
    }
   },
@@ -477,7 +477,7 @@
    "universal": {
     "n": 88,
     "videos": 22,
-    "vistas": 1.16,
+    "vistas": 1.15,
     "interaccion": 1.05
    },
    "Europa": {
@@ -505,7 +505,7 @@
    "sí": {
     "n": 124,
     "videos": 31,
-    "vistas": 1.1,
+    "vistas": 1.09,
     "interaccion": 1.02
    },
    "no": {
@@ -543,7 +543,7 @@
    "llamada a la acción": {
     "n": 24,
     "videos": 6,
-    "vistas": 1.22,
+    "vistas": 1.21,
     "interaccion": 1.42
    }
   },
@@ -595,7 +595,7 @@
    "gota": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.94,
+    "vistas": 0.93,
     "interaccion": 0.54
    },
    "burbuja": {
@@ -657,7 +657,7 @@
    "RgXx32WYOGrd7gFNifSf": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.76,
+    "vistas": 0.75,
     "interaccion": 0.93
    },
    "W5JElH3dK1UYYAiHH7uh": {
@@ -733,12 +733,12 @@
      },
      {
       "v": "noche",
-      "vistas": 0.96,
+      "vistas": 0.95,
       "n": 68
      }
     ]
    },
-   "texto": "franja: «tarde» consigue 1.54× el alcance medio (4 vídeos) e interacción 0.84×; frente a mediodía 1.02× (21 vídeos), noche 0.96× (19 vídeos)."
+   "texto": "franja: «tarde» consigue 1.54× el alcance medio (4 vídeos) e interacción 0.84×; frente a mediodía 1.02× (21 vídeos), noche 0.95× (19 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -760,12 +760,12 @@
      },
      {
       "v": "20-22 h",
-      "vistas": 0.99,
+      "vistas": 0.98,
       "n": 56
      }
     ]
    },
-   "texto": "hora: «18-20 h» consigue 1.54× el alcance medio (4 vídeos) e interacción 0.84×; frente a 12-14 h 1.04× (16 vídeos), 20-22 h 0.99× (16 vídeos)."
+   "texto": "hora: «18-20 h» consigue 1.54× el alcance medio (4 vídeos) e interacción 0.84×; frente a 12-14 h 1.04× (16 vídeos), 20-22 h 0.98× (16 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -787,12 +787,12 @@
      },
      {
       "v": "limpio",
-      "vistas": 1,
+      "vistas": 0.99,
       "n": 24
      }
     ]
    },
-   "texto": "estilo: «papel» consigue 1.53× el alcance medio (5 vídeos) e interacción 1.20×; frente a pop 1.23× (7 vídeos), limpio 1.00× (6 vídeos)."
+   "texto": "estilo: «papel» consigue 1.53× el alcance medio (5 vídeos) e interacción 1.20×; frente a pop 1.23× (7 vídeos), limpio 0.99× (6 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -846,7 +846,7 @@
    "detalle": {
     "mejor": {
      "v": "medios",
-     "vistas": 1.36,
+     "vistas": 1.35,
      "interaccion": 1.11,
      "n": 44
     },
@@ -858,7 +858,7 @@
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.36× el alcance medio (11 vídeos) e interacción 1.11×; frente a pocos (<12/min) 0.96× (21 vídeos)."
+   "texto": "cortes: «medios» consigue 1.35× el alcance medio (11 vídeos) e interacción 1.11×; frente a pocos (<12/min) 0.96× (21 vídeos)."
   },
   {
    "tipo": "regla",
@@ -875,12 +875,12 @@
     "resto": [
      {
       "v": "intriga",
-      "vistas": 0.8,
+      "vistas": 0.79,
       "n": 12
      }
     ]
    },
-   "texto": "emocion: «asombro» consigue 1.12× el alcance medio (29 vídeos) e interacción 1.00×; frente a intriga 0.80× (3 vídeos)."
+   "texto": "emocion: «asombro» consigue 1.12× el alcance medio (29 vídeos) e interacción 1.00×; frente a intriga 0.79× (3 vídeos)."
   },
   {
    "tipo": "regla",
@@ -908,7 +908,7 @@
  "pesos": {
   "familia": {
    "pop": 0.116,
-   "gota": 0.082,
+   "gota": 0.081,
    "madera": 0.107,
    "marimba": 0.139,
    "kalimba": 0.109,
@@ -921,7 +921,7 @@
    "papel": 0.244,
    "neon": 0.17,
    "pop": 0.215,
-   "pizarra": 0.182,
+   "pizarra": 0.183,
    "limpio": 0.188
   }
  },
@@ -1100,18 +1100,18 @@
    "indice": 0.81
   },
   {
-   "id": "2026-11-27-2145",
-   "titulo": "El cielo debería ser violeta. Esta es la razón por la que no lo es",
-   "indice": 0.79,
-   "variable": "gancho_tipo",
-   "variante": "pregunta"
-  },
-  {
    "id": "2026-11-23-2015",
    "titulo": "Serendipia: la palabra que nació del antiguo nombre de Sri Lanka",
    "indice": 0.77,
    "variable": "gancho_tipo",
    "variante": "cifra chocante"
+  },
+  {
+   "id": "2026-11-27-2145",
+   "titulo": "El cielo debería ser violeta. Esta es la razón por la que no lo es",
+   "indice": 0.76,
+   "variable": "gancho_tipo",
+   "variante": "pregunta"
   },
   {
    "id": "2026-11-16-2000",
