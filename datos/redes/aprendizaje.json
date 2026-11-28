@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T17:20:03.972Z",
+ "actualizado": "2026-11-28T18:22:14.247Z",
  "publicaciones": 152,
  "videos": 44,
  "factores": {
@@ -381,7 +381,7 @@
    "ciencia": {
     "n": 28,
     "videos": 7,
-    "vistas": 1.38,
+    "vistas": 1.37,
     "interaccion": 0.9
    },
    "cuerpo humano": {
@@ -587,7 +587,7 @@
    "sí": {
     "n": 72,
     "videos": 18,
-    "vistas": 1.27,
+    "vistas": 1.26,
     "interaccion": 1.15
    }
   },
@@ -890,7 +890,7 @@
    "detalle": {
     "mejor": {
      "v": "sí",
-     "vistas": 1.27,
+     "vistas": 1.26,
      "interaccion": 1.15,
      "n": 72
     },
@@ -902,7 +902,7 @@
      }
     ]
    },
-   "texto": "personaje: «sí» consigue 1.27× el alcance medio (18 vídeos) e interacción 1.15×; frente a no 0.88× (14 vídeos)."
+   "texto": "personaje: «sí» consigue 1.26× el alcance medio (18 vídeos) e interacción 1.15×; frente a no 0.88× (14 vídeos)."
   }
  ],
  "pesos": {
@@ -1102,7 +1102,7 @@
   {
    "id": "2026-11-27-2145",
    "titulo": "El cielo debería ser violeta. Esta es la razón por la que no lo es",
-   "indice": 0.81,
+   "indice": 0.79,
    "variable": "gancho_tipo",
    "variante": "pregunta"
   },
