@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T11:20:08.186Z",
+ "actualizado": "2026-11-28T12:22:14.123Z",
  "publicaciones": 152,
  "videos": 44,
  "factores": {
@@ -37,7 +37,7 @@
    "viernes": {
     "n": 24,
     "videos": 7,
-    "vistas": 1.14,
+    "vistas": 1.13,
     "interaccion": 1.03
    },
    "sábado": {
@@ -122,7 +122,7 @@
     "n": 38,
     "videos": 38,
     "vistas": 1.29,
-    "interaccion": 0.9
+    "interaccion": 0.89
    }
   },
   "estilo": {
@@ -367,7 +367,7 @@
    "no": {
     "n": 88,
     "videos": 22,
-    "vistas": 1.14,
+    "vistas": 1.13,
     "interaccion": 0.94
    }
   },
@@ -543,7 +543,7 @@
    "llamada a la acción": {
     "n": 24,
     "videos": 6,
-    "vistas": 1.23,
+    "vistas": 1.22,
     "interaccion": 1.42
    }
   },
@@ -657,7 +657,7 @@
    "RgXx32WYOGrd7gFNifSf": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.78,
+    "vistas": 0.77,
     "interaccion": 0.93
    },
    "W5JElH3dK1UYYAiHH7uh": {
@@ -1097,7 +1097,7 @@
   {
    "id": "2026-11-27-2145",
    "titulo": "El cielo debería ser violeta. Esta es la razón por la que no lo es",
-   "indice": 0.84,
+   "indice": 0.83,
    "variable": "gancho_tipo",
    "variante": "pregunta"
   },
