@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T13:20:24.915Z",
+ "actualizado": "2026-11-28T14:19:52.003Z",
  "publicaciones": 152,
  "videos": 44,
  "factores": {
@@ -141,7 +141,7 @@
    "limpio": {
     "n": 24,
     "videos": 6,
-    "vistas": 1.01,
+    "vistas": 1,
     "interaccion": 0.97
    },
    "papel": {
@@ -425,7 +425,7 @@
    "intriga": {
     "n": 12,
     "videos": 3,
-    "vistas": 0.81,
+    "vistas": 0.8,
     "interaccion": 0.92
    }
   },
@@ -620,7 +620,7 @@
     "n": 24,
     "videos": 6,
     "vistas": 1.33,
-    "interaccion": 1.06
+    "interaccion": 1.07
    },
    "pop": {
     "n": 8,
@@ -670,7 +670,7 @@
     "n": 4,
     "videos": 1,
     "vistas": 1.79,
-    "interaccion": 1.17
+    "interaccion": 1.18
    },
    "5egO01tkUjEzu7xSSE8M": {
     "n": 4,
@@ -787,12 +787,12 @@
      },
      {
       "v": "limpio",
-      "vistas": 1.01,
+      "vistas": 1,
       "n": 24
      }
     ]
    },
-   "texto": "estilo: «papel» consigue 1.53× el alcance medio (5 vídeos) e interacción 1.20×; frente a pop 1.23× (7 vídeos), limpio 1.01× (6 vídeos)."
+   "texto": "estilo: «papel» consigue 1.53× el alcance medio (5 vídeos) e interacción 1.20×; frente a pop 1.23× (7 vídeos), limpio 1.00× (6 vídeos)."
   },
   {
    "tipo": "hipotesis",
@@ -875,12 +875,12 @@
     "resto": [
      {
       "v": "intriga",
-      "vistas": 0.81,
+      "vistas": 0.8,
       "n": 12
      }
     ]
    },
-   "texto": "emocion: «asombro» consigue 1.12× el alcance medio (29 vídeos) e interacción 1.00×; frente a intriga 0.81× (3 vídeos)."
+   "texto": "emocion: «asombro» consigue 1.12× el alcance medio (29 vídeos) e interacción 1.00×; frente a intriga 0.80× (3 vídeos)."
   },
   {
    "tipo": "regla",
@@ -919,10 +919,10 @@
   },
   "estilo": {
    "papel": 0.244,
-   "neon": 0.169,
+   "neon": 0.17,
    "pop": 0.215,
    "pizarra": 0.182,
-   "limpio": 0.189
+   "limpio": 0.188
   }
  },
  "horas_recomendadas": [
