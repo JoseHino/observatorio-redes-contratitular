@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T16:19:14.385Z",
+ "actualizado": "2026-11-28T17:20:03.972Z",
  "publicaciones": 152,
  "videos": 44,
  "factores": {
@@ -78,7 +78,7 @@
     "n": 52,
     "videos": 16,
     "vistas": 1.04,
-    "interaccion": 1.13
+    "interaccion": 1.12
    },
    "14-16 h": {
     "n": 20,
@@ -121,7 +121,7 @@
    "facebook": {
     "n": 38,
     "videos": 38,
-    "vistas": 1.29,
+    "vistas": 1.28,
     "interaccion": 0.89
    }
   },
@@ -239,7 +239,7 @@
    "Mito #8": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.86,
+    "vistas": 0.87,
     "interaccion": 2.17
    },
    "Mito #9": {
@@ -291,8 +291,8 @@
    "pregunta": {
     "n": 36,
     "videos": 9,
-    "vistas": 1.28,
-    "interaccion": 1
+    "vistas": 1.27,
+    "interaccion": 0.99
    }
   },
   "gancho largo": {
@@ -314,7 +314,7 @@
     "n": 116,
     "videos": 29,
     "vistas": 1.16,
-    "interaccion": 1.05
+    "interaccion": 1.04
    },
    "sí": {
     "n": 12,
@@ -347,7 +347,7 @@
    "pocos (<12/min)": {
     "n": 84,
     "videos": 21,
-    "vistas": 0.95,
+    "vistas": 0.96,
     "interaccion": 0.94
    },
    "medios": {
@@ -457,8 +457,8 @@
    "pregunta": {
     "n": 36,
     "videos": 9,
-    "vistas": 1.28,
-    "interaccion": 1
+    "vistas": 1.27,
+    "interaccion": 0.99
    },
    "segunda persona": {
     "n": 24,
@@ -498,7 +498,7 @@
     "n": 68,
     "videos": 17,
     "vistas": 1.16,
-    "interaccion": 1.06
+    "interaccion": 1.05
    }
   },
   "giro": {
@@ -520,7 +520,7 @@
     "n": 64,
     "videos": 16,
     "vistas": 1.11,
-    "interaccion": 0.96
+    "interaccion": 0.95
    },
    "dato final": {
     "n": 20,
@@ -595,7 +595,7 @@
    "gota": {
     "n": 16,
     "videos": 4,
-    "vistas": 0.95,
+    "vistas": 0.94,
     "interaccion": 0.54
    },
    "burbuja": {
@@ -652,18 +652,18 @@
     "n": 96,
     "videos": 24,
     "vistas": 1.08,
-    "interaccion": 0.92
+    "interaccion": 0.91
    },
    "RgXx32WYOGrd7gFNifSf": {
     "n": 8,
     "videos": 2,
-    "vistas": 0.77,
+    "vistas": 0.76,
     "interaccion": 0.93
    },
    "W5JElH3dK1UYYAiHH7uh": {
     "n": 4,
     "videos": 1,
-    "vistas": 0.86,
+    "vistas": 0.87,
     "interaccion": 2.17
    },
    "Qvbf0AoA7UZSgJUp8Ba5": {
@@ -707,8 +707,8 @@
    "pregunta": {
     "n": 36,
     "videos": 9,
-    "vistas": 1.28,
-    "interaccion": 1
+    "vistas": 1.27,
+    "interaccion": 0.99
    }
   }
  },
@@ -825,7 +825,7 @@
     "mejor": {
      "v": "no",
      "vistas": 1.16,
-     "interaccion": 1.05,
+     "interaccion": 1.04,
      "n": 116
     },
     "resto": [
@@ -836,7 +836,7 @@
      }
     ]
    },
-   "texto": "escenas de datos: «no» consigue 1.16× el alcance medio (29 vídeos) e interacción 1.05×; frente a sí 0.59× (3 vídeos)."
+   "texto": "escenas de datos: «no» consigue 1.16× el alcance medio (29 vídeos) e interacción 1.04×; frente a sí 0.59× (3 vídeos)."
   },
   {
    "tipo": "regla",
@@ -853,12 +853,12 @@
     "resto": [
      {
       "v": "pocos (<12/min)",
-      "vistas": 0.95,
+      "vistas": 0.96,
       "n": 84
      }
     ]
    },
-   "texto": "cortes: «medios» consigue 1.36× el alcance medio (11 vídeos) e interacción 1.11×; frente a pocos (<12/min) 0.95× (21 vídeos)."
+   "texto": "cortes: «medios» consigue 1.36× el alcance medio (11 vídeos) e interacción 1.11×; frente a pocos (<12/min) 0.96× (21 vídeos)."
   },
   {
    "tipo": "regla",
@@ -913,7 +913,7 @@
    "marimba": 0.139,
    "kalimba": 0.109,
    "campanita": 0.121,
-   "cuerda": 0.097,
+   "cuerda": 0.098,
    "burbuja": 0.1,
    "tum": 0.129
   },
@@ -1095,16 +1095,16 @@
    "variante": "cifra chocante"
   },
   {
-   "id": "2026-11-27-2145",
-   "titulo": "El cielo debería ser violeta. Esta es la razón por la que no lo es",
-   "indice": 0.82,
-   "variable": "gancho_tipo",
-   "variante": "pregunta"
-  },
-  {
    "id": "2026-11-25-1230",
    "titulo": "Te enseñaron que las zanahorias te hacen ver de noche. Es falso.",
-   "indice": 0.79
+   "indice": 0.81
+  },
+  {
+   "id": "2026-11-27-2145",
+   "titulo": "El cielo debería ser violeta. Esta es la razón por la que no lo es",
+   "indice": 0.81,
+   "variable": "gancho_tipo",
+   "variante": "pregunta"
   },
   {
    "id": "2026-11-23-2015",
